@@ -1,0 +1,50 @@
+name: Email morning brief
+on:
+  push:
+    paths: ['briefs/**']
+  workflow_dispatch:
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Send brief via Gmail SMTP
+        env:
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: |
+          python3 - <<'EOF'
+          import glob, os, smtplib, ssl, datetime, zoneinfo
+          from email.mime.multipart import MIMEMultipart
+          from email.mime.text import MIMEText
+
+          latest = sorted(glob.glob("briefs/*.html"))[-1]
+          date = os.path.basename(latest)[:-5]
+          # only email the brief on the day it was generated (ET), not on backfills
+          today = datetime.datetime.now(zoneinfo.ZoneInfo("America/New_York")).strftime("%Y-%m-%d")
+          if date != today and os.environ.get("GITHUB_EVENT_NAME") != "workflow_dispatch":
+              print(f"latest brief {date} is not today ({today}); skipping")
+              raise SystemExit(0)
+
+          html = open(latest).read()
+          try:
+              plain = open("sms-preview.txt").read()
+          except FileNotFoundError:
+              plain = f"Morning brief: https://eric1855.github.io/morningtext/briefs/{date}.html"
+
+          sender = "ericwang1869@gmail.com"
+          recipients = [r.strip() for r in os.environ["EMAIL_TO"].split(",") if r.strip()]
+          msg = MIMEMultipart("alternative")
+          nice = datetime.date.fromisoformat(date).strftime("%a %b %-d, %Y")
+          msg["Subject"] = f"Morning Brief - {nice}"
+          msg["From"] = f"morningtext <{sender}>"
+          msg["To"] = ", ".join(recipients)
+          msg.attach(MIMEText(plain, "plain"))
+          msg.attach(MIMEText(html, "html"))
+
+          with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ssl.create_default_context()) as s:
+              s.login(sender, os.environ["GMAIL_APP_PASSWORD"])
+              s.sendmail(sender, recipients, msg.as_string())
+          print(f"sent {date} to {len(recipients)} recipient(s)")
+          EOF
