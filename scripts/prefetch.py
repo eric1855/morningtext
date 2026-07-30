@@ -120,7 +120,12 @@ FEEDS = {
     "MarketWatch": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
     "GoogleNews-BTC": "https://news.google.com/rss/search?q=bitcoin+OR+%22crypto+regulation%22&hl=en-US&gl=US&ceid=US:en",
 }
-CUTOFF = NOW - dt.timedelta(hours=36)
+# strict freshness: only news since the last brief (yesterday 8:00am ET)
+from zoneinfo import ZoneInfo  # noqa: E402
+_now_et = dt.datetime.now(ZoneInfo("America/New_York"))
+_window_start = (_now_et - dt.timedelta(days=1)).replace(hour=8, minute=0, second=0, microsecond=0)
+out["news_window_start_et"] = _window_start.isoformat(timespec="minutes")
+CUTOFF = _window_start.astimezone(dt.timezone.utc)
 
 def parse_when(entry):
     for k in ("published", "updated"):
@@ -158,7 +163,7 @@ out["headlines"] = headlines
 
 # ---- write ----
 os.makedirs("data", exist_ok=True)
-today_et = dt.datetime.now(dt.timezone(dt.timedelta(hours=-4))).strftime("%Y-%m-%d")
+today_et = _now_et.strftime("%Y-%m-%d")
 for path in ("data/latest.json", f"data/{today_et}.json"):
     with open(path, "w") as f:
         json.dump(out, f, indent=1, default=str)
