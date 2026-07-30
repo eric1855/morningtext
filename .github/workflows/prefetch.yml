@@ -1,0 +1,28 @@
+name: Prefetch brief data
+on:
+  schedule:
+    - cron: '15 11 * * *'   # 7:15am EDT — before the 8:04am ET routine
+    - cron: '15 12 * * *'   # 7:15am EST after DST ends (harmless refresh in summer)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prefetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip -q install feedparser requests curl_cffi
+      - run: python scripts/prefetch.py
+      - name: Commit data
+        run: |
+          git config user.name morningtext-bot
+          git config user.email morningtext@users.noreply.github.com
+          git add data
+          git diff --cached --quiet || git commit -m "prefetch data $(date -u +%Y-%m-%dT%H:%M)"
+          git pull --rebase origin main
+          git push origin main
