@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF Morning Brief — Monday, August 3, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-link{display:block;background:#0b3d91;color:#fff;text-decoration:none;padding:14px 16px;border-radius:8px;font-weight:600}
+  .chart-link small{display:block;font-weight:400;opacity:.85;margin-top:3px}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>BOF Morning Brief</h1>
+  <div class="date">Monday, August 3, 2026 · Bitcoin Opportunity Fund · figures as of ~8:00am ET · CME reopened Sunday 6pm ET</div>
+</header>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">$62,800</div>
+      <div class="chg down">▼ -1% 24h, ~-4% 7d</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">$1,858</div>
+      <div class="chg down">▼ ~-1% 24h</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">28 · Fear</div>
+      <div class="chg neutral">Up 1 vs 27 yesterday</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">+4.35%</div>
+      <div class="chg down">Contango holds, narrowed from Sun's +5.67%/+4.85%</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">-$265M (Fri 7/31)</div>
+      <div class="chg down">IBIT -$122.7M; no weekend session, Mon print due after tonight's close</div>
+    </div>
+    <div class="tile">
+      <div class="label">US 10-Yr</div>
+      <div class="value">~4.70%</div>
+      <div class="chg neutral">Easing modestly from Friday's ~4.75%</div>
+    </div>
+  </div>
+  <div class="note">Monday gap: Friday's CME BTC futures settled ~$63,185; spot has since drifted to ~$62,800 into Sunday night's 6pm ET reopen — a ~-0.6% mark-to-market gap for futures-exposed longs carried over the weekend. Macro: equity futures rally on Hormuz de-escalation hopes — S&amp;P +0.6%, Nasdaq +0.3%, Dow +1% (Iran has since disputed the deal claim, see below). DXY ~99.72 (-0.19%), Gold ~$4,062/oz (+0.46%). Network: hashrate holding ~927 EH/s, difficulty steady at 126.23T; CoinWarz pegs the Aug 8 retarget at -0.87% (~125.1T), with Luxor's forward curve pricing hashprice near $31.7-31.85/PH/s/day through year-end — a modest firming off the $29-32 range but still below breakeven for much of the fleet.</div>
+</section>
+
+<section>
+  <h2>🔴 Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Custody &amp; Security</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/tech/2026/08/03/coldcard-wallet-losses-may-near-usd114-million-as-possible-fourth-sweep-emerges">Coldcard exploit enters a fourth wave; cumulative losses near $114M across 5,200+ addresses</a>
+    <div class="why">Why it matters to BOF: this is a real escalation from yesterday's $89M/4,585-address tally — Galaxy Research's Alex Thorn flagged a fresh coordinated wave overnight (~449 BTC swept from ~709 suspected victim addresses), the fifth straight day the exploit has run. It's now the explicit reason cited for bitcoin underperforming a risk-on macro tape this morning (see next item). Watch tonight's/Monday's exchange-reserve and ETF data to see whether displaced self-custody coin is landing in ETF wrappers, and sanity-check any LP or counterparty exposure to pre-2021.5-firmware Coldcard cold storage.</div>
+    <div class="when">Broke: fourth wave flagged by Galaxy Research overnight into early Monday premarket</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/08/03/bitcoin-slips-under-usd63-000-despite-iran-deal-hopes-as-coldcard-losses-rattle-market">Bitcoin slips under $63K even as Iran de-escalation lifts equity futures — a clean decoupling read</a>
+    <div class="why">Why it matters to BOF: textbook test of the standing correlation note. Oil is falling, Treasury yields are easing, and S&amp;P/Nasdaq/Dow futures are all higher (+0.6%/+0.3%/+1%) on hopes the Hormuz standoff is de-escalating — yet BTC fell to ~$62,800 (-1% day, -4% week) and ETH to ~$1,858. CoinDesk explicitly attributes the gap to bitcoin-specific security fear (Coldcard) rather than broader risk appetite. Don't read this morning's equity rally as a signal BTC "should" catch a bid too — the correlation is breaking down under an idiosyncratic bitcoin shock, exactly the regime-flip scenario BOF's macro model should flag.</div>
+    <div class="when">Broke: Monday premarket (~7am ET CoinDesk Crypto Markets Today update)</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Custody &amp; Security</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://beincrypto.com/bitgo-ceo-anthropic-bitcoin-wallet-challenge/">BitGo's CEO dares Anthropic's Claude to hack a live $6.3M/100 BTC wallet: "keep it if you can"</a>
+    <div class="why">Why it matters to BOF: Mike Belshe's public stunt is a direct rebuttal to Anthropic's July 30 safety report claiming Claude "hacked" three real institutions in a controlled eval — he argues that was sandbox theater dressed up as a threat, and he's putting BitGo's own custody claims on the line to prove it. It lands squarely on top of the Coldcard fallout, so expect the self-custody-vs-professional-custodian debate to sharpen further this week regardless of whether Claude ever engages. Worth a quick check on how BOF's own custodian(s) are messaging AI-related attack-surface risk while both stories are live.</div>
+    <div class="when">Broke: challenge posted publicly Aug 2, still unaccepted as of Aug 3 per on-chain tracking</div>
+  </div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro / Geopolitical</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://beincrypto.com/iran-denies-trump-hormuz-deal-claim/">Iran denies Trump's claimed Hormuz deal; oil jumps, bitcoin "barely moves"</a>
+    <div class="why">Why it matters to BOF: directly undercuts Saturday's de-escalation headline flagged in yesterday's brief — Iran's Fars News Agency and acting defense minister call Trump's "perimeters of a deal" framing false and "psychological warfare." Oil jumped ~2.4% on the denial, but bitcoin held near $63,100 and barely reacted at the time, a sign bitcoin is currently pricing Hormuz-related geopolitical risk with far less sensitivity than crude. Oil remains the cleaner real-time gauge of how "real" any deal is until bitcoin's own volatility picks up.</div>
+    <div class="when">Broke: Sunday, after yesterday's brief; still the live state heading into Monday</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://cryptonews.net/news/bitcoin/33238432/">Coinbase premium hits a fresh record 77-day negative streak as US buying stays weak</a>
+    <div class="why">Why it matters to BOF: the Coinbase-vs-Binance premium — a clean read on US institutional bid strength — has now been negative for 77 straight days, extending Saturday's record and confirming Friday's -$265.4M ETF outflow wasn't a one-off. Read alongside Friday's print (IBIT -$122.7M) and Strategy's still-paused buying, the pattern is now multi-week: US-based demand is the visibly weak leg of the bitcoin bid even as broader crypto market cap ticks up on altcoin strength. Flows, not spot price, remain the signal to watch this week.</div>
+    <div class="when">Broke: streak extended through the weekend into Monday's reading (77 days, up from 76 Saturday)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem &amp; Deal Flow</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/08/02/the-reverse-bridge-crypto-meets-wall-street-using-perps">Crypto exchanges push deeper into TradFi with $1.32T in stock/index perps volume YTD — the "reverse bridge"</a>
+    <div class="why">Why it matters to BOF: where Wall Street entered crypto via ETFs and custody, crypto venues (Coinbase, Binance, Bitget) are now building "everything exchange" models offering 24/7 perps on equities, indices and commodities — Bitget says stock perps went from 0% to 28% of its volume in a year. For BOF this is a competitive-landscape and counterparty-concentration issue: the same venues that clear BOF's derivatives exposure are rapidly diversifying into correlated-but-distinct TradFi risk, worth a periodic venue-concentration review rather than an immediate action item.</div>
+    <div class="when">Broke: Sunday (Aug 2, ~9am ET)</div>
+  </div>
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <a class="chart-link" href="https://cryptoquant.com/asset/btc/chart/derivatives/cme-futures-annualized-basis" target="_blank" rel="noopener">
+    CryptoQuant: CME/Deribit Bitcoin Futures Annualized Basis
+    <small>With basis compressing from +5.67%/+4.85% Sunday morning to +4.35% across tenors and a Monday CME-reopen gap to boot, this is the fastest way to see whether funds are genuinely pulling back futures-carry risk into the Coldcard/Hormuz uncertainty or just marking a quiet weekend.</small>
+  </a>
+</section>
+
+<footer>
+  Generated Monday, August 3, 2026, ~8:00am ET · morningtext for Bitcoin Opportunity Fund (dry-run) · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
