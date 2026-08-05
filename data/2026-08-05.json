@@ -1,14 +1,14 @@
 {
- "fetched_at_utc": "2026-08-05T12:19:50+00:00",
+ "fetched_at_utc": "2026-08-05T13:02:38+00:00",
  "errors": [
   "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)",
   "feed:TheBlock: HTTPError: 403 Client Error: Forbidden for url: https://www.theblock.co/rss.xml"
  ],
  "spot": {
-  "btc": 64188,
-  "btc_24h_pct": 0.67,
-  "eth": 1871.89,
-  "eth_24h_pct": 0.26,
+  "btc": 64291,
+  "btc_24h_pct": 0.75,
+  "eth": 1874.85,
+  "eth_24h_pct": 0.11,
   "source": "coingecko"
  },
  "fear_greed": {
@@ -17,25 +17,43 @@
   "yesterday": 25
  },
  "network": {
-  "hashrate_ehs": 957.3,
+  "hashrate_ehs": 953.3,
   "difficulty": 126231507121868.2
  },
  "futures_basis": [
   {
    "instrument": "BTC-14AUG26",
    "days": 8,
-   "ann_basis_pct": 19.77
+   "ann_basis_pct": 3.89
   },
   {
    "instrument": "BTC-21AUG26",
    "days": 15,
-   "ann_basis_pct": 12.39
+   "ann_basis_pct": 4.01
   }
  ],
  "us10y": null,
- "etf_flows_raw": "BTC'], borderColor: '#a8e3ff', backgroundColor: '#a8e3ff', // Lightest blue step fill: true, stack: 'funds', borderWidth: 1, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 1 }, // Total Line { label: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 05 August 2026. Your IP: 172.71.158.162 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow BTC Derivative Charts Company Fund Books About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"a7744d48a4\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a265c104a8a32847',t:'MTc4NTkzMjQwNg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
+ "etf_flows_raw": "'BTC'], borderColor: '#a8e3ff', backgroundColor: '#a8e3ff', // Lightest blue step fill: true, stack: 'funds', borderWidth: 1, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 1 }, // Total Line { label: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 05 August 2026. Your IP: 172.70.100.29 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow BTC Derivative Charts Company Fund Books About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"a7744d48a4\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a265ffb58913eb56',t:'MTc4NTkzNDk3NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
  "news_window_start_et": "2026-08-04T08:00-04:00",
  "headlines": [
+  {
+   "source": "CoinDesk",
+   "title": "Crypto may have institutionalized, but it still trades like a rumor mill",
+   "link": "https://www.coindesk.com/opinion/2026/08/05/crypto-may-have-institutionalized-but-it-still-trades-like-a-rumor-mill",
+   "published": "2026-08-05T13:00+00:00"
+  },
+  {
+   "source": "CoinDesk",
+   "title": "Galaxy Digital shares slip 5% after second-quarter results",
+   "link": "https://www.coindesk.com/business/2026/08/05/galaxy-digital-shares-slip-5-after-second-quarter-results",
+   "published": "2026-08-05T12:42+00:00"
+  },
+  {
+   "source": "CoinDesk",
+   "title": "AI agent token once worth $2.4 billion ends with founder calling it dead",
+   "link": "https://www.coindesk.com/markets/2026/08/05/ai-agent-token-once-worth-usd2-4-billion-ends-with-founder-calling-it-dead",
+   "published": "2026-08-05T12:28+00:00"
+  },
   {
    "source": "CoinDesk",
    "title": "SpaceX extends decline to 11% on lockup expiration and capex spending fears",
@@ -56,7 +74,7 @@
   },
   {
    "source": "CoinDesk",
-   "title": "Circle shares jump as earnings beat offsets revenue miss, Arc blockchain gains Wall Street backing",
+   "title": "Circle shares fall 3% despite earnings beat as stablecoin issuer misses on revenue",
    "link": "https://www.coindesk.com/markets/2026/08/05/circle-shares-jump-as-earnings-beat-offsets-revenue-miss-arc-blockchain-gains-wall-street-backing",
    "published": "2026-08-05T11:13+00:00"
   },
@@ -65,24 +83,6 @@
    "title": "Bitcoin, broader market fail to keep pace as global equities hit record highs",
    "link": "https://www.coindesk.com/markets/2026/08/05/bitcoin-broader-market-fail-to-keep-pace-as-global-equities-hit-record-highs",
    "published": "2026-08-05T11:01+00:00"
-  },
-  {
-   "source": "CoinDesk",
-   "title": "Coldcard hack sparks a self-custody security overhaul: Cory Klippsten",
-   "link": "https://www.coindesk.com/markets/2026/08/05/coldcard-hack-sparks-a-self-custody-security-overhaul-cory-klippsten",
-   "published": "2026-08-05T09:55+00:00"
-  },
-  {
-   "source": "CoinDesk",
-   "title": "Why bitcoin\u2019s \u2018500-day rule\u2019 faces its biggest test yet",
-   "link": "https://www.coindesk.com/markets/2026/08/05/why-bitcoin-s-500-day-rule-faces-its-biggest-test-yet",
-   "published": "2026-08-05T09:06+00:00"
-  },
-  {
-   "source": "CoinDesk",
-   "title": "Live updates: An AI credit bubble could set up bitcoin\u2019s path to $1 million",
-   "link": "https://www.coindesk.com/markets/2026/08/05/live-updates-an-ai-credit-bubble-could-set-up-bitcoin-s-path-to-usd1-million",
-   "published": "2026-08-05T09:00+00:00"
   },
   {
    "source": "Cointelegraph",
@@ -113,6 +113,12 @@
    "title": "Sorry everyone, Bitcoin is headed down to $43,500: Michael Terpin",
    "link": "https://cointelegraph.com/magazine/bitcoin-to-go-down-into-the-40s-before-next-bull-run-michael-terpin?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
    "published": "2026-08-04T13:30+00:00"
+  },
+  {
+   "source": "Decrypt",
+   "title": "Anthropic's Claude Mythos 5 'Targeted Real People' in UK Cyber Tests: AISI",
+   "link": "https://decrypt.co/374948/anthropics-claude-mythos-5-targeted-real-people-in-uk-cyber-tests-aisi",
+   "published": "2026-08-05T12:47+00:00"
   },
   {
    "source": "Decrypt",
@@ -155,12 +161,6 @@
    "title": "Ledger Says Coldcard Exploit Shows Bitcoin Wallet Security Must Adapt to AI",
    "link": "https://decrypt.co/374914/ledger-coldcard-exploit-bitcoin-wallet-security-ai",
    "published": "2026-08-04T21:16+00:00"
-  },
-  {
-   "source": "Decrypt",
-   "title": "Jim Cramer Is Selling His Bitcoin Over Quantum Threat\u2014Crypto Twitter Is Thrilled",
-   "link": "https://decrypt.co/374923/jim-cramer-selling-bitcoin-quantum-computing-threat",
-   "published": "2026-08-04T20:45+00:00"
   },
   {
    "source": "BitcoinMagazine",
@@ -212,9 +212,45 @@
   },
   {
    "source": "CNBC",
+   "title": "Oil prices move higher after Yemen's Iran-backed Houthis claim Saudi tanker strike",
+   "link": "https://www.cnbc.com/2026/08/05/oil-prices-iran-war-houthis-saudi-tanker.html",
+   "published": "2026-08-05T12:58+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Abdul El-Sayed emerges as likely winner in Michigan Democratic Senate primary",
+   "link": "https://www.cnbc.com/2026/08/04/abdul-el-sayed-haley-stevens-michigan-primary.html",
+   "published": "2026-08-05T12:37+00:00"
+  },
+  {
+   "source": "CNBC",
    "title": "Fed's Kashkari says 'now is the time to start slowly moving' rates up",
    "link": "https://www.cnbc.com/2026/08/05/feds-kashkari-says-now-is-the-time-to-start-slowly-moving-rates-up.html",
-   "published": "2026-08-05T12:17+00:00"
+   "published": "2026-08-05T12:35+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "We're adding to our position in a chipmaker as the AI trade regains its footing",
+   "link": "https://www.cnbc.com/2026/08/05/were-adding-to-our-position-in-a-chipmaker-as-the-ai-trade-regains-its-footing.html",
+   "published": "2026-08-05T12:35+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Private companies added just 44,000 workers in July, below expectations, ADP reports",
+   "link": "https://www.cnbc.com/2026/08/05/private-companies-added-just-44000-workers-in-july-below-expectations-adp-reports.html",
+   "published": "2026-08-05T12:29+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "AMD sinks 8% in premarket trading despite beating expectations",
+   "link": "https://www.cnbc.com/2026/08/05/amd-stock-today-earnings-q2.html",
+   "published": "2026-08-05T12:27+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Stock bears obliterated as Nasdaq 100 logs top 10 bullish stat of past decade",
+   "link": "https://www.cnbc.com/2026/08/05/stock-bears-obliterated-as-nasdaq-logs-top-10-bullish-stat-of-past-decade.html",
+   "published": "2026-08-05T12:22+00:00"
   },
   {
    "source": "CNBC",
@@ -223,40 +259,10 @@
    "published": "2026-08-05T12:16+00:00"
   },
   {
-   "source": "CNBC",
+   "source": "CNBC-Econ",
    "title": "Private companies added just 44,000 workers in July, below expectations, ADP reports",
    "link": "https://www.cnbc.com/2026/08/05/private-companies-added-just-44000-workers-in-july-below-expectations-adp-reports.html",
-   "published": "2026-08-05T12:15+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Uber issues weaker-than-expected bookings, earnings forecasts for third quarter",
-   "link": "https://www.cnbc.com/2026/08/05/uber-stock-q2-2026-earnings.html",
-   "published": "2026-08-05T12:14+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Saudi wealth fund and Jared Kushner's Affinity finalize $55 billion EA Sports deal",
-   "link": "https://www.cnbc.com/2026/08/05/saudi-wealth-fund-jared-kushner-ea-sports-deal.html",
-   "published": "2026-08-05T12:08+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Disney tops earnings estimates as parks and streaming offer a boost",
-   "link": "https://www.cnbc.com/2026/08/05/disney-dis-earnings-q3-2026.html",
-   "published": "2026-08-05T11:56+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Oil prices move higher after Yemen's Iran-backed Houthis claim Saudi tanker strike",
-   "link": "https://www.cnbc.com/2026/08/05/oil-prices-iran-war-houthis-saudi-tanker.html",
-   "published": "2026-08-05T11:44+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Ken Griffin's Citadel posts best month in years after scooping up Situational Awareness stocks",
-   "link": "https://www.cnbc.com/2026/08/05/ken-griffins-citadel-posts-best-month-in-years-after-scooping-up-situational-awareness-stocks.html",
-   "published": "2026-08-05T11:13+00:00"
+   "published": "2026-08-05T12:29+00:00"
   },
   {
    "source": "CNBC-Econ",
@@ -269,6 +275,36 @@
    "title": "Manufacturing survey shows inflation worries 'worse than pandemic era,' adding to Fed pressure",
    "link": "https://www.cnbc.com/2026/08/03/manufacturing-survey-shows-inflation-worries-adding-to-pressure-on-fed.html",
    "published": "2026-08-04T14:42+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "3 reasons AMD\u2019s stock is falling in the face of its latest earnings report",
+   "link": "https://www.marketwatch.com/story/3-reasons-amds-stock-is-falling-in-the-face-of-its-latest-earnings-report-c2e16c71?mod=mw_rss_topstories",
+   "published": "2026-08-05T12:59+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "The S&P 500 just hit a new high. \u2018Big Short\u2019 investor Michael Burry thinks it could bring a 1987-style fall.",
+   "link": "https://www.marketwatch.com/story/the-s-p-500-just-hit-a-new-high-big-short-investor-michael-burry-thinks-it-could-bring-a-1987-style-fall-775c3b95?mod=mw_rss_topstories",
+   "published": "2026-08-05T12:57+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "The government owns some of the same stocks you do. Here\u2019s why that is risky.",
+   "link": "https://www.marketwatch.com/story/the-government-owns-some-of-the-same-stocks-you-do-heres-why-that-is-risky-6ad6462d?mod=mw_rss_topstories",
+   "published": "2026-08-05T12:30+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "ADP says businesses add the fewest new jobs in six months. Labor market is still sluggish.",
+   "link": "https://www.marketwatch.com/story/adp-says-businesses-add-the-fewer-new-jobs-in-six-months-0923d6b4?mod=mw_rss_topstories",
+   "published": "2026-08-05T12:25+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Uber profit narrowly beat forecasts as trips across its platform surge",
+   "link": "https://www.marketwatch.com/story/uber-profit-narrowly-beat-forecasts-as-trips-across-its-platform-surge-4a22ce2d?mod=mw_rss_topstories",
+   "published": "2026-08-05T12:19+00:00"
   },
   {
    "source": "MarketWatch",
@@ -289,34 +325,22 @@
    "published": "2026-08-05T11:42+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "The S&P 500 just hit a new high. \u2018Big Short\u2019 investor Michael Burry thinks it could bring a 1987-style fall.",
-   "link": "https://www.marketwatch.com/story/the-s-p-500-just-hit-a-new-high-big-short-investor-michael-burry-thinks-it-could-bring-a-1987-style-fall-775c3b95?mod=mw_rss_topstories",
-   "published": "2026-08-05T11:41+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin and ethereum prices today, Wednesday, August 5, 2026: Crypto prices rise as investors watch Hormuz negotiations and jobs report closely - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxPVy03N3ZpMDFhdTRram1zNTFFY3o2VFdMeDYwSXI5S1RwRVF6V183SWJ0cDZIaGpJVjZKYVJGN1NRYngwcXVkRzBXM2tFMTlOMElfdUdkNXFiaXRvMWtMblBrRHJaNGR1WEI5ellIaTZlVVZKd0xGVlctaEM2RlZZUXAzbXF4WGhONmhQZjg5dzNpZ01Eb2w5U0hKMjZDY28weWVmRFpxZ2JnRm5ubU1ka1BENl9EQVh1dlpKNllJdWVJOGJHNzRmQ2I5OFQ5RERUOXVyQ3ZfM0ZHMndqaWVKU1pXdjV4bEk0RzRpZmRXVDhXTGFPeV9iS09WdjVQdmVJVU82VnpOWFFCWjdEX1BpcUtNSXV4MTBhV256WDRMTEIwbkRpV0N5NzZpUTZWa2w2bTdtYnpPZlJsODA?oc=5",
+   "published": "2026-08-05T12:46+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "Reports of the 60/40 portfolio\u2019s demise are proving to be premature",
-   "link": "https://www.marketwatch.com/story/reports-of-the-60-40-portfolios-demise-are-proving-to-be-premature-e339679f?mod=mw_rss_topstories",
-   "published": "2026-08-05T11:30+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin price-metric basket sees longest capitulation since FTX blow-up: Glassnode - Cryptonews.net",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE42LW5sMmFoMEJubUVTRTNENHRmUkMzekF5V09KOExDdnJwTUc3bWRHRGFOTGxYYVJvRFVxaEh4empSNy0xdzNFZXFBS0JDc25xOVhYcmxKdlA?oc=5",
+   "published": "2026-08-05T12:46+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "\u2018My head hit the driver\u2019s window\u2019: A teenager T-boned our car. Will Medicare pay my hospital bills?",
-   "link": "https://www.marketwatch.com/story/my-head-hit-the-drivers-window-a-teenager-t-boned-our-car-will-medicare-pay-my-hospital-bills-0552d90d?mod=mw_rss_topstories",
-   "published": "2026-08-05T11:15+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Is it a bad time to buy a home? Buyers say yes, data shows.",
-   "link": "https://www.marketwatch.com/story/is-it-a-bad-time-to-buy-a-home-buyers-say-yes-data-show-ffa599d1?mod=mw_rss_topstories",
-   "published": "2026-08-05T11:00+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Elon Musk addresses memory-chip stock concerns with one simple observation",
-   "link": "https://www.marketwatch.com/story/elon-musk-addresses-memory-chip-stock-concerns-with-one-simple-observation-df134d47?mod=mw_rss_topstories",
-   "published": "2026-08-05T09:45+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "5 Best Crypto Casinos 2026 - Top Bitcoin Gambling Sites With Fast Payments & Big Bonuses - Muddy River Sports",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcUU3VXdYajh4ZTN5eTB3NTN2cWs1OFl5RFZnNXdtVWdkUi1tQjRtYXVRWTFVSWFVeUNHT3luejI1cVJlZU0xQmpKb09IMFVtcGhnZS0wR0JHYzFxLUNIRDVCdHAwbnNWUGhzMHN2eFBSQTV6eFp5SEFKSzRCNzNNaWY3UFFydnlSdWExcEVFVDliNHpmQ1piTnZvdnJ1SGxRdmgtaVdkOWdWc21zYlFlaExDaUdnVElRMEhQQVVzTTVVWmlEcU9yTE9QTnNSeEs2VTNzSF9MRjJOZW5yYWp6Zw?oc=5",
+   "published": "2026-08-05T12:32+00:00"
   },
   {
    "source": "GoogleNews-BTC",
@@ -338,7 +362,7 @@
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "CLARITY Act Has Hours Left: Bitcoin Price Fall Predicted as Matt Hougan Warns of \u2018Walking Dead\u2019 Limbo - ccn.com",
+   "title": "CLARITY Act Has Hours Left: Bitcoin Price Fall Predicted as Matt Hougan Warns of \u2018Walking Dead\u2019 Limbo - CCN.com",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMW5CR2V2YzRzbHRoM2JleWNlenpXekFDalpBM2owQUFMbDJkZklSM2VzcHUzcUFzNldvNnF0bGgwTFhfVEpaNEdGRTktSlM4dnMtNE4teHdHNWk0RjJlem41Y1BQTXJCQUFhQi1uaHhtQ3ZpdG44eXEtdTJCdUYyem9uSm1WNGlIMUY1QkxPM1pxMjdreURyaGtQNk1ZZw?oc=5",
    "published": "2026-08-05T11:15+00:00"
   },
@@ -347,24 +371,6 @@
    "title": "Bitcoin eyes $67,000 as potential bottom takes shape - Finbold",
    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5hTXhsVWxGYWo1b0dfTjlMLXlGUWZELWEtQUloWlF2eVR5Y1h0YmY0WEs1dDZkbkJmLWk4OVB6ZC1SYlY4bDF3OW5EQ2RyVzNaeFNUNjFLZnpXOWRPaTZYRnNremZDN2NWSm8zVVFPblhieEVOcm9CRFJYUQ?oc=5",
    "published": "2026-08-05T11:11+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin, broader market fail to keep pace as global equities hit record highs: Crypto Markets Today - CoinDesk",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUlBWclZHSUJ3VGplT3U3UzVYY3B2QzRMWEdFX2VXemduQWVvRmlOQzU1b1VkLWV4MHBHZlphNEJ5SGllZHl3QVZJa2I1VDE1a3M1T1BUSEcxWkZnX3FoSHdLWmJtV19zZDMxOVJwQWN4U1NUZEkwcTRZY1VySmV2V0FwbnJXbV90MlFfNWdnN3p4R1YybDR2NnhRSUtvckhHQjNKeGlqZmtPeUNhc1dZcy1WaVY1U3VzeXd5UQ?oc=5",
-   "published": "2026-08-05T11:03+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Keeping Your Bitcoin Riches Safe Has Never Been Harder - Bloomberg.com",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNk9vb1RXRW05SUE1RUxnWmhYTmlHcDJkSXM5OTJHOGJOenh3cVBuT2UyRkR3NjJaeTNWYldOUFpqd2I4V182SkZLTXJIdWZzcUNaVTZ2UHhVVHJIMUdPYU1FTzYxSkpNMUxUaFBNOURWNW1BaWVtLVhTUmVrcWF2TzV4d2RGZ1RHYmI2d24wTkEyUGp3UUJHZ216LXlPTGV3SGl0QmtFTVBaWFZLY21KbGNDeHY?oc=5",
-   "published": "2026-08-05T11:00+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Why are Bitcoin and Ethereum edging higher as XRP slides? - FXStreet",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWFNCeU1hdUc5LS1PalB5dHRicGpQNi1tUGFOUThEVkhNdE90akhOS1pycEoxczk4X3RNRkQ1N3pBTTVheG1rYzZVSVRxTHpPMldzVXVndW5jeDFPamtyelpQbnhZNG9RT1JMeTVUc1VpcEdiWGNxR2llWWctUXpDRTY3MjF0LVZMUWc4UURJam1pMlVqTUJEeDQ1ODRhWGoxdnJaWkx0UGdTRWwwbzR1bm1pNkVMVTVnNk1XRUs4eDUyUXFySDI2OHlDejFHUEZtTXJEU0pB?oc=5",
-   "published": "2026-08-05T11:00+00:00"
   }
  ]
 }
