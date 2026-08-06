@@ -1,15 +1,14 @@
 {
- "fetched_at_utc": "2026-08-06T13:02:54+00:00",
+ "fetched_at_utc": "2026-08-06T14:34:56+00:00",
  "errors": [
   "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)",
-  "feed:TheBlock: HTTPError: 403 Client Error: Forbidden for url: https://www.theblock.co/rss.xml",
-  "feed:GoogleNews-BTC: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=bitcoin+OR+%22crypto+regulation%22&hl=en-US&gl=US&ceid=US:en"
+  "feed:TheBlock: HTTPError: 403 Client Error: Forbidden for url: https://www.theblock.co/rss.xml"
  ],
  "spot": {
   "btc": 64354,
-  "btc_24h_pct": 0.1,
-  "eth": 1897.56,
-  "eth_24h_pct": 1.16,
+  "btc_24h_pct": -0.01,
+  "eth": 1904.03,
+  "eth_24h_pct": 1.72,
   "source": "coingecko"
  },
  "fear_greed": {
@@ -18,23 +17,23 @@
   "yesterday": 27
  },
  "network": {
-  "hashrate_ehs": 929.2,
+  "hashrate_ehs": 928.2,
   "difficulty": 126231507121868.2
  },
  "futures_basis": [
   {
    "instrument": "BTC-14AUG26",
    "days": 7,
-   "ann_basis_pct": 0.86
+   "ann_basis_pct": 15.91
   },
   {
    "instrument": "BTC-21AUG26",
    "days": 14,
-   "ann_basis_pct": 2.42
+   "ann_basis_pct": 10.09
   }
  ],
  "us10y": null,
- "etf_flows_raw": "TC'], borderColor: '#a8e3ff', backgroundColor: '#a8e3ff', // Lightest blue step fill: true, stack: 'funds', borderWidth: 1, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 1 }, // Total Line { label: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 06 August 2026. Your IP: 162.158.166.238 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow BTC Derivative Charts Company Fund Books About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"f27e7b5347\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a26e3d798a7fed39',t:'MTc4NjAyMTM5MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
+ "etf_flows_raw": "'BTC'], borderColor: '#a8e3ff', backgroundColor: '#a8e3ff', // Lightest blue step fill: true, stack: 'funds', borderWidth: 1, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 1 }, // Total Line { label: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 06 August 2026. Your IP: 162.158.79.11 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow BTC Derivative Charts Company Fund Books About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"f27e7b5347\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a26ec458baccd677',t:'MTc4NjAyNjkxNA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
  "news_window_start_et": "2026-08-05T08:00-04:00",
  "headlines": [
   {
@@ -81,7 +80,7 @@
   },
   {
    "source": "CoinDesk",
-   "title": "Live updates: BTC trades near $65,000; SpaceX rises ahead of $100 billion unlock",
+   "title": "Live updates: BTC holding just above $64,000 ahead of Friday's key jobs data",
    "link": "https://www.coindesk.com/tech/2026/08/06/live-updates-bitcoin-nears-usd65-000-as-oil-inflation-hopes-keep-macro-bid-alive",
    "published": "2026-08-06T07:26+00:00"
   },
@@ -135,6 +134,12 @@
   },
   {
    "source": "Decrypt",
+   "title": "What Is Arc? The Stablecoin Blockchain From USDC Issuer Circle",
+   "link": "https://decrypt.co/resources/what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle",
+   "published": "2026-08-06T13:34+00:00"
+  },
+  {
+   "source": "Decrypt",
    "title": "Scammers Pose as EU Regulators to Prey on MiCA Deadline Fallout",
    "link": "https://decrypt.co/375034/scammers-pose-as-eu-regulators-to-prey-on-mica-deadline-fallout",
    "published": "2026-08-06T12:46+00:00"
@@ -176,10 +181,10 @@
    "published": "2026-08-05T20:16+00:00"
   },
   {
-   "source": "Decrypt",
-   "title": "Visa Widens Stablecoin Payouts via Zerohash Rails",
-   "link": "https://decrypt.co/374994/visa-stablecoin-payouts-zerohash",
-   "published": "2026-08-05T19:42+00:00"
+   "source": "BitcoinMagazine",
+   "title": "Circuit, DaLand Give Credit Unions a Direct Path to Bitcoin",
+   "link": "https://bitcoinmagazine.com/news/circuit-daland-give-credit-unions-bitcoin",
+   "published": "2026-08-06T14:19+00:00"
   },
   {
    "source": "BitcoinMagazine",
@@ -213,51 +218,51 @@
   },
   {
    "source": "CNBC",
-   "title": "Megayacht Amadea sold for $187 million to Dubai billionaire with Trump ties",
-   "link": "https://www.cnbc.com/2026/08/06/megayacht-amadea-sale-dubai-billionaire-trump-ties.html",
-   "published": "2026-08-06T12:44+00:00"
+   "title": "'AI Kill Switch' bill needs to be passed this year amid ongoing rogue agent hacks, Rep. Lieu says",
+   "link": "https://www.cnbc.com/2026/08/06/ai-kill-switch-bill-openai-anthropic-meta.html",
+   "published": "2026-08-06T14:26+00:00"
   },
   {
    "source": "CNBC",
-   "title": "We're exiting our position in a spin-off play gone wrong",
-   "link": "https://www.cnbc.com/2026/08/06/were-exiting-our-position-in-a-spin-off-play-gone-wrong-.html",
-   "published": "2026-08-06T12:38+00:00"
+   "title": "Apollo agrees to buy UK airline EasyJet in $7.7 billion deal as Castlelake withdraws",
+   "link": "https://www.cnbc.com/2026/08/06/easyjet-apollo-castlelake-private-equity-budget-airline.html",
+   "published": "2026-08-06T14:20+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Inheriting a home can leave siblings with financial headaches \u2014 how to avoid costly mistakes",
-   "link": "https://www.cnbc.com/2026/08/06/inherited-home-sell-rent-keep.html",
-   "published": "2026-08-06T12:35+00:00"
+   "title": "NASA engineer spent $200 to start a side hustle from her closet\u2014now it brings in over $32,000 a month",
+   "link": "https://www.cnbc.com/2026/08/06/how-nasa-engineer-built-lucrative-voiceover-acting-side-hustle.html",
+   "published": "2026-08-06T14:08+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Warner Bros. Discovery reports 10% jump in streaming revenue ahead of proposed Paramount combination",
-   "link": "https://www.cnbc.com/2026/08/06/warner-bros-discovery-streaming-revenue-paramount-combination.html",
-   "published": "2026-08-06T12:13+00:00"
+   "title": "Hadrian valued at nearly $8 billion after fresh funding as money pours into defense tech",
+   "link": "https://www.cnbc.com/2026/08/06/hadrian-defense-tech-ai-manufacturing.html",
+   "published": "2026-08-06T14:07+00:00"
   },
   {
    "source": "CNBC",
-   "title": "EU urges Caribbean nations to shut down golden passport programs or face travel restrictions",
-   "link": "https://www.cnbc.com/2026/08/06/-eu-cracks-down-on-caribbean-golden-passport-programs-with-visa-threat.html",
-   "published": "2026-08-06T12:11+00:00"
+   "title": "World's biggest spirits maker pops 4% on $1 billion cost-cutting plan",
+   "link": "https://www.cnbc.com/2026/08/06/diageo-savings-plan-restructuring-earnings-spirits.html",
+   "published": "2026-08-06T14:05+00:00"
   },
   {
    "source": "CNBC",
-   "title": "SpaceX stock could face further pressure as first batch of shares unlock since IPO",
-   "link": "https://www.cnbc.com/2026/08/06/spacex-faces-test-as-shares-unlock-allowing-early-investors-cash-out.html",
-   "published": "2026-08-06T12:00+00:00"
+   "title": "Restaurant Brands International earnings beat as Burger King's U.S. business soars",
+   "link": "https://www.cnbc.com/2026/08/06/restaurant-brands-international-q2-2026-earnings.html",
+   "published": "2026-08-06T14:00+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Shaquille O'Neal says WNBA players' treatment of Caitlin Clark is a rite of passage",
-   "link": "https://www.cnbc.com/2026/08/06/shaquille-oneal-caitlin-clark-rite-of-passage.html",
-   "published": "2026-08-06T12:00+00:00"
+   "title": "Fox won't renegotiate NFL media rights before current deal expires, CEO Lachlan Murdoch says",
+   "link": "https://www.cnbc.com/2026/08/06/fox-nfl-media-rights-renegotiations-opt-out.html",
+   "published": "2026-08-06T13:57+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Ukraine\u2019s military hits one of Russia\u2019s biggest oil refineries in long-range drone attack",
-   "link": "https://www.cnbc.com/2026/08/06/ukraine-war-russia-zelenskyy-oil-refinery.html",
-   "published": "2026-08-06T11:46+00:00"
+   "title": "The divide between Eli Lilly and Novo Nordisk is widening after their latest earnings",
+   "link": "https://www.cnbc.com/2026/08/06/eli-lilly-novo-nordisk-earnings-glp1-market.html",
+   "published": "2026-08-06T13:45+00:00"
   },
   {
    "source": "CNBC-Econ",
@@ -267,51 +272,99 @@
   },
   {
    "source": "MarketWatch",
-   "title": "I got two email invitations from friends. Is this a phishing scam \u2014 or am I suddenly popular?",
-   "link": "https://www.marketwatch.com/story/i-got-two-email-invitations-from-friends-is-this-a-phishing-scam-or-am-i-suddenly-popular-d9680aa8?mod=mw_rss_topstories",
-   "published": "2026-08-06T13:00+00:00"
+   "title": "Missouri voters just rejected a bid to ditch income tax, while other tax votes loom in Florida and California this fall",
+   "link": "https://www.marketwatch.com/story/taxes-are-on-the-ballot-this-fall-as-republicans-and-democrats-grow-further-apart-on-whether-to-raise-them-c7990380?mod=mw_rss_topstories",
+   "published": "2026-08-06T14:07+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Layoffs fall to the lowest level since the U.S. put men on the moon. Here\u2019s what that says about the economy.",
+   "link": "https://www.marketwatch.com/story/layoffs-fall-to-the-lowest-level-since-the-u-s-put-men-on-the-moon-heres-what-that-says-about-the-economy-71f7bd23?mod=mw_rss_topstories",
+   "published": "2026-08-06T14:03+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "\u2018I don\u2019t wish to be cold-hearted\u2019: My elderly relative can no longer care for himself. Am I wrong to leave his care to the state?",
+   "link": "https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories",
+   "published": "2026-08-06T14:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "\u2018He\u2019s never been good with money\u2019: If I set up an annuity for my brother, 65, would it jeopardize his Supplemental Security Income?",
+   "link": "https://www.marketwatch.com/story/hes-never-been-good-with-money-if-i-set-up-an-annuity-for-my-brother-65-would-it-jeopardize-his-supplemental-security-income-d2e9f5a0?mod=mw_rss_topstories",
+   "published": "2026-08-06T14:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "How to earn a 9% dividend yield while cutting your risk in the stock market",
+   "link": "https://www.marketwatch.com/story/how-to-earn-a-9-dividend-yield-while-cutting-your-risk-in-the-stock-market-348de255?mod=mw_rss_topstories",
+   "published": "2026-08-06T13:56+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Senate vote on the Protect College Sports Act could come this week: What it means for transfers and salary caps",
+   "link": "https://www.marketwatch.com/story/senate-vote-on-the-protect-college-sports-act-could-come-this-week-what-it-means-for-transfers-and-salary-caps-58088560?mod=mw_rss_topstories",
+   "published": "2026-08-06T13:49+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Datadog\u2019s stock slides after earnings. This is what\u2019s nagging at investors.",
+   "link": "https://www.marketwatch.com/story/datadogs-stock-slides-after-earnings-this-is-whats-nagging-at-investors-eeb6fa9a?mod=mw_rss_topstories",
+   "published": "2026-08-06T13:46+00:00"
   },
   {
    "source": "MarketWatch",
    "title": "Hedge funds forced out of tech stocks may leave the market at the mercy of retail traders",
    "link": "https://www.marketwatch.com/story/hedge-funds-forced-out-of-tech-stocks-may-leave-the-market-at-the-mercy-of-retail-traders-bfb0a867?mod=mw_rss_topstories",
-   "published": "2026-08-06T12:47+00:00"
+   "published": "2026-08-06T13:35+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "Fiserv\u2019s stock drops as the company goes through another bruising \u2018reset\u2019",
-   "link": "https://www.marketwatch.com/story/fiservs-stock-drops-as-the-company-goes-through-another-bruising-reset-2efceea3?mod=mw_rss_topstories",
-   "published": "2026-08-06T12:36+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Crypto Market Update: Bitcoin Nears $65K, ETH and PI Rise - AltcoinBuzz",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsMUk5cXVuTTM2TzJOWHdKZjFHSlVFYUdXa0xIbUJWOFp2Q2ZuaUJDd0NZMFgzZVRSN0ZOaWlwRk8yNTd1Xzg4T2VZVVI0TDZHMFJ1UGtlc3ZDeWR6SThBdE9LOEpRUE9ZNFJReU9WS3htR1U4b19DYlpoTjVaTEU?oc=5",
+   "published": "2026-08-06T14:31+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "Aggressive options trading helped drive the S&P 500\u2019s latest rally. What that means for investors.",
-   "link": "https://www.marketwatch.com/story/aggressive-options-trading-helped-drive-the-s-p-500s-latest-rally-what-that-means-for-investors-623fe41c?mod=mw_rss_topstories",
-   "published": "2026-08-06T12:12+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Circuit, DaLand Give Credit Unions A Direct Path To Bitcoin - Bitcoin Magazine",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55azBrYWhvNl9vZmdETzVRd1djb2tMZEs3dDNzR21aZzg2T0VFVVdONEpiTVh0QjQzaUFyYWRERnNuaEdwZFhKQWxPQURJbWFRWkdERE9xWmJMVy1FcWZZMHJJSThSZTZGcDNxUmh4aWhsTC1pRWxkZWtTR3Q5Zlk?oc=5",
+   "published": "2026-08-06T14:19+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "If I marry my girlfriend, 67, will she lose her Supplemental Security Income and divorced spouse benefits?",
-   "link": "https://www.marketwatch.com/story/if-i-marry-my-girlfriend-67-will-she-lose-her-supplemental-security-income-and-divorced-spouse-benefits-9340bab9?mod=mw_rss_topstories",
-   "published": "2026-08-06T12:00+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin Could Drop to $44K by Late October, Mining Pool Founder Predicts - Cryptonews.net",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5RY3VSU3E2d2tyWmtUYUx5bUVYZXRnbHoxbEhtOHgxc1paR0RFdG0wWnFkc1JUS3NqN3YxcUtuTmZEMlFjRXNpVFpGd2ZmbWN0Wmt3MHNwN1A?oc=5",
+   "published": "2026-08-06T14:11+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "This mom spent $2,000 on her kindergartner as viral \u2018back-to-school hauls\u2019 on TikTok and YouTube spin out of control",
-   "link": "https://www.marketwatch.com/story/this-mom-spent-2-000-on-her-kindergartner-as-viral-back-to-school-hauls-on-tiktok-and-youtube-spin-out-of-control-0be2949d?mod=mw_rss_topstories",
-   "published": "2026-08-06T12:00+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin Goes Nowhere Without CLARITY Act: Will Senate Move in 48 Hours? - BeInCrypto",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QdEpUM3lrRm9senZfQ1RuVkVQanZzQlZVUnFWZDBvdmk3b3N6Q0d5cktwQV9GeEw2QzdXYjNaSjcydThzUXpCMnNIaHppc183NGlHaTFiTUFzeUxPVDRNa3kyb3dBR3pT?oc=5",
+   "published": "2026-08-06T14:02+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "33 stocks to bet on foreign markets continuing to beat the S&P 500",
-   "link": "https://www.marketwatch.com/story/33-stocks-to-bet-on-foreign-markets-continuing-to-beat-the-s-p-500-7d63dabc?mod=mw_rss_topstories",
-   "published": "2026-08-06T11:30+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Why Bitcoin Market Data Has Become Part of the Modern Business Conversation - Kearney Hub",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMDFXOXhueVAwa0ZTdDhQS1ZPM0dMN19oNVVXR0hZdUtQQXdUaWFiSEtkOVc4T05MNjNVXzVpVnFpZXpGQ2d4YmllbWZKVzdPajNiWFB2cDBfa3ZZOGdvcGZKckkwd21FeC0tUkdQakpnemxhS3VKcVdpZ2QzOTEtUVRPaTJQalJhcF9pb3NlRk9Fazc5Unc?oc=5",
+   "published": "2026-08-06T13:50+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "SoftBank earnings exceed expectations, even without an OpenAI boost. This U.S. chip company saved the day.",
-   "link": "https://www.marketwatch.com/story/softbank-earnings-exceed-expectations-even-without-an-openai-boost-this-u-s-chip-company-saved-the-day-2223845e?mod=mw_rss_topstories",
-   "published": "2026-08-06T11:03+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin's Q2 Snapshot: From Speculative Lows to Institutional Growth - Investing News Network",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA4Rzc0V2RxbFFhTzhMclVPUlExMGZPVjZ0aHp3OFY4WlZxYV9YaklobU1MVmVPZ0d5TjFDZDZ3VWp4MXNSeUE3RE44ZlFpNFNZcVBfN1d3VE9DNUlWQjdyM2xGLXdoOVdpcUx4YUJVcl8zeFE?oc=5",
+   "published": "2026-08-06T13:49+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "Over $100 Million in Bitcoin Stolen From Investors in Coldcard Wallet Hack \u2013 Here\u2019s What Went Wrong - MarketWise",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUjRkY1VqRTh1RHdwZmhLd2MxQ1NmSTVicUlUQ2dwV3EzUTRwSklwRDUxM0JGejYwX3NBSWVnNzNUalAzRGdjVDJLSFJWanRiVTR3MlFVNnlPVmpueXFRMVlxRVJ5c0FWNXlPYk10WXkwby1KSnFaY3dxNVdkUmRxOTFEc3hyaEVKVHpYbHF0RXBIRkRuTDlwcndVX29nSlFf?oc=5",
+   "published": "2026-08-06T13:49+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "Another major ETF discloses massive XRP sale - thestreet.com",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUWZNV2ZQYWFvYXZ1a1JmWFFzV3FQOFh1aG13RWYzaTBjOTU5d2p3b2xFRkNPM2p0bzNkLVhyT2NDU3NFVmNOZDZ0TWZZZUtUbC1mdVZ1aG96OXBvX0pUQkJGZlBFOFB2V0tOVTV0T2ZOeXRtNzhKdmZrMUx1VzBBRTBwOHp1OUVoU01pSXJ3?oc=5",
+   "published": "2026-08-06T13:48+00:00"
   }
  ]
 }
