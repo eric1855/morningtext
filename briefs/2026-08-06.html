@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF Morning Brief — Thursday, August 6, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>BOF Morning Brief</h1>
+  <div class="date">Thursday, August 6, 2026 · Bitcoin Opportunity Fund · figures as of ~8:20am ET · CME open</div>
+</header>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">$64,700</div>
+      <div class="chg up">▲ +0.9% 24h · +0.5% 7d</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$1,906</div>
+      <div class="chg up">▲ +2.0% 24h</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">~27 · Fear</div>
+      <div class="chg neutral">Last confirmed reading (yesterday); live index unreachable this morning, same regime holds</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">~+9.7% (8d) / +6.9% (15d)</div>
+      <div class="chg neutral">Contango, but roughly halved from Wednesday morning's +19.8% spike — cost of carry normalizing</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">+$211M (Wed 8/5)</div>
+      <div class="chg up">IBIT +$170M carries the category — sixth straight day of net inflows</div>
+    </div>
+    <div class="tile">
+      <div class="label">US 10-Yr</div>
+      <div class="value">~4.61%</div>
+      <div class="chg neutral">Easing on Strait of Hormuz deal hopes</div>
+    </div>
+  </div>
+  <div class="note">Macro (as of ~7:45am ET): US equity futures mixed on an earnings-heavy tape — S&amp;P +0.1%, Dow +0.2% (fresh record), Nasdaq -0.6% on AI-capex jitters (AMD, SanDisk, Western Digital). DXY ~99.76 (+0.09%). Gold ~$4,278/oz (+0.72%) as rate-hike odds ease. Network: hashrate 954.1 EH/s, difficulty holding at 126.23T (14% below this year's high) with the next adjustment due Aug 8 (~+0.7-1.9% est.); hashprice sits near $32/PH/s/day, at or below breakeven for higher-cost miners — no fresh mover in-window, watch the Aug 8 adjustment.</div>
+</section>
+
+<section>
+  <h2>🔴 Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/08/06/s-and-p-500-has-added-crypto-s-usd2-trillion-market-cap-this-month-bitcoin-is-not-impressed-here-s-why">Why bitcoin remains below $65,000 as S&amp;P 500 prints crypto's $2T market cap</a>
+    <div class="why">Why it matters to BOF: the S&amp;P 500 has added roughly $2.1 trillion in market cap this month alone — equivalent to nearly the entire crypto market's value — while BTC is up only ~2% over the same stretch. This is a genuine beta gap during a risk-on tape, not noise: it argues BTC-specific overhangs (Coldcard, stalled CLARITY Act, prior treasury-company selling) are outweighing the macro tailwind right now, which should directly inform how BOF weights spot BTC against equity-market beta this week and how the "digital gold" pitch lands with LPs watching the S&amp;P print records.</div>
+    <div class="when">Broke: this morning, pre-market</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://coingape.com/feds-kashkari-calls-for-higher-rates-even-as-traders-bet-against-a-september-rate-hike/">Fed's Kashkari calls for higher rates even as traders bet against a September hike</a>
+    <div class="why">Why it matters to BOF: the FOMC is now visibly split in public — Minneapolis Fed's Kashkari wants to start raising rates as soon as September, while Governor Waller says the Fed "needs to start cutting" at the same meeting and expects further cuts over the next 3-6 months. That divergence, landing the same week as a soft ADP print, raises the odds of a volatile, headline-driven path into September rather than a clean glide path either way. 2026 evidence continues to show BTC trading risk-off alongside Nasdaq on rate-policy shocks, not as a hedge — wider uncertainty on the Fed's reaction function means higher realized vol and messier cost-of-carry assumptions for any leveraged or basis-trade BTC exposure into the September meeting.</div>
+    <div class="when">Broke: yesterday afternoon, following Kashkari's comments earlier in the day</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Custody &amp; Security</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/tech/2026/08/06/bitcoin-developers-flag-85-critical-bugs-in-an-extremely-bad-situation">Bitcoin developers flag 85 critical bugs in an "extremely bad" situation</a>
+    <div class="why">Why it matters to BOF: a volunteer 16-person "Bitcoin Red Team" pointed AI models at bitcoin wallet and infrastructure code in direct response to the Coldcard exploit and filed 4,962 findings — including 85 critical and 635 high-severity issues — across 390 open-source repos in just 27.5 hours. That's roughly one critical bug found per person per hour, at ~$10,000/day in compute — a preview of how fast AI-assisted red-teaming can both find and (in the wrong hands) exploit bugs across the self-custody stack BOF and its LPs rely on. Pair this with the reported surge in inquiries at Coinbase Custody, Fireblocks, BitGo and Anchorage: this is actively accelerating a shift toward regulated institutional custody and away from self-custody hardware, which is directly relevant to any custody-policy conversation with LPs this quarter.</div>
+    <div class="when">Broke: overnight</div>
+  </div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.bitcoin.com/bitcoin-etf/blackrock-pulls-170m-into-ibit-as-bitcoin-etfs-add-211m/">BlackRock pulls $170M into IBIT as bitcoin ETFs add $211M</a>
+    <div class="why">Why it matters to BOF: US spot BTC ETFs booked a sixth straight day of net inflows Wednesday, with IBIT alone responsible for ~80% of the $211M total. Institutional ETF demand is holding steady straight through the Coldcard overhang and Fed noise — a useful cross-check against the still-Fear-territory sentiment index and a sign the "buy the ETF wrapper, skip the hardware wallet" trade is gaining real flow, not just narrative.</div>
+    <div class="when">Broke: yesterday, after the close</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/08/06/bitcoin-ether-benefit-as-traders-seek-safety-of-largest-tokens">Bitcoin, ether benefit as altcoins lose their luster</a>
+    <div class="why">Why it matters to BOF: with altcoin open interest falling and speculative froth draining out of the smaller-cap complex, capital is concentrating into BTC and ETH specifically. For a BTC-focused fund this is a healthier setup than a broad risk-on melt-up would be — less noise from altcoin rotation distorting BTC's own price signal, and a cleaner read on genuine large-cap demand.</div>
+    <div class="when">Broke: this morning</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Regulation &amp; Policy</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://finance.yahoo.com/markets/crypto/articles/clarity-act-senate-vote-locked-103000185.html">CLARITY Act Senate vote locked in, but 60-vote hurdle looms large</a>
+    <div class="why">Why it matters to BOF: only four legislative days remain before the Senate leaves for recess on August 10, and Senator Tillis says negotiators are "not quite there" on the ethics-agreement language needed to secure Democratic votes — without it, the 60-vote math for cloture likely doesn't exist yet. This is the standing CLARITY Act watch item: Thune's pledge of a floor vote before recess is still operative, but the procedural runway to actually deliver 60 votes keeps shrinking, and a miss resets market-structure clarity to mid-September at the earliest.</div>
+    <div class="when">Broke: developing through yesterday evening</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/08/05/strategy-s-strc-rebounds-30-as-company-builds-cash-reserve-bitcoin-price-stabilizes">Bitcoin sales and $4 billion cash reserve fuel STRC's recovery toward par value</a>
+    <div class="why">Why it matters to BOF: Strategy's Stretch (STRC) perpetual preferred has rallied over 30% off its June low to ~$94, helped by a growing $4B cash reserve (~2.3 years of dividend coverage) and a $975M buyback, funded in part by measured BTC sales (5,226 BTC across three tranches). This is Strategy managing its capital structure defensively rather than being forced into disorderly BTC liquidation — a meaningfully different signal than the treasury-company selling scare from earlier this week, and worth tracking as a leading indicator for mNAV-discount stress across the wider treasury-company cohort.</div>
+    <div class="when">Broke: yesterday</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro Liquidity</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/08/05/private-companies-added-just-44000-workers-in-july-below-expectations-adp-reports.html">Private companies added just 44,000 workers in July, below expectations, ADP reports</a>
+    <div class="why">Why it matters to BOF: July ADP printed 44K versus 75K expected, the weakest since January, and lands right as Kashkari pushes for hikes and Waller pushes for cuts — a soft labor print that would normally argue for easier policy is instead colliding with hawkish Fed rhetoric, a stagflation-adjacent setup that's historically messy for BTC beta. Friday's official jobs report is now the next real catalyst; expect vol to build into it.</div>
+    <div class="when">Broke: yesterday, 9:42am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Custody &amp; Security</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://crypto.news/coldcard-pushes-bitcoin-back-to-exchanges-anti-self-custody-trade/">Coldcard pushes bitcoin back to exchanges: the anti-self-custody trade</a>
+    <div class="why">Why it matters to BOF: the Coldcard fallout is visibly redirecting demand from self-custody hardware toward regulated exchange and institutional custody, with Coinbase Custody, Fireblocks, BitGo and Anchorage all reporting inquiry surges. That's a direct tailwind for BOF's custody-partner economics and a ready-made talking point for any LP asking why the fund uses institutional custody rather than self-custody hardware wallets.</div>
+    <div class="when">Broke: developing over the past 48 hours</div>
+  </div>
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing August month-to-date performance of the S&amp;P 500 at plus 3.12 percent versus Bitcoin at plus 2 percent">
+      <line x1="40" y1="170" x2="380" y2="170" stroke="currentColor" stroke-opacity=".3"/>
+      <rect x="90" y="70" width="70" height="100" fill="#0b3d91"/>
+      <rect x="240" y="106" width="70" height="64" fill="#c8102e"/>
+      <text x="125" y="60" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor">+3.12%</text>
+      <text x="125" y="195" text-anchor="middle" font-size="12" fill="currentColor" opacity=".75">S&amp;P 500</text>
+      <text x="275" y="96" text-anchor="middle" font-size="15" font-weight="700" fill="currentColor">+2.0%</text>
+      <text x="275" y="195" text-anchor="middle" font-size="12" fill="currentColor" opacity=".75">Bitcoin</text>
+      <text x="210" y="212" text-anchor="middle" font-size="10" fill="currentColor" opacity=".55">August month-to-date, through Aug 6</text>
+    </svg>
+    <div class="chart-cap">The S&amp;P 500 has added roughly $2.1T in market cap in the first days of August — close to the value of the entire crypto market — while BTC has managed only +2% over the same stretch, a level it already touched in July. The gap is this morning's top story: BTC-specific overhangs (Coldcard, stalled CLARITY Act) are currently outweighing a genuinely risk-on macro tape.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Thursday, August 6, 2026, ~8:20am ET · morningtext for Bitcoin Opportunity Fund (dry-run) · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
