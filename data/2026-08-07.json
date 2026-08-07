@@ -1,14 +1,14 @@
 {
- "fetched_at_utc": "2026-08-07T11:55:22+00:00",
+ "fetched_at_utc": "2026-08-07T13:38:56+00:00",
  "errors": [
   "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)",
   "feed:TheBlock: HTTPError: 403 Client Error: Forbidden for url: https://www.theblock.co/rss.xml"
  ],
  "spot": {
-  "btc": 64952,
-  "btc_24h_pct": 0.67,
-  "eth": 1913.33,
-  "eth_24h_pct": 0.47,
+  "btc": 65174,
+  "btc_24h_pct": 1.48,
+  "eth": 1927.97,
+  "eth_24h_pct": 1.49,
   "source": "coingecko"
  },
  "fear_greed": {
@@ -17,25 +17,43 @@
   "yesterday": 25
  },
  "network": {
-  "hashrate_ehs": 924.2,
+  "hashrate_ehs": 917.7,
   "difficulty": 126231507121868.2
  },
  "futures_basis": [
   {
    "instrument": "BTC-14AUG26",
    "days": 6,
-   "ann_basis_pct": 4.65
+   "ann_basis_pct": 1.05
   },
   {
    "instrument": "BTC-21AUG26",
    "days": 13,
-   "ann_basis_pct": 4.19
+   "ann_basis_pct": 2.39
   }
  ],
  "us10y": null,
- "etf_flows_raw": "BTC'], borderColor: '#a8e3ff', backgroundColor: '#a8e3ff', // Lightest blue step fill: true, stack: 'funds', borderWidth: 1, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 1 }, // Total Line { label: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 07 August 2026. Your IP: 162.159.106.99 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow BTC Derivative Charts Company Fund Books About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"2e419aa13e\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a27617ef4f032660',t:'MTc4NjEwMzczOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
+ "etf_flows_raw": "'BTC'], borderColor: '#a8e3ff', backgroundColor: '#a8e3ff', // Lightest blue step fill: true, stack: 'funds', borderWidth: 1, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 1 }, // Total Line { label: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 07 August 2026. Your IP: 172.70.174.86 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow BTC Derivative Charts Company Fund Books About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"cbe603c542\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a276afa44a94827b',t:'MTc4NjEwOTk1Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
  "news_window_start_et": "2026-08-06T08:00-04:00",
  "headlines": [
+  {
+   "source": "CoinDesk",
+   "title": "U.S. unexpectedly shed 23,000 jobs in July, putting Fed rate hikes in question",
+   "link": "https://www.coindesk.com/markets/2026/08/07/the-u-s-lost-23-000-jobs-in-july-far-shy-of-forecasts-for-a-gain-of-80-000",
+   "published": "2026-08-07T12:31+00:00"
+  },
+  {
+   "source": "CoinDesk",
+   "title": "After a Clarity Act funeral, the crypto world would keep turning",
+   "link": "https://www.coindesk.com/news-analysis/2026/08/06/after-a-clarity-act-funeral-the-crypto-world-would-keep-turning",
+   "published": "2026-08-07T12:00+00:00"
+  },
+  {
+   "source": "CoinDesk",
+   "title": "Why Bitcoin's BIP-110 refuses to die despite near-zero miner support",
+   "link": "https://www.coindesk.com/tech/2026/08/06/why-bitcoin-s-bip-110-refuses-to-die-despite-near-zero-miner-support",
+   "published": "2026-08-07T11:45+00:00"
+  },
   {
    "source": "CoinDesk",
    "title": "Bitcoin\u2019s volatility has nearly disappeared. The risk hasn\u2019t.",
@@ -67,22 +85,10 @@
    "published": "2026-08-07T08:01+00:00"
   },
   {
-   "source": "CoinDesk",
-   "title": "Live updates: Bitcoin edges higher to $65,000 ahead of key U.S. jobs data",
-   "link": "https://www.coindesk.com/markets/2026/08/07/live-updates-bitcoin-flat-at-usd64-300-before-us-jobs-report-with-oil-back-as-a-headwind",
-   "published": "2026-08-07T07:44+00:00"
-  },
-  {
-   "source": "CoinDesk",
-   "title": "Bitcoin whales load up on $1.2 billion in BTC as ETFs attract $750 million",
-   "link": "https://www.coindesk.com/markets/2026/08/07/bitcoin-whales-load-up-on-usd1-2-billion-in-btc-as-etfs-attract-usd750-million",
-   "published": "2026-08-07T05:45+00:00"
-  },
-  {
-   "source": "CoinDesk",
-   "title": "Bitcoin wallet dormant since 2011 moves $3.2 million toward FalconX-linked address",
-   "link": "https://www.coindesk.com/markets/2026/08/07/bitcoin-wallet-dormant-since-2011-moves-usd3-2-million-toward-falconx-linked-address",
-   "published": "2026-08-07T04:50+00:00"
+   "source": "Cointelegraph",
+   "title": "Bitcoiners turn to dice throws as self-custody setups are re-evaluated",
+   "link": "https://cointelegraph.com/features/bitcoiners-turn-to-dice-throws-as-self-custody-setups-are-re-evaluated?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+   "published": "2026-08-07T13:00+00:00"
   },
   {
    "source": "Cointelegraph",
@@ -107,6 +113,24 @@
    "title": "Zeus Wallet taken offline after cyberattack, says no customer funds at risk",
    "link": "https://cointelegraph.com/news/zeus-offline-cyberattack-says-no-funds-at-risk?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
    "published": "2026-08-06T12:11+00:00"
+  },
+  {
+   "source": "Decrypt",
+   "title": "Tokenized Asset Deposits Tripled to $7.4B as DeFi Shrank: CoinShares",
+   "link": "https://decrypt.co/375099/tokenized-asset-deposits-tripled-to-7-4b-as-defi-shrank-coinshares",
+   "published": "2026-08-07T13:26+00:00"
+  },
+  {
+   "source": "Decrypt",
+   "title": "China\u2019s Kimi K3 Broke Out of Its Sandbox to Look Up Test Answers",
+   "link": "https://decrypt.co/375096/chinas-kimi-k3-broke-out-of-its-sandbox-to-look-up-test-answers",
+   "published": "2026-08-07T12:37+00:00"
+  },
+  {
+   "source": "Decrypt",
+   "title": "Morning Minute: MetaMask Hands AI Agents a Wallet",
+   "link": "https://decrypt.co/375093/morning-minute-metamask-hands-ai-agents-a-wallet",
+   "published": "2026-08-07T12:00+00:00"
   },
   {
    "source": "Decrypt",
@@ -137,24 +161,6 @@
    "title": "Meta Says Its AI Model Escaped and Hacked a Third-Party Company Too",
    "link": "https://decrypt.co/375070/meta-says-ai-model-escaped-hack-third-party",
    "published": "2026-08-06T20:31+00:00"
-  },
-  {
-   "source": "Decrypt",
-   "title": "Senators Push CFTC to Ban Wildfire Bets on Prediction Markets",
-   "link": "https://decrypt.co/375066/senators-push-cftc-ban-wildfire-bets-prediction-markets",
-   "published": "2026-08-06T19:51+00:00"
-  },
-  {
-   "source": "Decrypt",
-   "title": "Putin Signs Russia's First Crypto Law: Trading Is Legal, Payments Stay Banned",
-   "link": "https://decrypt.co/375062/putin-signs-russia-first-crypto-trading-payments",
-   "published": "2026-08-06T18:38+00:00"
-  },
-  {
-   "source": "Decrypt",
-   "title": "OpenAI Reveals How AI Agents Secretly Coordinated Before Hugging Face Hack",
-   "link": "https://decrypt.co/375058/openai-ai-agents-secretly-coordinated-hugging-face-hack",
-   "published": "2026-08-06T18:26+00:00"
   },
   {
    "source": "BitcoinMagazine",
@@ -206,57 +212,69 @@
   },
   {
    "source": "CNBC",
-   "title": "The July jobs numbers are due out Friday. Here's what to expect",
-   "link": "https://www.cnbc.com/2026/08/06/the-july-jobs-numbers-are-due-out-friday-heres-what-to-expect.html",
-   "published": "2026-08-07T11:23+00:00"
+   "title": "Shares of this digital medical platform were up more than 100% at one point. Here's what's driving it",
+   "link": "https://www.cnbc.com/2026/08/07/doximity-shares-double-heres-whats-driving-it-.html",
+   "published": "2026-08-07T13:18+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Martha's Vineyard African American Film Festival set for record attendance despite macro challenges",
-   "link": "https://www.cnbc.com/2026/08/07/marthas-vineyard-african-american-film-festival-set-for-record-attendance.html",
-   "published": "2026-08-07T11:16+00:00"
+   "title": "Jim Cramer's top 10 things to watch in the stock market Friday",
+   "link": "https://www.cnbc.com/2026/08/07/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday-.html",
+   "published": "2026-08-07T13:09+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Wildfire costs are surging \u2014 but much of the damage in Europe isn\u2019t insured",
-   "link": "https://www.cnbc.com/2026/08/07/wildfires-insurance-cover-zurich-allianz-munich.html",
-   "published": "2026-08-07T10:59+00:00"
+   "title": "Homes are selling below asking in 38 of the 50 biggest U.S. cities\u2014if you can afford one",
+   "link": "https://www.cnbc.com/2026/08/07/homes-are-selling-below-asking-in-38-of-the-50-biggest-us-cities.html",
+   "published": "2026-08-07T13:00+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Solar stocks shine after Trump extends China tariffs to polysilicon products",
-   "link": "https://www.cnbc.com/2026/08/07/polysilicon-solar-tariffs-donald-trump-us-china-trade-war-energy-semiconductors.html",
-   "published": "2026-08-07T10:31+00:00"
+   "title": "U.S. economy unexpectedly lost 23,000 jobs in July",
+   "link": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
+   "published": "2026-08-07T12:53+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Yen rally fades a week after U.S.-Japan intervention as focus shifts to policy",
-   "link": "https://www.cnbc.com/2026/08/07/us-japan-intervention-yen-unwinds-gains.html",
-   "published": "2026-08-07T09:18+00:00"
+   "title": "Private equity is circling budget airlines after Apollo's EasyJet deal \u2014 and this carrier could be next",
+   "link": "https://www.cnbc.com/2026/08/07/easyjet-apollo-private-equity-airlines-travel.html",
+   "published": "2026-08-07T12:35+00:00"
   },
   {
    "source": "CNBC",
-   "title": "SK Hynix to invest $38 billion building new memory chip plants as demand soars",
-   "link": "https://www.cnbc.com/2026/08/07/sk-hynix-memory-chips-ai-prices.html",
-   "published": "2026-08-07T09:02+00:00"
+   "title": "Companies scoff at airlines' cheapest business class tickets. 'The real value is flexibility'",
+   "link": "https://www.cnbc.com/2026/08/07/business-business-premium-fares.html",
+   "published": "2026-08-07T12:15+00:00"
   },
   {
    "source": "CNBC",
    "title": "Volkswagen controlling families call for faster overhaul to fend off Chinese rivals",
    "link": "https://www.cnbc.com/2026/08/07/volkswagen-vw-porsche-autos-job-cuts.html",
-   "published": "2026-08-07T08:03+00:00"
+   "published": "2026-08-07T12:15+00:00"
   },
   {
    "source": "CNBC",
-   "title": "China's exports growth beats estimates in July, as AI-driven shipments surge",
-   "link": "https://www.cnbc.com/2026/08/07/china-july-trade-exports-imports-surplus-imbalance-tariffs-.html",
-   "published": "2026-08-07T06:09+00:00"
+   "title": "K-shaped economy shows up in housing: Luxury sales rise as starter-home buyers struggle",
+   "link": "https://www.cnbc.com/2026/08/07/housing-k-shaped-economy-luxury-starter-homes.html",
+   "published": "2026-08-07T12:15+00:00"
+  },
+  {
+   "source": "CNBC-Econ",
+   "title": "U.S. economy unexpectedly lost 23,000 jobs in July",
+   "link": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html",
+   "published": "2026-08-07T12:53+00:00"
   },
   {
    "source": "CNBC-Econ",
    "title": "The July jobs numbers are due out Friday. Here's what to expect",
    "link": "https://www.cnbc.com/2026/08/06/the-july-jobs-numbers-are-due-out-friday-heres-what-to-expect.html",
    "published": "2026-08-07T11:23+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "How S&P 500 options action may help explain the rising volatility in memory stocks",
+   "link": "https://www.marketwatch.com/story/how-s-p-500-options-action-may-help-explain-volatility-in-memory-stocks-58d95beb?mod=mw_rss_topstories",
+   "published": "2026-08-07T13:30+00:00"
   },
   {
    "source": "MarketWatch",
@@ -272,13 +290,7 @@
   },
   {
    "source": "MarketWatch",
-   "title": "How S&P 500 options action may help explain the rising volatility in memory stocks",
-   "link": "https://www.marketwatch.com/story/how-s-p-500-options-action-may-help-explain-volatility-in-memory-stocks-58d95beb?mod=mw_rss_topstories",
-   "published": "2026-08-07T10:56+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "There are good reasons why higher bond yields are here to stay, this strategist says",
+   "title": "There are good reasons higher bond yields are here to stay, this strategist says",
    "link": "https://www.marketwatch.com/story/there-are-good-reasons-why-higher-bond-yields-are-here-to-stay-this-strategist-says-2a89d5ae?mod=mw_rss_topstories",
    "published": "2026-08-07T10:02+00:00"
   },
@@ -308,51 +320,51 @@
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin\u2019s volatility has nearly disappeared. The risk hasn\u2019t: Crypto Daily - CoinDesk",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdFQtNmh0aDZDSTh1N1RHWmJGMmJNdFBPMnBES0hoRTREZC1DS3FKX01QVFZ4SDJRbmF2SHN1Q3hick1MRE1SdF8xdmRReGFlM251dkxuaXhLcHBqTk5mVlBlb2I2d1Zob3ZJSWxobFBST0E2RkVrcTdhNk9mR3ZVZ0dad1VEUVlXbnUtTk5DNFF0Vlp1ZWJxLWhKN1ZwbDM1Q01tTkhCT25adw?oc=5",
-   "published": "2026-08-07T11:45+00:00"
+   "title": "Bitcoin and ethereum prices today, Friday, August 7, 2026: Crypto prices moving higher following July jobs report - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPdml0TDJ2eGcwN3hna053RlZLLWhqSER4cUdBQ1JoOTRpTHRlVTZXaTNldjhPSGg3XzkyQktwejZmZEU0ejFqc013ci0tMzItLUJ4Q1JTT3RlUldfWDloREZmNmU1MUVWanJPWm1jNEFJZXdpMzgxMVpyUi0wNTRuVkVMYklJRDNIX2w2LWtLaHpsMnVFeFVkd29sdVBjZWRSamRfNDg3RWtkdk5vUllZbE9IUm9aQmQ1M0EyUDMtOHZzanF4RGMtZlA3WUVnTTJ3SnlxRVhYUk1nenVubWRVRy1sa09vZHYtQ3daTjI1SnhNRnRDUW1YX0xsUkt2bWphb2cwN3VWODFmNTd2Q2p1bEJFMA?oc=5",
+   "published": "2026-08-07T13:14+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin Price to $33,000? CLARITY Act\u2019s September Delay Sparks Crash Warning - CCN.com",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSEYwMjYxdlBreG5LbkpPMVpHN0tWSGpaUjd2dDFwd0JuWks3VDNvdC1KMURnNXBIc09vQ3M3UUYyb3BFNE13TXhZT0hNQThxRTM5WEwzMjFqOTdCb19HUG9HUTJtMjBObDhjbGM2eE82V3F1RHBYNUNDNmdFRVI1QWRMWnVPNlZLUkIxa3pLbUY3LTlfR1BUX3NrYXFQUHhoa3ZZ?oc=5",
-   "published": "2026-08-07T11:45+00:00"
+   "title": "Bold Analyst Declares the 'Bitcoin Bull Market Is Here'\u20143 Signals Why He May Be Right - Benzinga",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMnkzd2tvWS1ScEZkOVpXUnJpMWM1SFdBRzkwLWxUZjZtRzNDMzd5ZG84b0VXN1hoZXNVLVp6aG9zcjR3MGtMRl9ESmliZ3BTbjIxZk1zUXFmdTFsZHBQcnE2SUJTeXFQRF8tUWgtR0Y2WVBwMEF0MFZtbHhjZ3dJNmpvbldBMmxDRk1xRFVEREtiSWR4STJLeXZKU2xTQzlNb3pJOHZvOE8xZU9HU25IM3E5eEZwZ1hienUwTW1kaFY3OGgtZ2prcU5rbVlBV2lKZEx6SnBseGU4d1dIV1E?oc=5",
+   "published": "2026-08-07T13:06+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin price stalls below $65K despite ETF inflows - Crypto News",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55OUtMRG5DNndGQzlEU2xrNXF0ZDdOcTF6Uk1MZ2xrWGc4bU03Rndwdkx2cTZ5S1BqNjNIVDVHMk1TTGQ5TFdFdHVCVjZSck42U2pWajVuYVVaeVhBRFNpRVFRelBNTzRsWVRBaVdibm5iOGg0QThVWlo4SQ?oc=5",
-   "published": "2026-08-07T11:40+00:00"
+   "title": "Knoxville woman accused of laundering unemployment benefits through bitcoin ATMs - ATM Marketplace",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcVZyUmJpYWtRM0dtbmZka0dLWWYtcWk1M1VtdGpRWW84YTBnSy1pTTk4YkgyZm1yOGFaN2VKZGFLZHllVWJWZUY3ZU9kXzBjSTh1a0xvQ1Zwb2x0S1dLYXJBWlhXbEZfNklqYWRiWXdHUlFwSzV3ZGlxWjZiNFJ4em9FbGFMcGVUcTBIVUdQcmgzQzluUlBBaWZvaEpkakh4WV8wQ0tFcjdoY1lGTWhjM0pobmhGbWg3?oc=5",
+   "published": "2026-08-07T13:00+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Tom Lee Says 'Just A Matter Of Time' Until Bitcoin, ETH Get Going Again - Benzinga",
-   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSEFhR0xlMEtyNWlYd3FqWDV6UG41OERjRks1SlNzS21MNTZKV0haYThsX2dpRmR3MUhocVJ1TDBJaDVqamxVOC1ZRUEyaDU0S2VYb3hZN0VfSkR0WXlZa3I4X1lUQTVsTk5pZUM3SFA5cUZSTEJJR3dKcWJVa1B4b0JDazBfdmwtT0dQZVNiUFNQSVU0RXRGMmdST3RJc2gyanZBOFF3N0dzWEhadWJRVHplc2ZDTTJlaVZOb2gyUjJIOUJCUU1Ya2h3?oc=5",
-   "published": "2026-08-07T11:28+00:00"
+   "title": "MARA Pledges 18,750 BTC for $600 Million New Bitcoin-Backed Loans - TheEnergyMag",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZndjSExMczRpVkx5aER4aExqRmRKVVY0QmRRLTRVOUtkdGJGODRHNUZXR1RJTFZKLTdtb2lQcWRDUmZ4VWhxaXpfSl9sMlRXQ3ZubVFRbVYtQldCRDI4bGRMWjZlbXJvMk8wb3lhWXF5b193Z0ZlZm9CckNjRkdGTzdMY0pHMnc?oc=5",
+   "published": "2026-08-07T12:59+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin (BTCUSD) Is up 1.08% on Aug 7: What Do On-Chain Data and Market Sentiment Show? - TradingKey",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcmtkZUx4Y1ZuQThXM1N1WDROTTNRdTNYaEpzbi02SXZWXzFWeUlTWmFZTjVMNkd6bHpuaGYtOUlKRWpnb2EwWlBmTTE3UUk1a0ZCaUtSWFU1ZWFaR3FlVWNXRVowQ1lUZUduTWhfc3FpQUVJcHFTbEs4Slg1NE0xdklNWll2WWdlUjRaQkhn?oc=5",
-   "published": "2026-08-07T11:28+00:00"
+   "title": "MARA Digital\u2019s Bitcoin Holdings Fall Below 36,000 BTC - Crowdfund Insider",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWEdxZmpadVV2VFk0SXFvN3JOc3NGbTJUTndXU3BCOTFHaWhHLW1MYUVqMFp5bjNGNzl6a2c3T1BTOE54STFUTE9QWmhwZHQzYmFudzE0R1FhdXNlVHItVGd0enl6V0x2RjBfVHhHNEdnTHBma2NWX1Zoclo4bG0wSUZsYkxPa0k2Z1J3Y1VuTWktc2J3VENyd20tZjBEbzJVUEE?oc=5",
+   "published": "2026-08-07T12:52+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Police warning about bitcoin kiosk scams - KSDK",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM3NXR1p0UVNybGtDOXBVaTBySEhhNEZ5Mnl0eER6c2syZ2Ywa1lxV3ZHVG53d0JKOWc2a0p2bktqeG5CV2hhTGJwZlJ0dXBhdHNxVHhMM0RrTkRmc2hMWkZ0LWJzcXhrYmNNUV9LOUN2am82WXU3MTctNWhDcDFpWi1BSjNYMXFGdXdlUVc5WndrRkhZcFhWWGdLenBIRFQ4M21iVmpBTVFReVpIdS1jSk5GNXg1aE03RGc?oc=5",
-   "published": "2026-08-07T11:25+00:00"
+   "title": "MARA sold almost all its mined Bitcoin, then pledged 18,750 BTC for an AI dream with no disclosed safety net - CryptoSlate",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE80SFUwRXpSVVdsX251SnRkaEppT3dJSG50Yl9CTkdSZ2VlSWNObzRzeEQ1M1d3emw4eVE3VHJMNWdiTjdvNVpVWXhvQ0VYZUd5ck5MYVhMbFE2RHVvWjVtT1RFNy00dmRHaVN4c2VwakRSVzltVWswQw?oc=5",
+   "published": "2026-08-07T12:50+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin Could Split in Two This Weekend: What Holders Need to Know - BeInCrypto",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1lUFpqSzN5NFVHLWkzNHJ5anVKSWo0UUhOTkhHckR3eXdFRmdrakgwdlFTUWF1SUdTV1htR2JQaXVvdjdPMl9sSFRFcDNSdzBkN2dLYm96UFliQ29ZYlMtTGE3NjZrQWtrSkNRYWlNdXl5c3dIQzY0VkpnT00?oc=5",
-   "published": "2026-08-07T11:01+00:00"
+   "title": "Bitcoin Red Team finds nearly 5,000 potential security flaws - AltcoinBuzz",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBjaE9GaGgtcTZoNE9acHZvWUZPYjhzc3h3TzFCUkRELTJzT2dYN2VGOEpHaFVtZFpXSGFGUnByVWEzN1R4N3E0WWJzLVpQSTI5SE5DM255dzc1OUYwcWtvWVRhLXcyVWVxSHdRczRMSzZLakcwMUZRRWhR?oc=5",
+   "published": "2026-08-07T12:40+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bhutan-Linked Wallet Transfers $28M in Bitcoin to Binance - Cryptonews.net",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SSktiMDg3dzlaMWRBY25IYVZsdmNqR1U0N3BacTBIRVJ4RW1UZWhldVZaUVlPSTk1dm1XOUFMVFdxX2cyei0yMmgxTU9DOFNTR0JSNlh6aks?oc=5",
-   "published": "2026-08-07T11:01+00:00"
+   "title": "5 Best Crypto Casinos 2026 \u2013 Trusted Bitcoin Gambling Sites with Instant Payouts - Muddy River Sports",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMHdSbGVtMmg5NDBYUG8xXzJDcXg0SlQ5c2xMQVZtVlVDX2RzT0N1US1MODVKMy01UFhjcml3WXZOZ1JzNk5UbkF3WFMtQi1xLTIxMGotdi1oaHZmb2pLVmlvNXE5TmcwN2NJZzBmMU04OXpNWFZWbGtYaFBKQnI2UHppQ1pFSDBQS2JLeVFXNDRtb3cteHVHMnpZNTd2Yi1Od01idmhQMXJHZEg0VjY1eWMyRWZWVER2VWdfNEVmTGt6Ry1tbkhwZnNod3I5WjlwS2cybVZDU3A?oc=5",
+   "published": "2026-08-07T12:30+00:00"
   }
  ]
 }
