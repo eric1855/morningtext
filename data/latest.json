@@ -1,14 +1,14 @@
 {
- "fetched_at_utc": "2026-08-10T11:57:33+00:00",
+ "fetched_at_utc": "2026-08-10T13:43:43+00:00",
  "errors": [
   "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=15)",
   "feed:TheBlock: HTTPError: 403 Client Error: Forbidden for url: https://www.theblock.co/rss.xml"
  ],
  "spot": {
-  "btc": 65055,
-  "btc_24h_pct": 0.21,
-  "eth": 1917.76,
-  "eth_24h_pct": 0.01,
+  "btc": 64602,
+  "btc_24h_pct": -0.85,
+  "eth": 1899.0,
+  "eth_24h_pct": -1.15,
   "source": "coingecko"
  },
  "fear_greed": {
@@ -17,25 +17,37 @@
   "yesterday": 31
  },
  "network": {
-  "hashrate_ehs": 908.9,
+  "hashrate_ehs": 904.9,
   "difficulty": 127479855693691.4
  },
  "futures_basis": [
   {
    "instrument": "BTC-21AUG26",
    "days": 10,
-   "ann_basis_pct": 5.31
+   "ann_basis_pct": 3.8
   },
   {
    "instrument": "BTC-28AUG26",
    "days": 17,
-   "ann_basis_pct": 5.03
+   "ann_basis_pct": 4.33
   }
  ],
  "us10y": null,
- "etf_flows_raw": "BTC'], borderColor: '#a8e3ff', backgroundColor: '#a8e3ff', // Lightest blue step fill: true, stack: 'funds', borderWidth: 1, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 1 }, // Total Line { label: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 10 August 2026. Your IP: 172.69.135.163 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow BTC Derivative Charts Company Fund Books About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"c56ca058b8\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a28ed33ff92acce4',t:'MTc4NjM2MzA2OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
+ "etf_flows_raw": "TC'], borderColor: '#a8e3ff', backgroundColor: '#a8e3ff', // Lightest blue step fill: true, stack: 'funds', borderWidth: 1, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 1 }, // Total Line { label: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 10 August 2026. Your IP: 162.158.186.172 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow BTC Derivative Charts Company Fund Books About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"db20343512\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a28f6ec8695e2163',t:'MTc4NjM2OTQ0MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
  "news_window_start_et": "2026-08-09T08:00-04:00",
  "headlines": [
+  {
+   "source": "CoinDesk",
+   "title": "Solana gets its first Strategy STRC product through Solstice Finance",
+   "link": "https://www.coindesk.com/business/2026/08/10/solstice-rolls-out-strategy-s-strc-preferred-stock-income-to-solana",
+   "published": "2026-08-10T13:26+00:00"
+  },
+  {
+   "source": "CoinDesk",
+   "title": "Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares",
+   "link": "https://www.coindesk.com/markets/2026/08/10/strategy-sells-1-690-bitcoin-raises-usd653-million-from-mstr-shares",
+   "published": "2026-08-10T12:09+00:00"
+  },
   {
    "source": "CoinDesk",
    "title": "Crypto exchange Coinsbuy loses $8 million in coordinated two-blockchain attack",
@@ -73,16 +85,16 @@
    "published": "2026-08-10T09:09+00:00"
   },
   {
-   "source": "CoinDesk",
-   "title": "U.S. CPI inflation, Securitize, Gemini among earnings reports: Crypto Week Ahead",
-   "link": "https://www.coindesk.com/markets/2026/08/10/u-s-cpi-inflation-securitize-gemini-among-earnings-reports-crypto-week-ahead",
-   "published": "2026-08-10T08:57+00:00"
+   "source": "Cointelegraph",
+   "title": "Bitdeer increased Bitcoin mining output by nearly fivefold in Q2",
+   "link": "https://cointelegraph.com/news/bitdeer-bitcoin-mining-output-fivefold-q2?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+   "published": "2026-08-10T13:07+00:00"
   },
   {
-   "source": "CoinDesk",
-   "title": "Inside stablecoin firm BVNK\u2019s journey to a $1.8B acquisition by Mastercard",
-   "link": "https://www.coindesk.com/business/2026/08/10/inside-stablecoin-firm-bvnk-s-journey-to-a-usd1-8b-acquisition-by-mastercard",
-   "published": "2026-08-10T07:52+00:00"
+   "source": "Cointelegraph",
+   "title": "Strategy turns 1,690 BTC into $108.6M STRC buyback",
+   "link": "https://cointelegraph.com/markets/strategy-sells-1690-btc-buy-back-108-6-million-strc?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+   "published": "2026-08-10T12:36+00:00"
   },
   {
    "source": "Cointelegraph",
@@ -104,6 +116,24 @@
   },
   {
    "source": "Decrypt",
+   "title": "Morning Minute: Bitcoin ETFs See Biggest Inflows Since May",
+   "link": "https://decrypt.co/375194/morning-minute-bitcoin-etfs-see-biggest-inflows-since-may",
+   "published": "2026-08-10T12:32+00:00"
+  },
+  {
+   "source": "Decrypt",
+   "title": "Strategy Sells $109M in Bitcoin as Dollar Reserve Tops $4.6B",
+   "link": "https://decrypt.co/375196/strategy-sells-109m-in-bitcoin-as-dollar-reserve-tops-4-6b",
+   "published": "2026-08-10T12:24+00:00"
+  },
+  {
+   "source": "Decrypt",
+   "title": "Bitcoin ETFs Draw $854M Over Five Days as Rate-Hike Bets Fade",
+   "link": "https://decrypt.co/375192/bitcoin-etfs-draw-854m-over-five-days-as-rate-hike-bets-fade",
+   "published": "2026-08-10T12:14+00:00"
+  },
+  {
+   "source": "Decrypt",
    "title": "Standard Chartered Sees $4T Tokenization Driving Chainlink to $200 by 2030",
    "link": "https://decrypt.co/375189/standard-chartered-sees-4t-tokenization-driving-chainlink-to-200-by-2030",
    "published": "2026-08-10T10:19+00:00"
@@ -122,51 +152,81 @@
   },
   {
    "source": "CNBC",
-   "title": "Australian rare earth miner surges after U.S. Department of Defense investment",
-   "link": "https://www.cnbc.com/2026/08/10/rare-earths-sunrise-energy-metals-trump-cina.html",
-   "published": "2026-08-10T11:44+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "OpenAI tightens controls on its new model over cybersecurity risks, as AI security debate intensifies",
-   "link": "https://www.cnbc.com/2026/08/10/openai-astra-cybersecurity-risks.html",
-   "published": "2026-08-10T11:04+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Shein faces existential threat as tariffs hit low-price model, putting new focus on services",
-   "link": "https://www.cnbc.com/2026/08/10/shein-ipo-tariffs.html",
-   "published": "2026-08-10T11:00+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "House Dems call for AI companies to testify on recent hacks: \u2018Clear risk to safety\u2019",
-   "link": "https://www.cnbc.com/2026/08/10/openai-anthropic-ai-hack-congress.html",
-   "published": "2026-08-10T11:00+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Trump\u2019s foreign licensing business booms to $59.5 million as Gulf developers pay",
-   "link": "https://www.cnbc.com/2026/08/10/trump-foreign-real-estate-licensing-income-gulf-deals.html",
-   "published": "2026-08-10T10:30+00:00"
-  },
-  {
-   "source": "CNBC",
    "title": "World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand",
    "link": "https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html",
-   "published": "2026-08-10T10:29+00:00"
+   "published": "2026-08-10T13:39+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "SpaceX stock rebounds to near $135 IPO price",
+   "link": "https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html",
+   "published": "2026-08-10T13:36+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "The Club's top 10 things to watch in the stock market Monday",
+   "link": "https://www.cnbc.com/2026/08/10/the-clubs-top-10-things-to-watch-in-the-stock-market-monday.html",
+   "published": "2026-08-10T13:19+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Intel plans $15 billion stock offering as AI demand accelerates",
+   "link": "https://www.cnbc.com/2026/08/10/intel-intc-stock-offering-ai.html",
+   "published": "2026-08-10T13:15+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Archer shares surge after Boeing stake, electric aircraft subsidiary deal",
+   "link": "https://www.cnbc.com/2026/08/10/boeing-evtol-archer-stake.html",
+   "published": "2026-08-10T13:13+00:00"
   },
   {
    "source": "CNBC",
    "title": "Trump signals shift to economic pressure as Iran hardens stance over Strait of Hormuz",
    "link": "https://www.cnbc.com/2026/08/10/us-iran-war-trump-hormuz-oman-ships-blockade-shipping.html",
-   "published": "2026-08-10T09:33+00:00"
+   "published": "2026-08-10T12:59+00:00"
   },
   {
    "source": "CNBC",
-   "title": "The space boom has created a giant mess. Now startups want to clean it up",
-   "link": "https://www.cnbc.com/2026/08/08/space-debris-junk-spacex-rocket-moon-crash.html",
-   "published": "2026-08-10T07:44+00:00"
+   "title": "Interest rates may stay higher for longer. What that means for consumers",
+   "link": "https://www.cnbc.com/2026/08/10/fed-rate-hike-prospects-higher-interest-rates.html",
+   "published": "2026-08-10T12:41+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Meta to open source its most powerful AI model as it takes swipe at OpenAI, Anthropic",
+   "link": "https://www.cnbc.com/2026/08/10/meta-muse-glimmer-open-weight-ai.html",
+   "published": "2026-08-10T12:40+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "The U.S. economy is shedding jobs. Here\u2019s why that\u2019s good news for stocks.",
+   "link": "https://www.marketwatch.com/story/the-u-s-economy-is-shedding-jobs-why-thats-good-news-for-stocks-a7f4773c?mod=mw_rss_topstories",
+   "published": "2026-08-10T13:30+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Berkshire Hathaway finally started spending its nearly $400 billion in cash \u2014 on one stock it knows very well",
+   "link": "https://www.marketwatch.com/story/berkshire-hathaway-finally-started-spending-its-nearly-400-billion-in-cash-on-one-stock-it-knows-very-well-f9d56389?mod=mw_rss_topstories",
+   "published": "2026-08-10T12:53+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Apple\u2019s stock could underperform, especially without an \u2018all-glass\u2019 iPhone, this analyst warns",
+   "link": "https://www.marketwatch.com/story/apples-stock-could-underperform-especially-without-an-all-glass-iphone-this-analyst-warns-fc9a750c?mod=mw_rss_topstories",
+   "published": "2026-08-10T12:48+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Intel plans to sell $15 billion worth of stock after it has risen 400% in a year",
+   "link": "https://www.marketwatch.com/story/intel-plans-to-sell-15-billion-worth-of-stock-after-it-has-risen-400-in-a-year-395effce?mod=mw_rss_topstories",
+   "published": "2026-08-10T12:24+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "\u2018My wife and I are both retired\u2019: Do we dip into our $2.3 million fund to pay off our $300,000 mortgage at 2.9%?",
+   "link": "https://www.marketwatch.com/story/my-wife-and-i-are-both-retired-do-we-dip-into-our-2-3-million-fund-to-pay-off-our-300-000-mortgage-at-2-9-2d23d1df?mod=mw_rss_topstories",
+   "published": "2026-08-10T12:16+00:00"
   },
   {
    "source": "MarketWatch",
@@ -187,82 +247,52 @@
    "published": "2026-08-10T11:35+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "\u2018I want her to choose the best strategy\u2019: My wife\u2019s Social Security is just $900. Should she claim spousal benefit at 62?",
-   "link": "https://www.marketwatch.com/story/i-want-her-to-choose-the-best-strategy-my-wifes-social-security-is-just-900-should-she-claim-spousal-benefit-at-62-e3ef621d?mod=mw_rss_topstories",
-   "published": "2026-08-10T11:15+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "The U.S. economy is shedding jobs. Here\u2019s why that\u2019s good news for stocks.",
-   "link": "https://www.marketwatch.com/story/the-u-s-economy-is-shedding-jobs-why-thats-good-news-for-stocks-a7f4773c?mod=mw_rss_topstories",
-   "published": "2026-08-10T11:11+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Mark Zuckerberg takes on the AI doomers in 6,500-word essay",
-   "link": "https://www.marketwatch.com/story/mark-zuckerberg-takes-on-the-ai-doomers-in-6-500-word-essay-fd581f3b?mod=mw_rss_topstories",
-   "published": "2026-08-10T10:42+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Is $1 million enough for a household to retire? The answer keeps changing.",
-   "link": "https://www.marketwatch.com/story/is-1-million-enough-for-a-household-to-retire-the-answer-keeps-changing-aee84a83?mod=mw_rss_topstories",
-   "published": "2026-08-10T10:30+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "This is the hottest ZIP Code where homes are selling fast",
-   "link": "https://www.marketwatch.com/story/this-is-the-hottest-zip-code-where-homes-are-selling-fast-2c642716?mod=mw_rss_topstories",
-   "published": "2026-08-10T10:01+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Strategy stock slides after $108M sale - thestreet.com",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaDN6bWE5ZDNuSmJzU1lod0J6dnhUQTcxTDVuVVcyWG5vTlVGVWxiNTdSVlVDRXpUWjRlMkgzdGlhaGpITlcteUxqT2dzM1BWWHlnRGN6SUJFM0I0cTFYdzM4dFZiZXVkbmhRMFl0UUNGc0FNQ2N2Y1c5Zm43YmtSejl0Nk0?oc=5",
+   "published": "2026-08-10T13:33+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Strive Bought 147 More Bitcoin Last Week, Raising Holdings to 20,167 BTC - bloomingbit",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kcDlkNER0SlpyMjFDaTNVMW40MVNIckxOTDVlQkV3WWwxbFhiTjBLek9oekV5dnBjd3h3SXBEeWxDbW1PN1BjSkhnTy0telBtemNxNQ?oc=5",
-   "published": "2026-08-10T11:42+00:00"
+   "title": "Keel Q2 2026 slides: AI pivot advances as Bitcoin exit drives losses - Investing.com",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORDRPbFhsNXFoWW9BdEVzXzU1WVN1anZfT1k5LV9MM2RzcjNZNVNHbEd1LXBITkdmXzlraEpBN3RIQkVWZ05yRXcwVGtmVjhKV1VKc1JqbEszcFdCYzhiR0luR2Z6SnZrMDBvQWN5cDhHV0RlcG5hbHI2cW9hMF9Bb25vYk1ocWZrSnFmNy1WWnVleWVPdnlPLWtzOHVsa21nR3lGSlpBeWRxUkZqeHI1Qk5yVU1KaVMyVDV6S05iMlAzQQ?oc=5",
+   "published": "2026-08-10T13:26+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "MARA Holdings Offloads $1.6B in Bitcoin During H1, Trims Treasury - Cryptonews.net",
-   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1uLWhZMXJVanlwSWFIckVfdC0zYTVGdDNRbFBtcWxqbGZlZkI1ZnlndXEzZkpmNVhYOHliTC13SllmT3ZkTFVmWXFGSlVqYm44OWFyeXc5OA?oc=5",
-   "published": "2026-08-10T11:32+00:00"
+   "title": "Michael Saylor says Bitcoin doesn\u2019t need CLARITY Act as Senate vote is delayed - AltcoinBuzz",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNHZnckdpUF9fRTZULVk1eXNiUWlfZld1cEVvRkQtLVl3aHJTWHR5cGgzNFVZTnJUdnVaNEc0NlNfUW1FaXRGa2hUY0U3ZmpjbGxTS0NWVmo5eFdkTXNRQmpWQzlzUS1TVzdNc2k1T0pTbTNTZG5oMGhMZVFoTEdydw?oc=5",
+   "published": "2026-08-10T13:26+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin's BIP-110 episode is free-market capitalism in purest form: Crypto Daily - CoinDesk",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOelEyUGNReXpqaHdTQ29HOFl1ZllGVWIxQTAzX2tJakdPcjdXWkxoNkRiTHE1dnplYThPZ0lRZTVpUHRObGtRcklwTE0xVUEzNS1SQ0RBb1BISnY4cjVxcldWOTQtRTR0M0hDdU8tTXRtc3dwbnozbE1rZWEwT3dFVENYVWNob2xKTXpUU3Z6LW5zQzFNQXhPOUkwRTNKOTNYZXoxYjBhMlNoRWtSdV9qY2NOQQ?oc=5",
-   "published": "2026-08-10T11:31+00:00"
+   "title": "Ethereum Institutional Demand Reaches 2.8 Times Daily Issuance, Outpacing Bitcoin - bloomingbit",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Ua1NzMzR4Y3Q4ZFZqRW53UnZWOW9wNjVJVl85V1A3a1BqNVZsNWpQLUc2T3BPOEZEcUl4SUE3X2htXzliWENzQ2t4WVh6aTZRVFNHcQ?oc=5",
+   "published": "2026-08-10T13:26+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "H100 acquires 2,455 Bitcoin, holdings rise to 3,506 - Cryptonews.net",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hZW1LQjZTUkxfZEVWQTdjWWZCblRkR2xHenVucmJuejBrR2tMcW1VUXVSNk0yRjFDUUE3U2RpbE5qTC03MDVhZXdaZ2h2cG1aQ1EzcUJvbWk?oc=5",
-   "published": "2026-08-10T11:31+00:00"
+   "title": "Strategy Continues To Sell Bitcoin And Common Stock - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZFQ2V1ExbjFIWUxvQmstSU9tTjg4MkkzTjlHZzNaT2VRekJHZ3NhYWtYc3dIdGRjZ2lmby1rdVNfaHpFR3cyZ0lFeERHdHVnZl9YUDRmN0E2UmpnOFJPdnA3ZGRLTTJQYklkNHUzcDlGbzJDWEhaTEpkTWlNVEhwZFBpT09FdVNkVXdzYWJxY2ZMRndaRHhncTZ6dGZJbGJ5dE5SM0h3?oc=5",
+   "published": "2026-08-10T13:24+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Current price of Bitcoin for August 10, 2026 - Fortune",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CR2FZTGFWS1BLbkIzWVlSMTdvVGZPU0k2Z0VoSlY4UEJTWVU1c1NBd21pUERBUG1KX2tlbkM1RGlhMnRYU0g4YloyVWxpWHlJUEE5TlJTTmM2cEhURWdDWEx1NDNVODQ?oc=5",
-   "published": "2026-08-10T11:30+00:00"
+   "title": "Bitcoin, Gold Price Outlook: US CPI & Overbought Risks in Focus - forex.com",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUGY3R1ZYNFJnNVpaZldmb1V4ZTFHdkk1TTdjcWZyQWh6aEs5ZUh6ZlZ4a0wtdjY3bTJxWldiWUQxWGpEN0xhTndpVlYwX1pmLVNMX0gycjluUVc2TnNYRFVpU2dHVnRBamRsZDRLUFdzajNZb3Fxa2tOQzYxYmE4SmQ4NjVsZ3ZINFhHd2ppbUNRYzRPMEVJQ2V5ZnVrZ2pfa1FhQkFxRjl0M1VOclRJ?oc=5",
+   "published": "2026-08-10T13:24+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Breaking: Bitcoin Miner Marathon Digital Sells $1.6 Billion In BTC - CoinGape",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNllwdGxHdG5XUll2eEl4UUJMUEhXSHhHSHItZlRRdXFjdHZNRW9wSjBNUFloV3FqblRQeUJYUlJzdXJfOWdqUmdtS0R6b3NQYkJDaVg1T0VNS184c1ZSNnpYSHRxNGVtTlFQdHNMdEtKNld0MzA5SmpObFRDX2VUblFvVQ?oc=5",
-   "published": "2026-08-10T11:17+00:00"
+   "title": "MARA sold $1.6 billion of bitcoin to cut debt and fund infrastructure growth - Blockspace Media",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BRjhNZzJUSWdwSTNMMkc3eTl5WTJyVU9yTmc4V1o3YmxMY2dPWUtYMUpzNUFabFhqOElrdGNsUGR3NGV4bGhGZE1EZXNTc2dWWDBydHl0NnB1aERraVJkOFZQUWZuTWw2dFMtMGRCN2o3SmJOV0N4ZVIzTHg?oc=5",
+   "published": "2026-08-10T13:23+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin steadies above $65,000 as Iran-Oman tal... - Pluang",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZEZRbWI4bUo4cVRXMld4TU1uaDJRQW82TTF3c3lkbnU1aG5HczU5bVJ1N3N0bzRIbjZqU252ckQzLTFCdWtYbzhKaGotSk9HYlhacmFYRmYyVmhObG5GQzhHU1hIMUJPSlIyNlM4NURCcFhDV2dvMjFLY1pPenV3bm5uMXRpbHp2bXdvWG9mQ0I4U1VE?oc=5",
-   "published": "2026-08-10T11:12+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin active addresses crash to lowest level since 2018 - finbold.com",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdE93alBKU3AzUklkMldKRDZSOENEbG4yZGY2RC0wQzVBM3VFWjFqaWxUc0lWdUZXVVYzRzNKSXFBWXJpYnc3YlYxUUpmakRKaUswWTRGLXBGbzd2UXB6OFZCaFV0MTAwa01idVg0VlpBc1RVUTRuWWtHalhUaXFnNVNPUTA?oc=5",
-   "published": "2026-08-10T11:12+00:00"
+   "title": "Hedge Funds Start To Bet On A Bitcoin Rally - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTnlWa0VoX29rNDF5MUdJdnVpZnF2WGpqXzh4bkF6ZFNGWkJvT2Zwb1d6X0V1VjdIUUhnN0xmckFKdWNSeWNXdy1GZ3d2Y3BGdmpKeUdtdEJFeW4tZ3Bqc0l2NFlMU0l3UjdScF83UWd0bWR1bDNRcVV1M3VrYl8wVDdqQU0tZ0l6Ylh2Mmt0c2VvYVpTLWEyLTJ3?oc=5",
+   "published": "2026-08-10T13:17+00:00"
   }
  ]
 }
