@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF Morning Brief — Monday, August 10, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>BOF Morning Brief</h1>
+  <div class="date">Monday, August 10, 2026 · Bitcoin Opportunity Fund · figures as of ~8:00am ET · CME reopens for the week</div>
+</header>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">$65,055</div>
+      <div class="chg up">▲ +0.21% 24h · +2.1% 7d</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">$1,918</div>
+      <div class="chg neutral">■ +0.01% 24h</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">30 · Fear</div>
+      <div class="chg down">Down 1pt from 31 yesterday — sentiment still stuck in Fear even as spot grinds to a two-week high</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">+5.31% (10d) / +5.03% (17d)</div>
+      <div class="chg neutral">Contango has rebuilt steadily since the Aug 7 contract roll (which briefly compressed it to ~1%) back to pre-roll levels — cost of carry on futures-held exposure is climbing again</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">Flows unavailable (Mon)</div>
+      <div class="chg neutral">No new print since Friday 8/7's +$101.7M (IBIT +$86.7M, FBTC +$41M) — already reported; next print lands after today's close</div>
+    </div>
+    <div class="tile">
+      <div class="label">US 10-Yr</div>
+      <div class="value">4.65% (flat)</div>
+      <div class="chg neutral">Steady into the week open as futures markets await Wednesday's CPI print</div>
+    </div>
+  </div>
+  <div class="note">Monday gap check: spot chopped in a tight $64.9-65.3K band all weekend (Fri 8/7 8am: $65,174 → Sat: $64,973 → Sun: $64,941 → this morning: $65,055) — no gap to reconcile at today's CME open, futures-exposed books should mark-to-market cleanly. Macro as of ~8am ET: S&amp;P and Nasdaq futures +0.13%/+0.18-0.25% on Hormuz de-escalation hopes; DXY -0.39% to 99.539, losing the 100 handle; gold +2.11% to ~$4,342/oz, still ~21% off its January record. Network: hashrate 908.9 EH/s (up from Sunday's 899.2 as miners fully abandon the dead BIP-110 signal), difficulty holding at a record ~127.48T.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Derivatives Positioning</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/08/10/a-rare-cme-shift-hedge-funds-abandon-structural-shorts-to-bet-on-a-bitcoin-rally">A rare CME shift: Hedge funds abandon structural shorts to bet on a bitcoin rally</a>
+    <div class="why">Why it matters to BOF: for years, leveraged funds' CME shorts were mechanical — the other leg of a cash-and-carry trade against spot ETF longs, not a price view. CoinDesk reports that's breaking down: with the futures basis compressed below Treasury yields for stretches this cycle, funds are unwinding the basis trade and going net long instead, a rare directional bet from a cohort that's stayed structurally short for years. Read alongside this morning's basis print (re-widened to +5.31% annualized from ~1% right after the Aug 7 roll), the CME complex looks like it's re-pricing carry richer just as the "hedge" leg of the trade disappears — worth watching whether that's durable demand or a crowded trade that unwinds fast if spot stalls.</div>
+    <div class="when">Broke: this morning, published 9:09am ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Miners &amp; Treasury Companies</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://coingape.com/bitcoin-miner-marathon-digital-sells-1-6-billion-in-btc/">Breaking: Bitcoin Miner Marathon Digital Sells $1.6 Billion In BTC</a>
+    <div class="why">Why it matters to BOF: MARA's Aug 6 10-Q, now making the rounds this morning, shows the miner sold roughly 23,093 BTC (~$1.63B) at an average $70,631 during H1 2026 — well above today's spot — to fund operations, retire debt, and back its AI/HPC pivot, cutting its treasury to 35,577 BTC. MARA has since pledged 18,750 BTC as collateral for $600M in fresh borrowing from Coinbase and Two Prime. This is the clearest evidence yet that the largest public miners are actively drawing down BTC treasuries — not accumulating — to fund the HPC pivot; BOF should treat "miner holdings" as a net supply source into strength this year, and the Coinbase/Two Prime collateral pledge is a lien on MARA's BTC that matters if the AI pivot underperforms.</div>
+    <div class="when">Broke: this morning, aggregated 11:17am ET from MARA's Aug 6 SEC filing</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro / Geopolitical</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/08/10/bitcoin-steadies-above-usd65-000-as-iran-oman-deal-talk-eases-hormuz-concerns-lifts-risk-assets">Bitcoin steadies above $65,000 as Iran-Oman deal talk eases Hormuz concerns, lifts risk assets</a>
+    <div class="why">Why it matters to BOF: this is the live test case for BOF's standing thesis — BTC trades risk-off with Nasdaq on geopolitical shocks, not as a safe haven. Today it's running that regime in reverse: reports that Iran and Oman are closing in on a Strait of Hormuz coordination deal are lifting equity futures (S&amp;P +0.13%, Nasdaq +0.18-0.25%) and BTC together, with bitcoin holding above $65K. The read-through cuts both ways — CNBC separately reports Trump is signaling a shift toward economic pressure as Iran hardens its stance, so the de-escalation isn't confirmed and Brent is still elevated (~$84/bbl) on lingering doubt. Watch whether BTC keeps tracking risk sentiment (bullish if the deal firms) or reverts to chop if headlines sour before Wednesday's CPI print.</div>
+    <div class="when">Broke: this morning, published 10:45am ET</div>
+  </div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://cointelegraph.com/news/sweden-h100-bitcoin-treasury-btc-deal?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound">H100 becomes Europe's No. 2 Bitcoin treasury after 2,455 BTC deal</a>
+    <div class="why">Why it matters to BOF: the Swedish treasury company's acquisition lifts its holdings to 3,506 BTC, vaulting it to Europe's #2 corporate bitcoin holder in a single deal. It's a useful counterweight to the MARA sale above — European treasury-company demand is still accumulating even as a major US miner draws down — but H100 is a small-cap name, and mNAV-premium treasury vehicles remain a levered, sentiment-sensitive way to hold this exposure relative to spot or the ETF wrapper.</div>
+    <div class="when">Broke: this morning, published 10:14am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kcDlkNER0SlpyMjFDaTNVMW40MVNIckxOTDVlQkV3WWwxbFhiTjBLek9oekV5dnBjd3h3SXBEeWxDbW1PN1BjSkhnTy0telBtemNxNQ?oc=5">Strive Bought 147 More Bitcoin Last Week, Raising Holdings to 20,167 BTC</a>
+    <div class="why">Why it matters to BOF: a small, steady add rather than a headline-grabbing raise — Strive keeps dollar-cost-averaging into its treasury weekly regardless of price action. Directionally it's the same signal as H100: newer treasury-company entrants are still net buyers even in the week MARA disclosed a major drawdown, reinforcing that "bitcoin treasury company" is not a monolithic cohort — financing structure and mandate matter more than the label.</div>
+    <div class="when">Broke: this morning, published 11:42am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Derivatives &amp; Vol</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/08/10/bitcoin-volatility-is-in-meltdown-but-downside-protection-still-commands-a-premium">Bitcoin volatility is in meltdown, but downside protection still commands a premium</a>
+    <div class="why">Why it matters to BOF: realized and implied vol have both compressed hard with spot pinned in a tight range for weeks, but CoinDesk reports put skew hasn't followed — downside puts still trade rich to calls. That's a market pricing complacency on realized moves while still paying up for tail protection, consistent with Fear &amp; Greed stuck at 30 even as price holds near two-week highs. For BOF, cheap vol is a tactical entry point for hedges if the options desk agrees the skew is mispriced relative to the compressed realized print.</div>
+    <div class="when">Broke: this morning, published 10:13am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Custody &amp; Security</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://decrypt.co/375180/bybit-sues-north-korea-over-1-5b-hack-wins-order-freezing-assets">Bybit Sues North Korea Over $1.5B Hack, Wins Order Freezing Assets</a>
+    <div class="why">Why it matters to BOF: the first concrete legal follow-through on the record $1.5B Bybit/Lazarus Group hack from earlier this year — a court order freezing assets tied to the theft is a rare enforcement win against a state-sponsored actor and a small precedent for recovery mechanics after exchange-level breaches. It doesn't change BOF's custody posture (self-custody/qualified-custodian risk is separate from exchange hot-wallet risk), but it's a data point for LPs asking whether recourse exists after a nine-figure exchange hack.</div>
+    <div class="when">Broke: this morning, published 9:04am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem &amp; Exchange Risk</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/08/10/crypto-exchange-coinsbuy-loses-usd8-million-in-coordinated-two-blockchain-attack">Crypto exchange Coinsbuy loses $8 million in coordinated two-blockchain attack</a>
+    <div class="why">Why it matters to BOF: a mid-size exchange, not a name BOF or major counterparties touch directly, but the "coordinated two-blockchain attack" vector is a smaller-scale echo of the infrastructure-exploit wave from last week (Coldcard, BTCPay, named Lightning-node drains). Worth a line to the ops team as one more data point that exchange and cross-chain infrastructure security remains soft this month — reinforces the case for regulated custody over hot-wallet exchange balances.</div>
+    <div class="when">Broke: this morning, published 11:39am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro Liquidity</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://cointelegraph.com/markets/markets-drop-september-rate-hike-bet-into-cpi-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound">Markets flip for Fed rate-hike pause into CPI: Five things to know in Bitcoin this week</a>
+    <div class="why">Why it matters to BOF: Cointelegraph's weekly setup flags Wednesday's CPI print as the dominant catalyst — rate-path repricing is the transmission channel that matters most for BTC right now. The regime BOF should keep testing: 2026 evidence shows BTC-DXY correlation is currently positive (BTC trading with the dollar, not against it) and BTC moves risk-off with Nasdaq on shocks rather than acting as a hedge — a hot CPI that firms the dollar and rattles equities would likely hit BTC too, not decouple it. Flag immediately if that correlation flips around the print.</div>
+    <div class="when">Broke: this morning, published 11:13am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Network Health</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMihAFBVV95cUxNdE93alBKU3AzUklkMldKRDZSOENEbG4yZGY2RC0wQzVBM3VFWjFqaWxUc0lWdUZXVVYzRzNKSXFBWXJpYnc3YlYxUUpmakRKaUswWTRGLXBGbzd2UXB6OFZCaFV0MTAwa01idVg0VlpBc1RVUTRuWWtHalhUaXFnNVNPUTA?oc=5">Bitcoin active addresses crash to lowest level since 2018</a>
+    <div class="why">Why it matters to BOF: reported by finbold this morning; take the "since 2018" framing as directional rather than gospel until BOF's own on-chain desk verifies the metric and methodology. If accurate, it's a genuine divergence — on-chain activity thinning out even as spot holds near two-week highs and treasury companies keep accumulating — consistent with the "flows concentrating in ETF/treasury wrappers, not organic on-chain usage" story BOF has been tracking. Worth a same-day sanity check against Glassnode/CryptoQuant before citing externally.</div>
+    <div class="when">Broke: this morning, published 11:12am ET</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Line chart of Deribit front-month annualized futures basis in percent from August 1 to August 10 2026: 5.68, 4.35, 5.08, 5.57, 9.74, 15.91, 1.05, 2.07, 4.2, 5.31">
+      <line x1="30" y1="210" x2="380" y2="210" stroke="currentColor" stroke-opacity=".3"/>
+      <line x1="30" y1="20" x2="30" y2="210" stroke="currentColor" stroke-opacity=".3"/>
+
+      <text x="24" y="24" text-anchor="end" font-size="9" fill="currentColor" opacity=".6">16%</text>
+      <text x="24" y="100" text-anchor="end" font-size="9" fill="currentColor" opacity=".6">8%</text>
+      <text x="24" y="207" text-anchor="end" font-size="9" fill="currentColor" opacity=".6">0%</text>
+      <line x1="30" y1="20" x2="380" y2="20" stroke="currentColor" stroke-opacity=".1"/>
+      <line x1="30" y1="100" x2="380" y2="100" stroke="currentColor" stroke-opacity=".1"/>
+
+      <polyline fill="none" stroke="#0b3d91" stroke-width="2.5"
+        points="30,142 65,163 100,150 135,144 170,72 205,20 240,199 275,187 310,155 345,142" />
+
+      <circle cx="30" cy="142" r="3" fill="#0b3d91"/>
+      <circle cx="65" cy="163" r="3" fill="#0b3d91"/>
+      <circle cx="100" cy="150" r="3" fill="#0b3d91"/>
+      <circle cx="135" cy="144" r="3" fill="#0b3d91"/>
+      <circle cx="170" cy="72" r="3" fill="#0b3d91"/>
+      <circle cx="205" cy="20" r="4" fill="#c8102e"/>
+      <circle cx="240" cy="199" r="4" fill="#0a7d2c"/>
+      <circle cx="275" cy="187" r="3" fill="#0b3d91"/>
+      <circle cx="310" cy="155" r="3" fill="#0b3d91"/>
+      <circle cx="345" cy="142" r="4" fill="#0b3d91"/>
+
+      <text x="205" y="14" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">15.9% pre-roll spike</text>
+      <text x="240" y="215" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">1.1% post-roll (Aug 7)</text>
+      <text x="345" y="132" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor">5.31%</text>
+
+      <text x="30" y="228" text-anchor="middle" font-size="8" fill="currentColor" opacity=".55">8/1</text>
+      <text x="205" y="228" text-anchor="middle" font-size="8" fill="currentColor" opacity=".55">8/6</text>
+      <text x="345" y="228" text-anchor="middle" font-size="8" fill="currentColor" opacity=".55">8/10</text>
+
+      <text x="205" y="248" text-anchor="middle" font-size="10" fill="currentColor" opacity=".55">Deribit front-month annualized futures basis, Aug 1-10 (source: Deribit)</text>
+    </svg>
+    <div class="chart-cap">Basis spiked to nearly 16% annualized right before the Aug 7 contract roll, then reset to just ~1% the moment the new front-month began trading — and has climbed steadily back to 5.31% over the following three sessions. That rebuild is happening in the same window CoinDesk reports hedge funds are abandoning structural CME shorts (see Must-Read above): less short pressure on futures plus steady buying is repricing carry richer, fast. For BOF's futures-held exposure, that's a real and rising cost — worth checking whether the fund's carry assumptions still hold at +5% annualized versus the ~2-4% range priced in for most of the last two weeks.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Monday, August 10, 2026, ~8:00am ET · morningtext for Bitcoin Opportunity Fund (dry-run) · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
