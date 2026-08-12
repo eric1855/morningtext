@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Wednesday, August 12, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Wednesday, August 12, 2026 · figures as of ~8:00am ET · July CPI prints 8:30am ET</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">$64,178</div>
+      <div class="chg down">▼ -0.21% 24h — still boxed in the $62-66K range, 5th week running</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">$1,913.01</div>
+      <div class="chg up">▲ +1.12% 24h</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">27 · Fear</div>
+      <div class="chg down">Down 2pts from 29 yesterday — sentiment deepens into Fear ahead of CPI</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">$4,415 / $66.42</div>
+      <div class="chg up">▲ Gold ~+0.8%, Silver ~+1-3% (sources vary) — both pushing toward recent highs ahead of CPI</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">~$89.3-90.1 Tue</div>
+      <div class="chg neutral">Roughly flat vs Monday's $90.49 close — precise Tue close unconfirmed as of this writing</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">+4.71% (8d) / +4.67% (15d)</div>
+      <div class="chg neutral">Ticking back up from Tuesday's compressed +3.74%/+4.12% — cost of carry on futures-held BTC exposure creeping higher again, still well below early-August's 5%+ prints</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">-$144.7M (Mon)</div>
+      <div class="chg down">IBIT -$53.6M, GBTC -$52.0M — breaks the prior 5-day, $853.5M inflow streak; only Grayscale's Mini Trust added money (+$37.1M)</div>
+    </div>
+    <div class="tile">
+      <div class="label">US 10-Yr / DXY</div>
+      <div class="value">4.68% / 99.84</div>
+      <div class="chg neutral">10Y -2bp, DXY flat (+0.01%) — both parked ahead of the 8:30am ET CPI print, the day's single biggest catalyst</div>
+    </div>
+  </div>
+  <div class="note">Macro as of pre-market: S&amp;P futures +0.11%, Nasdaq futures +0.25%. Brent crude remains elevated (~$89/bbl area) after Trump's 50-year Iran reparations demand killed overnight Hormuz de-escalation hopes, though a GoogleNews wire this morning flags fresh "hopes for de-escalation" chatter — watch for a reversal either way. Network: hashrate 891.5 EH/s, difficulty holding at 127.48T since the Aug 8 +0.99% adjustment; hashprice ~$31.73/PH/s/day, at or below breakeven for higher-cost miners — directly underneath this morning's headline on miner fee-revenue share hitting a 10-year low (see below).</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/08/12/here-s-what-bitcoin-and-ether-traders-are-doing-ahead-of-the-binary-u-s-cpi-print">July CPI prints at 8:30am ET — the binary catalyst traders are positioning for right now</a>
+    <div class="why">Why it matters: this is the single biggest data point of the day for both books. Consensus is 3.4% YoY / 0.2% MoM headline, core 2.5% YoY, down from June's 3.5%. Transmission is direct: a cooler-than-expected print raises the odds of Fed cuts, pulls real rates down, and is a tailwind for both bitcoin and gold simultaneously — the shared debasement trade both funds are built on. A hot print does the opposite: it pushes back rate-cut odds, firms the dollar, and pressures both assets together. Bitcoin has been trading risk-off alongside the Nasdaq into this print rather than decoupling as an inflation hedge — worth watching whether a cool number breaks that correlation regime or just extends it.</div>
+    <div class="when">Prints: 8:30am ET today — imminent as of this writing</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/08/12/one-overlooked-group-has-added-usd1-78-billion-of-selling-pressure-to-bitcoin-market">One overlooked group has added $1.78B of selling pressure to the bitcoin market</a>
+    <div class="why">Why it matters to BOF: CoinDesk's analysis pins the overlooked seller cohort on publicly listed miners, whose combined treasury balance has fallen from 127,000 BTC at the start of the year to just 99,000 BTC — 28,000 BTC (~$1.78B) liquidated. Layer that on top of $4.4B in cumulative spot-ETF outflows this cycle and continued selling from long-dormant wallets and treasury companies (Strategy among them), and the supply overhang looks broader-based than a single headline suggests. For BOF specifically, miners liquidating treasury to fund operations is exactly the kind of balance-sheet stress that widens the distressed-debt opportunity set the fund underwrites — worth cross-referencing which named miners are selling against BOF's current credit book.</div>
+    <div class="when">Broke: overnight, published ~4:53am ET today</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin &amp; Gold Rotation</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://cointelegraph.com/markets/bitcoin-drops-to-one-week-low-as-retail-buys-gold-at-highest-prices-since-june?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound">Bitcoin drops to one-week low as retail buys gold at highest prices since June</a>
+    <div class="why">Why it matters to both desks: this is a live, real-time test of the sound-money thesis's internal pecking order. Retail flow data cited in the piece shows buyers chasing gold near its highs even as they step back from bitcoin — exactly the rotation both funds' shared debasement thesis predicts can happen asset-by-asset rather than uniformly. For EMA, it's a bullish read on near-term gold (and by extension miner-equity) demand; for BOF, it's a reminder that "digital gold" positioning doesn't guarantee bitcoin captures debasement flows first, or at all, in any given week.</div>
+    <div class="when">Broke: yesterday, 12:24pm ET</div>
+  </div>
+</section>
+
+<section>
+  <h2>Gold &amp; Silver</h2>
+  <div class="section-sub">EMA's book — mining equities first, metal-price drivers second</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Producer Earnings</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.businessday.co.za/companies/2026-08-12-strong-gold-price-gives-gold-fields-a-bumper-first-half/">Strong gold price gives Gold Fields a bumper first half</a>
+    <div class="why">Why it matters to EMA: Gold Fields' H1 trading statement flags headline earnings per share up 72-90% year-on-year (to $1.98-$2.18), free cash flow up 91-111% (to $2.39-2.64B), on 12% higher attributable production and a stronger realized gold price — even after absorbing a 13% rise in all-in sustaining costs. This is the operating-leverage story EMA's senior-producer book is built on: with costs largely fixed, incremental gold-price gains flow almost straight to the bottom line. Full results land Aug 25; this trading statement is the interim signal, and management reaffirmed full-year production guidance.</div>
+    <div class="when">Broke: this morning, ~4:05am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining M&amp;A</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.mining.com/fortuna-mining-buys-barrick-iamgold-senegal-project-for-200m">Fortuna Mining buys Barrick, IAMGOLD Senegal project for $200M</a>
+    <div class="why">Why it matters to EMA: Fortuna is acquiring the Bambadji gold project from Barrick and IAMGOLD for $200M, consolidating it against its own adjacent Diamba Sud project to control roughly 60km of prospective ground in Senegal — $8M is earmarked for exploration through year-end with drilling starting Q3. It's a mid-tier producer paying up for district-scale optionality next to an existing asset, the kind of deal EMA watches both for direct M&A read-through and for what it implies about takeout premiums for juniors holding adjacent land.</div>
+    <div class="when">Broke: yesterday, Aug 11</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Junior Financing</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://investingnews.com/alaska-silver-announces-c-7-6-million-pipe-financing-to-expand-2026-drill-program-to-9000-metres/">Alaska Silver announces C$7.6M financing to expand 2026 drill program to 9,000 metres</a>
+    <div class="why">Why it matters to EMA: a textbook junior "drill story" financing — up to C$7.6M raised via a PIPE at C$0.55/unit, expected to close Aug 14, funding an expanded drill campaign at the Illinois Creek project. This is exactly the sub-scale, ETF-skipped exposure EMA's book targets that GDX/GDXJ can't access at this size; worth checking the unit warrant terms and whether the deal priced at a discount that signals financing-market softness for juniors more broadly.</div>
+    <div class="when">Broke: yesterday, Aug 11</div>
+  </div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://cointelegraph.com/news/strategy-ceo-resume-bitcoin-accumulation-this-year?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound">Strategy CEO says company will resume Bitcoin accumulation this year</a>
+    <div class="why">Why it matters to BOF: comes right after weeks of Strategy selling BTC (1,690 coins Aug 3-9 alone) to fund STRC preferred buybacks — a pattern that had been undercutting the "MSTR as pure accumulation proxy" narrative. A CEO pledge to resume net buying would flip that overhang if it materializes in the filings; treat as guidance to verify against actual 8-K disclosures rather than a confirmed shift yet.</div>
+    <div class="when">Broke: yesterday, 2:03pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.altcoinbuzz.io/blackrock-bitcoin-etf-ibit-1-million-in-kind-swap">BlackRock cuts IBIT in-kind conversion minimum 96%, from $25M to $1M</a>
+    <div class="why">Why it matters to BOF: lowering the institutional creation/redemption threshold this sharply widens the authorized-participant base for the largest bitcoin ETF, improving arbitrage mechanics, spreads, and operational flexibility. BlackRock's digital-assets head signaled the firm intends to keep cutting the minimum toward zero over time — a structural moat-widening move for IBIT just as smaller issuers struggle (see next item).</div>
+    <div class="when">Broke: interview Aug 10, reported this morning ~7:16am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.fool.com/investing/2026/08/12/the-first-spot-bitcoin-etf-is-closing-down-heres-w/">The first spot bitcoin ETF is closing down</a>
+    <div class="why">Why it matters to BOF: Hashdex is liquidating its Bitcoin ETF (NYSE Arca: DEFI) — the first US-listed spot bitcoin ETF to shut down since approval in early 2024 — after its sponsor determined the $14.7M fund was no longer viable at that scale. Trading stops Aug 17, with cash distributions following liquidation. Read alongside the IBIT item above: 2.5 years in, distribution and scale are the moat in this product category, and sub-scale issuers are starting to fold rather than fight for share.</div>
+    <div class="when">Broke: this morning, ~7:10am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Regulation &amp; Policy</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://bitcoinmagazine.com/news/regulators-push-pro-crypto-clarity-act">Regulators to push pro-crypto initiatives following CLARITY Act delay</a>
+    <div class="why">Why it matters to BOF: standing-watch item with real movement — following the Senate's punt of the CLARITY Act to the fall session, regulators (SEC/CFTC) appear to be shifting toward agency-level pro-crypto action to fill the gap, echoing this week's SEC "Reg Crypto" meeting news. Reinforces the read that near-term US regulatory clarity is coming from executive-branch rulemaking rather than statute — a weaker, more reversible form of clarity that BOF's policy assumptions should discount accordingly.</div>
+    <div class="when">Broke: yesterday, 5:36pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://bitcoinmagazine.com/news/bitcoin-treasury-twenty-one-writes-letter">Twenty One to become "more than a bitcoin treasury," says new CEO</a>
+    <div class="why">Why it matters to BOF: another public bitcoin-treasury vehicle signaling it wants to diversify its business model beyond pure BTC accumulation — the same drift pattern showing up in miners' HPC/AI pivots. For BOF's treasury-company book, this matters directly for how durable mNAV premiums are: the market has historically paid up for treasury companies as clean BTC-per-share proxies, and strategic diversification complicates that valuation model even if it's individually rational for the company.</div>
+    <div class="when">Broke: yesterday, 2:20pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Miners &amp; Infrastructure</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://cointelegraph.com/markets/bitcoin-miners-earn-under-07-of-revenue-from-fees-in-new-10-year-low?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound">Bitcoin miners earn under 0.7% of revenue from fees in new 10-year low</a>
+    <div class="why">Why it matters to BOF: fee revenue has collapsed to its smallest share of miner income in a decade, meaning the public-miner cohort is now almost entirely dependent on the block subsidy and spot BTC price for revenue, with essentially no fee-market buffer. Combined with hashprice sitting at or below breakeven for higher-cost operators (see scoreboard), this deepens the thin-margin backdrop that underpins BOF's distressed-miner-debt thesis — less revenue diversification means less cushion before the next hashprice drawdown forces restructuring.</div>
+    <div class="when">Broke: this morning, ~6:06am ET</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing 2026 year-to-date percent returns: Gold down approximately 7%, VanEck Gold Miners ETF GDX up approximately 0.6%, S&amp;P 500 up approximately 13.7%">
+      <line x1="40" y1="150" x2="380" y2="150" stroke="currentColor" stroke-opacity=".4"/>
+
+      <text x="34" y="45" text-anchor="end" font-size="9" fill="currentColor" opacity=".6">+15%</text>
+      <text x="34" y="150" text-anchor="end" font-size="9" fill="currentColor" opacity=".6">0%</text>
+      <text x="34" y="228" text-anchor="end" font-size="9" fill="currentColor" opacity=".6">-8%</text>
+      <line x1="40" y1="45" x2="380" y2="45" stroke="currentColor" stroke-opacity=".1"/>
+      <line x1="40" y1="228" x2="380" y2="228" stroke="currentColor" stroke-opacity=".1"/>
+
+      <rect x="90" y="150" width="60" height="73" fill="#c8102e" opacity=".85"/>
+      <text x="120" y="238" text-anchor="middle" font-size="10" fill="currentColor" opacity=".8">Gold</text>
+      <text x="120" y="142" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor">-7%</text>
+
+      <rect x="200" y="143" width="60" height="7" fill="#b8860b" opacity=".9"/>
+      <text x="230" y="238" text-anchor="middle" font-size="10" fill="currentColor" opacity=".8">GDX</text>
+      <text x="230" y="135" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor">+0.6%</text>
+
+      <rect x="310" y="46" width="60" height="104" fill="#0a7d2c" opacity=".85"/>
+      <text x="340" y="238" text-anchor="middle" font-size="10" fill="currentColor" opacity=".8">S&amp;P 500</text>
+      <text x="340" y="40" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor">+13.7%</text>
+
+      <text x="205" y="252" text-anchor="middle" font-size="9" fill="currentColor" opacity=".55">2026 YTD total return, through early August (source: WebSearch, multiple financial data providers)</text>
+    </svg>
+    <div class="chart-cap">Gold's 2026 has been a round trip, not a straight line: +28.9% to a record above $5,500/oz by January, then a -27% correction to below $4,000 by late June, leaving bullion down roughly 7% YTD even after this week's push back toward $4,400+. GDX has essentially shrugged the whole move off, sitting close to flat YTD (+0.64%) — operating leverage cuts both ways, and miners gave back much of their early-year gains on the way down even as they're now getting a fresh lift from H1 earnings like Gold Fields' (see above). The S&amp;P 500's +13.7% YTD is the benchmark EMA measures both against: on a risk-adjusted basis, neither gold nor its miners have been the trade this year — yet.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Wednesday, August 12, 2026, ~8:00am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates (dry-run) · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
