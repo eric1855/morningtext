@@ -95,7 +95,7 @@ def basis():
 out["futures_basis"] = attempt("deribit_basis", basis)
 
 def dgs10():
-    r = requests.get("https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10", headers=UA, timeout=15)
+    r = requests.get("https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10", headers=UA, timeout=30)
     r.raise_for_status()
     last = [l for l in r.text.strip().splitlines() if not l.endswith(".")][-1]
     date, val = last.split(",")
@@ -130,7 +130,6 @@ FEEDS = {
     "MarketWatch": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
     "GoogleNews-BTC": "https://news.google.com/rss/search?q=bitcoin+OR+%22crypto+regulation%22&hl=en-US&gl=US&ceid=US:en",
     "GoogleNews-Metals": "https://news.google.com/rss/search?q=%22gold+price%22+OR+%22silver+price%22+OR+%22precious+metals%22+OR+%22gold+miners%22&hl=en-US&gl=US&ceid=US:en",
-    "Kitco": "https://www.kitco.com/rss/category/commentaries.xml",
 }
 # strict freshness: only news since the last brief (yesterday 8:00am ET)
 from zoneinfo import ZoneInfo  # noqa: E402
