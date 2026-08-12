@@ -62,6 +62,16 @@ def network():
 
 out["network"] = attempt("mempool", network)
 
+def metals():
+    """Gold/silver spot via gold-api.com (keyless); routine backfills via web search if this dies."""
+    o = {}
+    for sym, name in (("XAU", "gold"), ("XAG", "silver")):
+        d = get_json(f"https://api.gold-api.com/price/{sym}")
+        o[name] = {"usd": round(float(d["price"]), 2)}
+    return o
+
+out["metals"] = attempt("gold_api", metals)
+
 def basis():
     """Annualized basis proxy from nearest Deribit dated BTC futures vs spot."""
     if not out.get("spot"):
@@ -119,6 +129,8 @@ FEEDS = {
     "CNBC-Econ": "https://www.cnbc.com/id/20910258/device/rss/rss.html",
     "MarketWatch": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
     "GoogleNews-BTC": "https://news.google.com/rss/search?q=bitcoin+OR+%22crypto+regulation%22&hl=en-US&gl=US&ceid=US:en",
+    "GoogleNews-Metals": "https://news.google.com/rss/search?q=%22gold+price%22+OR+%22silver+price%22+OR+%22precious+metals%22+OR+%22gold+miners%22&hl=en-US&gl=US&ceid=US:en",
+    "Kitco": "https://www.kitco.com/rss/category/commentaries.xml",
 }
 # strict freshness: only news since the last brief (yesterday 8:00am ET)
 from zoneinfo import ZoneInfo  # noqa: E402
