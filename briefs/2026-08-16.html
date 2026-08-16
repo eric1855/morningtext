@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Sunday, August 16, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Sunday, August 16, 2026 · figures as of ~8:30am ET</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">$62,930</div>
+      <div class="chg neutral">▬ -0.07% 24h — pinned near $62.9K in a genuinely quiet weekend session, little follow-through either way</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">$1,878.87</div>
+      <div class="chg neutral">▲ +0.05% 24h — flat, tracking BTC's weekend chop</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">34 · Fear</div>
+      <div class="chg neutral">Unchanged from yesterday's 34 — sentiment has stalled rather than improved after Friday's bounce</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">$4,377.60 / $64.83</div>
+      <div class="chg up">Friday's session: Gold +0.7%, Silver +0.5%; weekend spot drift essentially flat with no COMEX session to reset against</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$89.87 Fri close</div>
+      <div class="chg up">▲ +1.8% Friday vs Thursday's $88.30 — miners again outran bullion's 0.7% move on the operating-leverage bid</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">+3.14% (11d) / +3.57% (18d)</div>
+      <div class="chg neutral">Modest contango, softer than midweek's ~4.5% prints — cost of carry on futures-held BTC exposure has cheapened further into the weekend</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">-$56.2M (Fri)</div>
+      <div class="chg down">Third straight net-outflow day (already flagged in yesterday's brief); IBIT -$55.5M, FBTC -$6.8M, BITB +$6.1M the lone offset</div>
+    </div>
+    <div class="tile">
+      <div class="label">US 10-Yr / DXY</div>
+      <div class="value">~4.70% / ~99.8</div>
+      <div class="chg neutral">10Y sitting just off the week's 4.75% (19-month) high; DXY near a one-week low after soft July retail sales</div>
+    </div>
+  </div>
+  <div class="note">Weekend note: CME bitcoin futures and US equity markets are closed Saturday and Sunday — figures above reflect Friday's settlement where noted; spot crypto and metals prices are live and continuous. Equity futures reopen Sunday 6pm ET, after this brief's cutoff, so no fresh S&amp;P/Nasdaq/DXY print exists yet for Monday's open. Network: hashrate climbed to 906.9 EH/s (up from 876.2 EH/s a week ago), difficulty holding at a record 127.48T — see the Russia mining-ban headline and hashrate chart below for context on BOF's miner-debt book.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/08/15/swiss-mega-bank-ubs-ramps-up-its-bitcoin-exposure-with-a-massive-24-fold-surge-in-etf-call-options">Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options</a>
+    <div class="why">Why it matters to both desks: UBS's Q2 13F shows call-option exposure tied to BlackRock's IBIT jumping to 1.95M underlying shares from just 80,000 three months earlier — a 24x increase — while its IBIT puts fell 53%. UBS also grew its direct IBIT stake to 407,890 shares ($13.6M). The filing doesn't disclose whether this reflects UBS's new private-banking bitcoin access for Swiss clients, dealer hedging, or proprietary positioning, but any of those explanations is bullish for the institutional-adoption thesis BOF is underwriting: a systemically important global bank building meaningfully larger optionality on bitcoin ETF upside.</div>
+    <div class="when">Broke: yesterday afternoon, ~11:56am ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Miners &amp; Infrastructure</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city">Why the world's second-largest Bitcoin mining power is shutting down rigs in its capital city</a>
+    <div class="why">Why it matters to BOF: Russia's Energy Ministry has barred crypto mining in Moscow, the wider Moscow Region, and parts of Kursk through December 31, 2032, citing power-capacity risk as data-center demand competing for the same grid could reach 3.6 GW (17% of peak regional demand) by 2032. Russia as a whole supplied an estimated 175 EH/s (16.4% of global hashrate) in Q1 — the world's #2 mining power behind the US — though Moscow's own contribution is a small slice of that national total, and network hashrate has kept climbing through the week regardless (see chart below). The read for BOF's distressed-miner-debt book: this is a multi-year regulatory overhang on Russian mining capacity, a jurisdiction-risk data point worth pricing into any exposure to Russia-domiciled or -adjacent mining credits.</div>
+    <div class="when">Broke: yesterday afternoon, ~11:21am ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/08/15/paul-tudor-jones-investment-firm-increases-blackrock-s-bitcoin-etf-stake-after-year-of-selling">Paul Tudor Jones' investment firm increases stake in BlackRock's bitcoin ETF after year of selling</a>
+    <div class="why">Why it matters to BOF: Tudor Investment Corp's Q2 13F shows the macro legend's firm adding to its IBIT position after roughly a year of steady reductions — a reversal from a manager whose public bitcoin commentary carries outsized weight with allocators. One quarter of 13F data isn't a trend, and it lags real-time sentiment by design, but a known trend-follower re-adding to bitcoin ETF exposure into a Fear-territory tape is a data point worth weighing against the third straight day of spot ETF outflows in the scoreboard above — professional and passive-flow signals are currently pointing in different directions.</div>
+    <div class="when">Broke: yesterday afternoon, ~11:12am ET</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">EMA's book — mining equities first, metal-price drivers second</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Editorial Note</span><span class="sentiment">⚪</span></div>
+    <div class="why"><strong>No fresh, verifiable mining-equity or metals headline cleared the freshness bar today.</strong> This section's standing requirement is exactly three headlines that broke between yesterday 8:00am ET and now, prioritized for miners, drillers, and juniors. After an extensive sweep — TSXV/Newsfile issuer releases, Junior Mining Network, Seeking Alpha's royalty-streaming coverage, GDX/GDXJ/SIL tape drivers, central-bank buying updates, and every EMA watchlist name (Lion One, Lavras Gold, SilverTiger) — nothing genuinely new published in that window survived verification. Several candidates that surfaced in search (a "UBS $5,000 gold target" rehash, a Wheaton Precious Metals 13F filing item, an Alabama bullion sales-tax "explainer") checked out as recycled or evergreen content dated days-to-months earlier once the underlying publish date was traced, not today's news — so per the freshness rule, they don't run. Junior/mid-tier miners overwhelmingly don't file weekend press releases; this is a genuine quiet patch rather than a gap in coverage. Friday's mining-equity tape (GDX +1.8% vs gold's +0.7%) is captured in the scoreboard above, and the CPI/PPI-driven Fed-odds item in the Bitcoin &amp; Macro section below carries the same real-rates transmission mechanism into gold. Full mining-equity coverage resumes Monday as issuers reopen.</div>
+  </div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/08/15/inflation-moderated-as-intel-and-nvidia-fueled-the-ai-trade-in-last-week-market.html">Inflation moderated as Intel and Nvidia fueled the AI trade in last week's market</a>
+    <div class="why">Why it matters to both desks: last week's soft July CPI and flat PPI knocked money-market odds of a September Fed hike down to roughly one-in-three from over 40% a week earlier — the same disinflation trend that's driven gold's best monthly gain since January (+10% off the ~$4,000 base) and kept a bid under bitcoin's ETF-option positioning above. Lower real rates and rate-hike odds are the direct transmission channel from Fed policy into both funds' books: cheaper carry supports gold's non-yielding case and bitcoin's risk-asset multiple simultaneously, the same mechanism Lavish talks about on TV. Watch whether Thursday's firmer core PPI print (which partially reversed the CPI-driven rally) resurfaces this week.</div>
+    <div class="when">Broke: yesterday morning, ~10:22am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.theblock.co/news/markets/2026-08-15-harvard-leaves-bitcoin-etf-stake-untouched-in-q2-after-cutting-it-43-in-the-prior-quarter-411926">Harvard leaves bitcoin ETF stake untouched in Q2 after cutting it 43% in the prior quarter</a>
+    <div class="why">Why it matters to BOF: Harvard Management Company's Q2 13F shows its IBIT position steady at roughly 3M shares ($101M), unchanged after slashing the position 43% in Q1 (from a Q3 2025 peak of 6.81M shares worth $442.8M). Harvard holds no other digital-asset exposure — IBIT is the entirety of the endowment's crypto allocation. A pause in selling after two quarters of cuts reads as stabilization rather than a new commitment, but it's a useful counterweight to reflexive "smart money is fleeing bitcoin" narratives: the largest US endowment chose to hold, not zero out, its position.</div>
+    <div class="when">Broke: this morning, ~7:27am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.fool.com/investing/2026/08/16/strategy-ceo-phong-le-thinks-mstr-will-outperform/">Strategy CEO Phong Le Thinks MSTR Stock Will Outperform Bitcoin During the Next Bull Market. Here's Why He's Wrong.</a>
+    <div class="why">Why it matters to BOF: Strategy CEO Phong Le reiterated his call that MSTR will out-return bitcoin in the next cycle by growing "bitcoin per share," while Motley Fool's rebuttal notes Strategy has itself begun selling bitcoin — a break from its prior buy-only messaging that's drawn criticism inside the community. The mNAV debate is a live input for BOF's treasury-company book: a CEO doubling down on outperformance right as the company sells coin is the kind of divergence between rhetoric and balance-sheet action worth tracking closely, especially with the MSCI index-inclusion review still pending.</div>
+    <div class="when">Broke: this morning, ~7:03am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://cointelegraph.com/markets/bitcoin-bottom-october-altcoins-basically-dead-swan-ceo">Bitcoin could bottom in October, altcoins are 'basically dead,' Swan CEO says</a>
+    <div class="why">Why it matters to BOF: Swan Bitcoin CEO Cory Klippsten argues BTC could put in a bottom around October — roughly 12 months after October 2025's cycle peak above $126K, consistent with the fund's prior post-peak bottoming pattern — before working back toward $130K ahead of the 2028 halving. He also called altcoins "basically dead" as competitors to bitcoin, arguing the best outcome for the rest of crypto/DeFi is absorption into TradFi. It's one operator's read, not consensus, but it's a specific, falsifiable timing call worth tracking against Fear &amp; Greed's current 34-and-flat print as the desk thinks about entry pacing.</div>
+    <div class="when">Broke: yesterday morning, ~8:57am ET</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Line chart of Bitcoin network hashrate in exahash per second over the last six sessions, August 11 to August 16 2026: 876.2, 889.0, 902.0, 900.4, 901.7, 906.9, a steady climb of roughly 3.5 percent over the week even as difficulty holds flat at a record 127.48 trillion">
+      <line x1="30" y1="210" x2="380" y2="210" stroke="currentColor" stroke-opacity=".3"/>
+      <text x="24" y="213" text-anchor="end" font-size="9" fill="currentColor" opacity=".6">870</text>
+      <line x1="30" y1="150" x2="380" y2="150" stroke="currentColor" stroke-opacity=".1"/>
+      <text x="24" y="153" text-anchor="end" font-size="9" fill="currentColor" opacity=".6">890</text>
+      <line x1="30" y1="90" x2="380" y2="90" stroke="currentColor" stroke-opacity=".1"/>
+      <text x="24" y="93" text-anchor="end" font-size="9" fill="currentColor" opacity=".6">910</text>
+
+      <polyline points="55,196 118,150 181,60 244,72 307,64 370,26" fill="none" stroke="#0b3d91" stroke-width="2.5"/>
+
+      <circle cx="55" cy="196" r="3.5" fill="#0b3d91"/>
+      <circle cx="118" cy="150" r="3.5" fill="#0b3d91"/>
+      <circle cx="181" cy="60" r="3.5" fill="#0b3d91"/>
+      <circle cx="244" cy="72" r="3.5" fill="#0b3d91"/>
+      <circle cx="307" cy="64" r="3.5" fill="#0b3d91"/>
+      <circle cx="370" cy="26" r="3.5" fill="#0b3d91"/>
+
+      <text x="55" y="230" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Aug 11</text>
+      <text x="118" y="230" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Aug 12</text>
+      <text x="181" y="230" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Aug 13</text>
+      <text x="244" y="230" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Aug 14</text>
+      <text x="307" y="230" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Aug 15</text>
+      <text x="370" y="230" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Aug 16</text>
+
+      <text x="55" y="188" text-anchor="middle" font-size="9" font-weight="700" fill="currentColor">876.2</text>
+      <text x="370" y="18" text-anchor="middle" font-size="9" font-weight="700" fill="#0b3d91">906.9</text>
+    </svg>
+    <div class="chart-cap">Network hashrate has climbed a steady ~3.5% over the past week to 906.9 EH/s, with difficulty locked at a record 127.48T the entire stretch — momentum that's continued right through today's headline on Russia's new Moscow-region mining ban through 2032. The read: whatever capacity Moscow specifically represents, it's not yet visible as a network-wide drag, underscoring how geographically distributed hashrate has become and how much capacity Texas, the rest of the US, and other jurisdictions have added to absorb regional pullbacks — the backdrop BOF weighs when underwriting miner credits exposed to single-jurisdiction regulatory risk.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Sunday, August 16, 2026, ~8:30am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates (dry-run) · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
