@@ -68,6 +68,14 @@ def metals():
     for sym, name in (("XAU", "gold"), ("XAG", "silver")):
         d = get_json(f"https://api.gold-api.com/price/{sym}")
         o[name] = {"usd": round(float(d["price"]), 2)}
+    # cross-check gold against the PAXG market (independent tokenized-gold price)
+    try:
+        paxg = float(get_json("https://api.coinbase.com/v2/prices/PAXG-USD/spot")["data"]["amount"])
+        o["gold"]["paxg_crosscheck"] = round(paxg, 2)
+        if abs(paxg - o["gold"]["usd"]) / o["gold"]["usd"] > 0.0075:
+            out["errors"].append(f"metals: gold {o['gold']['usd']} vs PAXG {paxg} diverge >0.75% - web-verify before publishing")
+    except Exception:
+        pass
     return o
 
 out["metals"] = attempt("gold_api", metals)
