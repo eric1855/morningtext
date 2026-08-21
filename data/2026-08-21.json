@@ -1,14 +1,15 @@
 {
- "fetched_at_utc": "2026-08-21T11:39:04+00:00",
+ "fetched_at_utc": "2026-08-21T13:10:29+00:00",
  "errors": [
+  "gold_api: ConnectionError: HTTPSConnectionPool(host='api.gold-api.com', port=443): Max retries exceeded with url: /price/XAU (Caused by NameResolutionError(\"HTTPSConnection(host='api.gold-api.com', port=443): Failed to resolve 'api.gold-api.com' ([Errno -2] Name or service not known)\"))",
   "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)",
   "feed:TheBlock: HTTPError: 403 Client Error: Forbidden for url: https://www.theblock.co/rss.xml"
  ],
  "spot": {
-  "btc": 76850,
-  "btc_24h_pct": 6.54,
-  "eth": 2368.33,
-  "eth_24h_pct": 2.68,
+  "btc": 77315,
+  "btc_24h_pct": 7.37,
+  "eth": 2392.57,
+  "eth_24h_pct": 4.3,
   "source": "coingecko"
  },
  "fear_greed": {
@@ -17,34 +18,32 @@
   "yesterday": 62
  },
  "network": {
-  "hashrate_ehs": 915.4,
+  "hashrate_ehs": 913.6,
   "difficulty": 127479855693691.4
  },
- "metals": {
-  "gold": {
-   "usd": 4604.3,
-   "paxg_crosscheck": 4590.75
-  },
-  "silver": {
-   "usd": 70.11
-  }
- },
+ "metals": null,
  "futures_basis": [
   {
    "instrument": "BTC-28AUG26",
    "days": 6,
-   "ann_basis_pct": 22.85
+   "ann_basis_pct": -6.45
   },
   {
    "instrument": "BTC-4SEP26",
    "days": 13,
-   "ann_basis_pct": 12.0
+   "ann_basis_pct": -0.43
   }
  ],
  "us10y": null,
- "etf_flows_raw": "BTC'], borderColor: '#a8e3ff', backgroundColor: '#a8e3ff', // Lightest blue step fill: true, stack: 'funds', borderWidth: 1, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 1 }, // Total Line { label: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 21 August 2026. Your IP: 172.70.174.234 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow BTC Derivative Charts Company Fund Books About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"3947715d26\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a2e95bb0cd618256',t:'MTc4NzMxMjM3Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
+ "etf_flows_raw": "['BTC'], borderColor: '#a8e3ff', backgroundColor: '#a8e3ff', // Lightest blue step fill: true, stack: 'funds', borderWidth: 1, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 1 }, // Total Line { label: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 21 August 2026. Your IP: 172.71.159.8 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow BTC Derivative Charts Company Fund Books About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"6d54c0e051\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a2e9e195eacf31f4',t:'MTc4NzMxNzg2MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
  "news_window_start_et": "2026-08-20T08:00-04:00",
  "headlines": [
+  {
+   "source": "CoinDesk",
+   "title": "Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs",
+   "link": "https://www.coindesk.com/tech/2026/08/21/coldcard-ships-firmware-after-usd114-million-bitcoin-theft-says-ai-helped-catch-more-bugs",
+   "published": "2026-08-21T12:10+00:00"
+  },
   {
    "source": "CoinDesk",
    "title": "Analysts split on whether Bitcoin's surge past key levels signals a new bull run",
@@ -88,10 +87,10 @@
    "published": "2026-08-21T08:24+00:00"
   },
   {
-   "source": "CoinDesk",
-   "title": "Live updates: Bitcoin slips back to $77,000 after challenging $80,000 overnight",
-   "link": "https://www.coindesk.com/tech/2026/08/21/live-updates-bitcoin-ether-etfs-pull-in-usd800-million-as-inflows-surge-for-a-second-day",
-   "published": "2026-08-21T06:43+00:00"
+   "source": "Cointelegraph",
+   "title": "Standard Chartered wavers on $100K Bitcoin year-end call, says it may be \u2018too low\u2019",
+   "link": "https://cointelegraph.com/news/standard-chartered-100k-bitcoin-2026-prediction-low?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+   "published": "2026-08-21T11:58+00:00"
   },
   {
    "source": "Cointelegraph",
@@ -215,21 +214,39 @@
   },
   {
    "source": "CNBC",
-   "title": "Why some of America's biggest brands are losing ground in China",
-   "link": "https://www.cnbc.com/2026/08/21/us-brands-china-competition.html",
-   "published": "2026-08-21T11:30+00:00"
+   "title": "Wall Street's existential crisis over perpetual futures \u2014 the 24/7 security on steroids \u2014 just got urgent",
+   "link": "https://www.cnbc.com/2026/08/21/wall-streets-existential-crisis-over-perpetual-futures-the-24/7-security-on-steroids-just-got-urgent.html",
+   "published": "2026-08-21T13:04+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Bitcoin on track for 20% weekly gain as investor optimism floods back",
-   "link": "https://www.cnbc.com/2026/08/21/bitcoin-gain-cryptocurrency-investors-optimistic.html",
-   "published": "2026-08-21T11:24+00:00"
+   "title": "U.S., Canada near final trade deal as Trump tariff deadline looms",
+   "link": "https://www.cnbc.com/2026/08/21/trump-canada-tariffs-trade-deal-deadline.html",
+   "published": "2026-08-21T12:17+00:00"
   },
   {
    "source": "CNBC",
    "title": "No more doom scrolling or Instagram Stories? A Meta trial loss could end the social media we know",
    "link": "https://www.cnbc.com/2026/08/21/meta-social-media-lawsuit-trial-instagram-facebook.html",
-   "published": "2026-08-21T11:01+00:00"
+   "published": "2026-08-21T12:11+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Bitcoin on track for 20% weekly gain as investor optimism floods back",
+   "link": "https://www.cnbc.com/2026/08/21/bitcoin-gain-cryptocurrency-investors-optimistic.html",
+   "published": "2026-08-21T12:07+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Gold rebounds as bond jitters, debt fears and weaker dollar revive bullion demand",
+   "link": "https://www.cnbc.com/2026/08/21/gold-prices-us-debt-dollar.html",
+   "published": "2026-08-21T11:35+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Why some of America's biggest brands are losing ground in China",
+   "link": "https://www.cnbc.com/2026/08/21/us-brands-china-competition.html",
+   "published": "2026-08-21T11:30+00:00"
   },
   {
    "source": "CNBC",
@@ -244,34 +261,16 @@
    "published": "2026-08-21T10:36+00:00"
   },
   {
-   "source": "CNBC",
-   "title": "NATO member Romania scrambles F-16 fighter jets to destroy drone near critical European gas project",
-   "link": "https://www.cnbc.com/2026/08/21/romania-russia-ukraine-drone-gas-nato.html",
-   "published": "2026-08-21T10:15+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Chinese humanoid robots' biggest obstacle: Humans are still (mostly) better",
-   "link": "https://www.cnbc.com/2026/08/21/chinese-humanoid-robots-face-challenge-of-their-own-capabilities.html",
-   "published": "2026-08-21T09:30+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Samsung plans up to $80 billion in shareholder returns after SK Hynix buyback",
-   "link": "https://www.cnbc.com/2026/08/21/samsung-shareholder-return-package-sk-hynix-buyback-ai-chip-boom.html",
-   "published": "2026-08-21T09:08+00:00"
+   "source": "CNBC-Econ",
+   "title": "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try",
+   "link": "https://www.cnbc.com/2026/08/20/bessents-efforts-in-the-treasury-market-so-far-havent-worked-heres-what-else-he-can-try.html",
+   "published": "2026-08-21T12:43+00:00"
   },
   {
    "source": "CNBC-Econ",
    "title": "Here are three key takeaways from the disappointing July jobs report",
    "link": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
    "published": "2026-08-21T08:36+00:00"
-  },
-  {
-   "source": "CNBC-Econ",
-   "title": "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try",
-   "link": "https://www.cnbc.com/2026/08/20/bessents-efforts-in-the-treasury-market-so-far-havent-worked-heres-what-else-he-can-try.html",
-   "published": "2026-08-20T21:13+00:00"
   },
   {
    "source": "CNBC-Econ",
@@ -284,6 +283,30 @@
    "title": "Bessent says Treasury buyback operation could be more than $4 billion",
    "link": "https://www.cnbc.com/2026/08/20/bessent-says-treasury-buyback-operation-could-be-more-than-4-billion.html",
    "published": "2026-08-20T15:35+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "I need to get out of my job. Can I leave for a competitor if I\u2019ve signed a non-compete?",
+   "link": "https://www.marketwatch.com/story/i-need-to-get-out-of-my-job-can-i-leave-for-a-competitor-if-ive-signed-a-non-compete-33d3164b?mod=mw_rss_topstories",
+   "published": "2026-08-21T13:07+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Bitcoin on track for best week in more than two years. Can this mean the next crypto bull market has arrived?",
+   "link": "https://www.marketwatch.com/story/bitcoin-on-track-for-best-week-in-more-than-two-years-has-the-next-crypto-bull-market-arrived-0181180c?mod=mw_rss_topstories",
+   "published": "2026-08-21T13:01+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "When it comes to stock buybacks, anything SK Hynix can do, Samsung can do bigger",
+   "link": "https://www.marketwatch.com/story/when-it-comes-to-returning-cash-to-shareholders-anything-sk-hynix-can-do-samsung-can-do-bigger-87db6ef4?mod=mw_rss_topstories",
+   "published": "2026-08-21T12:15+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "American consumers are delivering a retail reality check as they laser in on bargains",
+   "link": "https://www.marketwatch.com/story/american-consumers-are-delivering-a-retail-reality-check-as-they-laser-in-on-bargains-96816053?mod=mw_rss_topstories",
+   "published": "2026-08-21T12:00+00:00"
   },
   {
    "source": "MarketWatch",
@@ -310,76 +333,76 @@
    "published": "2026-08-21T09:15+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "Hedge funds are doubling down on Big Tech even after summer volatility triggered a massive portfolio cleanup",
-   "link": "https://www.marketwatch.com/story/hedge-funds-are-doubling-down-on-big-tech-even-after-summer-volatility-triggered-a-massive-portfolio-cleanup-57dbbf8a?mod=mw_rss_topstories",
-   "published": "2026-08-21T09:11+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Legendary film editor Billy Weber of \u2018Miss Congeniality\u2019 and \u2018Top Gun\u2019 lists historic L.A. home for $4 million",
-   "link": "https://www.marketwatch.com/story/legendary-film-editor-billy-weber-of-miss-congeniality-and-top-gun-lists-historic-l-a-home-for-4-million-465ee55b?mod=mw_rss_topstories",
-   "published": "2026-08-21T09:01+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "My son does not work, yet pays $500 for Affordable Care Act health insurance. Is that fair?",
-   "link": "https://www.marketwatch.com/story/my-son-does-not-work-yet-he-pays-500-for-aca-health-insurance-how-is-that-fair-92f578c4?mod=mw_rss_topstories",
-   "published": "2026-08-20T23:00+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "I hold my mother-in-law\u2019s power of attorney. I\u2019m also her executor and trustee. Do I have too much power over her affairs?",
-   "link": "https://www.marketwatch.com/story/im-my-mother-in-laws-power-of-attorney-executor-and-trustee-do-i-hold-all-the-power-a11968a2?mod=mw_rss_topstories",
-   "published": "2026-08-20T22:45+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin on Track for Best Week in More Than Two Years. Has the Next Crypto Bull Market Arrived? - Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZjJnWTljR3d5T1ppTVNNaTZWMEhpXzBoeExrbi16SG9vMzc4LVcyMmxiZjdNUWdOQng0cXJ0aUdEQ2tHVldJSFlfN1J3RlZjQ193YTJOTk1nZWZabEdZS25hSXc2VnJfZ0dMMkc4YmlZdW94WTRLWVBDRFRmZWFlR05RMUw4dEtkRDN1eHhvdlVWRFU?oc=5",
+   "published": "2026-08-21T13:06+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin surges 23% on the week after Treasury buyback announcement - qz.com",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QYmJqZ2N6TXJoLUdENXNIR3JQLTJLUE8wdDVXQlNvTW5sbGxac1pQTklPekNQMDJBN0RiRzJvNElNSklLN3QxbVRzd3JNUlczcmFPUnVSM1Z1NU9PcVZTcEF5NFRWdWdaRFI4T3RyLXBkTFNnTjhuTmZsSQ?oc=5",
-   "published": "2026-08-21T11:34+00:00"
+   "title": "Dow Jones Top Markets Headlines at 9 AM ET: Bitcoin Climbs, Benefiting From Higher Yields | Bitcoin ... - Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcmtPNzBNU1RWMER6NlN3cnVUSm1ybDZqaEg5ZEJZWHpaTFlWeWZwQXpWQ3dzU2xoR1RjSU1NcVBGMDBDempVWGRXanFoY1FqdUFPeVkwdFlGMC1lWlljVWtWdUkxS0lPSWZPM29pU2k1MkRUY2w5cGR4TFRHY19zZGFhTjEzbVdiZGVRazJOWmt3NWlTZVJr?oc=5",
+   "published": "2026-08-21T13:06+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin rally triggers short squeeze as top analysts debate if the bottom is in - CoinDesk",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNUtuNFpUTUNzRTlkdW1OdUNjZDRKbk5vdHQxQ2FfVDNBaGFyV0JSd1drSjF1SGRLbm9qOHZWeEhkZk03eklENWE4R3c2TFVUa091SzdJZ0NJWWRQVVRnc3VTR1N6Zk9Kai1oSldLQ2pmLVkzNElLUVpDM0ptNlBrMklkcEdpQXZqUkoxNE43d182X2RrTy0xS19GUTkyajV0SFhWVWRPQ3dLMzZ1M0g0cUpSSUNHb0FuWHE5eTU4a0NNdw?oc=5",
-   "published": "2026-08-21T11:31+00:00"
+   "title": "The Stack - Grayscale",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDSTU2Zjl4eGhFX2FVcmZad0VvVGlISFF0Ym4tWENVU1JQRm82bEpuSV85RExKZGJpZ0RWZWZFc0VuVlZVZXc2R3MtMXhnSGFrX2FZUkxUSzBxOFRYTU41QnZWYk9tck52Y0RDNzU4Z3lHVUFPVGRSUFFB?oc=5",
+   "published": "2026-08-21T13:04+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin faces $80,000 test as thinner weekend liquidity looms - CoinDesk",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQX3RSMV9JYVQtWGJjcjRDdXl5LTBrdnNWN2tNNElxYzVhbUtkSGhfQV80eTBXc0g2XzFjMnRaN3hfSWduX3o1bFk0Um1TUU9hdk1YRkVkbXFyUFBuNGRlMXJfNFBQV2tIUUZDVnRCQ0pxOUdZajRZdUU1LUtwUTFJNmo2U0lET2d5R0QtOWZrU1lFeFZXWXZPVFB6bmhxNnA1RkJjR1ZFMXFGelRPeFJV?oc=5",
-   "published": "2026-08-21T11:31+00:00"
+   "title": "Bitcoin on track for best week in more than two years. Can this mean the next crypto bull market has arrived? - MarketWatch",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdlBfT182dmhEOGZ3b0t0RkRrcmZBTndaZFhtTjYxTlNMMGdqSy1ORGlIRkN2YzBfeUJUMmYzUG5sQ2JSMFd5aXBMQkR6bnZ1Yl9WT18teDdQOWVVZFFRdzBVcnZrdkRZTTR4bXlIYTZfQXlQd3ZCdldWNWlSYi14dDJyNU5CZ3RyRWZYNFd0cHRPakpDR01oSzlaQUtQdWdXQ2Q1TWZuUlpwdEdZelVDbEkzYnhHMUg1VzJiTHdOaF96dWVBMjNTRy1DanFLc2NZZHc?oc=5",
+   "published": "2026-08-21T13:01+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "White House Bitcoin Support Sparks This ETF - ETF Trends",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPa3puMXU2QnBBZ041ZFlQVmFyNTRId0Z1UDhPLUFpZnRCUUVfVlJCWjZMYi1vUlV6emxKeDlEemU1V29RaHpZd1Y1Uk1UbjhCR2F6RjJhTHRqcHE2V2IyUzBYRFExeFFvZnRJYnFnRWM0VjBjOGVxVkpfM1FJUGZCa0VrQTR0T1RjSUZ3b1lTT1pfNzd5bjlUVVNjZTFsRGlGX3fSAacBQVVfeXFMUGd0QVFrZk0yTl9kTlgzNzg0TGVJVk1ycWFQdDJrTHRZTXdOTE8yQU1JNXpWY0x5MnhxR1JJSGMzUkl0N29UM25hVkc2MzdJZWRQQkNrY1FMWWJOZEVkSkI5N0VpMVhVVGJJV3dtYWh5SE5JcDlydzZsWE1rcGl5VFlZN05LckNuY2tPaE5INWgtcXF2Q2tfRXJRWmlubnlLQlotWEcydWs?oc=5",
-   "published": "2026-08-21T11:30+00:00"
+   "title": "The $40 Trillion Reason Bitcoin Woke Up - TheStreet Pro",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNGZfMlEwQk1MaFlIUEVXV1JWOEFiYk9laDJzYjNIY1BPazR4Q0VWcXRnUGhkOHV0enVLZS1Pc0JSMi0yeWw4cjRJakRrb1VtZ2I2bWxpcXVZQTB3R3pES2RuR1huZEpnc3l1SG9wSE5HeDRYQTVyWXhmanlRRDY1ZllR?oc=5",
+   "published": "2026-08-21T13:00+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Standard Chartered Says Bitcoin Will Hit $100K in 2026 \u2014 But It Has Missed 3 Straight Year-End BTC Calls - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbkJraXpFVHJUSURxSFk2QjFXcTNUa2ozblZ0RDhrTGxSTVRHdUhzcFdVbGNKX3VCMkdjeVItZHh0RTZ1RWpINnNvT2xLcGhvcGxQMXJ1bm1kOGpqWDctekE4bFJzNVlnYXpjUjAxZG5tTmFtR1JRLXJUamU4dnBGYThjeVdGWVB6bkpDbE5TWEtQX3dHekt2bTB1STlxakNwbWc?oc=5",
-   "published": "2026-08-21T11:05+00:00"
+   "title": "Wilmington officer reunites with woman he helped save from Bitcoin scam - WCTI",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa25VOENqRHJrOEFuSTNFME9GdHlHQS1FVDM5d093d28tSE1Rckdtc1BESHF4SmRXdEVReEIyTzVZS0c0Undac3ZqdVZSbHFKbFphaTg3WS1GS0pwTmN0OXNLa29wR2o5bEtrOEpoRXFoNmF0Qlc4ZU92cVd3Tl81Mi1NTmJ0WVcya0lyYXQ2VnAwQ2xwaHdOd1FJTmdnR3V2dXgw?oc=5",
+   "published": "2026-08-21T12:37+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin and XRP Head for Strongest Weekly Close Since 2024: What\u2019s Next? - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMWd4ZHlMeF95dnp3d3ZsS0JvNERwek45bV8tRU0yWUVZVlVJcTExeVkyckNOM2xXeWF5aHRNdXZLTWd1MW1sN2JIV3dUUm1tUVc3Qm40dUV5eWJOR3gyUHJqWG9udjI2Z1pMQ0FxWm9JNUdJLWNEZzZWeF9icDI1NXRENnZhRXNmYmRkQjltVTJVMDZOZTd1SHY1SndiTzg?oc=5",
-   "published": "2026-08-21T10:58+00:00"
+   "title": "5 Best Crypto Casinos Ranked \u2013 Top Bitcoin Sites for Fast Crypto Withdrawals - Muddy River Sports",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNM3U5YnNWckt1QXdlTkdmN3FRLTJVZVlodnpzR21xTWZlek4yQ2thZU9YUDFLcE8wN3YwWVVLQXFUSXFsUTRQRWZOMXZHMllCa3dveHhZa2tYR3VhaDd3RHl0cFhIZlp3RVlzdWIwYzJVaVM0V1hKZjZ2a1B3UHQtOFhiRHRncU0ycG9LUmJhakhSYWl3Y0YycUhDOWZ2RW1UQ3NVcnFGTU1lcVJsQ3ExM1NDSlRuV1RudXZOSUJFeTl6TDJ1NWVsNlFDVEt5YUpkUjZn?oc=5",
+   "published": "2026-08-21T12:36+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin surge toward $80K points to liquidity-driven momentum shift as ETF flows rebound: Bernstein - The Block",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORlNWZUlneHdhT2NTOFd3ZWV2YU10UVFaZVFrXy02Z2dhWnAtWDVpUFhnVTYxbnl4RmRaanE2YkpKd0thSzRldDJydG5JSGJ1UEZ1UDU4aF9tRDJsdEZUdThHSGM4TmJBcDBjWXhmTFlTZ0JBS0s5ZFRPb2Ixa2pQLVhKNzZ3dy1jeWtMT2FpRTgxMzJpQXFvbFZPMk9jQ3dZQ1NmMW1QV1VhWXVJa3FtM3ZJZkI3cndyX0pkaTdEaHNPY3VDT1BXdHZncS0?oc=5",
-   "published": "2026-08-21T10:57+00:00"
+   "title": "Current price of Bitcoin for Aug. 21, 2026 - Fortune",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvQ2lwSlc1QkQ5WnVnRG1xMHlMRkVGQUZlYXJJaVB1TGVXR2o2TkcyTzBXSkhmU0R5M19QVmlMcTNIYUtlZ1JuTXdtMmJKOV92V3ItLTJTbUlzZzZoMGVmbEF2eGpnUGs?oc=5",
+   "published": "2026-08-21T12:30+00:00"
   },
   {
-   "source": "GoogleNews-BTC",
-   "title": "How Tether\u2019s bitcoin mining plans in Uruguay unraveled - WTVB",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLXp0bnlHcUY1OWJBektnTXhnNEZmdGl6amRmUlBndS1XSGR6cDRtZENzVnZtRndiNU1MdEEwR0tBMWtIeXZKa21xaklVcFBUQlcxODdvZG92QUdKWVQ2RWRuOEFQRk9Sa2hsa1Q4aHc4YURTODlfc19SajJHYmotTFdWbTgwSmo2aWlzNw?oc=5",
-   "published": "2026-08-21T10:52+00:00"
+   "source": "GoogleNews-Metals",
+   "title": "Central Bank of Armenia: exchange rates and prices of precious metals - 21-08-26 - Armenpress",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hYXVFckNjZEJKM1VXQnUwOG5FLXJzbkRud2c5RzQydVA4eU5YcnFPczRXeHhTUl9uVVpoeFZBMTdZS01NVVEydEFZVHZMcTc0NVHSAVdBVV95cUxNZWhfM19ZRE1HR1BBQlEwa3Q2a1pvTHhEX1lSd3VUalU5WEdTemtXNE5wNVBNMDZ1Q1ljX2YyZ3MxVWpLTC03Qjg2MWhzSUtCSHhMTDBVdUU?oc=5",
+   "published": "2026-08-21T12:48+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Silver Price Today: Silver Rises 3.71% on August 21, 2026 - USA Today",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSjR4a1BqaE9Zem1aTkVIZXFuT3ZVbmYxVVpENHBpc0pQSGxMUUhfUWo2cjhYaUZ1aUVnN0FtWFBTdXBDT2FJNVZCdEV3R1VHenpwTy1sQjBXZXBmbzR5VDY4ZDV0WGp1RjFuX1Vvc2VpRVIwTXFsbkpMYXd1S0ItNjB2VldYYk5KSnB0b2dwcC1MV04wOGs4STJ3d3VwRzhSbHlVa1V3c0tNcUE?oc=5",
+   "published": "2026-08-21T12:21+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Gold Price Today: Gold Rises 1.79% on August 21, 2026 - USA Today",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbVdOVlJQRHFNbEd0ZDBLSjVlOUQ3NjdacUJWMVpma0NWMVVvLTltMGhXWmM1d3duYUc3cVU2LW95U0VncG9ha09STHYtQlhuVW1CbTNaT1U0a2Y0M1pNdFJMdVNwbjd6RlNtaE1lWkI2SjYxVXd5TThPWXZOQlNGQXBmamg3S0JMWl9tY1daVGE1RklpeUFhYnF5U20tdFZ6Mi1qT1NTYWs?oc=5",
+   "published": "2026-08-21T12:21+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Golden Prospect buybacks shielded shareholders from first half correction after gold miners\u2019 \u201cstellar\u201d 2025 - QuotedData",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVkttVjNHbVZiVzRpOWo3T2dWQmVJUHN3S3RCU1htdldMOEQ3dGk0NDV2YlpwRGMxdFVQSDBHS3RJWTdMZzNXMHB1QVI2QTVObjlhYmpoeFlpRzZZQjJuQ2YyclVQTUtYanVMUVZPVi1BbnpkRk1Bb1FzZ2kzSUp1LVQ1cnhZRkJXUkdodjNJVWlMZF90aWlyQ19lcjBIemN4amFodGFWdnNzTWFUa1lXZDNWSHNzWXhwR0ZWenF5aDFORnpsSlpKNDN3aTNqUWxKYmc?oc=5",
+   "published": "2026-08-21T12:05+00:00"
   },
   {
    "source": "GoogleNews-Metals",
@@ -404,30 +427,6 @@
    "title": "Gold Price Forecast: XAU/USD testing three-month highs near $4,600 as the US Dollar dives - FXStreet",
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNM3d3cDlxbDhWS2VGVEhydGRPVzhFVHlkbnItUFVrR3duY3ppbVlzOWd0UThnME1vWDhMaTlrNDFuNHdWNnBTNGo3Q2lrY3ljaU0zM3V6ZnZ0X2hJY0hpMDdNNlNTcWRRMmhRNTg2Y3F2R2tTVHZVdUROZDQ4eXBJUzNtUWRuLXpjeWZWN1pRT21VaVJadlZqOUU0dDRESzFZS25jdGltUFZlN0RNZ2UxX3VmRmctaFFIei1xOWFUZU9EdVB4MWtxU2dR?oc=5",
    "published": "2026-08-21T10:14+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Gold price today: Check 22K, 24K rates in Delhi, Bengaluru, Chennai and Mumbai | Business News - Hindustan Times",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaE5fVFVRMjhZLXN2RWZDN3d2ZHJiUmFwa2Nub0xxaERyUkFuN3cwdVdzeG1kMGU3QVdJcjUzczlNR2Zrd2FsUEI4RGgtZWdQbFdxRW1JQXVkcnFCQ2RDQnhuXzZzYlJYWEU0Mk1rZWRmOVFBakVxSHo1Z0d2N195NUpnNWY3czBHOUVYRktsMk1WbEk4dVNNQmtPaGNMS2c2RUh1WEYzOG15UndEZVItWW1CN0RnY3o3NmdOd1I4WmJTS3FLaTl5dkMwWVRFMHBlNDR0c0xWMi1fOVFoUnVPVVVzWdIB6AFBVV95cUxNVWZsMmE3c1RBMXNqQWxwVHhSLXozdUpWTDJqTkZiZGt2MHpRZERCN19tT21RSHlXUnVJcEljc1hMdmRZRTlZYjhzTG9vU0Y3b2xZeTJiMjlGM2tuZllzRmYtZU9jZVlCbEUydHEweUdEMzU5QlBJMGxkb1k5QnM0S0ZtRjNYTVhCUGcydEpGOG15bHFybVBjNzgzUm5tYVYwYnZuMzFKNlJnWkNMN3YyR05EZzdBdjZzTWJaSVBmdFBScF9QT1NUY0lXM1cwbG94aXVlNFBITktHYWY1eUQzTGRTWHpVQWsz?oc=5",
-   "published": "2026-08-21T10:00+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Gold Price Crosses Rs 1,61,000 Per 10 Grams On MCX. Can It Hit Rs 2,00,000 Soon? - NDTV Profit",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSEUySzNnMWtGUmFjOHFoLW5icW9rN2JOSHRkSHpoUHhrVVJUZ2lITXJqWjlfbmNoWVRyOWxCQnI3dVNCTXNDbHY5eWlBR0lZZFlTYUlQRXB3UGhwZ0tJUFNrUExCSTlfYVJmNk1ZaHZQT2pKVWRPX1NlVHJvWnFwQkZ0MlVvVWRQWG9IWlphaW1lNGJBVFJCSkEzOVZLTEJoNERLX0FKbHRxa3p2dGIwY2xBQXgzWVk0ekJkYjNQME5KQ01CZlHSAc4BQVVfeXFMTk1lU3JwcEpYZlo0b1JVdGt3WnltVHgxUTFQRE9CS1dJcm5VUmxhS2JoVDhtd3o5SmdsOS1IVEFRQllIMzM1TmJaQ0JMMi1JSUlEMW1GelZDdG1OeUE4X3NIeF9FOXcwRG0wRHpuY3pDU05nREl4aDNrQTB4Snk2TkVYUFVpcGFtMzR4RjBkM29XYUFtcVVJZXA3ellIcUp4cjNSZXJZUExEOFRuSk03czF4cjNBMkxlQnB3YUxqcmhtd2FIOEhrRlhVdzFRMFE?oc=5",
-   "published": "2026-08-21T09:36+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Triple Flag Precious Metals (NYSE:TFPM) Fits the Growth-at-a-Reasonable-Price Playbook - ChartMill",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa1VoLTBnV3VEUzdJU1c3Qy13SjZyazhIOEhlaTI0eUVCZW1LOHoxeHFTVjRKV0xLUl85Y2tHck4xSk05a2Vaejh3RlVrY3RIUDUyaERjbVU5U1BfdkFNdmM5WkVuM0pxVnFuVlY0T19WZG9NdnF5MXpXclJPNkR6UG9jb0NoQnAxcGNTeEVwRXdIbXJRT1NxS0dITnUteWtVTzY4OGtGYmNNbFhzS2g2SUdLTk9ucC0wbjF5Q1JpbEd5bHJWTEYzNVVfQ3BEWEc4?oc=5",
-   "published": "2026-08-21T09:01+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "The Debasement Trade Takes Off - Robin J Brooks | Substack",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5WUWwtNlZSaWRCNXRfdFJ2cGtYaVAzSHJKcHl1WkZCbzNBWFRSNlN2azNrU3lTVGdfaF9ZOGJIVGFzX1hNZUI3NnlLU2FSVE10UkxQVGt4TUw2S2dZbm9JUnZZWE9XV1pFMVdDMWh2OXJnMEtF?oc=5",
-   "published": "2026-08-21T09:01+00:00"
   }
  ]
 }
