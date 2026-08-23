@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Sunday, August 23, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Sunday, August 23, 2026 · figures as of ~8:00am ET · CME closed for the weekend</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">$77,177</div>
+      <div class="chg neutral">▲ +0.22% 24h — but that flat read masks a wild 24 hours: BTC touched $79,500 (within striking distance of $80K) before a $475M+ long-liquidation cascade knocked it back to $77K</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">$2,427.86</div>
+      <div class="chg up">▲ +0.51% 24h — holding up better than BTC through the weekend delevering</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">66 · Greed</div>
+      <div class="chg down">Down 5pts from yesterday's 71 (Greed) — first real cooling of the week after Friday's overbought reading and liquidation flush</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">$4,604 / $69.11</div>
+      <div class="chg up">Gold's Friday settle $4,608 (+1.80%) was a fresh all-time-high close; silver settled $68.99 (+1.15%), its best settlement since Feb 2013, after touching $70 intraday</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$102.82 Fri</div>
+      <div class="chg up">+2.97% Friday, unchanged since (equities closed for the weekend) — the miner cohort remains geared roughly 2x the metals' own move</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">+5.09% (11d) / +4.44% (18d)</div>
+      <div class="chg down">Sharply compressed from Friday's +18.45%/+9.95% — the liquidation cascade flushed a lot of the richly-positive carry out of front-month contracts; still positive, but futures-held exposure is earning meaningfully less roll yield this morning</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">+$307.5M (Fri)</div>
+      <div class="chg up">IBIT led with $239.3M (78% of flow); fifth straight day of inflows. For the week: BTC+ETH spot ETFs drew a combined $2.6B, the strongest week since October — a 10-month high</div>
+    </div>
+    <div class="tile">
+      <div class="label">US 10Y / DXY / Equities</div>
+      <div class="value">4.74% / 98.84 / S&amp;P +0.43% Fri</div>
+      <div class="chg neutral">CME closed for the weekend — figures are Friday's close. 10Y testing 20-month highs; DXY -0.08%; S&amp;P and Nasdaq both +0.43%, Dow +0.98%. Equity futures reopen Sunday evening, after this brief's publish time</div>
+    </div>
+  </div>
+  <div class="note">The headline 24-hour number — BTC roughly flat at $77,177 — hides the real story: bitcoin ran to $79,500 in the early hours of Saturday, within a few hundred dollars of $80K, before a wave of forced selling wiped out more than $475M in leveraged long positions (total crypto liquidations near $547M) and pushed it back to $77K. Technicals had reached the most overbought reading since November 2024 at the peak, so the flush isn't a thesis-breaker — Fear &amp; Greed easing 5 points to 66 looks like healthy delevering rather than a sentiment reversal. The bigger fund-relevant signal is the ETF tape: Friday's $307.5M net inflow (IBIT 78% of it) capped a $2.6B combined BTC+ETH inflow week, the strongest since October, even as the Deribit basis curve compressed hard off Friday's richly-positive levels — carry-focused futures exposure is earning meaningfully less this morning than it was 24 hours ago. Gold and silver both settled at multi-year (gold: all-time) highs Friday on the same Treasury-buyback debasement trade that's been driving bitcoin all week, and GDX's +2.97% Friday close leaves EMA's benchmark sitting on a strong week heading into Monday's reopen. Network hashrate eased to 901.0 EH/s (from ~916 EH/s) with difficulty down to ~125.8T from 127.48T — a modest downward retarget that trims the bar for marginal miners slightly, though hashprice remains under pressure for older-generation fleets.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.crowdfundinsider.com/2026/08/300082-bitcoin-price-pulls-back-to-77k-erasing-hundreds-of-millions-in-leveraged-btc-long-positions/">Bitcoin Price Pulls Back To $77K, Erasing Hundreds Of Millions In Leveraged BTC Long Positions</a>
+    <div class="why">Why it matters to both desks: this is the mechanism behind this morning's deceptively flat 24-hour print — BTC's run to $79,500 got faded by a $475M+ long-liquidation cascade (peak overbought reading since November 2024), and it's the direct cause of the Deribit basis compression in the scoreboard above. For a book with futures-held exposure, that carry compression is the actionable read-through; for spot-only exposure, this reads as a healthy leverage flush inside an intact uptrend, not a thesis change.</div>
+    <div class="when">Broke: yesterday, mid-to-late afternoon ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.theblock.co/news/markets/2026-08-22-bitcoin-and-ether-etfs-draw-2-6-billion-in-strongest-inflow-week-since-october-tripling-volume-412531">Bitcoin and ether ETFs draw $2.6 billion in strongest inflow week since October, tripling volume</a>
+    <div class="why">Why it matters to BOF: real, sustained institutional demand rather than a one-day print — a 10-month-high inflow week with trading volume tripling to $29B is the kind of durable flow signal that tends to persist beyond a single weekend's volatility, and it's happening in the same week gold posted a record close on the same debasement narrative.</div>
+    <div class="when">Broke: yesterday, ~12:00pm ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.marketwatch.com/story/why-an-announcement-from-the-treasury-sparked-a-rally-in-gold-and-bitcoin-this-week-d9d5972b?mod=mw_rss_topstories">Why an announcement from the Treasury sparked a rally in gold and bitcoin this week</a>
+    <div class="why">Why it matters to both desks: mainstream-press confirmation, in plain English, of the exact transmission mechanism both funds pitch to allocators — a technical long-bond buyback expansion read as debasement, not overt QE, driving gold to a record close and bitcoin toward $80K in the same week. A clean, quotable explainer for the next TV hit.</div>
+    <div class="when">Broke: yesterday morning, ~9:00am ET</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">EMA's book — mining equities and streamers first, metal-price drivers second. No fresh in-window news on Lion One, Lavras or SilverTiger today.</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Miner Capital Returns</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVVBldmkyNVdmM2N3WmtwWXIzOEdjamw4T2t6OU44eS1OU1dQWEttdlY5V2FmenpuMHFTM3FHamNXNUpfb3JLVHFBbzNaT095eWUyS0dMRU1sWnF4ZHNJUTRkSThkdDNTYmNrd1lpaktpRzdjTXJGNWJGbUw5V3lNckRaR0NUVF9MRFNOaXpBNnE2OFZWc1IyYkZ2NmxlTHZKaUJHRW15Z0xSQTRvYVBCUXM0UVIyZTBrdklGMDFvbUZFMWtfUWZmNk1xMmljZDBtMkc0dFA0YUIxUzRtcUUxbFFHTVdkaDdEWTRzZzcyZF9tVlFTaHh0bg?oc=5">Gold miners just handed punters a cash windfall. Here's where the payout actually lands fast</a>
+    <div class="why">Why it matters to EMA: record gold prices are converting straight into shareholder returns across the producer cohort — AngloGold Ashanti's $2B buyback plus a $949M half-year dividend, Pan American Silver's new framework targeting up to $1B in 2026 payouts, Equinox Gold's 50% dividend hike, and Endeavour Mining's $1B 2026-28 commitment. That's the capital-discipline half of the mining-equity bull case (margin expansion isn't just being reinvested into growth capex) made concrete across the majors EMA's junior book eventually gets acquired by.</div>
+    <div class="when">Broke: this morning, ~3:48am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Streaming &amp; Royalty M&amp;A</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://seekingalpha.com/article/4939379-triple-flag-precious-metals-stock-ravenswood-turns-optionality-into-duration">Triple Flag Precious Metals: Ravenswood Turns Optionality Into Duration</a>
+    <div class="why">Why it matters to EMA: a fresh read on Triple Flag's $440M Ravenswood gold-stream acquisition, arguing the deal converts speculative district-scale optionality into durable, multi-decade cash flow (Ravenswood's ~40-year history of reserve conversion is the evidence). Useful triangulation for EMA's own thesis — streamers and royalty companies are how the market prices exploration upside on a de-risked basis, the same optionality EMA's junior "drill story" book is underwriting directly.</div>
+    <div class="when">Broke: yesterday evening, ~10:52pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal-Price Drivers</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUVpkbFBSMHUyazdsQ1JhVUZJLUVoQVlWalN3WmNrQWtrbW5tQXFUelZYQU44amFWYmE3eFZ6SWlxVjUzVThJUGhIWlpHNG5GOXppUzZmcVhjSFFIUnBJbHp0cktva3N6YUoxNlpCUjZybk1TOVFQNER2eWJNeUJNMHZ5S2dia21vRWJaM1FvTDZHajhBTUp1VDVwRTNUb1Y0Q3czcEpfTmNHSlFVM0R0MlJqMENCQ1VfbnBzQUhfNVNrY2s1bWQyeGlFNXJjNFlPcW03YzV3bWRCRDIzdldF?oc=5">Gold's Bullish Bet Deepens as Washington's Bond Play Reshapes the Precious Metals Calculus</a>
+    <div class="why">Why it matters to EMA: the metals-specific angle on the same Treasury-buyback catalyst driving bitcoin — the piece argues Washington's debt-management shift is now the dominant near-term driver of the gold bid, ahead of the usual real-rate and geopolitical drivers. If the market is starting to price debasement risk into precious metals as a standalone thesis rather than just a byproduct of falling yields, that widens the case for miner-equity leverage on any further move.</div>
+    <div class="when">Broke: yesterday evening, ~9:11pm ET</div>
+  </div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMXFzM0dLY3VRY3lrY2k2N3FpTU1GVnJ3QU9ibGd6cFFJYVpEZWg4ckRPM2FRMmtDVklzcEtyM3JLaWktQnhOczNXMEptMWh4bm1BalRvY3BUN1VEeUFWRWxnVzRJdl9xSjcydG5Lb29KTVIwYUE5Uk9Sa2xmYVU1RUNCVEh3ZGU4LThqQVNYTEotTWRUOEJqX09tVkU0cnhvbEs1bm83NERZV2s?oc=5">Standard Chartered's Kendrick Says Bitcoin Has 'Turned The Tide,' Keeps $500K Target</a>
+    <div class="why">Why it matters to both desks: a name-brand sell-side desk reaffirming a $500K long-run target the same week the debasement trade is visibly working is a quotable, TV-ready data point — useful ammunition for Lavish's next hit, even with the bank's own 2028→2030 timeline recalibration on the record as a caveat.</div>
+    <div class="when">Broke: this morning, ~5:29am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Miners &amp; Infrastructure</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM3JIVGt3dzVSZFVsbDVqRDFzSWF0Z0drS1o3aC03S243bjRfRWFMWHFhUnQ4QTRfOXJhVlBJZkV6ckRVMFFyOFlHSXlhWkRPR0lENFZpLUVVOTRBanBfRms4c0JRRjhfSjBfY1BHZDdpRVBHN2FoN2lGd0dDdG1rcmp2NjdxbE1iRjNCWFNfSHJ5MVBRUExPVnlsdDQtN2hiS3AxS1F2UW1oY18xOHRVOVVSejF3ZmZy?oc=5">Bitcoin slips under $77,000 as rally boosts mining economics</a>
+    <div class="why">Why it matters to BOF: the direct read-through from this week's spot rally to miner balance sheets — even after the weekend pullback, BTC sitting near $77K (versus sub-$60K lows earlier this year) meaningfully improves hashprice economics for the distressed end of the miner cohort BOF's debt strategy targets, independent of where price goes from here.</div>
+    <div class="when">Broke: this morning, ~6:06am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem Deal Flow</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/08/22/crypto-exchange-bitmart-weighs-partial-restart-and-creditor-payouts-weeks-after-announcing-shutdown">Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown</a>
+    <div class="why">Why it matters to both desks: a live case study in exchange-failure recovery mechanics and creditor treatment — relevant background for any counterparty and custody risk assessment across the ecosystem, and a reminder that this cycle's rally hasn't erased the operational risk layer beneath it.</div>
+    <div class="when">Broke: yesterday, ~11:16am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Sentiment / Positioning</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMidkFVX3lxTE5vZzZRa1NvMXBKQmQ3UXN5SzNwYkhhU2tXZUp2cVd3eUJfenVXY2tTOGlXaUg5ZVhCc0dyOGZZMnBPYjFrWGVUd2lzMEZXWl8wZUp2TmJlWU53Z05Ud21GVTYyWmE0M2l1TDlzX1N3UTgxN3FnR0E?oc=5">Crypto Market Adds $400B as Bitcoin Rally Sparks Bull Run Debate</a>
+    <div class="why">Why it matters to both desks: a useful gauge of where consensus positioning sits after this week's move — $400B added to total crypto market cap in days is enough to reopen the "is this the next leg or a local top" debate, which is exactly the kind of question that tends to precede either a durable breakout or the next leverage flush like Friday's.</div>
+    <div class="when">Broke: this morning, ~4:17am ET</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing Deribit annualized futures basis before and after Friday's liquidation cascade: 11-day basis fell from 18.45 percent to 5.09 percent, and 18-day basis fell from 9.95 percent to 4.44 percent">
+      <line x1="30" y1="220" x2="380" y2="220" stroke="currentColor" stroke-opacity=".3"/>
+      <text x="24" y="223" text-anchor="end" font-size="9" fill="currentColor" opacity=".6">0%</text>
+
+      <rect x="50" y="30" width="52" height="190" fill="#0b3d91" opacity=".7"/>
+      <text x="76" y="50" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">18.45%</text>
+      <text x="76" y="236" text-anchor="middle" font-size="8.3" fill="currentColor" opacity=".8">Fri, 5d</text>
+      <text x="76" y="246" text-anchor="middle" font-size="8.3" fill="currentColor" opacity=".8">expiry</text>
+
+      <rect x="112" y="167" width="52" height="53" fill="#0b3d91" opacity=".4"/>
+      <text x="138" y="182" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor">5.09%</text>
+      <text x="138" y="236" text-anchor="middle" font-size="8.3" fill="currentColor" opacity=".8">Sun, 11d</text>
+      <text x="138" y="246" text-anchor="middle" font-size="8.3" fill="currentColor" opacity=".8">expiry</text>
+
+      <rect x="228" y="118" width="52" height="102" fill="#0a7d2c" opacity=".65"/>
+      <text x="254" y="133" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">9.95%</text>
+      <text x="254" y="236" text-anchor="middle" font-size="8.3" fill="currentColor" opacity=".8">Fri, 12d</text>
+      <text x="254" y="246" text-anchor="middle" font-size="8.3" fill="currentColor" opacity=".8">expiry</text>
+
+      <rect x="290" y="174" width="52" height="46" fill="#0a7d2c" opacity=".4"/>
+      <text x="316" y="189" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor">4.44%</text>
+      <text x="316" y="236" text-anchor="middle" font-size="8.3" fill="currentColor" opacity=".8">Sun, 18d</text>
+      <text x="316" y="246" text-anchor="middle" font-size="8.3" fill="currentColor" opacity=".8">expiry</text>
+    </svg>
+    <div class="chart-cap">The weekend's leveraged-long liquidation cascade shows up cleanly in the derivatives curve: Deribit's annualized dated-futures basis has compressed from a richly-positive +18.45% (near-week) / +9.95% (mid-month) on Friday to +5.09% / +4.44% this morning. Carry remains positive — futures-held bitcoin exposure still earns a premium over spot — but the roll yield BOF was pricing 24 hours ago has roughly halved to a third of its Friday level, a direct, quantifiable consequence of Friday's delevering that's worth reflecting in any basis-trade sizing today.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Sunday, August 23, 2026, ~8:00am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates (dry-run) · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
