@@ -1,15 +1,17 @@
 {
- "fetched_at_utc": "2026-08-26T11:43:09+00:00",
+ "fetched_at_utc": "2026-08-26T13:16:20+00:00",
  "errors": [
   "gold_api: ConnectionError: HTTPSConnectionPool(host='api.gold-api.com', port=443): Max retries exceeded with url: /price/XAU (Caused by NameResolutionError(\"HTTPSConnection(host='api.gold-api.com', port=443): Failed to resolve 'api.gold-api.com' ([Errno -2] Name or service not known)\"))",
   "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)",
-  "feed:TheBlock: HTTPError: 403 Client Error: Forbidden for url: https://www.theblock.co/rss.xml"
+  "feed:TheBlock: HTTPError: 403 Client Error: Forbidden for url: https://www.theblock.co/rss.xml",
+  "feed:GoogleNews-BTC: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=bitcoin+OR+%22crypto+regulation%22&hl=en-US&gl=US&ceid=US:en",
+  "feed:GoogleNews-Metals: HTTPError: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=%22gold+price%22+OR+%22silver+price%22+OR+%22precious+metals%22+OR+%22gold+miners%22&hl=en-US&gl=US&ceid=US:en"
  ],
  "spot": {
-  "btc": 78362,
-  "btc_24h_pct": -1.11,
-  "eth": 2457.93,
-  "eth_24h_pct": -0.92,
+  "btc": 78108,
+  "btc_24h_pct": -0.83,
+  "eth": 2445.79,
+  "eth_24h_pct": -0.83,
   "source": "coingecko"
  },
  "fear_greed": {
@@ -18,7 +20,7 @@
   "yesterday": 74
  },
  "network": {
-  "hashrate_ehs": 861.9,
+  "hashrate_ehs": 863.7,
   "difficulty": 125807076547197.5
  },
  "metals": null,
@@ -26,18 +28,30 @@
   {
    "instrument": "BTC-4SEP26",
    "days": 8,
-   "ann_basis_pct": 10.37
+   "ann_basis_pct": 5.8
   },
   {
    "instrument": "BTC-11SEP26",
    "days": 15,
-   "ann_basis_pct": 7.07
+   "ann_basis_pct": 4.52
   }
  ],
  "us10y": null,
- "etf_flows_raw": "rColor: '#a8e3ff', backgroundColor: '#a8e3ff', // Lightest blue step fill: true, stack: 'funds', borderWidth: 1, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 1 }, // Total Line { label: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 26 August 2026. Your IP: 172.71.159.8 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow BTC Derivative Charts Company Fund Books Research Blog About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"d8f76aa0bd\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a3129484e9802a56',t:'MTc4Nzc0NDYyMA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
+ "etf_flows_raw": "rColor: '#a8e3ff', backgroundColor: '#a8e3ff', // Lightest blue step fill: true, stack: 'funds', borderWidth: 1, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 1 }, // Total Line { label: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 26 August 2026. Your IP: 172.69.17.68 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow BTC Derivative Charts Company Fund Books Research Blog About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"03264e50cc\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a3131d091f7be450',t:'MTc4Nzc1MDIxMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
  "news_window_start_et": "2026-08-25T08:00-04:00",
  "headlines": [
+  {
+   "source": "CoinDesk",
+   "title": "The evidence doesn't support the banks' case against stablecoin rewards",
+   "link": "https://www.coindesk.com/opinion/2026/08/25/the-evidence-doesn-t-support-the-banks-case-against-stablecoin-rewards",
+   "published": "2026-08-26T13:00+00:00"
+  },
+  {
+   "source": "CoinDesk",
+   "title": "Dallas Fed warns tokenized deposits could strip $700 billion from U.S. banks' lending capacity",
+   "link": "https://www.coindesk.com/business/2026/08/26/dallas-fed-warns-tokenized-deposits-could-strip-usd700-billion-from-u-s-banks-lending-capacity",
+   "published": "2026-08-26T11:46+00:00"
+  },
   {
    "source": "CoinDesk",
    "title": "ECB claims digital euro will offer 'maximum level of privacy' amid surveillance fears",
@@ -75,16 +89,10 @@
    "published": "2026-08-26T09:06+00:00"
   },
   {
-   "source": "CoinDesk",
-   "title": "Live updates: Zcash pulls back 8% as its Grayscale ETF goes live, capping a 60% rally",
-   "link": "https://www.coindesk.com/business/2026/08/26/live-updates-zcash-pulls-back-8-as-its-grayscale-etf-goes-live-capping-a-60-rally",
-   "published": "2026-08-26T08:51+00:00"
-  },
-  {
-   "source": "CoinDesk",
-   "title": "A massive $6.4 billion bitcoin options expiry on Friday could amplify volatility",
-   "link": "https://www.coindesk.com/markets/2026/08/25/a-massive-usd6-4-billion-bitcoin-options-expiry-on-friday-could-amplify-volatility",
-   "published": "2026-08-26T08:01+00:00"
+   "source": "Cointelegraph",
+   "title": "Bernstein forecasts Bitcoin to reclaim $125K by late 2026 ahead of cycle peak",
+   "link": "https://cointelegraph.com/markets/bernstein-predicts-bitcoin-reclaim-125000-year-end?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+   "published": "2026-08-26T12:32+00:00"
   },
   {
    "source": "Cointelegraph",
@@ -118,6 +126,24 @@
   },
   {
    "source": "Decrypt",
+   "title": "Digital Euro Will Offer 'Maximum Level of Privacy,' ECB Board Member Says",
+   "link": "https://decrypt.co/376590/digital-euro-will-offer-maximum-level-of-privacy-ecb-board-member-says",
+   "published": "2026-08-26T12:51+00:00"
+  },
+  {
+   "source": "Decrypt",
+   "title": "Revolut Launches Euro-Pegged EURR Stablecoin",
+   "link": "https://decrypt.co/376575/revolut-launches-euro-pegged-eurr-stablecoin",
+   "published": "2026-08-26T12:31+00:00"
+  },
+  {
+   "source": "Decrypt",
+   "title": "Morning Minute: LayerZero Announces ATLAS as New Settlement Engine",
+   "link": "https://decrypt.co/376580/morning-minute-layerzero-announces-atlas-as-new-settlement-engine",
+   "published": "2026-08-26T11:50+00:00"
+  },
+  {
+   "source": "Decrypt",
    "title": "Roman Storm's Tornado Cash Retrial Pushed to April 2027",
    "link": "https://decrypt.co/376577/roman-storms-tornado-cash-retrial-pushed-to-april-2027",
    "published": "2026-08-26T10:42+00:00"
@@ -145,24 +171,6 @@
    "title": "These Researchers Just Shrunk an AI Model and Somehow Made It Smarter",
    "link": "https://decrypt.co/376536/researchers-shrink-ai-model-made-smarter",
    "published": "2026-08-25T20:46+00:00"
-  },
-  {
-   "source": "Decrypt",
-   "title": "Bitcoin Open Interest Collapses to 12%. Is the Short Squeeze Over?",
-   "link": "https://decrypt.co/376473/bitcoin-open-interest-price-short-squeeze",
-   "published": "2026-08-25T20:16+00:00"
-  },
-  {
-   "source": "Decrypt",
-   "title": "What's the Deal With Nancy Pelosi and the Bloom Energy Stock Surge?",
-   "link": "https://decrypt.co/376516/nancy-pelosi-bloom-energy-stock-trade",
-   "published": "2026-08-25T19:46+00:00"
-  },
-  {
-   "source": "Decrypt",
-   "title": "Crypto Market Flips From Fear to 'Extreme Greed' for First Time Since 2024",
-   "link": "https://decrypt.co/376503/crypto-fear-greed-index-extreme-greed",
-   "published": "2026-08-25T19:11+00:00"
   },
   {
    "source": "BitcoinMagazine",
@@ -202,51 +210,57 @@
   },
   {
    "source": "CNBC",
-   "title": "Mortgage rates hit highest level in 3 weeks, weakening demand further",
-   "link": "https://www.cnbc.com/2026/08/26/mortgage-rates-hit-highest-level-in-3-weeks-weakening-demand-further.html",
-   "published": "2026-08-26T11:33+00:00"
+   "title": "Amazon service Bezos once called 'artificial artificial intelligence' is shutting down",
+   "link": "https://www.cnbc.com/2026/08/25/amazon-service-that-jeff-bezos-called-artificial-ai-is-shutting-down.html",
+   "published": "2026-08-26T13:15+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Haidilao shares jump as delivery growth and new restaurant brands boost outlook",
-   "link": "https://www.cnbc.com/2026/08/26/haidilao-shares-delivery-restaurant-growth.html",
-   "published": "2026-08-26T09:35+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "China's short-drama producers flood the market with cheap bets \u2014 and let audiences pick the winners",
-   "link": "https://www.cnbc.com/2026/08/26/short-drama-china-production-ai-entertainment-economics.html",
-   "published": "2026-08-26T07:11+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Temasek-backed investor behind Unitree pitches Singapore as Chinese robots' path to U.S.",
-   "link": "https://www.cnbc.com/2026/08/26/temasek-unitree-humanoids-robotics-trump-ban-.html",
-   "published": "2026-08-26T07:06+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "'Too much too quickly': Indonesia's growth ambitions questioned by economists",
-   "link": "https://www.cnbc.com/2026/08/26/indonesia-economy-growth-ambitions-economists.html",
-   "published": "2026-08-26T06:51+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Iran and Oman prepare Hormuz deal as U.S. holds back on secondary sanctions",
+   "title": "Iran says the U.S. is standing in the way of Hormuz deal amid talks with Oman",
    "link": "https://www.cnbc.com/2026/08/26/us-iran-war-trump-hormuz.html",
-   "published": "2026-08-26T06:47+00:00"
+   "published": "2026-08-26T13:13+00:00"
   },
   {
    "source": "CNBC",
-   "title": "HP partners with U.S.-blacklisted Huawei for licensing the Chinese company's WiFi tech",
-   "link": "https://www.cnbc.com/2026/08/25/hp-partners-huawei-wifi-tech-us-entity-list.html",
-   "published": "2026-08-26T04:20+00:00"
+   "title": "Meta settles federal social media addiction trial with California AG, others",
+   "link": "https://www.cnbc.com/2026/08/26/meta-social-media-trial-settlement.html",
+   "published": "2026-08-26T13:11+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Trump's Saudi nuclear deal reaches Congress as experts warn of proliferation risk",
-   "link": "https://www.cnbc.com/2026/08/26/trump-saudi-nuclear-agreement-congress-iran-deal-.html",
-   "published": "2026-08-26T02:34+00:00"
+   "title": "Fed\u2019s preferred inflation gauge shows core prices rose 3.3% annually in July",
+   "link": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
+   "published": "2026-08-26T13:08+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Mark Walter's TWG Global blasts 'attacks,' insists 'no fraud' amid federal probe",
+   "link": "https://www.cnbc.com/2026/08/26/mark-walter-twg-guggenheim-lakers.html",
+   "published": "2026-08-26T13:06+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Dollar and bond markets 'on edge' ahead of Jackson Hole as Bessent's market intervention piles pressure on Warsh",
+   "link": "https://www.cnbc.com/2026/08/26/jackson-hole-warsh-bessent-bonds-treasury-dollar.html",
+   "published": "2026-08-26T13:00+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Medical device maker Boston Scientific is being hit by a cyberattack. The shares are falling",
+   "link": "https://www.cnbc.com/2026/08/26/medical-device-maker-boston-scientific-is-being-hit-by-a-cyber-attack-the-shares-are-falling.html",
+   "published": "2026-08-26T12:58+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
+   "link": "https://www.cnbc.com/2026/08/26/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
+   "published": "2026-08-26T12:55+00:00"
+  },
+  {
+   "source": "CNBC-Econ",
+   "title": "Fed\u2019s preferred inflation gauge shows core prices rose 3.3% annually in July",
+   "link": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
+   "published": "2026-08-26T13:08+00:00"
   },
   {
    "source": "CNBC-Econ",
@@ -262,147 +276,51 @@
   },
   {
    "source": "MarketWatch",
-   "title": "Callaway Golf\u2019s apology for ad showing woman being shoved to the ground exposes a major industry blind spot",
-   "link": "https://www.marketwatch.com/story/callaway-golfs-apology-for-ad-showing-woman-being-shoved-to-the-ground-exposes-a-major-industry-blind-spot-41101a13?mod=mw_rss_topstories",
-   "published": "2026-08-26T11:43+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "I\u2019m 56 with $1.4 million and want to retire in 5 years. Do I move to California, New York or overseas?",
-   "link": "https://www.marketwatch.com/story/im-56-with-1-4-million-and-want-to-retire-in-5-years-do-i-move-to-california-new-york-or-overseas-7cf10b08?mod=mw_rss_topstories",
-   "published": "2026-08-26T11:31+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "\u2018It\u2019s the ultimate regifting\u2019: My mom gave me a house. Should I transfer it back to her to reduce capital gains?",
-   "link": "https://www.marketwatch.com/story/its-the-ultimate-regifting-my-mom-gave-me-a-house-should-i-transfer-it-back-to-her-to-reduce-capital-gains-e357f49c?mod=mw_rss_topstories",
-   "published": "2026-08-26T11:15+00:00"
-  },
-  {
-   "source": "MarketWatch",
    "title": "There\u2019s so much betting against long-term bonds that a turnaround could catch investors off guard, says Citadel Securities",
    "link": "https://www.marketwatch.com/story/wall-streets-massive-bet-against-long-term-bonds-is-a-recipe-for-a-painful-bearish-unwind-says-citadel-securities-430dc145?mod=mw_rss_topstories",
-   "published": "2026-08-26T11:07+00:00"
+   "published": "2026-08-26T13:09+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "S&P 500 is expected to reach fresh highs this year \u2014 but Barclays warns of risks",
+   "link": "https://www.marketwatch.com/story/s-p-500-is-expected-to-reach-fresh-highs-this-year-but-barclays-warns-of-risks-abc86282?mod=mw_rss_topstories",
+   "published": "2026-08-26T13:04+00:00"
   },
   {
    "source": "MarketWatch",
    "title": "Does a 2% beneficiary inherit 100% if the 98% beneficiary dies in a car accident? Asking for a friend.",
    "link": "https://www.marketwatch.com/story/does-a-2-beneficiary-inherit-100-if-the-98-beneficiary-dies-in-a-car-accident-asking-for-a-friend-67aacc06?mod=mw_rss_topstories",
-   "published": "2026-08-26T10:16+00:00"
+   "published": "2026-08-26T13:01+00:00"
   },
   {
    "source": "MarketWatch",
-   "title": "Am I too old for Roth conversions? I\u2019m 84 and my wife is 77. We have $8 million saved.",
-   "link": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
-   "published": "2026-08-26T10:15+00:00"
+   "title": "Consumer spending posts smallest increase in seven months. Economy getting weaker?",
+   "link": "https://www.marketwatch.com/story/consumer-spending-posts-smallest-increases-in-14-months-is-the-economy-getting-weaker-1580cec6?mod=mw_rss_topstories",
+   "published": "2026-08-26T12:58+00:00"
   },
   {
    "source": "MarketWatch",
-   "title": "Two-thirds of parents don\u2019t have this vital document they need in case of emergency",
-   "link": "https://www.marketwatch.com/story/two-thirds-of-parents-dont-have-this-vital-document-they-need-in-case-of-emergency-7c54efb3?mod=mw_rss_topstories",
-   "published": "2026-08-26T10:00+00:00"
+   "title": "U.S. inflation rises again and stays well above Fed\u2019s target. Rate hike might be in play.",
+   "link": "https://www.marketwatch.com/story/u-s-inflation-rises-in-july-and-stays-well-above-feds-target-b4e6109c?mod=mw_rss_topstories",
+   "published": "2026-08-26T12:38+00:00"
   },
   {
    "source": "MarketWatch",
-   "title": "Customers are fleeing TurboTax over price, and Intuit\u2019s stock is sliding",
-   "link": "https://www.marketwatch.com/story/customers-are-fleeing-turbotax-over-price-and-intuits-stock-is-sliding-a37dcce0?mod=mw_rss_topstories",
-   "published": "2026-08-26T09:50+00:00"
+   "title": "The renter generation: Young Americans, shut out of homeownership, brace to rent forever",
+   "link": "https://www.marketwatch.com/story/the-renter-generation-young-americans-shut-out-of-homeownership-brace-to-rent-forever-43be0585?mod=mw_rss_topstories",
+   "published": "2026-08-26T12:30+00:00"
   },
   {
-   "source": "GoogleNews-BTC",
-   "title": "Trump Pushes CLARITY Act as Bitcoin Surges: Is Crypto Finally Getting the Rules It Needs? - Bitcoin Foundation",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdVJHa3pGZTJPcG11TzMxczJicVJXRGtKaGJYeGt0Q0IyNmdIbHRXR0tKSnhxeGdFQzV3S1B2RkYtdVoyalZqTklUb3U4a211alpmdHdFZUt3UXZydlZrM1VkaGhwb3p2UUdLRXlweWNsM1pNWE0zNllpRUR5ZHl6ZENyMi1xT2VTWUR6eHhpbVFsT00?oc=5",
-   "published": "2026-08-26T11:39+00:00"
+   "source": "MarketWatch",
+   "title": "Wall Street\u2019s biggest optimist says he \u2018wouldn\u2019t jump into the AI trade right now\u2019",
+   "link": "https://www.marketwatch.com/story/wall-streets-biggest-optimist-says-i-wouldnt-jump-into-the-ai-trade-right-now-18110306?mod=mw_rss_topstories",
+   "published": "2026-08-26T12:16+00:00"
   },
   {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin tops US$80,000 for the first time since May - Wealth Professional",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSGt4QUlENURIaGJxS1cxQUM3aU9VTDU2T1VHOEtjUmhjcVhxRG9Ha3pMQ0ZGSkJBUXRuSXVjZExGQVhUNURKZEVRUWpxQzlkZVBVZUI2S3hIX3RqQ09udjN4RWlCQ0VRMHk3bVpYOVpFd3JudkE1WVU1OWJWRURWQXZYbU9TaDQtcFZ4VVo0S3ZNQXladXFrZ2JDT19CVjJIN2t2dm1vQ0lTX0ZZUUVOSGFIa3lFU1ZVa1ptQ1d2VTkzSURm?oc=5",
-   "published": "2026-08-26T11:31+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "The thesis is simple: more debt, more currency debasement, and more institutional demand for scarce assets. - Moomoo",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaUJEMkMtcktxampwVy01Tm8wc3V4VGFVZmlPdjFZVm05STJOd2ZyNzBPZW1pblVua3lCV2JkT0w3dW83ZXFqM3J3Z1dVa2N1UDZzMm5PVGJBU1dsdzdWSWw5UXZXXzlQWFpaOUI3LUoyNEVTellVVjR3RVU1WG9SMEMtYTV4MUdVX3BEX0pyaUpJendlVEJLRkpCMXljZmkyUU1feEdNNzdGWGg0RzdteDZLN1pSb1RCSmc?oc=5",
-   "published": "2026-08-26T11:23+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Current price of Bitcoin for August 26, 2026 - Fortune",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9lR3VkTnZFZXdaRnBsZThGTlYwck84RVo5clFJZHVPX3ByWXUzYlFPcVVtYlBYaHhwbXhNWmEzbjJHcm1SUzkxZGxqQmUtbnVXWFhhVTlPbU5GOU5VcVF2cThuV3g5VVE?oc=5",
-   "published": "2026-08-26T11:15+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Coinbase Stock Surges as Bitcoin Hits $80K: How Tight Is the Link? - Altcoin Buzz",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wV0ctMlU5TGwwVEpJTy1vYlpjNnFER0hSUXlfdGhQQTlxa2R0OHpPU1pTam1kZ2czZTVmd3dueURBSzBiSXVBb0ItQXFIdHdWbHpOSkVOX3R4ZFpjVkF4X2NiQ0ZKUQ?oc=5",
-   "published": "2026-08-26T11:05+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "BTC price rally stalls after adding 23% in 7 days as ETF demand holds steady: Crypto Markets Today - CoinDesk",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ2tHM2hNWVRCVzRDemw4WlR2Skgwek5lMmk5MTZvVHJqWmRzQ3dGRTNQVEhCaXNsVEtUQmE5UE5Ma1dDMnQ3OF9uNzhTMk1rRUNiREZIWWpCTDJZTl9jNzVhaDUxbS03VndLZ3JMelMzUnJsd2lPZ1p2dDRheEl2NUJtMmxaYThIYkVXektnWjgzbnYwbWNlX21FblYwWGdiRHVvZHV6WFVTRFVtN2tSZ0VQWTdfWGs5YVJRVlFR?oc=5",
-   "published": "2026-08-26T10:53+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bernstein\u2019s Chhugani sees Bitcoin hitting $300k by end of 2029 - Investing.com",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUlR4OEZsMVZnb1ViSkFFMi1NZExURUVkcVdEVFE1dldKb0QyT2YxbU9uNll3UGp5RzBpVjQxTjFQNWJJY1hNbVVybTJqbHJ6dWR4b2Q5UTM0N3NTNklPSkd0VDJmVjhtTDhZWHVfSkxGLWpPdmpiWnpocDVyYTlJdDFfOWwxaHpNa1pRZkR3bmduVXUzeUFibmsxUm5xVjVGSHdDdVRnVlNvU2UxTnRXMHE1bXRSTERvUE5z?oc=5",
-   "published": "2026-08-26T10:50+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Supply absorption \u2018key question\u2019 as Bitcoin fails to reclaim $80K: Analysis - TradingView",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTjhxZ3RvR2FHTF83c1hIZEdvUG1ZZGY0QjJrZlkyRDVremlYbXktc1dOOEVBTTFEMkE2U1NveVUySmlGeTBGQ2pFd2JmRzlRTlEwMVp5NkY4eWp6eTl3c204c3p6a2NqRFM1TGFZb2ZSUGRxUVNrUl90WGJBampXR1pXLW1Xb3RDQ1F2dVRiakg0SFA1WXluSGhKd3hPX1hTUHVfU0NrQlJ2bGFadThMSEdRdkVOdFBTdFBmaDlQTVEwdzFoLUVuVS1CWjlfV0V4?oc=5",
-   "published": "2026-08-26T10:49+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "South Korea's DRAM prices surge to levels rivaling precious metals amid AI-driven demand - Global Sources",
-   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxON2JxVlYxb2c3R0VhNVFScGx2WWp3cF9pZm1fSHlGUVN5Z2ZTRGpJbk5RQnNqRkFfUDhUSFpCdHVrT3JHUWJtVDdIWkQ2Rl9kOFVLM0d1U2pWaTc2MWtmMzJlRHR0UEM3Z0x1QXA5YXZ0ZzJiVVV1OU1DcHN4QVVlRmI4eURFcDIyQl9XMll1RG1qSjNCei1hWUpFMmw4NlNUa3U2RTVQbVFFLVhCamt5WXBBWVBMNkpHVXpsRHlKSTdBOW1qR1FiOEI2SC12dktzZ1cxeURKbjhhX1RvY2N4aXBXWGkxWlpIaU84?oc=5",
-   "published": "2026-08-26T11:06+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "As gold price volatility increases, silver jewelry, which has a relatively low price burden and allo.. - \ub9e4\uc77c\uacbd\uc81c",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jV0R6S25YWUllX2k3eUxXQ1l1NDJrbDhLUUF4OURfSm04WTlYRThjWGpiVXhMbF9QMmdjTlNIdEVYTFcycEtBNS1vUUtLalBkTzdn?oc=5",
-   "published": "2026-08-26T11:02+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Gold Price Forecast: XAU/USD corrects to near $4,620 in countdown to US PCE Inflation data - FXStreet",
-   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNk16emlfVk52bElqcXNTVjFocnJiS2QzUkt0QzJxX1o3bnFGTkk2TWYtcTY2UmhES0VJel8wbEtsQWg5SkU0aFNpQkdFZWhPT0c2Qk9FZFFGY05EZXcwV1pIWU5Fa2hpWkJZM0xlRGtxUG9pYlVYUUthWW5GNjQ0aTJNdmI0cFBLRTEySWZrY01UWXp4ODVhZXBQTHFfVFRVRTQxUHRkLWhYREZPNFF4N1VvVDJNSnpXSFlKVnc0eV84bzQwcXNORU04Zw?oc=5",
-   "published": "2026-08-26T10:12+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Highlander Silver Stock: Riding a Broader Rally in the Precious Metals Complex - kalkine.ca",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLWdvRTh5cWRyV293Z3JkdEhiTDBwRlhHRzlyZTh5MDdkTGNJT29WVVZ6ZzJZR2s5Yno3bHZ0NXlmb2xIYmRNM3EyMmdXVThDZUN6SThYMXdDaGFmNlI0S21pSmowXzRTZjZzWGNoSk9NMFBVbVJKQ095X0JvQllneHgwVW1uQWRhcDZoeVdNeG9nYXVrM0EtMWZrbzVuck9SQlJ0QkZrVzZ3NXZk?oc=5",
-   "published": "2026-08-26T09:47+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Gold, Silver Trade Higher As Easing Crude And Bond Yields Support Precious Metals - ETV Bharat",
-   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVVp1ekMwNGF2VzhhaWxpN3liaHJfZF8zUVZoclFMQjRpTlFjaGtmUGdwbzNoRzJrTXAwY1Jnd0pGOGxRR3haUnV5VGFUY2dLNmJQd2xhVUJ1dlR3SEpFcDZyZlRWVmdGNXdQNG5WNloxbjJUaWpaNkRGa0JSazdiTUVGRVR4eGxhcjg2emlRRlQ0ak5qU2xZQUdFQVZXMlJkdG43a1dRTnVDeVlyU2VCb1BfeEdraG5HdWlkb2x2VkZhTWRPVExtSno4dGNJZ9IB0wFBVV95cUxPRnAzb0Z3UldUVVdocFcxOHJNZEw5eWxTNzBfdTNMbzdLRHFJTE12TkNFNWxOcWVxcHJOci1qOGEyU3pZc2J2bGRnYkdDZHQwSW52blQwTkk4TDlIZS11bzJ6NHVISkl6NEZBcFJhQUxpZlNzekxnYzlzWER2WW9nUXA1TjIxRElaSkk1QlNycncyNlA1ZVZpdkdFbWVjNHpsLTlVQ0pzUWdvVTN1SXVtTmM1dXdFcmZVS2s0UzB4ZHVjUDBRaS1uTFlLWmdlN0NFYi1R?oc=5",
-   "published": "2026-08-26T09:25+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Silver Forecast: XAG/USD steadies below $70 as US PCE data looms - FXStreet",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaFJlYTNBX3hOQlJ1eGdHeGlkVTBCQi1RQ1N5WXpoblFsSEFRal9pdXlic0ZST0MtRnIwdjJnSjlSZHhac1c1Sm9OVFFZeUZYaUdsRUo1T3JKU1Z1NUVOOGlITzJuTW1fWm0zRUc2N0o5SHpwelFoNnB4SzVnVU9jZ25hWXY1M3luWFBsWmhkSTlQV0wxMUlFdWYtVXkwNHlVYWVLOW0wcmxYNXN0QUpKRk12YTI2emdQZVE?oc=5",
-   "published": "2026-08-26T08:57+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Sailfish Royalty Stock: A Sharp Decline Hits This Precious Metals Royalty Name - kalkine.ca",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMFk3WDRpLUh3bVZlY05qYi1JRFgwejE4c3V3Q21LcEVDZ1ZpSl9sdC1FcE1yNTI1THdDM2ltSEx2a2luMHBYUXdfZWZSb2pMY3RUM2pSemRISV9fOElNdTR6ekhCZ2F0NEhkdHJxczVqM01oRjN2RDF3TDdYRDJhNkdjbGpiVU1OUmR3eGRPLV83SUxfbVFBbDhkZ2dLWjUwUVFjNDUyYW91d0tt?oc=5",
-   "published": "2026-08-26T08:56+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Gold (XAU/USD) & Silver Price Forecast: Lower Yields Support Metals Before PCE - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkJObGZPZWpsQjNCWENoVFNMYmNxLWpDT3FlenZ1VHZOX3Y2NW5KWWJlNTRrMGN3MG5uWXJVQVRXUmhPemRldUlfbjljMUd0T3Z5Vnk3ZXh2RDhWN3JIOTVHdEdQSUptd28tMmRTUTZDTGVnYmk5TTV0YXRpZERfRzRIelAzY0ZCcUdfSC0zYW9fSHE4a3J2bXZIN3UxeFFsYzgtcXluTjJ4dXh4OW9JallHbGRoSkVORGQyQW5pX2dVdw?oc=5",
-   "published": "2026-08-26T07:52+00:00"
+   "source": "MarketWatch",
+   "title": "Callaway Golf\u2019s apology for ad showing woman being shoved to the ground exposes a major industry blind spot",
+   "link": "https://www.marketwatch.com/story/callaway-golfs-apology-for-ad-showing-woman-being-shoved-to-the-ground-exposes-a-major-industry-blind-spot-41101a13?mod=mw_rss_topstories",
+   "published": "2026-08-26T11:43+00:00"
   }
  ]
 }
