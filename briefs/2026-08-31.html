@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Monday, August 31, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Monday, August 31, 2026 · figures as of ~8:20am ET · US equities open 9:30am ET</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$77,900</div>
+      <div class="chg down">▼ -0.4% 24h — barely moved despite overnight US strikes on Iran; still +~1% on the week and +23% for August, its best month since Nov 2024</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$2,500</div>
+      <div class="chg neutral">Roughly flat — holding just under $2,500 on continued ETF demand, tracking bitcoin's calm through the weekend's geopolitical headlines</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">51 · Neutral</div>
+      <div class="chg down">Down sharply from 69 (Greed) yesterday — the steepest overnight sentiment drop this week even though price has barely budged</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$4,450 / ~$67.10</div>
+      <div class="chg down">Gold dipped to a ~2-week low of $4,396 overnight before steadying; silver +1.04% — a rare divergence, both discussed below</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$99.65 Fri</div>
+      <div class="chg down">-3.90% Friday's close, no new session yet (cash equities open 9:30am ET) — first print of the week comes at today's open, into fresh Iran/Fed headlines</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">+6.99% / +5.63%</div>
+      <div class="chg up">11-day (BTC-11SEP26) / 18-day (BTC-18SEP26) annualized basis, latest snapshot Sunday afternoon — contango holding, consistent with futures-based exposure still being compensated</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">-$201.9M Fri</div>
+      <div class="chg down">IBIT -$33.4M, ARKB -$114.9M (the week's largest single redemption) snapped a nine-day inflow streak; the week itself still closed net +$924M</div>
+    </div>
+    <div class="tile">
+      <div class="label">US 10Y / DXY / Equities</div>
+      <div class="value">~4.72% / ~99.6 / S&amp;P -0.2%</div>
+      <div class="chg down">Futures: S&amp;P -0.2%, Nasdaq -0.1%, Dow -74pts — Warsh's hawkish tone plus the Iran escalation are lifting the dollar and yields together, pressuring futures into the open</div>
+    </div>
+  </div>
+  <div class="note">Monday's real story isn't bitcoin's price — it barely moved even after US forces struck Iranian rocket launchers on Larak Island in the Strait of Hormuz Sunday and Tehran retaliated against US bases in Jordan, sending Brent toward $90 and knocking equity futures lower. That's a materially calmer reaction than July's comparable Iran headlines, when BTC dropped roughly 2% same-day — a live test of whether bitcoin's risk-off correlation is breaking down again, flagged as a must-read below. The bigger mover was the dollar: the yen breached its 160/dollar intervention line in Tokyo trading and CME FedWatch's odds of a September Fed hike climbed to 58% (from 35% Thursday) on Warsh's hawkish Jackson Hole inflation read, pressuring both gold (a fresh 2-week low overnight) and bitcoin together even as one contrarian read argues that repricing is overdone. Meanwhile Michael Saylor's Sunday "We're ₿ack" post is now confirmed with hard numbers: Strategy bought 4,603 BTC last week, its first purchase in over two months. All three are must-reads below.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/08/31/bitcoin-barely-blinks-as-u-s-hits-iran-sending-oil-higher-and-stocks-lower">Bitcoin barely blinks as U.S. hits Iran, sending oil higher and stocks lower</a>
+    <div class="why">Why it matters to BOF: the number that matters isn't the ~$77,580 print, it's the reaction function. US forces struck Iranian rocket launchers on Larak Island Sunday and Iran retaliated against US bases in Jordan, sending Brent above $90 and knocking S&amp;P and Nasdaq futures lower — yet bitcoin held within 1% of Friday's close and remains August's best-performing major asset (+23%, vs gold's +9% and the Nasdaq's +4%). That's a different reaction than July 8's ~2% selloff on comparable Iran headlines: a live data point on whether bitcoin's positive-correlation-with-risk-off regime is breaking down again, or whether this is just one quiet session before the next leg.</div>
+    <div class="when">Broke: overnight Sunday into Monday; strikes and retaliation Sunday, oil and equity futures still reacting this morning ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/08/31/september-fed-rate-hike-fears-appear-overblown-as-the-probability-is-just-58-not-90">Bitcoin and gold may have room to surge further as September Fed rate-hike fears look overblown</a>
+    <div class="why">Why it matters to both desks: CME FedWatch prices the September 16 hike at 58% — up from 35% last Thursday after Warsh cited PCE inflation running 3.7% year-on-year and 4.1% annualized over six months — but 58% is a long way from the 90%+ that markets usually require to call a hike a done deal. That framing speaks directly to both funds' core debasement thesis: if the hawkish repricing is overdone, bitcoin (+23% in August) and gold (+9%) both have room to keep running once the market re-discovers a "close call" hike isn't a certain one — exactly the kind of quotable, contrarian stat Lavish or Lepard could use on air this week.</div>
+    <div class="when">Broke: published this morning ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/tech/2026/08/31/live-updates-bitcoin-holds-usd78-000-as-yen-breaks-160-and-rate-hike-bets-lift-the-dollar">Saylor's "We're Back" confirmed: Strategy bought 4,603 BTC for $369.7M last week</a>
+    <div class="why">Why it matters to BOF: Michael Saylor's Sunday "We're ₿ack" post — his first public signal since Strategy's last purchase on June 22 — is now confirmed with hard numbers: 4,603 BTC bought last week for $369.7M at an average $80,318, a premium to today's spot. The largest structural corporate buyer of bitcoin is re-entering the market the same weekend gold and bitcoin both took a hawkish-Fed hit — worth weighing against the mNAV pressure (Strategy's own multiple has fallen from roughly 3.4x to near parity this year) that kept Saylor on the sidelines for two months in the first place.</div>
+    <div class="when">Broke: Saylor's post Sunday; purchase figures confirmed in this morning's market-wrap coverage</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">EMA's book — no fresh mining-equity headlines broke in the window; Friday's Warsh-driven miner selloff (GDX -3.90%) is still the most recent print since cash equities haven't opened. Below: the macro and dollar drivers actually moving the metals complex this morning. No in-window news on Lion One, Lavras, or SilverTiger.</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Price Driver</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.fxstreet.com/news/gold-drops-to-nearly-two-week-low-as-hawkish-fed-bets-rise-amid-oil-driven-inflation-fears-202608310440">Gold extends losses as hawkish Fed bets rise amid US-Iran tensions</a>
+    <div class="why">Why it matters to EMA: gold dipped intraday to $4,396.36 overnight — a nearly two-week low — before steadying near $4,450, having already broken its 200-day moving average on Friday's Warsh selloff. The double hit of rising rate-hike odds and Iran-driven oil-inflation fears is compounding rather than offsetting into Monday, a technical setback worth tracking against Credit Agricole's $5,000 target flagged in yesterday's brief.</div>
+    <div class="when">Broke: this morning, ~12:40am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Price Driver</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.fxstreet.com/news/silver-price-today-silver-rises-according-to-fxstreet-data-202608310930">Silver price today: rises on August 31</a>
+    <div class="why">Why it matters to EMA: silver's +1.04% bounce to $67.10 stands out against gold's continued softness — a divergence worth noting given the metal's dual industrial/safe-haven character. The same Iran-driven oil rally lifting silver's haven bid is also the inflation-fear channel pressuring gold, so the two moves aren't fully independent signals for the book.</div>
+    <div class="when">Broke: this morning, ~5:30am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro / Dollar</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.fxstreet.com/news/us-dollar-index-price-forecast-dxy-fails-near-100-sma-382-fibo-confluence-around-9975-202608310900">US Dollar Index Forecast: DXY sticks to losses; downside seen limited</a>
+    <div class="why">Why it matters to EMA: the dollar index is holding just above the mid-99s, with both September rate-hike odds and Iran-driven safe-haven demand supporting the greenback — the same dollar bid that's the single biggest headwind to EMA's book this morning, working against gold's technical bounce attempt and the miners that haven't traded yet.</div>
+    <div class="when">Broke: this morning, ~5:00am ET</div>
+  </div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.cryptotimes.io/2026/08/29/bitcoin-rally-pushback-from-81k-as-spot-etfs-record-first-outflow-in-9-days/">Bitcoin ETFs snap nine-day inflow streak with $201.9M Friday outflow, but week still closes +$924M</a>
+    <div class="why">Why it matters to BOF: IBIT's $33.4M outflow and ARKB's $114.9M redemption (the week's largest single print) ended the inflow streak, but the week overall still closed net positive at +$924M. One red day against a nine-day trend isn't a reversal signal on its own, but worth watching alongside this morning's Iran and Fed headlines for whether Monday's flows confirm or reverse Friday's wobble.</div>
+    <div class="when">Broke: Friday's session, reported over the weekend</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Miners &amp; Infrastructure</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://egamers.io/irens-ai-pivot-is-still-mostly-a-bitcoin-business-82-of-fy2026-revenue-came-from-hashing/">IREN's AI pivot is still mostly a bitcoin business: 82% of FY2026 revenue came from hashing</a>
+    <div class="why">Why it matters to BOF: IREN's FY2026 results show bitcoin mining generated $578.2M of its $707M in revenue (82%) even as AI Cloud revenue grew roughly 8x, alongside a $638.8M non-cash impairment tied to decommissioning miners for AI conversion and a ~$684M net loss. For BOF's miner debt and equity book, that's a reality check on how much of the AI-pivot premium the market is paying for versus the cash-generating hashing business still doing the heavy lifting — and impairment charges of that scale are exactly the kind of balance-sheet stress that turns into the distressed paper BOF underwrites.</div>
+    <div class="when">Broke: yesterday, ~11:54am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/tech/2026/08/31/live-updates-bitcoin-holds-usd78-000-as-yen-breaks-160-and-rate-hike-bets-lift-the-dollar">Yen breaches 160 per dollar in Tokyo as rate-hike bets lift the dollar broadly</a>
+    <div class="why">Why it matters to both desks: the same dollar bid pressuring bitcoin and gold this morning pushed the yen through its 160 intervention line in Tokyo trading — a level that has triggered verbal and actual BOJ intervention before. A sudden yen snap-back would tighten the same global dollar-liquidity conditions both funds' debasement thesis depends on loosening, making this a leading indicator worth watching alongside the Fed's September 16 decision.</div>
+    <div class="when">Broke: overnight, Tokyo session</div>
+  </div>
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing August 2026 performance: bitcoin up 23 percent, gold up 9 percent, and the Nasdaq up 4 percent, illustrating bitcoin's outperformance through a month that included a hawkish Fed chair debut and renewed US-Iran conflict">
+      <line x1="30" y1="220" x2="380" y2="220" stroke="currentColor" stroke-opacity=".3"/>
+      <text x="24" y="223" text-anchor="end" font-size="9" fill="currentColor" opacity=".6">0%</text>
+
+      <rect x="60" y="46" width="80" height="174" fill="#0a7d2c" opacity=".8"/>
+      <text x="100" y="40" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor">+23%</text>
+      <text x="100" y="236" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Bitcoin</text>
+
+      <rect x="180" y="150" width="80" height="70" fill="#b8860b" opacity=".8"/>
+      <text x="220" y="144" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor">+9%</text>
+      <text x="220" y="236" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Gold</text>
+
+      <rect x="300" y="189" width="80" height="31" fill="#555" opacity=".7"/>
+      <text x="340" y="183" text-anchor="middle" font-size="13" font-weight="700" fill="currentColor">+4%</text>
+      <text x="340" y="236" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Nasdaq</text>
+
+      <text x="200" y="14" text-anchor="middle" font-size="8.3" fill="currentColor" opacity=".7">Month-to-date performance through Aug 31 2026, per CoinDesk market coverage</text>
+    </svg>
+    <div class="chart-cap">Bitcoin's 23% August gain outran both gold's 9% and the Nasdaq's 4% — and it did so through a month that included Kevin Warsh's hawkish Jackson Hole debut as Fed chair and a fresh round of US-Iran strikes over the weekend. That combination is precisely why this morning's calm reaction to overnight Iran headlines matters: if bitcoin can keep shrugging off geopolitical risk-off shocks the way gold historically has, it strengthens the case both funds have been making that bitcoin is graduating into a genuine monetary hedge rather than trading as a high-beta risk asset. One quiet Monday doesn't confirm that shift, but it's the kind of session worth logging against the next shock to see if the pattern holds.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Monday, August 31, 2026, ~8:20am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates (dry-run) · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
