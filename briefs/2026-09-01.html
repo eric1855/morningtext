@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Tuesday, September 1, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Tuesday, September 1, 2026 · figures as of ~8:35am ET · US equities open 9:30am ET</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$78,700</div>
+      <div class="chg neutral">Roughly flat, -0.2% 24h — holding just above $78,500 as the market digests Monday's Iran strikes and firming September hike odds; still consolidating August's ~24% monthly gain</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$2,470</div>
+      <div class="chg up">+~1% 24h — Bitmine's largest ETH purchase since June (below) keeps the institutional bid under the coin</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">71 · Greed</div>
+      <div class="chg up">Up from 62 yesterday — sentiment resets firmly into Greed even though spot price is barely moving, worth flagging as a froth signal</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$4,455 / ~$66.70</div>
+      <div class="chg neutral">Roughly flat overnight after Monday's ~1% Iran/Fed-hike-driven drop (gold's session low $4,397, silver settled $66.01) — both still below last week's highs</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$98.51 Mon</div>
+      <div class="chg down">-1.14% Monday's close — miners underperformed spot gold's ~1% drop, a leverage signal covered below</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">+8.61% / +6.79%</div>
+      <div class="chg up">10-day (BTC-11SEP26) / 17-day (BTC-18SEP26) annualized basis, Sunday-evening snapshot — contango holding, futures-based BTC exposure still compensated</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">+$216.7M Mon</div>
+      <div class="chg up">IBIT +$205.9M (95% of the total) reverses Friday's $201.9M outflow — one clean session, not yet a re-established trend</div>
+    </div>
+    <div class="tile">
+      <div class="label">US 10Y / DXY / Equities</div>
+      <div class="value">4.79% / ~99.5 / S&amp;P -0.27%</div>
+      <div class="chg down">10Y at a 20-month high (+3bp); futures soft (S&amp;P -0.27%, Nasdaq +0.06%, Dow -0.60%) as yields and Brent above $90 pressure risk sentiment into the open</div>
+    </div>
+  </div>
+  <div class="note">Tuesday opens quiet on the surface — bitcoin, gold and silver are all roughly flat overnight after Monday's Iran-strike, hawkish-Fed selloff — but the underlying story is dispersion. Strive just became the fifth-largest public bitcoin treasury with a fresh $143M buy even as a Yahoo Finance analysis (must-read below) shows the treasury-company cohort as a whole has shed over $80B in value on mNAV compression — the same stress that kept Strategy on the sidelines for ten weeks before its Sunday return. In Washington, Bessent is now publicly defending the Treasury's expanded bond-buyback program against his own mentor Stanley Druckenmiller's charge that it's suppressing the "only fiscal disciplinarian" left — a live skirmish over bond-market intervention that sits at the center of both funds' debasement thesis. And in metals, GDX/SIL/SILJ all underperformed spot gold and silver Monday (-1.14%/-1.20%/-1.29% vs roughly -1% for the metals), a beta signal worth watching into today's open.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdHJUaUdyaFY2emlpS1hOM2dkSGVBdDZFMUxta0JNYkdrUEJQSEw4UUkwVkVnWEN3VzlUcEVZcGlsa2NHZUpyY2JVZlp5OXE1V1BiUHJ0ZjVzNjZJM1RsekpzOFlvejdDM2hvbXFKQzlMX0tvbk9STXFQbTdTbDVfS09jRkthUEo4QnhJ?oc=5">Bitcoin treasury companies shed over $80 billion in value</a>
+    <div class="why">Why it matters to BOF: the treasury-company cohort BOF tracks for equity and distressed-debt angles has lost more than $80B in aggregate value as mNAV multiples compress toward or below 1x — Strategy's own multiple round-tripped from ~3.4x to near parity before Sunday's buying resumed, and Metaplanet has fallen roughly 70% since June. That's the structural backdrop against which Strive's fresh buy (below) and Metaplanet's Coinbase transfer (FYI) both need to be read: some operators are still accumulating, but the group's cost of capital to do so has deteriorated sharply.</div>
+    <div class="when">Broke: yesterday afternoon, ~1:30pm ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/08/31/bessent-druckenmiller-bond-treasury-g20.html">Bessent pushes back on Druckenmiller's critique of Treasury bond-buyback intervention</a>
+    <div class="why">Why it matters to both desks: Druckenmiller's WSJ op-ed accused Bessent of undermining "the only fiscal disciplinarian the U.S. has left" by more than doubling Treasury's long-bond buybacks to $4B per operation in the 10-30 year range, arguing it postpones a reckoning and "raises the eventual price." Bessent's on-air rebuttal at the G20 — that Druckenmiller "lost money the day he sent in the editorial" — confirms the administration intends to keep leaning on long-end yields rather than let them signal freely. That's a textbook transmission mechanism for both funds' core thesis: suppressed real yields and an actively managed bond market are exactly the conditions that have historically pushed capital toward bitcoin and gold as the discipline mechanism migrates outside the Treasury complex.</div>
+    <div class="when">Broke: yesterday afternoon, ~2:41pm ET (G20 finance meeting)</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.theblock.co/news/business/2026-08-31-strive-fifth-largest-public-bitcoin-treasury-1800-btc-buy-td-cowen-lifts-asst-price-target-413112">Strive becomes fifth-largest public bitcoin treasury after 1,800 BTC buy, TD Cowen lifts price target</a>
+    <div class="why">Why it matters to BOF: Strive's $143M purchase (avg. ~$79,400/BTC) leapfrogs it into the top five public bitcoin treasuries and drew an immediate price-target hike from TD Cowen — a rare piece of clean, un-conflicted good news for the treasury-company cohort on the same day the group's aggregate mNAV damage made headlines (above). Worth tracking whether Strive can hold a premium where larger, more leveraged peers have not.</div>
+    <div class="when">Broke: yesterday, ~11:08am–11:35am ET</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">EMA's book — mining equities first. No in-window news on Lion One, Lavras, or SilverTiger.</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Developer / Construction</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.morningstar.com/news/pr-newswire/20260831va36680/perpetua-resources-provides-construction-update-on-the-stibnite-gold-project-and-exploration-activities">Perpetua Resources provides construction update on the Stibnite Gold Project</a>
+    <div class="why">Why it matters to EMA: roughly half of the ATCO-fabricated autoclave units are now delivered on-site at the $1.3B Stibnite project, the permanent-camp grading and utilities are complete, and exploration crews have four rigs turning on the new 10,000-meter program with 5,800 meters already drilled — tangible, de-risking construction progress for one of the highest-profile US gold-antimony developers, coming just two weeks after a federal court upheld the project's approvals against an environmental challenge.</div>
+    <div class="when">Broke: yesterday (PR Newswire release)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining-Equity Move</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMihwFBVV95cUxPcDFHRDA1UGU4THBKbHhrbnhuUDhqa09VWmRSTHFwcDhqTDVqalFjNEVOSjlmdllxVHBubkNFWW5JeTZ2c2htcnoxZVh5WEk3eGpVdmJfdDJFYkpCY05GaEdZV29yUUVRMEt5Zm1SbC1TenA2ZmNqMHl3RlJOT0QtcG91Szg3VUk?oc=5">Gold price slips as Mideast tensions stoke Fed hike bets</a>
+    <div class="why">Why it matters to EMA: GDX closed Monday at $98.51 (-1.14%), Global X's SIL at -1.20% and the Amplify Junior Silver Miners ETF (SILJ) at -1.29% — all underperforming the roughly 1% drop in spot gold and silver themselves. That negative equity beta to the metals (rather than the usual leveraged upside) is the pattern to watch into today's open: if it persists as metals stabilize, it flags miner-specific selling rather than a simple metals-price pass-through.</div>
+    <div class="when">Broke: yesterday afternoon, ~1:54pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Junior Drill Story</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.juniorminingnetwork.com/junior-miner-news/press-releases/1611-tsx-venture/igo/210003-independence-gold-intersects-5-12-g-t-gold-and-33-04-g-t-silver-over-9-23-metres-at-depth-at-the-goofy-vein-3ts-project-bc.html">Independence Gold intersects 5.12 g/t gold and 33.04 g/t silver over 9.23m at depth at the Goofy Vein, 3Ts project, BC</a>
+    <div class="why">Why it matters to EMA: exactly the kind of junior "drill story" ETFs like GDX and SIL skip entirely but EMA's book is built to catch — a depth-extension hit confirming the Goofy Vein system continues below previously drilled levels at the 3Ts project in British Columbia, the type of exploration success that can re-rate a junior's resource base well ahead of any producer-level news flow.</div>
+    <div class="when">Broke: yesterday (news release)</div>
+  </div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://decrypt.co/376932/tom-lee-bitmine-largest-ethereum-purchase-since-june">Tom Lee's Bitmine buys $131M of ETH, largest purchase since June, as he calls ether "best performing macro asset"</a>
+    <div class="why">Why it matters: Bitmine's 53,501 ETH add is the clearest signal yet that institutional treasury buying hasn't gone dormant — it's rotating, with ether drawing the kind of conviction bitcoin treasuries drew a year ago. Useful context for BOF's read on where marginal institutional dollars are flowing within the ecosystem.</div>
+    <div class="when">Broke: yesterday morning, ~10:54am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://cointelegraph.com/news/mutiny-metaplanet-moves-4800-btc-worth-377m-to-coinbase?utm_source=rss_feed&amp;utm_medium=rss_tag_bitcoin&amp;utm_campaign=rss_partner_inbound">Metaplanet moves 4,800 BTC worth $377M to Coinbase</a>
+    <div class="why">Why it matters to BOF: a treasury company moving a meaningful chunk of its BTC holdings to an exchange address is usually either routine custody rebalancing or a precursor to a sale — with Metaplanet's mNAV still hovering near 1x after its ~70% share-price decline since June, this is worth watching for confirmation either way rather than assuming the worst.</div>
+    <div class="when">Broke: yesterday morning, ~9:19am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Miners &amp; Infrastructure</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNSEpZT2tlY0RneVpidFBneFI0cWdTUi1IcnhLX0NSa3c5WGtERlBTSEZuN2pEODJ3NEpMaDlwU0tNdElpLXp4UnVIeDd6SzJSTzVXQWFWUlBtcjctbE5zaXFHY1BiTHdQMGVBS2U3T1NXWmpuczh2MVlwQUFuemE0MGg1THBuYzNnRVA2S3hqVkg5clVZUnc?oc=5">IREN vs. CIFR: Which Bitcoin Miner Is the Better AI Play?</a>
+    <div class="why">Why it matters to BOF: another entrant in the ongoing market debate over which listed miners are executing the hashing-to-HPC/AI pivot most credibly — directly relevant to how BOF underwrites miner equity and distressed debt exposure across the sector's uneven AI-conversion economics.</div>
+    <div class="when">Broke: yesterday afternoon, ~1:42pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNR3JDNmZwMklOdU4xeTlsX05OZmpTdjRKMVFpcVFzNEoyQ01pSzl4WGw2bUZVWWNqZjh3TFFJUUtHYlNiMTlwX3JGQWR2cjE3Q2pwMzRBOFh2b2N4dGxrV3pnNVVIY3hrQVdqd0I1dDdmLWtuWDZNeGNYRGNwcERPc0RiMEhoLXpOX2hubWw1YnZZbFFkMUQ1VTBBS0M0NFVSWDhDbU5pWlMycUFIMkJlT2p2Nmo?oc=5">Why bitcoin's $2B corporate treasuries are a ticking time bomb of hidden conditional supply</a>
+    <div class="why">Why it matters to BOF: a contrarian read arguing that convertible-note and preferred-equity structures embedded in several treasury companies' balance sheets carry conversion or redemption triggers that could force BTC sales under stress — the kind of structural, non-obvious risk BOF's distressed-debt desk is positioned to price ahead of the market.</div>
+    <div class="when">Broke: yesterday afternoon, ~2:10pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem Deal Flow</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/08/31/nyse-owner-ice-taps-tzero-for-tokenized-securities-push-takes-stake-in-firm">NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm</a>
+    <div class="why">Why it matters: another traditional-market incumbent (ICE, parent of the NYSE) taking a direct equity stake in tokenization infrastructure rather than building in-house — incremental but real evidence that institutional market plumbing is converging with the digital-asset rails both funds' thesis depends on maturing.</div>
+    <div class="when">Broke: yesterday morning, ~10:44am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem Deal Flow</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://decrypt.co/376971/russia-sberbank-46-billion-crypto-trading-ethereum-usdt">Russia's Sberbank sees $46 billion in first-year crypto trading, plans ether and USDT-backed loans</a>
+    <div class="why">Why it matters: a large, sanctioned-economy bank formalizing crypto-collateralized lending and putting a specific $46B trading-volume forecast on the record is a data point on non-US institutional crypto adoption continuing regardless of the US regulatory calendar — background context rather than a direct book driver for either fund.</div>
+    <div class="when">Broke: yesterday afternoon</div>
+  </div>
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing Monday August 31 2026 percentage moves: spot gold down about 1 percent, spot silver down about 1 percent, GDX down 1.14 percent, SIL down 1.20 percent, and SILJ down 1.29 percent, showing miner equities underperforming the metals they track">
+      <line x1="20" y1="40" x2="380" y2="40" stroke="currentColor" stroke-opacity=".3"/>
+      <text x="386" y="43" font-size="9" fill="currentColor" opacity=".6">0%</text>
+
+      <rect x="46" y="40" width="54" height="62" fill="#b8860b" opacity=".8"/>
+      <text x="73" y="116" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">-1.0%</text>
+      <text x="73" y="130" text-anchor="middle" font-size="8.5" fill="currentColor" opacity=".8">Gold</text>
+
+      <rect x="122" y="40" width="54" height="62" fill="#9a9a9a" opacity=".8"/>
+      <text x="149" y="116" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">-1.0%</text>
+      <text x="149" y="130" text-anchor="middle" font-size="8.5" fill="currentColor" opacity=".8">Silver</text>
+
+      <rect x="198" y="40" width="54" height="71" fill="#c8102e" opacity=".8"/>
+      <text x="225" y="125" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">-1.14%</text>
+      <text x="225" y="139" text-anchor="middle" font-size="8.5" fill="currentColor" opacity=".8">GDX</text>
+
+      <rect x="274" y="40" width="54" height="75" fill="#c8102e" opacity=".8"/>
+      <text x="301" y="129" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">-1.20%</text>
+      <text x="301" y="143" text-anchor="middle" font-size="8.5" fill="currentColor" opacity=".8">SIL</text>
+
+      <rect x="350" y="40" width="30" height="80" fill="#c8102e" opacity=".8"/>
+      <text x="365" y="134" text-anchor="middle" font-size="10.5" font-weight="700" fill="currentColor">-1.29%</text>
+      <text x="365" y="148" text-anchor="middle" font-size="8.5" fill="currentColor" opacity=".8">SILJ</text>
+
+      <text x="200" y="16" text-anchor="middle" font-size="8.3" fill="currentColor" opacity=".7">Monday Aug 31 2026 session moves: spot metals vs. miner ETFs (GDX/SIL/SILJ)</text>
+    </svg>
+    <div class="chart-cap">Monday's session shows the pattern EMA's book is built around: producer miners (GDX -1.14%) and silver miners (SIL -1.20%) both fell further than the roughly 1% drop in the metals they track, and junior-heavy SILJ fell furthest at -1.29% — negative leverage on the way down, the mirror image of the upside beta the fund is positioned for on the way up. With Perpetua's Stibnite construction progressing and Independence Gold's fresh depth hit both landing the same day (Gold &amp; Silver section above), the equity-level dispersion beneath a flat metals tape is exactly where EMA's stock-picking edge over a passive GDX allocation is supposed to show up.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Tuesday, September 1, 2026, ~8:35am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates (dry-run) · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
