@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Thursday, September 3, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Thursday, September 3, 2026 · figures as of ~8:20am ET · US equities open 9:30am ET</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$77,900</div>
+      <div class="chg up">+~1% 24h — bouncing off Wednesday's Iran-strike lows near $76,500, but still down ~3% on the week</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$2,400</div>
+      <div class="chg neutral">Roughly flat overnight, tracking BTC's bounce</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">50 · Neutral</div>
+      <div class="chg down">Down sharply from 69 (Greed) two sessions ago — this week's Iran-driven volatility cooled sentiment fast</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$4,440 / ~$65.88</div>
+      <div class="chg up">Gold +~1%, silver +0.87% — both firming this morning on hopes the latest Iran re-escalation is short-lived</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$97.63 Wed</div>
+      <div class="chg up">+3.13% Wednesday close — miners recovered most of Tuesday's -3.90% negative-leverage drop (detail below)</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">~+14%</div>
+      <div class="chg up">BTC-11SEP26 near-dated contract — contango holding firm, futures-based BTC exposure still well compensated</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">+$70.7M Wed</div>
+      <div class="chg up">IBIT +$115.4M led the rebound (GBTC -$56.2M offset); reverses Tuesday's -$236.5M outflow in one session</div>
+    </div>
+    <div class="tile">
+      <div class="label">US 10Y / DXY / Equities</div>
+      <div class="value">4.79% / ~99.51 / S&amp;P flat</div>
+      <div class="chg neutral">10Y eased 2bp off Tuesday's Nov-2023 high; DXY softening slightly; futures mixed (S&amp;P +0.02%, Dow +0.21%, Nasdaq -0.18%) as Brent eases off $97 on de-escalation hopes</div>
+    </div>
+  </div>
+  <div class="note">Thursday opens with a partial unwind of this week's Iran-driven risk-off shock: bitcoin has bounced back above $77,500 and gold is firming after President Trump signaled the latest US strikes on Iran won't drag on, and CME-implied September Fed hike odds have eased to roughly 66% from Tuesday's 68-70% peak. Both funds' core assets are recovering in tandem — bitcoin's ETF complex flipped to a $70.7M net inflow Wednesday and GDX clawed back most of Tuesday's rout — but nothing here changes the macro setup into next week's data: Friday's August jobs report and the September 15-16 FOMC remain the real catalysts. The more durable story for both desks is structural, not a one-day bounce: a Bloomberg analysis out this morning shows major non-US institutional holders have cut dollar-hedge ratios to just 41% of foreign-currency exposure, the lowest level since at least 2015 (detail and chart below) — a slow-moving but real signal of eroding confidence in dollar assets that sits at the center of both funds' debasement thesis.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/09/03/bitcoin-back-above-usd77-500-xrp-leads-majors-as-fed-hike-odds-near-66">Bitcoin back above $77,500 as Fed hike odds ease near 66%</a>
+    <div class="why">Why it matters to both desks: this is the clean mirror image of yesterday's regime-flip warning — with September hike odds easing from Tuesday's 68-70% peak and Trump signaling the latest Iran strikes won't be prolonged, bitcoin is trading the "risk-on" side of the same correlation that sold it off on the way down. For BOF, that confirms bitcoin is still moving with the macro-shock playbook, not against it; today's bounce is a reason for discipline on the way back up, not complacency.</div>
+    <div class="when">Broke: overnight into this morning, as of ~8am ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.bloomberg.com/news/articles/2026-09-03/world-s-unusually-high-dollar-exposure-risks-fueling-selloff">World's unusually high dollar exposure risks fueling a selloff as hedge ratios hit decade-plus low</a>
+    <div class="why">Why it matters to both desks: a survey of pension funds and insurers across Japan, Canada, Taiwan, Australia, Denmark and Finland found they've hedged just 41% of their foreign-currency exposure as of end-June — the lowest reading since at least 2015, down from 56% in 2020 — because a strong dollar made hedging expensive and leaving positions open boosted returns. That's precisely the kind of structural, un-hedged dollar concentration both funds' debasement thesis is built to exploit if the dollar's 2026 downtrend resumes: a scramble to hedge on a renewed dollar slide would itself become a source of further dollar weakness, and by extension a tailwind for bitcoin and gold. Quotable stat for Lavish: hedge ratios at a decade-plus low, sitting right where a policy misstep would do the most damage.</div>
+    <div class="when">Broke: this morning, ~8am ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://finance.yahoo.com/markets/crypto/articles/strategy-mstr-resumed-bitcoin-accumulation-030758585.html">Strategy resumes bitcoin buying with $602.8M raise for 4,603 BTC, ending 10-week pause</a>
+    <div class="why">Why it matters to BOF: Saylor's Strategy had suspended purchases for ten weeks while it defended STRC's $100 par value, so this print — 4,603 BTC funded by a $602.8M common-share sale, taking total holdings to 845,050 BTC — is the clearest signal yet that the largest corporate bitcoin treasury sees its balance-sheet stress as manageable. Watch mNAV and STRC pricing over the next few sessions to confirm this isn't a one-off before reading it as a durable resumption of the treasury-company bid.</div>
+    <div class="when">Broke: this week, confirmed in filings as of yesterday</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">EMA's book — mining equities first. No in-window news on Lion One, Lavras, or SilverTiger.</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining-Equity Move</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="../articles/2026-09-03-gdx-silj-rebound.html">GDX rebounds 3.1% to $97.63, SILJ recovers as miners bounce off Tuesday's rout</a>
+    <div class="why">Why it matters to EMA: Wednesday's bounce recovered roughly four-fifths of Tuesday's sharp negative-leverage selloff, confirming that move was a rate-hike-odds scare rather than a thesis break. GDX remains up ~52% off its July low on ~$419M of August retail inflows (its best monthly intake since February) and still trades at a modest 10.4x P/E — the operating-leverage setup both the fund's producer and developer names are underwritten by stays intact.</div>
+    <div class="when">Broke: yesterday's session (Wednesday close)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Junior Drill Story</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.miningweekly.com/article/initial-drilling-results-identify-a-new-mineralised-zone-at-sonoro-golds-mexico-project-2026-09-02">Initial drilling results identify a new mineralized zone at Sonoro Gold's Mexico project</a>
+    <div class="why">Why it matters to EMA: exactly the kind of resource-expanding drill story GDX and SIL don't capture — the first 10,000m of Sonoro's 50,000m campaign at Cerro Caliche (Sonora, Mexico) identified a new zone at El Quince, with intercepts including 18.29m at 3.39 g/t Au (including 9.14m at 6.44 g/t Au) between the project's existing central and western corridors. A new higher-grade zone this early in a large drill program is a classic re-rating catalyst for a junior developer well ahead of any formal resource update.</div>
+    <div class="when">Broke: yesterday (news release)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal-Price Driver</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-september-3-2026-gold-moves-higher-on-hopes-that-iran-war-reescalation-will-be-short-lived-110444019.html">Gold moves higher on hopes Iran war re-escalation will be short-lived</a>
+    <div class="why">Why it matters to EMA: this is the mechanism behind this morning's firmer tape in both the metal and the miners — Trump's comments that the latest strikes wouldn't "take too long" are pulling gold back above $4,400 even as Brent holds over $97 on the still-live Strait of Hormuz standoff. It's the mirror image of Tuesday's "safe-haven paradox," where rate-hike odds were overpowering the geopolitical bid; today hike odds and geopolitics are both easing gold's way at once, worth watching for follow-through into the open.</div>
+    <div class="when">Broke: this morning, ~7am ET</div>
+  </div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-fewer-than-expected-adp-reports.html">Private payrolls rose by just 38,000 in August, less than expected, ADP reports</a>
+    <div class="why">Why it matters to both desks: a soft ADP print two days ahead of Friday's official jobs report is exactly the kind of labor-market wobble that argues against a September hike, reinforcing the "hiking into weakness" case that both funds' commentary has been making all week. A weak Friday NFP would be the single biggest catalyst left before the FOMC for both bitcoin and gold to extend this morning's bounce.</div>
+    <div class="when">Broke: yesterday, ~10:30am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/09/02/new-york-feds-williams-says-yield-surge-due-to-strong-economic-prospects.html">New York Fed's Williams says yield surge is due to strong economic prospects</a>
+    <div class="why">Why it matters to both desks: Williams pushing back on the idea that Tuesday's bond selloff reflects fiscal or inflation risk — framing it instead as good news about growth — is the more hawkish read that pressured both bitcoin and gold earlier this week. It's the exact counter-narrative both funds need to track against the debasement thesis: if the Fed keeps characterizing higher real rates as benign, that's a real headwind independent of any one day's price action.</div>
+    <div class="when">Broke: yesterday, ~11:56am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://support.coincall.com/hc/en-us/articles/61821073094937-September-2-2026-Bitcoin-Holds-78K-as-ETF-Flows-Reverse-and-Fed-Hike-Bets-Rise">Bitcoin ETFs post $70.7M net inflow, reversing Tuesday's outflow</a>
+    <div class="why">Why it matters to BOF: IBIT alone added $115.4M Wednesday against a $56.2M GBTC redemption, flipping Tuesday's $236.5M outflow in a single session — a reminder that ETF flow has been whipsawing day-to-day with rate-hike odds this week rather than showing a clean directional trend either way.</div>
+    <div class="when">Broke: yesterday, full-day flow data</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Miners &amp; Infrastructure</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.theblock.co/news/markets/2026-09-02-hyperscale-data-shares-all-time-low-company-flips-michigan-site-bitcoin-mining-into-ai-413357">Hyperscale Data shares hit all-time low as company flips Michigan site from bitcoin mining into AI</a>
+    <div class="why">Why it matters to BOF: another small-cap miner capitulating on pure bitcoin mining economics in favor of an AI/HPC pivot, with the equity making a fresh all-time low on the announcement rather than being rewarded for it — the kind of forced-conversion, cash-strapped situation the fund's distressed-debt desk should be checking for mispriced paper in the capital structure.</div>
+    <div class="when">Broke: yesterday, ~11:29am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.theblock.co/news/business/2026-09-02-adam-back-invests-another-8-8-million-in-capital-b-as-bitcoin-treasury-firm-targets-3521-btc-413339">Adam Back invests another $8.8 million in Capital B as bitcoin treasury firm targets 3,521 BTC</a>
+    <div class="why">Why it matters to BOF: a second Adam Back-backed raise for Europe's first listed bitcoin treasury company, taking his stake toward 17.77% (up to 27.8% fully diluted) and funding a path from 3,145 to 3,521 BTC — a small but concrete data point on continued conviction capital flowing into the European treasury-company cohort even as US peers like Strategy manage balance-sheet stress.</div>
+    <div class="when">Broke: yesterday, ~8:31am ET</div>
+  </div>
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart showing the decline in foreign-currency hedge ratios among major non-US institutional holders of dollar assets, from 56 percent in 2020 to 41 percent as of mid-2026, the lowest level since at least 2015, illustrating growing unhedged dollar exposure that both bitcoin and gold could benefit from if the dollar downtrend resumes">
+      <line x1="20" y1="210" x2="380" y2="210" stroke="currentColor" stroke-opacity=".3"/>
+      <text x="4" y="213" font-size="9" fill="currentColor" opacity=".6">0%</text>
+
+      <rect x="50" y="98" width="70" height="112" fill="#0b3d91" opacity=".55"/>
+      <text x="85" y="90" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">56%</text>
+      <text x="85" y="228" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">2020</text>
+
+      <rect x="150" y="126" width="70" height="84" fill="#0b3d91" opacity=".7"/>
+      <text x="185" y="118" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">46%</text>
+      <text x="185" y="228" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Japan, now</text>
+
+      <rect x="250" y="140" width="70" height="70" fill="#c8102e" opacity=".75"/>
+      <text x="285" y="132" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">41%</text>
+      <text x="285" y="228" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">6-mkt avg, now</text>
+
+      <rect x="316" y="167" width="46" height="43" fill="#c8102e" opacity=".9"/>
+      <text x="339" y="159" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">27%</text>
+      <text x="339" y="222" text-anchor="middle" font-size="8.5" fill="currentColor" opacity=".8">Australia, now</text>
+
+      <text x="200" y="248" text-anchor="middle" font-size="8.3" fill="currentColor" opacity=".7">Share of foreign-currency exposure hedged: pension funds &amp; insurers in Japan, Canada, Taiwan, Australia, Denmark, Finland (Bloomberg survey, end-June 2026)</text>
+    </svg>
+    <div class="chart-cap">The average hedge ratio across six major non-US markets has fallen to 41% of foreign-currency exposure — the lowest since at least 2015 — as a strong dollar made hedging expensive through H1 while unhedged positions boosted returns. That leaves the system unusually exposed to a renewed dollar slide: a scramble to hedge would itself weaken the dollar further, precisely the debasement-adjacent dynamic both funds' bitcoin and gold exposure is designed to benefit from. Worth watching against this week's DXY firming (scoreboard, above) — the structural setup and the one-week tape are currently pointing in opposite directions.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Thursday, September 3, 2026, ~8:20am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates (dry-run) · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
