@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Friday, September 4, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Friday, September 4, 2026 · figures as of ~8:20am ET · US equities open 9:30am ET</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$81,200</div>
+      <div class="chg up">+~5% 24h — holding near Thursday's four-month high of $82,200 after the Waller-driven rate-hold rally</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$2,500</div>
+      <div class="chg up">+4.1% 24h — tracking bitcoin's rate-cut-odds bounce</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">65 · Greed</div>
+      <div class="chg up">Up from 63 yesterday (prefetch, pre-rally) — sentiment already climbing into Thursday's Waller pop</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$4,475 / ~$67.10</div>
+      <div class="chg neutral">Gold holding most of Thursday's 2%+ Waller-driven pop; silver easing slightly off its ~$67.40 high</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$101.49 Thu</div>
+      <div class="chg up">+3.95% Thursday close, a fresh 2026 high — GDXJ +3.34% to $132.33 (detail below)</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">-3.66% / -0.05%</div>
+      <div class="chg down">BTC-11SEP26 (7d) / BTC-18SEP26 (14d) as of Thu midday — a flip into backwardation from +14% contango two sessions ago; worth re-checking post-rally, as futures-held BTC exposure was briefly uncompensated</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">+$730.9M Thu</div>
+      <div class="chg up">Largest inflow day since Jan 14; IBIT +$454M led, ARKB +$137.7M, FBTC +$74.4M</div>
+    </div>
+    <div class="tile">
+      <div class="label">US 10Y / DXY / Equities</div>
+      <div class="value">4.78% / ~99.0 / S&amp;P +0.1%</div>
+      <div class="chg neutral">Nasdaq 100 futures +0.5% as of 7:15am ET; markets steady ahead of 8:30am ET August jobs report (consensus +56-58K, unemployment 4.1%)</div>
+    </div>
+  </div>
+  <div class="note">Friday opens with both desks' core assets riding the same catalyst: Fed Governor Christopher Waller said Thursday he'd support holding rates steady in September if disinflation continues, cutting implied hike odds from roughly 70% to 50% and sending bitcoin up 6.8% to a four-month high, gold up more than 2%, and GDX to a fresh 2026 high — a clean, same-day demonstration of both funds' rate-sensitivity thesis. Bitcoin's spot ETF complex delivered its biggest single-day inflow since mid-January on the move ($730.9M, IBIT-led), while Strategy's mNAV compressed to roughly 1.00x — a signal worth watching for BOF's treasury-company book even as the underlying accumulation story stays intact (detail below). The next catalyst is imminent: August nonfarm payrolls print at 8:30am ET, with consensus around +56-58K and unemployment held at 4.1% — a soft print would reinforce today's rally, a hot one could unwind it fast.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/09/03/fed-governor-waller-indicates-he-will-support-holding-rates-steady-at-september-meeting.html">Fed Governor Waller indicates he will support holding rates steady at September meeting</a>
+    <div class="why">Why it matters to both desks: this is the transmission mechanism both funds trade on, playing out in real time — Waller's remarks cut implied September hike odds from roughly 70% to 50% in a single session, and bitcoin responded by jumping 6.8% intraday to $82,200, its highest level since May, while gold rallied more than 2% and GDX printed a fresh 2026 high. Quotable for Lavish: one Fed governor signaling patience on rates was worth a same-day, cross-asset move in both of the funds' core holdings — exactly the real-rate sensitivity the debasement thesis is built on.</div>
+    <div class="when">Broke: Thursday, ~10:06am ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.theblock.co/news/markets/2026-09-04-us-bitcoin-etfs-largest-inflow-day-since-january-413515">US bitcoin ETFs report the largest inflow day since January, worth $730.9M</a>
+    <div class="why">Why it matters to BOF: IBIT alone pulled in $454M, with ARKB (+$137.7M) and FBTC (+$74.4M) rounding out the biggest single-day haul since January 14 — a sharp reversal of the choppy, whipsaw flow pattern from earlier in the week and the clearest sign yet that institutional demand snapped back hard on the Waller-driven rate repricing. Total ETF net assets closed just above $103.3B, or roughly 6% of bitcoin's market cap — worth watching whether Friday's jobs data extends or reverses the streak.</div>
+    <div class="when">Broke: reported this morning, reflects Thursday's full-day flow data</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMi0wFBVV95cUxQY2o4dmZKekVtOGlBS19lUXBfcUVRU255VC05TjkxSGxwMHhCWm9QdTQyY0hzSlhNSjZjRjJYSW5mUjFCM05MZWNubnExM092RThGUU5uS3diUkFsM1pVRzZkakdTZ1o0R2pfSjVZQ3JmY1NEVHE5aGptMEVqOGVadzhSUTc0ZENtM1phcHpLZnJhamxYQktETmtZV2lKLVhFZWVNcEMxT016RnJ2VXdndUxtWkFERHhJVGhWX3lPUS1FU2xyOS1sRGt4TWpabDBqcHNR?oc=5">Saylor says Strategy's Bitcoin-heavy reserve capital surpasses nearly all S&amp;P 500 financial firms</a>
+    <div class="why">Why it matters to BOF: the flip side of that boast is in the numbers underneath it — Strategy's mNAV has compressed to roughly 1.00x (down from a 0.96x-1.43x range over the past year), meaning the stock now trades for almost exactly the value of its 845,050 BTC, with no equity premium cushioning holders if bitcoin stalls. Saylor's framing is bullish on scale; the mNAV read is the risk gauge — a treasury-company premium compressing toward parity with the underlying asset is exactly the setup BOF's treasury-company book needs to watch heading into the MSCI non-operating-company consultation (closes Sept 30, decision expected by Oct 16).</div>
+    <div class="when">Broke: yesterday, ~12:01pm ET</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">EMA's book — mining equities first. No in-window news on Lion One, Lavras, or SilverTiger.</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining-Equity Move</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiywFBVV95cUxPNHJLNDZpdTZUUWplZkRNQjVvaERXOGFXaTlPZE1ueDhqZll2OHlnMHdZcXB2VFFIZlVlcTVaVW82aTVhRnNfTzlHamxWVnJuQWNLdHVaZ1d6eWd4Wk1UbXR0Y3c3VTFkUlkwX1FJV21hcWZmU2c2bHNoWFRyZXphM3IxTDI0YjNyeUN0eUUwNnBzRTVSNUNkRi10bU0xRE1ENXB0RTNfMm9TZzhfYVd4aTNTeXlSYi1xZlBVS3o3X21FU2hjb1lRU0dEcw?oc=5">Alamos Gold (AEM) stock gains as gold price strengthens and recent results underpin outlook</a>
+    <div class="why">Why it matters to EMA: a large-cap producer catching a bid even after August's 12%-lower full-year guidance cut (on setbacks at Young-Davidson and La Yaqui Grande) shows how forgiving the tape is for miners with clean balance sheets right now — Alamos still posted $144M of free cash flow in Q2 alone. It's the kind of name EMA's core producer sleeve leans on for ballast while the junior book carries the torque.</div>
+    <div class="when">Broke: yesterday, ~8:56am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining-Equity Move</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="../articles/2026-09-04-miners-rally-waller.html">GDX jumps 3.95% to $101.49, GDXJ +3.34% as Waller's dovish tilt fires up the miners</a>
+    <div class="why">Why it matters to EMA: this is the operating-leverage mechanism the fund is underwritten on — the same Waller comments that moved bullion 2%+ moved GDX to a fresh 2026 high, decisively out-running gold's own advance since July. It confirms the producer/developer overweight is still doing its job on rate-cut days, not just holding up on quiet ones.</div>
+    <div class="when">Broke: Thursday's session (close)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal-Price Driver</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMicEFVX3lxTE12ako1ekU3VV9EWkswYUljQWt4c2JTUnh5Qm5yTHIwVWlGZGdvREEteW53NXZkWGdwWjF6WmFabjF3REY2MktsZkdTWDBYY194Q1d3elhCMXl4b1BzX191Mlp2TzVEcWExTHJROUJFOUw?oc=5">Goldman Sachs lifts gold price forecast to $4,900 for 2026 as central banks keep buying</a>
+    <div class="why">Why it matters to EMA: Goldman's revision (up from roughly $4,600 as of Aug 25) is explicitly framed around central banks steadily diversifying reserves away from foreign currencies as a multi-year structural trend, not a trade — the same debasement dynamic EMA's whole book is underwritten on. A standing forecast bump like this is a tailwind for sentiment across the producer-to-junior curve, not just the metal.</div>
+    <div class="when">Broke: yesterday, ~10:13am ET</div>
+  </div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMie0FVX3lxTFBNTjNNdlVLNmdVMUVFcDF2dTZSMEUzVUdrNmE2ZWwxZXMzWS02ejBJY3pRZjNkY3pSaXVMMUtFVGdEX1V0N2NZbVd6dXh5SWhTT3ZkUWxZdVJVTnVuOUdQaUFHbWxMQllhMUJMNjN2V2k5Tk84bG41dl9kYw?oc=5">Bitcoin price targets $83,450 after falling wedge breakout</a>
+    <div class="why">Why it matters to BOF: a technical breakout stacking on top of a fundamental catalyst (Waller, record ETF inflows) is the kind of confluence that can extend a move faster than either driver alone — worth watching whether $83,450 acts as a magnet into next week's CPI print, or whether Friday's jobs number derails the setup first.</div>
+    <div class="when">Broke: yesterday, ~12:18pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/09/03/standard-chartered-first-top-global-bank-to-offer-bitcoin-and-ether-trading-in-uae">Standard Chartered brings spot crypto trading to Dubai FX platform</a>
+    <div class="why">Why it matters to both desks: a top-15 global bank becoming the first to offer spot bitcoin and ether trading in the UAE is another brick in the bank-adoption thesis both funds track — institutional custody and trading rails expanding in a jurisdiction actively courting crypto capital adds a real, if incremental, source of durable demand alongside the ETF complex.</div>
+    <div class="when">Broke: yesterday, ~11:58am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem Deal Flow</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiywFBVV95cUxPZmE5RTlLbmlnT2JwaGtrMXh2VXpiQnMwMGxybV9Nc1hIT01pMnNBc09lZjNkbkJkSmgyX1lxa2RZZUhlTXNReFEzbGI0U21OcnRnN3RoZmtOd0s2dlpKcS0xcjZnUG41ZjRCTXg2TXhHamJ0aEs1QzJYVXFzRmx3UHZtelRZRGIxdUN1OHpCQklUb2E1bjhkeklwdmFsVEFVWW91aGRCNXJBUmRnanhydDVna21adlBCTnV1WUVWazZNQ1UtT1F0Vl8ybw?oc=5">CoinShares announces listing of Bitcoin and Ethereum ETPs on Hargreaves Lansdown</a>
+    <div class="why">Why it matters to BOF: Hargreaves Lansdown is the UK's largest retail investment platform, so a listing there opens bitcoin exposure to a mass-affluent retail channel that previously required a separate crypto account — a genuine, if slow-moving, distribution expansion rather than a one-day price story.</div>
+    <div class="when">Broke: yesterday, ~11:37am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/09/03/bitget-in-talks-with-wall-street-giants-including-blackrock-for-asian-distribution">Bitget in talks with Wall Street giants including BlackRock to fuel Asian distribution</a>
+    <div class="why">Why it matters to BOF: even preliminary talks between a major exchange and BlackRock on Asian distribution signal continued institutional appetite for crypto market access outside the US — another data point for the "TradFi keeps building crypto rails" thesis that underpins both funds' long-run adoption case, though nothing here is confirmed yet.</div>
+    <div class="when">Broke: yesterday, ~10:41am ET</div>
+  </div>
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart showing US spot bitcoin ETF net daily flows swinging from a 236.5 million dollar outflow on Tuesday to a 70.7 million dollar inflow Wednesday to a 730.9 million dollar inflow Thursday, the largest since mid-January, tracking the rate-hike-odds reversal driven by Fed Governor Waller's dovish comments">
+      <line x1="20" y1="140" x2="380" y2="140" stroke="currentColor" stroke-opacity=".3"/>
+      <text x="4" y="143" font-size="9" fill="currentColor" opacity=".6">$0</text>
+
+      <rect x="55" y="140" width="70" height="52" fill="#c8102e" opacity=".8"/>
+      <text x="90" y="204" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">-$236.5M</text>
+      <text x="90" y="228" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Tue</text>
+
+      <rect x="155" y="132" width="70" height="8" fill="#0b3d91" opacity=".65"/>
+      <text x="190" y="124" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">+$70.7M</text>
+      <text x="190" y="228" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Wed</text>
+
+      <rect x="255" y="40" width="70" height="100" fill="#0a7d2c" opacity=".85"/>
+      <text x="290" y="32" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">+$730.9M</text>
+      <text x="290" y="228" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Thu</text>
+
+      <text x="200" y="248" text-anchor="middle" font-size="8.3" fill="currentColor" opacity=".7">US spot bitcoin ETF net daily flow, Tue-Thu this week (Farside/TheBlock)</text>
+    </svg>
+    <div class="chart-cap">Three sessions, three regimes: Tuesday's rate-hike-odds scare drove a $236.5M outflow, Wednesday's partial de-escalation flipped it to a modest $70.7M inflow, and Thursday's Waller-driven repricing produced the largest single-day inflow since January 14 — $730.9M, IBIT-led. The flow data is trailing the price action by about a day, so today's jobs report is the next test of whether the institutional bid holds or fades.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Friday, September 4, 2026, ~8:20am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates (dry-run) · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
