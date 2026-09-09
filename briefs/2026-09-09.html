@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Wednesday, September 9, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Wednesday, September 9, 2026 · figures as of ~8:20am ET</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$78,800</div>
+      <div class="chg down">-0.3% 24h — round-tripped overnight: dipped into the $78,400s Tuesday, spiked as high as $79,742 (+1.6% since midnight UTC) on the CENTCOM tanker-strike headlines, now consolidating in the high-$78Ks</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$2,488</div>
+      <div class="chg up">+0.6% 24h, tracking bitcoin's overnight round trip</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">69 · Greed</div>
+      <div class="chg neutral">Down slightly from 70 yesterday — holding in Greed through the overnight volatility</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$4,393 / ~$66.50</div>
+      <div class="chg up">Gold +0.5% 24h, silver little changed — both firm but not breaking out even as Brent tops $100 on the Iran escalation</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$98.41 Tue</div>
+      <div class="chg down">-0.86% Tuesday's close — miners eased even as gold held near $4,400, a divergence to watch into today's session</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">+8.48% / +6.10%</div>
+      <div class="chg neutral">BTC-18SEP26 (9d) / BTC-25SEP26 (16d) — from yesterday midday's prefetch snapshot, no fresher read available this morning; solid contango, consistent with real demand for leveraged long futures exposure</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">+$986.9M wk</div>
+      <div class="chg up">Week ended 9/4, IBIT led with ~$691.5M — 2026's strongest 3-week stretch continues; Tuesday's (9/8) single-day print was not available by publication time</div>
+    </div>
+    <div class="tile">
+      <div class="label">US 10Y / DXY / Equities</div>
+      <div class="value">~4.79% / ~98.8 / futures firmer</div>
+      <div class="chg neutral">10Y holding near its highest since Jan 2025; DXY soft (~-0.4%) despite the geopolitical shock — a notable non-confirmation; S&amp;P futures +0.1%, Nasdaq 100 futures +0.2% as markets stabilize after Tuesday's selloff</div>
+    </div>
+  </div>
+  <div class="note">The dominant story overnight is geopolitical, not idiosyncratic to crypto or metals: CENTCOM says it destroyed five Iranian oil tankers after the IRGC twice targeted a US Navy warship with ballistic missiles in the past two days, and Iran retaliated with a missile strike on the Al Azraq base in Jordan (Jordanian air defenses intercepted 18 of 20 inbound missiles). Brent crude topped $100/bbl for the first time since July on the news. Bitcoin's reaction is the useful data point for both desks: it rallied alongside gold rather than selling off with equities, a live read on whether the BTC-gold correlation regime — as opposed to the risk-off-with-Nasdaq pattern seen earlier this year — holds through a fresh Middle East leg. Dollar weakness even as the story broke (DXY -0.4%) is a second non-confirmation worth flagging for the debasement thesis.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro &amp; Geopolitical</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/09/09/bitcoin-climbs-as-oil-tops-usd100-equities-drop-after-iran-strikes">Bitcoin trades with gold, not equities, as Brent crude breaks $100</a>
+    <div class="why">Why it matters to both desks: after CENTCOM struck five Iranian tankers and Iran retaliated against a US base in Jordan, bitcoin rose as much as 1.6% overnight to $79,742 in lockstep with gold, while US equity futures and Nasdaq 100 futures were comparatively muted before stabilizing. That's the opposite of the "BTC sells off with risk assets on geopolitical shock" pattern flagged repeatedly this year — a live test of whether the positive BTC-gold correlation regime is reasserting itself, which is the core read-through for how both funds should think about bitcoin's hedge properties into further escalation.</div>
+    <div class="when">Broke: overnight, developing through ~7am ET this morning</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://cointelegraph.com/news/strategy-skips-bitcoin-buy-repurchase-176m-strc?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound">Strategy skips Bitcoin buy to repurchase $176M of STRC preferred shares</a>
+    <div class="why">Why it matters to BOF: Strategy's return to bitcoin buying lasted exactly one week before pausing again — this time redirecting $176M toward repurchasing its STRC preferred stock instead of adding BTC. That's a second near-term pause in a pattern of capital being triaged toward defending the preferred-stock complex rather than pure bitcoin accumulation, a data point on management's priorities heading into the MSCI "non-operating company" index-exclusion consultation (window closes Sept 30) that both desks are tracking for treasury-company mNAV risk.</div>
+    <div class="when">Broke: yesterday, ~8:51am ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Miners &amp; Infrastructure</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://247wallst.com/investing/2026/09/08/crypto-mining-stocks-rally-while-bitcoin-slips-cipher-mining-jumps-8-mara-climbs-6/">Crypto mining stocks rally while bitcoin slips: Cipher Mining jumps 8%, MARA climbs 6%</a>
+    <div class="why">Why it matters to BOF: miner equities decoupled from spot bitcoin Tuesday — Cipher Mining +8% to $19.18, MARA +6% to $11.96 — most likely on AI/HPC compute-lease optimism (Cipher's Barber Lake site rent commencement is expected in October) rather than hashprice or BTC-price beta. For the desk underwriting miner distressed debt, that's a signal equity investors are increasingly pricing these names on compute-contract economics rather than pure mining fundamentals — worth stress-testing against entry points if the AI trade cools before the hashprice recovery is fully priced in.</div>
+    <div class="when">Broke: yesterday afternoon</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">EMA's book — no in-window company-specific news surfaced for Lion One, Lavras, or SilverTiger; today's set leads with a genuine junior-miner drill story, then a miner-equity sentiment check and a silver technical note.</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Junior Miner / Drill Results</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.juniorminingnetwork.com/junior-miner-news/press-releases/897-tsx-venture/goro/210423-goldgroup-reports-strong-first-results-from-26-000-metre-san-francisco-drill-program.html">Goldgroup Reports Strong First Results from 26,000-Metre San Francisco Drill Program</a>
+    <div class="why">Why it matters to EMA: the first six holes of a 26,000-metre program at the formerly-producing San Francisco Gold Project in Sonora hit both higher-grade intervals and broader mineralized zones, feeding an ~$8.5M technical study on restarting and optimizing the operation. This is exactly the kind of drill-story-into-restart-optionality setup GDX/GDXJ skip and EMA's book is built to capture — worth flagging for the pipeline alongside the watchlist names.</div>
+    <div class="when">Broke: yesterday</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equity Sentiment</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeXVrdzlKMF84M2FEU3FNVWVmYjJXM1g3NVplOFc0ZjljZVZjS1NrLU9ySkhra2tBbzlHaTlhZ3NFRUk0dC1nb2pCUDdVX1RrUDhNMXlVc2tNeVJ1S3JGalBfMzkxNWJaZ2RSVS13eTcwSFlGSUtlLUVQUE1wZm1VQmxzQmhxcGZ4?oc=5">Private Investor's Diary: Gold miners are soaring but I'm cautious</a>
+    <div class="why">Why it matters to EMA: a retail-facing but symptomatic caution flag after miners' 2026 run, landing the same day GDX closed -0.86% even as gold held near $4,400 — a pullback-day divergence worth weighing against valuation discipline on richly-run producer names in the book, rather than a signal to change the core thesis.</div>
+    <div class="when">Broke: yesterday, ~10:19am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal-Price Driver</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNZUhZcGdMSUc2R1FTMThmN2VGeWNwMjNSamtyTFdybWFDOHdsRHdxYjVWamNKSmxzMXEzNXRlRHVxa0dmd2NKdC1UdURDTGF0dUR3QWlFR1ZXanhvd3NmekxsTHU0WlVuUDVVb21pTllEOUh6bzNQRjRfeXBkc0lqNlJDM2JtaU1wcUQtQkVqRy1sci1wNUtmYmVnNWowMXZxRzNv?oc=5">Silver Price Forecast: Bulls struggle below the 100-day SMA</a>
+    <div class="why">Why it matters to EMA: near-term technical resistance for silver even as the structural bull case stays intact — 2026 is on track for a sixth straight annual supply deficit (~46.3M oz projected shortfall). That divergence between a tight physical market and stalled price action is exactly the setup silver-miner investors need to watch for SIL/junior entry timing.</div>
+    <div class="when">Broke: yesterday, ~10:23am ET</div>
+  </div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/09/07/japan-foreign-reserves-yen-intervention.html">Japan's foreign reserves drop by a record $80 billion in August following yen intervention</a>
+    <div class="why">Why it matters to both desks: Tokyo spent a record sum defending the yen, directly draining a pool of dollar-denominated reserves. That's a concrete data point on the yen-carry-unwind/global-dollar-liquidity channel both funds watch as a transmission mechanism into risk assets and into gold's debasement bid — a quotable stat for macro commentary.</div>
+    <div class="when">Broke: yesterday, ~10:15am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMi9wFBVV95cUxNcUREMzhOV2JkMEtvb0IzMzFzWkhwLTFLcmFRN1hVNW52NEQzYnZLTFFCb25tblFOVXlWSE1mSnVfcFhpakRyOURMR1kzXy1XczRpdWEwOXUzaElBNWt6V2xoRnpWdWgzLTdDdjRRTXpnWHg1Nk43OTJLRGhyQUxFaTczMjEtN1BQWHE1bnFhcG0zS2tCdlJwVzFFUUt2LVRucnYzQnozWjNxb2NDR192MlVTMUlXbjlCcVRsWHlnRVFKRjNzUXZMV2tjRGZoZHVYLWVySWlXaXlaOXBDSWFsbkNBY1FMNml2bjhVS01uVzh3SlBRQXVF?oc=5">Bitcoin options pricing shows at-the-money IV at 37% as volatility smile signals lingering tail risk</a>
+    <div class="why">Why it matters to BOF: elevated at-the-money implied vol alongside a volatility smile skewed toward tail outcomes is exactly what you'd expect heading into an active Middle East escalation — a useful read on hedging costs for the futures-and-options-held portion of the book right now.</div>
+    <div class="when">Broke: yesterday, ~12:03pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem Deal Flow</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://decrypt.co/377676/robinhood-equity-crypto-com-prediction-markets">Robinhood Takes Equity Stake in Crypto.com, Taps Exchange to Power Prediction Markets</a>
+    <div class="why">Why it matters to BOF: consolidation among retail-facing crypto and prediction-market platforms ahead of NFL season is a competitive-landscape data point for the ecosystem deal-flow side of the book, even though it's adjacent to rather than core bitcoin infrastructure.</div>
+    <div class="when">Broke: yesterday, ~11:25am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem Deal Flow</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/09/08/circle-agrees-to-buy-cross-border-payments-firm-tazapay-for-usd400-million">Circle agrees to buy cross-border payments firm Tazapay for $400 million</a>
+    <div class="why">Why it matters to BOF: continued stablecoin-infrastructure M&amp;A as issuers build out payment rails — not bitcoin-specific, but relevant context for the pace of institutional plumbing being built around the broader ecosystem BOF invests alongside.</div>
+    <div class="when">Broke: yesterday, ~10:40am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMid0FVX3lxTE1Ubi00SGxBSnVmb0Y4M3V5N2l6dUcxRzZHUzBzVmV5cWhNTG9STFJBdWNpWEt2N3F5R3dnSUtaUUpzNlNLT3c2aGU4RjkyZkU1Nks3TjNUU0k4OUVYX05sb3FNdTZ2a25ZaWJnVWgzSks0bVJFdlVV?oc=5">Bitcoin Daily Transactions Hit Fourth Highest Level in History</a>
+    <div class="why">Why it matters to BOF: strong on-chain settlement activity independent of the price story is a useful health check on network usage and fee-market demand while the tape trades headline-to-headline on the Iran conflict.</div>
+    <div class="when">Broke: yesterday, ~12:09pm ET</div>
+  </div>
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing overnight percentage moves: bitcoin up 1.6 percent, gold up about 1.1 percent, and Nasdaq 100 futures roughly flat at up 0.2 percent, illustrating bitcoin trading with gold rather than with equities during the Iran escalation">
+      <line x1="34" y1="210" x2="380" y2="210" stroke="currentColor" stroke-opacity=".4"/>
+      <line x1="34" y1="20" x2="34" y2="210" stroke="currentColor" stroke-opacity=".4"/>
+      <text x="4" y="26" font-size="9" fill="currentColor" opacity=".6">2.0%</text>
+      <text x="4" y="118" font-size="9" fill="currentColor" opacity=".6">1.0%</text>
+      <text x="4" y="213" font-size="9" fill="currentColor" opacity=".6">0%</text>
+
+      <rect x="80" y="82" width="60" height="128" fill="#f0a500"/>
+      <text x="110" y="72" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">+1.6%</text>
+      <text x="110" y="228" text-anchor="middle" font-size="9.5" fill="currentColor" opacity=".8">Bitcoin</text>
+
+      <rect x="180" y="105" width="60" height="105" fill="#d4af37"/>
+      <text x="210" y="95" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">+1.1%</text>
+      <text x="210" y="228" text-anchor="middle" font-size="9.5" fill="currentColor" opacity=".8">Gold</text>
+
+      <rect x="280" y="191" width="60" height="19" fill="#7a8ba0"/>
+      <text x="310" y="181" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor">+0.2%</text>
+      <text x="310" y="228" text-anchor="middle" font-size="9.5" fill="currentColor" opacity=".8">Nasdaq 100 fut.</text>
+
+      <text x="200" y="248" text-anchor="middle" font-size="8.5" fill="currentColor" opacity=".7">Approximate overnight moves since the CENTCOM tanker-strike headlines broke</text>
+    </svg>
+    <div class="chart-cap">Bitcoin (+1.6% since midnight UTC to $79,742) and gold (+~1.1%) moved together overnight as CENTCOM confirmed strikes on five Iranian tankers and Iran retaliated against a US base in Jordan, while Nasdaq 100 futures were comparatively muted (+~0.2%) before the broader market stabilized. That's bitcoin trading as a geopolitical/debasement hedge alongside gold rather than selling off with risk assets — the pattern both desks should watch for confirmation or reversal as the conflict develops, and a useful counter-data-point against the BTC-DXY-positive-correlation, risk-off-with-Nasdaq regime flagged in recent weeks.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Wednesday, September 9, 2026, ~8:20am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates (dry-run) · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
