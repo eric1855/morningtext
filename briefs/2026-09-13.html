@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Sunday, September 13, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  .datawarn{font-size:.78rem;color:#a67c00;background:#fff8e6;border:1px solid #f0d999;border-radius:8px;padding:8px 12px;margin:10px 0}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    .datawarn{background:#2a2410;border-color:#5a4a1a;color:#e0b84c}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Sunday, September 13, 2026 · figures as of ~8:20am ET · CME &amp; equities closed for the weekend, crypto and metals spot trading continuously</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">$76,745</div>
+      <div class="chg down">-0.77% 24h — drifting lower off Friday's close, holding the $76-77K range</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">$2,478.50</div>
+      <div class="chg down">-2.22% 24h — underperforming bitcoin, a reversal from Friday's ETH outperformance</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">61 · Greed</div>
+      <div class="chg down">Down from 63 yesterday — sentiment cooling modestly alongside the softer tape</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">$4,349.70 / ~$64.6-65.6</div>
+      <div class="chg up">Gold roughly flat to Friday's +0.77% settle; silver rebounding intraday off Thursday's ~4% selloff (live quotes as high as $65.6 this morning vs $64.62 in our overnight snapshot)</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$96.98 Fri close</div>
+      <div class="chg neutral">Friday's range $95.30–$99.08 (precise daily % unavailable); YTD +12.7%, near 11-month highs</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">+5.25% / +4.78%</div>
+      <div class="chg up">BTC-25SEP26 (11d) / BTC-2OCT26 (18d) — cash-and-carry demand re-normalizing into modest contango after yesterday's near-total collapse to flat</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">-$462.7M (wk)</div>
+      <div class="chg down">BTC ETFs shed ~$463M over four straight down days (Sep 8-11); ETH ETFs went the other way, +$216M Friday alone — a clean divergence trade</div>
+    </div>
+    <div class="tile">
+      <div class="label">US 10Y / DXY / Equities</div>
+      <div class="value">~4.97% / ~99.09 / S&amp;P +0.9%</div>
+      <div class="chg neutral">Friday's closing levels (no CME print over the weekend): 10Y highest since Oct 2023; DXY little changed; S&amp;P 500 +0.9%, Nasdaq +1.0% Friday, reopens Sunday 6pm ET</div>
+    </div>
+  </div>
+  <div class="note">The macro story of the weekend broke this morning: Forbes/FT reporting that Stanley Druckenmiller — mentor to both Fed Chair Kevin Warsh and Treasury Secretary Bessent — told a private Wall Street gathering that Fed officials calling current policy "restrictive" are "just ridiculous." Markets have swung from pricing four rate cuts at the start of 2026 to a base case of four hikes by July 2027 — a ~200bp repricing that is the single biggest input to both funds' real-rates thesis right now. Separately, the Senate returns this week to a revised, 630-page CLARITY Act with a pivotal vote set for September 15 — the standing regulatory watch item both desks track. Hashrate held at 941.1 EH/s with difficulty unchanged at 127.45T ahead of its next retarget.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.forbes.com/sites/digital-assets/2026/09/13/bitcoin-is-suddenly-braced-for-an-extraordinary-fed-earthquake/">Shock Leak Reveals An 'Extraordinary' Fed Earthquake Could Be About To Hit The Bitcoin Price</a>
+    <div class="why">Why it matters to both desks: Druckenmiller's line — that Fed officials insisting policy is "restrictive" are "ridiculous" — is a direct shot at the real-rates framework both funds use to underwrite hard-asset exposure. The magnitude of the repricing (four cuts expected in January, now four hikes priced by mid-2027) is a ~200bp swing in a matter of months, and it's happening with core CPI already running hot. Near-term that's a headwind for zero-yield bitcoin and gold; medium-term, a Fed forced to hike into a fiscally-dominant, high-debt backdrop is precisely the policy-error setup that validates the debasement thesis — worth a Lavish soundbite either way.</div>
+    <div class="when">Broke: this morning, ~7:30am ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Regulation &amp; Policy</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/news-analysis/2026/09/11/crypto-s-clarity-act-is-a-schroedinger-s-cat-in-life-death-limbo-as-u-s-senate-returns">Crypto's Clarity Act is a Schrödinger's cat in life-death limbo as U.S. Senate returns</a>
+    <div class="why">Why it matters to both desks: the Senate is back this week facing a revised, 630-page CLARITY Act — over 100 changes, including new language targeting "decentralized-in-name-only" protocols — with a pivotal vote set for September 15. This is the standing market-structure watch item that determines custody, exchange, and ecosystem-deal-flow rules both funds operate under; a stalled or diluted bill keeps regulatory overhang priced into bitcoin-adjacent equities (miners, treasury companies) even as the underlying asset trades on macro.</div>
+    <div class="when">Broke: this morning, 8:00am ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://cryptopotato.com/ethereum-etfs-stay-strong-as-bitcoin-funds-lose-460m-in-a-week/">Ethereum ETFs Stay Strong as Bitcoin Funds Lose $460M in a Week</a>
+    <div class="why">Why it matters to BOF: spot bitcoin ETFs bled money four straight sessions (Sep 8-11: -$46.7M, -$120.2M, -$282.6M, -$13.3M) for the first red week since mid-August's breakout, while ether ETFs pulled in $216.4M on Friday alone — a two-week high. That's real allocator rotation, not noise, and it's the flow-side confirmation of the CryptoQuant resistance call below: institutional demand needs to show back up before bitcoin can clear its overhead supply zone.</div>
+    <div class="when">Broke: this morning, ~8:05am ET</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">EMA's book — miner-equity leverage is the story: Adrian Day makes the case for silver miners over gold miners, framed against gold's CPI-driven technical setup and UBS's reaffirmed silver target.</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities · Commentary</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://thedeepdive.ca/silver-miners-will-crush-gold-miners-adrian-day/">Silver Miners Will Crush Gold Miners</a>
+    <div class="why">Why it matters to EMA: Adrian Day (EuroPacific Gold Fund) argues he's "unquestionably more bullish on the miners than the metals right now," with silver miners set to outperform gold miners on operating leverage. Our own gold/silver ratio has been whipsawing — 65.1 on Sep 9 (silver cheap relative to gold) back to 67.8 by Sep 10 after silver's selloff, now sitting at 67.3 (see Chart of the Day). A ratio that keeps compressing toward the low-60s is exactly the setup that makes Day's call tradeable, and it's the same mechanical argument for owning SilverTiger and other silver-leveraged names over the metal itself.</div>
+    <div class="when">Broke: yesterday, ~11:35am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal-Price Driver</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.fxempire.com/forecasts/article/premium-gold-price-analysis-hot-cpi-leaves-a-4470-recovery-in-play-1627132">Gold Price Analysis: Hot CPI Leaves a $4,470 Recovery in Play</a>
+    <div class="why">Why it matters to EMA: gold rebounded 1.16% after Thursday's hot CPI print despite Fed hike odds jumping, with $4,470 now the target into the September 16 decision and $4,290 as the key invalidation level. For a miner-equity book, the read-through is margin durability — if gold holds above $4,290 through a hawkish Fed surprise, the record producer margins underpinning 2026's earnings and buyback story aren't dependent on the Fed blinking.</div>
+    <div class="when">Broke: yesterday morning, 8:00am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal-Price Driver</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.exchangerates.org.uk/news/47171/2026-09-13-silver-price-forecast-xag-rebounds-as-ubs-holds-70-december-prediction.html">Silver Price Forecast: XAG Rebounds As UBS Holds $70 December Prediction</a>
+    <div class="why">Why it matters to EMA: UBS reaffirmed its $70 December 2026 / $80 September 2027 silver targets after XAG rebounded 1.64% off Thursday's steep selloff, though the metal is still down 2.6% on the week. The bank's targets imply roughly 8.6% upside to the December print and 24% to the 2027 print from Friday's close — the kind of spread that, per Day's thesis above, shows up levered in the miner equities long before it shows up in the metal.</div>
+    <div class="when">Broke: this morning, ~5:30am ET</div>
+  </div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.theblock.co/news/markets/2026-09-12-cryptoquant-bitcoin-resistance-support-levels-414519">CryptoQuant says bitcoin must clear resistance at $81,700 to confirm new bull market</a>
+    <div class="why">Why it matters to BOF: bitcoin's 365-day moving average sits at ~$81,700 — a decisive close above it has marked the start of every prior bull leg. CryptoQuant flags $77,100-$80,200 as the nearest supply wall (long-term holders sold ~539,000 BTC in that range over the past 30 days), with support at the 200-day MA near $70,000 if it fails. Combined with the ETF outflow data above, this is the level to watch for confirmation either way heading into the Fed decision.</div>
+    <div class="when">Broke: yesterday, ~5:39pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/09/12/bitcoin-suisse-plans-to-cut-up-to-half-its-swiss-jobs-as-it-shifts-work-abroad">Bitcoin Suisse plans to cut up to half its Swiss jobs as it shifts work abroad</a>
+    <div class="why">Why it matters to BOF: Bitcoin Suisse is cutting up to 60 Zug-based roles — half its Swiss headcount — shifting back-office and dev work to Bratislava and a new Vietnam hub, with CEO Andrej Majcen citing cost, not market conditions. A profitable, blue-chip custody-and-brokerage name restructuring for margin even in a decent tape is a data point on where cost pressure sits across bitcoin-native financial infrastructure — relevant context for BOF's ecosystem-deal underwriting.</div>
+    <div class="when">Broke: yesterday, ~5:09pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/09/12/ditching-bonds-for-bitcoin-how-crypto-can-tackle-the-ai-heavy-portfolio-dilemma">Ditching bonds for bitcoin: How crypto can tackle the AI-heavy portfolio dilemma</a>
+    <div class="why">Why it matters to both desks: with U.S. hyperscaler capex pushing past $800B this year and equity portfolios increasingly concentrated in a handful of AI names, the piece argues bonds have lost their diversification role as federal debt tops $40 trillion and yields sit near GFC-era levels — and that adding bitcoin improved both absolute and risk-adjusted returns across 1-10% allocation sizes historically. It's a mainstream articulation of the exact allocator pitch both funds make, appearing in a top-tier trade outlet.</div>
+    <div class="when">Broke: yesterday, ~12:00pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem &amp; Security</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.theblock.co/news/business/2026-09-12-revolut-says-customer-kyc-bitcoin-transaction-data-exposed-after-fake-request-from-govt-domain-414516">Revolut says customer KYC, Bitcoin transaction data exposed after fake request from gov't domain</a>
+    <div class="why">Why it matters to both desks: Revolut handed over passports, verification selfies, and full bitcoin transaction histories for a "limited" number of high-net-worth customers after a sophisticated impersonation scam spoofed a government agency's real email domain. No funds or systems were compromised, but the leaked data enables targeted phishing and physical "wrench attack" risk against identified bitcoin holders — a live reminder for fund principals and portfolio-company executives on custody and KYC-data hygiene at any exchange or neobank touchpoint.</div>
+    <div class="when">Broke: yesterday, ~2:57pm ET</div>
+  </div>
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Line chart of the gold-to-silver ratio over the past week, showing 66.5 on September 7, 66.2 on September 8, dropping to 65.1 on September 9 as silver outperformed, then spiking to 67.8 on September 10 and 67.7 on September 11 as silver sold off hard, before settling at 67.3 this weekend">
+      <line x1="40" y1="20" x2="40" y2="220" stroke="currentColor" stroke-opacity=".4"/>
+      <line x1="40" y1="220" x2="380" y2="220" stroke="currentColor" stroke-opacity=".4"/>
+      <text x="35" y="26" text-anchor="end" font-size="9" fill="currentColor" opacity=".7">68</text>
+      <text x="35" y="123" text-anchor="end" font-size="9" fill="currentColor" opacity=".7">66.5</text>
+      <text x="35" y="220" text-anchor="end" font-size="9" fill="currentColor" opacity=".7">65</text>
+
+      <polyline points="60,113 118,138 176,220 234,15 292,25 350,55" fill="none" stroke="#b8860b" stroke-width="2.5"/>
+      <circle cx="60" cy="113" r="4" fill="#b8860b"/>
+      <circle cx="118" cy="138" r="4" fill="#b8860b"/>
+      <circle cx="176" cy="220" r="4" fill="#0a7d2c"/>
+      <circle cx="234" cy="15" r="4" fill="#c8102e"/>
+      <circle cx="292" cy="25" r="4" fill="#c8102e"/>
+      <circle cx="350" cy="55" r="4" fill="#b8860b"/>
+
+      <text x="60" y="101" text-anchor="middle" font-size="9.5" font-weight="700" fill="currentColor">66.5</text>
+      <text x="118" y="126" text-anchor="middle" font-size="9.5" font-weight="700" fill="currentColor">66.2</text>
+      <text x="176" y="238" text-anchor="middle" font-size="9.5" font-weight="700" fill="currentColor">65.1</text>
+      <text x="234" y="8" text-anchor="middle" font-size="9.5" font-weight="700" fill="currentColor">67.8</text>
+      <text x="292" y="18" text-anchor="middle" font-size="9.5" font-weight="700" fill="currentColor">67.7</text>
+      <text x="350" y="48" text-anchor="middle" font-size="9.5" font-weight="700" fill="currentColor">67.3</text>
+
+      <text x="60" y="252" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Mon 9/7</text>
+      <text x="118" y="252" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Tue 9/8</text>
+      <text x="176" y="252" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Wed 9/9</text>
+      <text x="234" y="252" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Thu 9/10</text>
+      <text x="292" y="252" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Fri 9/11</text>
+      <text x="350" y="252" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Sun 9/13</text>
+    </svg>
+    <div class="chart-cap">The gold-to-silver ratio (ounces of silver per ounce of gold) from our own daily spot snapshots: it compressed to 65.1 on September 9 as silver briefly outran gold, then blew back out to 67.8 as silver took a ~4% hit into Thursday's hot CPI print, and has since drifted back to 67.3. This is the mechanical backdrop for Adrian Day's silver-miners call above — every point of compression in this ratio is torque that shows up amplified in producer and developer equities before it shows up in the metal itself. Weekend spot is thinly traded, so treat Sunday's print as indicative rather than a clean settle.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Sunday, September 13, 2026, ~8:25am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates (dry-run) · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
