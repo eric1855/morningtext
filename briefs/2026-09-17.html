@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Thursday, September 17, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  .datawarn{font-size:.78rem;color:#a67c00;background:#fff8e6;border:1px solid #f0d999;border-radius:8px;padding:8px 12px;margin:10px 0}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    .datawarn{background:#2a2410;border-color:#5a4a1a;color:#e0b84c}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Thursday, September 17, 2026 · figures as of ~7:50am ET · regular CME &amp; equities session · first look at the market's reaction to Wednesday's Fed decision</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<div class="datawarn">Data note: the automated overnight prefetch (normally 7:15am ET) did not run today — data/latest.json's last successful pull is from ~12:55pm ET yesterday, before the 2pm ET Fed decision. Every scoreboard figure below the pre-Fed snapshot has been rebuilt or cross-checked live via web search; where sources disagreed or a precise print couldn't be confirmed (flagged inline), we say so rather than guess.</div>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$76,300</div>
+      <div class="chg up">+0.9% 24h — holding up through and after the Fed's hike, a notably calmer reaction than gold or equities had</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$2,435</div>
+      <div class="chg up">+1.5% 24h — outperforming bitcoin this morning</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">51 · Neutral*</div>
+      <div class="chg down">*Pre-Fed read (down from 69 Tue); no fresher alternative.me print reachable this morning. A rival gauge (AltIndex) shows a sharper slide into Fear (~31) post-hike, consistent with the outflow/liquidation data below even as BTC spot held up</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$4,307 / $64.70</div>
+      <div class="chg up">Gold +1.02%, silver +1.65% vs. prior day — both recovering this morning after Wednesday's hawkish-Fed knee-jerk drop (gold to ~$4,262, -1.2%; silver to ~$62.82, -1.16%)</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">~$94, unconfirmed†</div>
+      <div class="chg neutral">†Last firm print was Tuesday's $94.20 close. Miners were "stung" by a hawkish Warsh Wednesday per Seeking Alpha's sector desk, underperforming gold intraday, but sources disagree on the exact Wednesday close this morning — flagging rather than asserting a number</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">+5.86% / +5.38%</div>
+      <div class="chg neutral">BTC-25SEP26 (8d) / BTC-2OCT26 (15d) — snapshot from ~1pm ET Wednesday, ahead of the Fed decision; mild contango, treat as pre-hike baseline</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">-$296M Wed</div>
+      <div class="chg down">IBIT -$144M led the Fed-decision-day outflow even as BTC spot held up — the ETF wrapper de-risked while price didn't move with it</div>
+    </div>
+    <div class="tile">
+      <div class="label">US 10Y / DXY / Futures</div>
+      <div class="value">5.02% / 99.36 / firmer</div>
+      <div class="chg down">10Y back above 5% (highest since July 2007) after the hike; DXY holding most of Wednesday's +0.6% jump; S&amp;P futures +0.3%, Nasdaq +0.5% this morning</div>
+    </div>
+  </div>
+  <div class="note">The through-line for both desks: the Fed delivered its first rate hike since 2023 — 25bp to 3.75-4.00% — with Chair Warsh striking a hawkish tone and the dot plot showing 16 of 18 officials pencilling in another hike this year (median projection 4.1% through 2027). Equities, gold and silver all took the harder immediate hit (Dow -631pts/-1.21%, S&amp;P -0.45%, gold -1.2%, silver -1.16%), while bitcoin barely flinched and is actually higher 24h later — a genuine divergence from the "BTC trades risk-off with equities" pattern flagged as the current regime, worth watching for a correlation flip (see Chart of the Day). ~$634M in leveraged futures were liquidated over 24h heading into the decision, with longs bearing the brunt, and the $296M ETF outflow landed on the same session — positioning cleared out ahead of the hike more than in reaction to it. Hashrate/difficulty unchanged at 964.4 EH/s / ~127.45T (next retarget est. Sept 19); no material move to flag there.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html">Fed rate decision September 2026: Rates rise to 3.75%-4%</a>
+    <div class="why">Why it matters to both desks: this is the transmission mechanism both funds are built around, live. A 25bp hike to 3.75-4.00% — the first since July 2023 — with Chair Kevin Warsh calling inflation "too high" and a dot plot where 16 of 18 officials see at least one more hike this year is unambiguously hawkish, and it's exactly why the 10Y punched back above 5% (highest since July 2007) and the dollar jumped ~0.6% within minutes. Higher real rates are a genuine near-term headwind for zero-yield bitcoin and for gold's carrying cost — but a Fed still hiking into a heavily indebted Treasury market with a chair openly flagging persistent inflation is precisely the policy-error setup the debasement thesis is priced on longer-run (a Lavish-ready soundbite), which is why gold and silver are already clawing back overnight even as the hike itself just landed.</div>
+    <div class="when">Broke: Wednesday 2pm ET decision, still the dominant story into this morning</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/09/17/crypto-rallies-through-the-fed-s-first-rate-increase-since-2023">Bitcoin rises as traders look past the Fed's rate increase</a>
+    <div class="why">Why it matters to BOF: bitcoin is up roughly 0.9% over 24 hours and trading back near $76,300-76,600, meaning it absorbed a hawkish hold-the-line Fed without cracking, while the Dow dropped 631 points and gold/silver both sold off harder intraday on the same news. That's a live data point on the BTC-equities/BTC-DXY correlation regime flagged as currently positive and risk-off-prone — if bitcoin can shrug off a genuinely hawkish rate decision while legacy risk assets and even gold can't, that's the kind of divergence worth sizing into rather than dismissing as noise.</div>
+    <div class="when">Broke: published this morning, covering the post-decision session into today</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.kucoin.com/news/flash/bitcoin-spot-etfs-see-296m-net-outflow-on-sept-16-blackrock-s-ibit-leads-with-144m-exit">Bitcoin spot ETFs record $296M net outflow on September 16, IBIT leads with $144M exit</a>
+    <div class="why">Why it matters to BOF: US spot BTC ETFs shed $296M on the Fed-decision session, with BlackRock's IBIT alone responsible for $144M of it — a smaller print than Tuesday's CLARITY-Act-driven $450M outflow, but notable because it landed on the same day bitcoin's spot price held up. Combined with ~$634M in leveraged futures liquidated over the prior 24 hours (longs bearing most of the damage) heading into the decision, the read is that derivatives and ETF-wrapper positioning de-risked ahead of the hike while spot demand didn't follow — a bifurcation between "hot money" and price action BOF's hybrid book should track into any post-Fed follow-through.</div>
+    <div class="when">Broke: reported this morning, covering Wednesday's (Sept 16) close</div>
+  </div>
+
+</section>
+
+<section>
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">EMA's book — miners' leveraged reaction to the hike, a junior-index-inclusion catalyst, and a silver-driven project revival.</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities · Leverage Reaction</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://seekingalpha.com/article/4941491-gdx-gold-stung-by-a-hawkish-warsh-but-gold-miners-remain-a-compelling-buy">GDX: Gold Stung By A Hawkish Warsh, But Gold Miners Remain A Compelling Buy</a>
+    <div class="why">Why it matters to EMA: this is the leverage question the fund underwrites tested in real time. Gold miners sold off harder than the metal itself Wednesday as Warsh's hawkish tone pushed real rates and the dollar higher — precisely the embedded operating leverage (to the metal price, and inversely to the dollar/real-rate backdrop) that makes GDX/GDXJ names outperform on the way up and underperform on the way down versus bullion. With gold already clawing back overnight, the piece's "compelling buy" framing is the thesis EMA needs to hold through a real drawdown, not just in a rising tape — a genuine stress test for conviction on names like Lion One, Lavras and SilverTiger.</div>
+    <div class="when">Broke: Wednesday afternoon/evening, following the 2pm ET Fed decision</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Junior Miner · Index Inclusion</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcmhBbmt5cmlpX29uR2dkOTJobVFRVmtSdndXS2JaOG5TZXJUVXR6c1NRUUpYSWRBUng0ejNMQUFGbC12dWxfTkFVaHhxZE83dUVXN3NZVjFvQ1JabDh6RnZHM2VKdHd4eXR3ZkJtM01VZnJ6c080TmdwZXZoZ19NZlRwZlM0V0dtS05wUTYxd1FWaGVqZlBxX1NiS2xDM1NTM0RoM2psbkVCM2ctamlwU3hTVmxOT0U4YnBB?oc=5">Versamet (NASDAQ: VMET) to enter junior gold miners ETF, expects boost to visibility</a>
+    <div class="why">Why it matters to EMA: passive-index inclusion is one of the cleanest re-rating catalysts in the junior space — forced ETF buying on effective date, plus the liquidity/visibility bump that follows. It's the same mechanic that just lifted SilverTiger into GDXJ (effective this Friday, Sept 18) and it's exactly the kind of name-specific, sub-GDX-cap catalyst that a passive metals-ETF holder never captures but EMA's junior book is built to front-run and hold through.</div>
+    <div class="when">Broke: yesterday, ~12:15pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal-Price Driver · Project Revival</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMingFBVV95cUxOLTN0SldaN0VuTUU4OWxMOVZQbFRMU20wcHNEeW14SG4wbTJZR1pDeVJ2ZnJWT3ZHQWhsRzFyT3NPRGRxcU93OWxRem05UVpTdTJUMzFpQTBZam9DdU9pS0I3MWZlT1dUS3FQVWZJVmZhY1JQVjNZdWRQYXBYSjRtLVctOENsSEJ2ZU9mckxkNUFKWFJHUjRKLTB4UzdZdw?oc=5">Silver price surge revives Nord's Gowganda tailings</a>
+    <div class="why">Why it matters to EMA: this is the transmission mechanism from spot silver into marginal-project economics made explicit — a tailings-reprocessing project that wasn't economic at lower silver prices is back in play purely on the metal's move. That's the optionality embedded in EMA's junior "drill story" book that a silver ETF holder can't access: higher silver doesn't just lift producer margins, it unlocks entirely new project pipelines at the bottom of the cost curve.</div>
+    <div class="when">Broke: yesterday, ~11:22am ET</div>
+  </div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Regulation &amp; Policy</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.theblock.co/news/regulation/2026-09-16-go-time-sec-cftc-prepare-push-crypto-rules-clarity-act-stalls-senate-415281">'Go time': SEC, CFTC prepare to push crypto rules as Clarity Act stalls in Senate</a>
+    <div class="why">Why it matters to both desks: with the legislative track dead for 2026, SEC Chair Atkins ("with or without legislation, we will act decisively") and CFTC Chair Selig ("locked in and ready to ship") are both signalling agency rulemaking fills the gap starting now. Faster than statute, but more reversible with a future administration — a near-term catalyst for custody/ETF-adjacent products BOF tracks, with a standing caveat that it's not the durable framework legislation would have been.</div>
+    <div class="when">Broke: yesterday afternoon</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Regulation &amp; Policy</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/policy/2026/09/16/u-s-house-s-tax-committee-advances-crypto-tax-bill-in-wake-of-clarity-act-loss">U.S. House's tax committee advances crypto tax bill in wake of Clarity Act loss</a>
+    <div class="why">Why it matters to BOF: a narrower, tax-focused legislative vehicle is moving even as the broader market-structure bill stalled in the Senate — a separate track worth tracking on its own, since de minimis/mark-to-market fixes matter operationally for funds trading bitcoin actively rather than just holding it.</div>
+    <div class="when">Broke: yesterday, ~12:21pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://bitcoinmagazine.com/news/deutsche-bank-to-debut-bitcoin-custody">Deutsche Bank To Debut Bitcoin Custody for Institutional Clients</a>
+    <div class="why">Why it matters to BOF: another G-SIB entering bitcoin custody directly (rather than partnering around it) widens the institutional on-ramp and is a relevant comparable for BOF's ecosystem-deal and custody-provider coverage — the kind of plumbing expansion that de-risks allocator access regardless of what happens with US market-structure legislation.</div>
+    <div class="when">Broke: yesterday, ~11:42am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMivwFBVV95cUxQVW5ZYzRfTExvTXhQMWZqcFk3MjkzT2VacGQ3MHJEbGhFWF82N25XMmNJbm1VNTI3MkhuZ01vOU94OGZBZTYySEhqZGVRanVDWlo0cFVDeXdYRkVoaUlvQlBGemZDSDh4SnhacVNJZUNrSFRPczJPQVRvR0ZONzgybE44NVhUcG8yR2VpOEJ0dlRFUXlNZzdKMGQ0UUdUUmNaOVpMb1ZmN0NlUXlCZHBuWW1BYlQ1dXhFYTg4T0R4MA?oc=5">BTIG initiates American Bitcoin stock coverage with buy rating</a>
+    <div class="why">Why it matters to BOF: sell-side research coverage initiating on a newer treasury/miner hybrid signals Wall Street continuing to build out formal research on the bitcoin-adjacent equity complex BOF trades around — mNAV, capital-structure arbitrage, and treasury-company comparables all get easier to underwrite with more analyst coverage in the space.</div>
+    <div class="when">Broke: yesterday, ~11:56am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Miners &amp; Infrastructure</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMFg5STg5MU4wY2N1Ni1jakZlZXYzQU0xdGpaemF3T1d6YmZhd0M3a0pzMmJRdzk0c3g4YUt0XzlOWUZDOVFvSy1xSDFhdzdjNWZtSDQ1YjJFNF93WFlMczhpQWk1bTliMFVkR2UwdTItSHhjLXZNTC1DVVh0a19hU2tTWG45NVhKYS1IUVphNEpSVkNKb2ZVQ09yNTBVOWliSFN2Wk5fZXVlb0s1bWh0bk1vc2tzanRLU1Rhc0MwSDNQM1RkbVFVTGZHUzdzeWFGUDVkeEVqWUQ1dmg4dlNsckdYWHIyeEJISWc?oc=5">Ethiopia Cuts Bitcoin Miners' Power To 23% Of Contracted Levels Amid El Niño Drought</a>
+    <div class="why">Why it matters to BOF: Ethiopia has emerged as a meaningful hashrate hub on cheap hydro power; a curtailment to less than a quarter of contracted levels is a real operational-risk data point for miners with concentrated single-country power exposure — directly relevant to underwriting standards on the miner-distressed-debt side of BOF's book, where power-contract reliability is a core covenant risk, not a hypothetical one.</div>
+    <div class="when">Broke: yesterday, ~11:51am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem Deal Flow</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://decrypt.co/378374/circle-launches-arc-mainnet-with-blackrock-dtcc-and-visa-as-validators">Circle Launches Arc Mainnet With BlackRock, DTCC and Visa as Validators</a>
+    <div class="why">Why it matters to both desks: TradFi giants running validator infrastructure directly on a stablecoin-native chain — rather than merely holding tokenized products — is the clearest evidence yet of institutional rails going fully on-chain. Not bitcoin-native, but squarely in BOF's ecosystem-deal-flow mandate and a read-through for how seriously the same institutions (BlackRock especially, already the largest IBIT issuer) are building digital-asset infrastructure beyond the ETF wrapper.</div>
+    <div class="when">Broke: yesterday, ~10:56am ET</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing three assets' reaction to Wednesday's Fed rate hike: bitcoin up 0.9 percent over 24 hours, gold down 1.2 percent on the session, silver down 1.16 percent on the session">
+      <line x1="40" y1="130" x2="40" y2="230" stroke="currentColor" stroke-opacity=".4"/>
+      <line x1="40" y1="130" x2="380" y2="130" stroke="currentColor" stroke-opacity=".6"/>
+      <text x="35" y="30" text-anchor="end" font-size="9" fill="currentColor" opacity=".7">+2%</text>
+      <text x="35" y="134" text-anchor="end" font-size="9" fill="currentColor" opacity=".7">0%</text>
+      <text x="35" y="230" text-anchor="end" font-size="9" fill="currentColor" opacity=".7">-2%</text>
+
+      <rect x="80" y="112" width="60" height="18" fill="#0a7d2c" opacity=".9"/>
+      <rect x="200" y="130" width="60" height="72" fill="#c8102e" opacity=".85"/>
+      <rect x="300" y="130" width="60" height="70" fill="#c8102e" opacity=".75"/>
+
+      <text x="110" y="106" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">+0.9%</text>
+      <text x="230" y="212" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">-1.2%</text>
+      <text x="330" y="210" text-anchor="middle" font-size="12" font-weight="700" fill="currentColor">-1.16%</text>
+
+      <text x="110" y="245" text-anchor="middle" font-size="10" fill="currentColor" opacity=".8">BTC (24h)</text>
+      <text x="230" y="245" text-anchor="middle" font-size="10" fill="currentColor" opacity=".8">Gold (session)</text>
+      <text x="330" y="245" text-anchor="middle" font-size="10" fill="currentColor" opacity=".8">Silver (session)</text>
+    </svg>
+    <div class="chart-cap">Wednesday's Fed decision hit gold and silver harder than bitcoin on first reaction — both metals sold off over 1% intraday on the hawkish hold-the-line hike before rebounding overnight (gold now +1.0%, silver +1.65% versus the prior day), while bitcoin never went negative at all. A one-day snapshot isn't a new correlation regime, but it's exactly the kind of divergence from "BTC trades risk-off with everything else" worth tracking if it repeats on the next hawkish surprise — and a reminder that gold's debasement bid can take a real-rate gut-punch before it reasserts itself, which is the drawdown EMA's miner book has to survive to earn the "insurance" label.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Thursday, September 17, 2026, ~8:15am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates (dry-run) · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
