@@ -1,12 +1,14 @@
 {
- "fetched_at_utc": "2026-09-27T15:38:44+00:00",
+ "fetched_at_utc": "2026-09-27T16:57:48+00:00",
  "errors": [
-  "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)"
+  "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)",
+  "feed:GoogleNews-BTC: HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/rss/search%3Fq%3Dbitcoin%2BOR%2B%2522crypto%2Bregulation%2522%26hl%3Den-US%26gl%3DUS%26ceid%3DUS:en&hl=en-US&q=EgQoTO6yGK2W5dUGIjC-8X_JHobRaj16ThXk8g8AXGsIaNEbKzAE8dOT3HhJ4kS9NBwSOifld6vi7toDmNYyAnJSWgFD",
+  "feed:GoogleNews-Metals: HTTPError: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/rss/search%3Fq%3D%2522gold%2Bprice%2522%2BOR%2B%2522silver%2Bprice%2522%2BOR%2B%2522precious%2Bmetals%2522%2BOR%2B%2522gold%2Bminers%2522%26hl%3Den-US%26gl%3DUS%26ceid%3DUS:en&hl=en-US&q=EgQoTO6yGK6W5dUGIjCgAlGMtzyhXNUoRCK2V3k2n-PlOpbs3nY2kLRs4cUj2xs6W32qGcfZ9iElslXkm7cyAnJSWgFD"
  ],
  "spot": {
-  "btc": 84528,
-  "btc_24h_pct": 0.47,
-  "eth": 2689.22,
+  "btc": 84396,
+  "btc_24h_pct": 0.36,
+  "eth": 2685.93,
   "eth_24h_pct": -0.18,
   "source": "coingecko"
  },
@@ -16,13 +18,13 @@
   "yesterday": 74
  },
  "network": {
-  "hashrate_ehs": 945.9,
+  "hashrate_ehs": 943.9,
   "difficulty": 132757073449487.5
  },
  "metals": {
   "gold": {
    "usd": 4286.2,
-   "paxg_crosscheck": 4276.43
+   "paxg_crosscheck": 4275.3
   },
   "silver": {
    "usd": 64.42
@@ -32,16 +34,16 @@
   {
    "instrument": "BTC-9OCT26",
    "days": 11,
-   "ann_basis_pct": 1.31
+   "ann_basis_pct": 4.02
   },
   {
    "instrument": "BTC-16OCT26",
    "days": 18,
-   "ann_basis_pct": 2.32
+   "ann_basis_pct": 4.14
   }
  ],
  "us10y": null,
- "etf_flows_raw": "lor: '#a8e3ff', backgroundColor: '#a8e3ff', // Lightest blue step fill: true, stack: 'funds', borderWidth: 1, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 1 }, // Total Line { label: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 27 September 2026. Your IP: 104.22.20.44 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow BTC Derivative Charts Company Fund Books Research Blog About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"871407dc36\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a41b99a45a916142',t:'MTc5MDUyMzU1Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
+ "etf_flows_raw": "or: '#a8e3ff', backgroundColor: '#a8e3ff', // Lightest blue step fill: true, stack: 'funds', borderWidth: 1, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 1 }, // Total Line { label: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 27 September 2026. Your IP: 104.23.209.79 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow BTC Derivative Charts Company Fund Books Research Blog About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"871407dc36\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a41c0d73f9b31eda',t:'MTc5MDUyODMwMA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
  "news_window_start_et": "2026-09-26T08:00-04:00",
  "headlines": [
   {
@@ -97,6 +99,12 @@
    "title": "Kalshi loses appeal over Ohio and Tennessee sports betting laws, widening circuit split",
    "link": "https://www.theblock.co/news/regulation/2026-09-26-kalshi-loses-appeal-over-ohio-and-tennessee-sports-betting-laws-widening-circuit-split-416937",
    "published": "2026-09-26T15:17+00:00"
+  },
+  {
+   "source": "Decrypt",
+   "title": "AI Agents Keep Escaping Their Creators' Control\u2014Here's What We Know",
+   "link": "https://decrypt.co/379402/ai-agents-keep-escaping-creators-control",
+   "published": "2026-09-27T16:01+00:00"
   },
   {
    "source": "Decrypt",
@@ -166,6 +174,18 @@
   },
   {
    "source": "CNBC",
+   "title": "Here are the 4 big things we're watching in the stock market in the week ahead",
+   "link": "https://www.cnbc.com/2026/09/27/here-are-the-4-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+   "published": "2026-09-27T16:16+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Iran's foreign minister says Tehran ready for 'doomsday' war with U.S., but leaves diplomacy on the table",
+   "link": "https://www.cnbc.com/2026/09/27/iran-foreign-minister-keeps-indirect-talks-with-us-open-state-media.html",
+   "published": "2026-09-27T16:15+00:00"
+  },
+  {
+   "source": "CNBC",
    "title": "Debt-hungry AI companies face increased risk as bond yields spike",
    "link": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
    "published": "2026-09-27T15:35+00:00"
@@ -190,12 +210,6 @@
   },
   {
    "source": "CNBC",
-   "title": "Iran's foreign minister keeps indirect talks with the U.S. open; Iranian navy claims capture of underwater drone",
-   "link": "https://www.cnbc.com/2026/09/27/iran-foreign-minister-keeps-indirect-talks-with-us-open-state-media.html",
-   "published": "2026-09-27T13:30+00:00"
-  },
-  {
-   "source": "CNBC",
    "title": "Top Wall Street analysts like these 3 dividend stocks for steady income",
    "link": "https://www.cnbc.com/2026/09/27/top-wall-street-analysts-like-these-dividend-stocks-for-steady-income.html",
    "published": "2026-09-27T11:33+00:00"
@@ -207,10 +221,22 @@
    "published": "2026-09-27T11:32+00:00"
   },
   {
-   "source": "CNBC",
-   "title": "'Funflation' is on the rise as hobbies get pricier, but consumers keep spending anyway",
-   "link": "https://www.cnbc.com/2026/09/27/funflation-consumer-spending-pricier-hobbies.html",
-   "published": "2026-09-27T05:00+00:00"
+   "source": "MarketWatch",
+   "title": "Social Security overpaid my 82-year-old mother by $20,000. What else is hiding in her finances?",
+   "link": "https://www.marketwatch.com/story/she-gave-a-neighbor-2-000-social-security-overpaid-my-mother-82-by-20-000-what-else-is-hiding-in-her-finances-1b54977f?mod=mw_rss_topstories",
+   "published": "2026-09-27T16:45+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?",
+   "link": "https://www.marketwatch.com/story/my-husband-and-i-are-in-our-50s-and-have-no-kids-we-have-2-million-do-we-need-a-will-62fb422f?mod=mw_rss_topstories",
+   "published": "2026-09-27T16:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "\u2018It doesn\u2019t seem fair\u2019: I\u2019m retired and have plenty of money. Why can\u2019t I qualify for a retail credit card?",
+   "link": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
+   "published": "2026-09-27T16:00+00:00"
   },
   {
    "source": "MarketWatch",
@@ -241,120 +267,6 @@
    "title": "Look closer, and Wall Street\u2019s rally is showing cracks",
    "link": "https://www.marketwatch.com/story/look-closer-and-wall-streets-rally-is-showing-cracks-94952048?mod=mw_rss_topstories",
    "published": "2026-09-27T13:00+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging",
-   "link": "https://www.marketwatch.com/story/why-the-upcoming-jobs-report-could-send-10-year-and-30-year-treasury-yields-surging-67eab4ba?mod=mw_rss_topstories",
-   "published": "2026-09-27T11:00+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?",
-   "link": "https://www.marketwatch.com/story/my-friend-grosses-300-000-a-year-with-her-pet-sitting-business-she-pays-herself-50-000-should-i-do-the-same-8ab5cba3?mod=mw_rss_topstories",
-   "published": "2026-09-26T20:00+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "From $6 eggs to $50,000 cars, these charts show how inflation has defined the past 5 years",
-   "link": "https://www.marketwatch.com/story/from-6-eggs-to-50-000-cars-these-charts-show-how-inflation-has-defined-the-past-5-years-3c7b9ab9?mod=mw_rss_topstories",
-   "published": "2026-09-26T17:54+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin Lending Rates: Borrow Against BTC or Earn - DeFi Rate",
-   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE80WE93a19fWUtHcFYtNWFLTlY0azNiRFgycDRTYWZLaE5hTDlTQWl2c1NORkNVNm1wMmt0UDVzWExEOFlqSUxsLUJ3?oc=5",
-   "published": "2026-09-27T15:06+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin's Quantum Problem: Three Ways Researchers Are Trying to Fix It - Decrypt",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNb28xWUlIaGlnOTl5MS1hLUZIMF9MeklEdDVrTFR5NnVuQ2diVnA1QVdqRVlval8wT1NqdjBVTmdvT1dSTnh4T1RVNDNoaFBkX3NhYm1yOHJJUTd5dGpybzNybkotTEY1Y25sTWZRY0c3RkpFODU2SDhmSS02aW16SzV6c08yT0I0UXpKRk1FS0huMjdHNjJSdEtR?oc=5",
-   "published": "2026-09-27T15:01+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin's Quantum Problem: Three Ways Researchers Are Trying to Fix It - Yahoo Tech",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdS1BSXA0SDNMMnE5RXRmYl84VVo2ZXVFMFlXYm5ONkxCUExsT1c0Mlk0cTVlQ1ZuMUVUdjJrRGhZME56LWh6enZkbGM1N2dhUzhTdjVSX2t2dmtsX2dyQTVBb0x6c1I4RXI2Z0FPODVHc0NDRVZmYUUtQ2JUM0RaYXptZVFlQmhPckVmX0hJOTMwczkx?oc=5",
-   "published": "2026-09-27T15:01+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "New Bitcoin proposal rescues locked multisig wallets \u2013 At a hidden cost - CryptoSlate",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQmFMS2VzV3UzUGUwWjRiT25SRlB3X1ZHRTNZa3o0ekZ5dWdDTE55ZjZnRFBTaDRhTXFXRE1qU3VmX1NsY3ZiWm1OSWduZ0NfNW1KTGppS3NRdGtFTVlaUDhvdmlIbUFTMmhublRhcktZT2tNR3hTZlV2VkNlaUZ1azFrYWdtclBJTk5UYmNuZ1U0UWlHWGszWlUtNlQ?oc=5",
-   "published": "2026-09-27T15:00+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin vs Ethereum: Which Gets Back to Its All-Time High First? - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQUoyZDdvS3JtWE9MSEFCNkE2dncxY3VZaTNfQW14Nmw4c05xbDJlVVJDQTZ6XzU4Mjh3WmptYnNZY2ZIcVc2WWsxN0tTRkxTdFlZMy1XZ3dkbzJKZDdyUWFTSXlnT19ZbFdSTXJOazhQY3hzbWRuSUhac2pyLW1STG1yUmQtSEU2UFp3dHZGaC1iOHN4RjFvRlNR?oc=5",
-   "published": "2026-09-27T14:57+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin vs Ethereum: Which Gets Back to Its All-Time High First? - 24/7 Wall St.",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQXJOZ2djaUliRzRfSDhEalVfUnlYX2otN1ZEZzluaDF4WW90TEJwYzVhbWtFMmdwRG95MTRNTV96U1RWSlktNEZoY3ZiUkpaN1J0b3JFUU1QVU1OWU41WU9oWGlNcGpoYXhuX1lsUG9sOXZpRDFaa3dqVDVLM2x3V0lFWUUzY3pNVDFYMUpLYklXdGp0NmpoYVBWeEFfLVNtOGhJdVlETVJka21HQjNIWldDOG5Jdm5naXZQVzhR?oc=5",
-   "published": "2026-09-27T14:57+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Riot Frees $494 Million in Bitcoin From Coinbase Loan: Will It Sell? - BeInCrypto",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qN1lUbU4zMVA1Ti1SMEJ1R3pPcGlMX3JOYklDNFNHUnhZM1hra2o0SWt6a0t4b3FQcmgzcGxmSXZybThQSHZvQnNBYzVkakxwV1BzM2V4akZQRWQ4a2sxcVlDV0dKVEZiWVU4akV3?oc=5",
-   "published": "2026-09-27T14:57+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Ethereum Has Beaten Bitcoin for Three Months. Is the Flippening Trade Back? - 24/7 Wall St.",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTEdrb01xajQ0UHY5NFhGeEIyYWt5R0Vhb0RBRmV6QjFJNHBGY3A5ay1ZZ2RzOWF0ZllMTU0zXzNFTUtjbVlFOEI2TjlWV3prWUNuV0xxYjhKSjZCbkFJcVVHRi04bDN4RE9VS3VWLWFpeWc4MnhhMmp3YmdzbEpRYmRWYzI2SHFVVTJ4V0EtYk5RUXdwVmJwMjZISjVERDVvQlp3RGMyNGROd01TX2VwZmJLQlZYdXIxWDJTM3BCVWg2VHZGanMxV3dORnc?oc=5",
-   "published": "2026-09-27T14:48+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Gold Price Forecast: 5% Yields and Strong Dollar Cap Rebound Ahead of PCE - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQc3dWMGpRVlNDUWlVMUlPRzBwT1RNUVAwaGR4S29VLTRueVhQcTZDdFI0WlA1WVhrTVJ5QURkNjN2Tzh3NUY4aVE0UzJYbFNXWUNYZ25mRVp3UEpfMVZRYWV3alVJWjNPLXcyWm1lWi11Z2wzQkpUeXl5RFVTaFVrTGNlSEdOUVktT0syc2VYVWFuTUZKMGxfNFpxYVkxdFVkV0pyUkZTSHBVendFQTA4bEwtcVVaYkNHbUJpMjFLbHZLM0Q1Ym5za29qbUVHaW9pd1BjQXJXZw?oc=5",
-   "published": "2026-09-27T13:31+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Gold price prediction: Experts predict Gold rate for last three months of 2026, first half of 2027 - The Economic Times",
-   "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQckxsNld0Z0c3SXk5S3ZSeDdEYlZTMzRwVkRubG04eHAwNko2OExnZnVCNlkxOXlyUWt3d3JMX1p4aFJBcXNIWVFhMllvbVJrV21yaFczd3lSUExIZ25pOEZsVEE3U3NYVU1OVjBEb295eURCYlJFS1Nxbl8yOE9NbHhwcmRfaDRPeEFBZHdBd1MwZjdDcmdpLUhhSlNYeTJNZzU2QWdOQ29rRWVYU09DeTNQcHlSTFlpNGxMd3NrRDJWX3E4aURvem1YbmRYTHZwRThKMklaUnMxbEs4bUkyQ0NMSVlTR29CSk5xbWZPRXlkZUVWZWdTb01kMWxWUHFqTUE?oc=5",
-   "published": "2026-09-27T12:47+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Gold price at the close of the session on September 27: Gold bars adjust to increase, decrease in opposite directions - Laodong.vn",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjdtMEJraFNGclI5UHBGTXIxdTd0VmlRWjQwSXp4OC1ycVVURTNJWWgyUzMzdHFYZDNoS1lkN0VjYngxTWN0M3gtV3V1ckFDSjJMcVZSdWZBYVhSeVRueTlOUWdPQjlBR3U3Vl9pcEYtUjF2eTFFeHRDT3JaQ2pkNEJFUEJNOXdHVXlwaGY2NHpYa2pNUDZ0a1V0ei05RTVHNFl5eU1pVm5SOXE4Um5MRTdOMENqX0F2?oc=5",
-   "published": "2026-09-27T11:39+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Gold Price Forecast: XAU/USD Avoids Breakdown as Yields Surged but Can it Continue? - Forex Factory",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcDRVbHpsVlVlYlNuUHlwZDlxeTloM1lNSE5yUzkyN0JQZXlZeFhMUFlFczE3V3pUdDVVNTZIekJlMHdoeDVTSWh5VWdxcmtlV1dadEFuS0ktV3QyRlZ2YldyejJaSzJzdk9uTHFkYnNHNWFzamlUZVJ3cWx6cWNMOU14LXpLQ0t0OWRISkc1bUxOS1QwbFRsYmZDd9IBoAFBVV95cUxNMEZIejdwR3RJOW51S0syZE9DY0Z1YXRGNDE0b3FTZnpfNGlQLWsySVpQcmtGYkFteDJxMUZyVVRXM0F6cnVoX05nMjRGWW9KbjVGU3JzaXo3OHR5UDB4eXhid1QxN3NHV3BoR3Q3NF9SSktueTlQR2JpMFB5VC1mVnlaWnlXdm81S1lDUEhsT0RjQXNjMFF5V2VEWHZMNE41?oc=5",
-   "published": "2026-09-27T10:40+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Gold prices rise by SYP 100 per gram in Syrian market - \u0648\u0643\u0627\u0644\u0629 \u0627\u0644\u0623\u0646\u0628\u0627\u0621 \u0627\u0644\u0633\u0648\u0631\u064a\u0629 \u2013 \u0633\u0627\u0646\u0627",
-   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9tQzJZZkJEYk1DNGhVaFBuTXNqWThtYkNBM2ZoMUliQms4ZlhHN3NuaVZaTjJIOGJhMGx1cy1UbmVCakNhZWhnODVjOGY?oc=5",
-   "published": "2026-09-27T09:19+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Gold Price Forecast: XAU/USD Avoids Breakdown as Yields Surged but Can it Continue? - FOREX.com",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZG92eURjNUJQVFo2SHFCbHM5RExtZHpLYUFfd1NObHNCbDN0OGNSb0RwRHhFejhFUk5ha21JTHhPdTNHLU0tRXY2dVh0SW9qSDNPUnBUTkV2YkNSRmZJWTg0RjZwZVhXVzdseU94TGxOVGE4OUZRdFhzdUlmTUZoV2RHa29nMUJxVzdSaVIwakpOX3k0anBQenk2VVVSdm1DS1dfOGctVFVOdkxLZGdrWnRQVFlhM1JRR0premdwN0ZZMm05bXVj?oc=5",
-   "published": "2026-09-27T08:42+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Tag: ForexGold Price Holds Near $4,285 as XAUUSD Traders Track Support Rebound - Brave New Coin",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcXpGa21sODFUZW5fTWp4SlpDalkzVGttMU1RLTFSY3pNTVU1cFNCdnRCUmlNMWhXZk1DMERQMXdyUWJCaTY2Vkl4Znk2eWxUVTJxeXdsNGc4a3RQck55SWJSc3Zia2hZOEZJXzBjcXRLdXB3alZ5Slc4TlAtTFJXdVQtdEs4NWJjemFLN3pIMnhyUTAzdGUtQVpXU1FGNFVvWWc?oc=5",
-   "published": "2026-09-27T06:49+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Can Lundin Gold\u2019s Precious Metals Exposure Sustain Long-Term Income at a 5.94% Yield? - kalkine.ca",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObkp3UlIxRWlqQWhzTHlsMl96MEtEaW9VZm5WRHBnNW9TMTB1MmtIOTdfNEc4QklVNmxOMENYQnVfNTR1bHprQUhfaVZVbUxSNHJmOXBqMnR3QS1Ucmp6S0gxTVN0bVA3Z0NmbWNBUGR4YVJnS1dFbUtoeEl1aHNoNG0yOUlackxxVW5OLUFhLXV2TzFfVjlqbTVIbmlTWFhvME9FR053Z1ZhZzRIaXNqZlVRdVpwVnNmU1dkX1JR?oc=5",
-   "published": "2026-09-27T06:20+00:00"
   }
  ]
 }
