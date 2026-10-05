@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Monday, October 5, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  .datawarn{font-size:.78rem;color:#a67c00;background:#fff8e6;border:1px solid #f0d999;border-radius:8px;padding:8px 12px;margin:10px 0}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    .datawarn{background:#2a2410;border-color:#5a4a1a;color:#e0b84c}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Monday, October 5, 2026 · figures as of ~8:15am ET · cash equities open at 9:30am ET; bitcoin, gold and silver have traded continuously through the weekend</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<div class="datawarn">Heads up: the automated prefetch job did not refresh overnight (last commit Saturday afternoon) and this morning's run hit a fully blocked network, so every figure below was rebuilt live via web search and cross-checked across multiple sources. Deribit basis is a 3-month blended read (exact per-contract Deribit API pull was unavailable); treat it as directional.</div>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$86,100</div>
+      <div class="chg up">+1.1% 24h — the Monday story: BTC round-tripped Friday's $433M liquidation flush (low ~$83,860 Friday PM) back above $85,000 by Sunday morning and now sits ~$86,000+, roughly +2% versus Friday afternoon's post-liquidation trough</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$2,710</div>
+      <div class="chg up">+0.8% 24h — holding $2,700 even as spot ETH ETFs see $155M of outflows over the past 4 days (see FYI)</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">~69 · Greed</div>
+      <div class="chg neutral">Roughly flat vs Sunday's ~70; providers disagree by a few points this morning (68–72 range), all solidly in Greed</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$4,140 / ~$61.70</div>
+      <div class="chg neutral">Gold flat (-0.03%), capped by the dollar's 18-month high; silver +2.1% vs Friday's $60.43 close as hawkish Fed bets recede</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$87.78 Fri close</div>
+      <div class="chg up">+1.20% Friday, last completed session; miners outpaced bullion into the weekend, next trade at today's open</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann., 3mo)</div>
+      <div class="value">~6%</div>
+      <div class="chg up">Mild contango, up from under 5% a few sessions ago — firmer demand for leveraged-long, futures-held BTC exposure; cost of carry on that trade got modestly richer over the weekend</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">+$189.9M Fri</div>
+      <div class="chg up">IBIT +$158.2M, FBTC +$29.3M, MSBT +$2.4M — last reported trading day; IBIT alone took ~83% of the total</div>
+    </div>
+    <div class="tile">
+      <div class="label">US 10Y / DXY / Equities</div>
+      <div class="value">~5.27% / ~102.4 / futures +0.1–0.2%</div>
+      <div class="chg neutral">10Y near 2002 highs; DXY at an 18-month high on Middle East safe-haven flows; S&amp;P/Nasdaq futures modestly positive this morning</div>
+    </div>
+  </div>
+  <div class="note">Monday's framing: bitcoin's weekend round-trip from Friday's liquidation low back above $86,000 happened <em>alongside</em> the dollar ripping to an 18-month high — an atypical pairing for a book built partly on the debasement/weak-dollar thesis. Worth watching whether BTC's positive correlation to the dollar (a live 2026 regime quirk flagged in prior briefs) holds or flips back to the more intuitive inverse relationship as the week progresses. Network: difficulty flat near 132.7T, hashprice recovering to ~$40/PH/day off cycle lows — no fresh miner-specific headline overnight.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro &amp; Debasement</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/10/05/u-s-dollar-climbs-to-18-month-high-as-bitcoin-holds-firm-around-usd86-000">Bitcoin holds firm around $86,000 as the U.S. dollar climbs to an 18-month high</a>
+    <div class="why">Why it matters to both desks: DXY pushing to its highest level since early 2025 — driven by Middle East safe-haven flows and traders pricing out an October Fed hike after the weak jobs print — is the kind of dollar strength that should normally pressure both BTC and gold. Instead BTC is holding firm near $86K and gold is only flat, not down. That's consistent with the regime quirk flagged in recent briefs: BTC-DXY correlation has flipped positive in 2026's risk-on-but-rate-anxious tape. If that correlation snaps back to its historical inverse relationship, both bitcoin and gold could see simultaneous pressure from further dollar strength — a real risk to monitor this week, not just a curiosity.</div>
+    <div class="when">Broke: overnight into this morning, live-updating through ~7:30am ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.cryptotimes.io/2026/10/05/michael-saylors-strategy-mstr-extends-bitcoin-buying-streak-with-334-btc-addition/">Strategy (MSTR) buys 334 more bitcoin, pushing holdings to 848,000 BTC</a>
+    <div class="why">Why it matters to BOF: the Oct 1–4 purchase (334 BTC, $28.7M, avg $85,838.80) was funded mostly by ATM stock-sale proceeds ($15.7M) plus USD cash ($13.0M) — the smallest weekly add in Strategy's recent cadence, consistent with Saylor's own framing (teased via his "orange chart" post Saturday) that the pace of accumulation now tracks available capital-markets issuance rather than a fixed target. For a fund underwriting treasury-company capital structures, the shrinking purchase size alongside continued ATM reliance is the data point to track against MSTR's mNAV, which remains close to parity.</div>
+    <div class="when">Broke: this morning, 8-K filed ~7am ET, covering Oct 1–4 purchases</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Regulation &amp; Policy</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/10/04/the-clarity-act-stalled-crypto-dealmakers-aren-t-hitting-the-brakes-yet">The Clarity Act stalled. Bankers aren't hitting the brakes yet on crypto dealmaking</a>
+    <div class="why">Why it matters to both desks: with the market-structure bill stuck in the Senate, bankers tell CoinDesk they're underwriting crypto deals on the assumption clarity eventually arrives rather than waiting for the statute — a bet that a stalled Congress won't stop capital-markets activity (custody deals, treasury-company financings, exchange M&amp;A) in the meantime. That's a double-edged read for BOF's ecosystem mandate: deal flow keeps coming, but every deal gets priced with regulatory-outcome risk baked in rather than resolved.</div>
+    <div class="when">Broke: yesterday morning, ~9:00am ET</div>
+  </div>
+
+</section>
+
+<section>
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">One genuine mining-equity driller story out of Osisko, one price-driver headline on dollar-driven gold weakness, and one bank reaffirming its long-term target through the recent pullback; no in-window news on Lion One, Lavras or SilverTiger.</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities · Developers</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.globenewswire.com/news-release/2026/10/05/3374510/0/en/osisko-gold-intersects-7-28-g-t-au-over-16-15-m-105-m-vertical-depth-including-173-66-g-t-au-over-0-60-m-and-7-13-g-t-au-over-11-60-m-61-m-vertical-depth-in-lowhee-zone-underground.html">Osisko Development intersects 7.28 g/t Au over 16.15m, including 173.66 g/t over 0.60m, at Cariboo's Lowhee Zone</a>
+    <div class="why">Why it matters to EMA: this is exactly the kind of high-grade underground infill result (36 holes, 3,933m, from the 1290m level) that ETF-indexed gold exposure skips entirely — a bonanza-grade 0.6m interval at 173.66 g/t sitting inside a broader 16.15m zone at 7.28 g/t supports resource growth at a project already in construction. For a book built on name-specific drill stories, this is a cleaner read-through than the macro gold tape today.</div>
+    <div class="when">Broke: this morning, released pre-market</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal Price Drivers</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.fxstreet.com/news/gold-bulls-remain-on-the-sidelines-as-usd-rallies-to-fresh-ytd-peak-202610050443">Gold bulls remain on the sidelines as the dollar rallies to a fresh year-to-date peak</a>
+    <div class="why">Why it matters to EMA: gold is essentially flat this morning (-0.03%) not because demand has disappeared but because DXY's push to an 18-month high is directly capping it — the same dollar strength discussed in today's lead bitcoin item. For a GDX-benchmarked book, the read-through is that today's flat bullion tape likely understates underlying demand; miner equities with cost-side leverage to gold could still outperform if the dollar move proves short-lived.</div>
+    <div class="when">Broke: this morning, ~4:43am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal Price Drivers</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMivAFBVV95cUxOQ1hGbWdCSHM0eFBPdm9yT01FTGlZU3FMWDR1ZGZaeXJ1dUhKeHpXZTRxR1djdjB3azdTR0hVV3MxRDNUZVR1ZTFINDQ0VWlQaWxLU3M4c28wX1E5YkJoRWJRNllUT1FCeTdJc2FvMFZ6LXIxZ0ZvaXM1QWNtUDUxU3l6SlA1NVdkUkdGajhHY2JORE9Ra1YyR1FRdXhOWGxWQy1vVzJjSllmamNZbFhQUDd6Sk1JTFlkUHRvTA?oc=5">Gold price forecast: Crédit Agricole targets $5,000 despite recent weakness</a>
+    <div class="why">Why it matters to EMA: a major bank reaffirming a $5,000 target through two red weeks for gold is a direct answer to the "is the debasement trade over" question this book's investors will be asking this morning. Worth cross-referencing against EMA's own producer-margin assumptions — a $5,000 path implies continued AISC-margin expansion for the names in the book even if near-term spot chops sideways.</div>
+    <div class="when">Broke: yesterday, ~12:15pm ET</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/10/05/metaplanet-adds-1-000-bitcoin-after-sale-and-repurchase-launches-income-strategy">Metaplanet adds 1,000 bitcoin after sale and repurchase, launches income strategy</a>
+    <div class="why">Why it matters to BOF: Metaplanet sold 10,000 BTC and bought back 11,000 over Q3 — a liquidity demonstration rather than a directional bet — ending the quarter at 44,000 BTC, still the world's #2 public corporate holder. The new capital-allocation policy (85–90% of assets kept in BTC, BTC-collateralized borrowing capped near 10% of NAV) is a more conservative treasury-company template than the "never sell" framing common in this space, and a useful comp against Strategy's own structure.</div>
+    <div class="when">Broke: this morning</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro &amp; Debasement</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/10/04/more-tankers-struck-in-gulf-waters-as-iran-reiterates-conditions.html">More tankers struck in the Middle East as Iran reiterates conditions for reopening the Strait of Hormuz</a>
+    <div class="why">Why it matters to both desks: this is the specific geopolitical driver behind this morning's DXY spike to an 18-month high — safe-haven dollar demand, not domestic policy, is doing the work. It's also the live test case for the 2026 pattern noted in prior briefs: bitcoin trading risk-off alongside equities on geopolitical shocks rather than as an uncorrelated hedge. Gold's muted reaction so far (flat, not up) despite a textbook safe-haven trigger is itself notable.</div>
+    <div class="when">Broke: yesterday morning, ~8:35am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Regulation &amp; Policy</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://decrypt.co/380017/banking-group-sues-block-crypto-side-door-banking">Banking group sues to block crypto's "side door" into the banking system</a>
+    <div class="why">Why it matters to both desks: incumbent banking-trade-group litigation against crypto-adjacent banking access is a recurring friction point for any ecosystem-infrastructure name (custody, payments rails) BOF's hybrid book touches — a reminder that regulatory clarity at the federal level (or its absence, per the Clarity Act item above) doesn't resolve turf fights playing out bank-by-bank and court-by-court.</div>
+    <div class="when">Broke: yesterday, ~12:01pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.cryptotimes.io/2026/10/05/ethereum-price-holds-2700-despite-155m-etf-outflows-in-4-days-glamsterdam-testnet-nears/">Ethereum holds $2,700 despite $155 million in ETF outflows over 4 days</a>
+    <div class="why">Why it matters to BOF: the divergence is the story — spot bitcoin ETFs took in $189.9M just Friday while spot ETH ETFs bled $155M over four sessions. For a fund benchmarking institutional crypto-allocator behavior, that's further evidence flows are concentrating in BTC-specific vehicles (and within those, overwhelmingly IBIT) rather than broadening across the asset class.</div>
+    <div class="when">Broke: this morning</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Line chart showing the Dollar Index climbing to an 18-month high over the past week while gold trades roughly flat, illustrating a breakdown in the usual inverse dollar-gold relationship">
+      <line x1="40" y1="210" x2="380" y2="210" stroke="currentColor" stroke-opacity=".6"/>
+      <text x="35" y="214" text-anchor="end" font-size="9" fill="currentColor" opacity=".7">Mon</text>
+
+      <polyline points="50,170 110,160 170,150 230,130 290,110 350,70" fill="none" stroke="#c8102e" stroke-width="3"/>
+      <text x="355" y="62" font-size="11" font-weight="700" fill="#c8102e">DXY</text>
+
+      <polyline points="50,110 110,112 170,118 230,114 290,116 350,118" fill="none" stroke="#b8860b" stroke-width="3"/>
+      <text x="355" y="128" font-size="11" font-weight="700" fill="#b8860b">Gold</text>
+
+      <text x="50" y="228" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Mon Sep28</text>
+      <text x="350" y="228" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Mon Oct5</text>
+
+      <text x="200" y="20" text-anchor="middle" font-size="9" fill="currentColor" opacity=".6">DXY vs. gold spot, past week (stylized, directional)</text>
+    </svg>
+    <div class="chart-cap">The dollar's climb to an 18-month high this week hasn't dragged gold down with it the way the textbook inverse relationship would predict — gold is essentially flat over the same stretch, and bitcoin has actually risen alongside the dollar. For both desks, the question isn't whether this decoupling is "right," it's how long it persists before mean-reverting: a snap-back to the historical relationship would mean further dollar strength starts to bite both books' core holdings simultaneously, while a durable decoupling would validate the idea that bitcoin and gold are increasingly trading on their own debasement-hedge merits rather than as simple dollar inverses.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Monday, October 5, 2026, ~8:20am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
