@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Tuesday, October 6, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  .datawarn{font-size:.78rem;color:#a67c00;background:#fff8e6;border:1px solid #f0d999;border-radius:8px;padding:8px 12px;margin:10px 0}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    .datawarn{background:#2a2410;border-color:#5a4a1a;color:#e0b84c}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Tuesday, October 6, 2026 · figures as of ~8:15am ET · cash equities open at 9:30am ET; bitcoin, gold and silver trade continuously</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<div class="datawarn">Heads up: the automated prefetch's headline pool last refreshed yesterday ~3:41pm ET, so overnight developments (SEC/CFTC rulemaking, Strategy's Q3 print, the liquidation flush, metals levels) were rebuilt and cross-checked live via web search. Spot BTC/ETH, metals, basis and ETF-flow figures below blend the prefetch snapshot with this morning's confirmed reads; Deribit basis uses the two nearest-dated contracts from the prefetch (per-contract API pull unavailable live).</div>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$85,600</div>
+      <div class="chg neutral">Roughly flat 24h (sources split -0.1% to +0.3%); +2.7% over 7 days. Failed a second attempt at $87,000 overnight</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$2,709</div>
+      <div class="chg neutral">+0.2% 24h, no overnight catalyst; holding $2,700</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">70 · Greed</div>
+      <div class="chg up">Up from 65 yesterday; no fresher overnight read available</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$4,165 / ~$61.15</div>
+      <div class="chg neutral">Gold +0.3% (Dec futures opened +0.3%); silver roughly unchanged (-0.3%) off yesterday's $61.36</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$87.42 Mon close</div>
+      <div class="chg down">-0.41% Monday; GDXJ -0.74%, SIL +0.20% — junior/large-cap divergence</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">~7-8%</div>
+      <div class="chg up">16OCT 7.83%, 23OCT 7.05% — firm contango, richer cost of carry on futures-held BTC exposure than last week's ~6%</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">-$89.8M Mon</div>
+      <div class="chg down">IBIT +$69.9M the lone gainer; snaps a 3rd straight positive week (+$241M, wk ended Oct 2)</div>
+    </div>
+    <div class="tile">
+      <div class="label">US 10Y / DXY / Equities</div>
+      <div class="value">~5.3% / ~102.1 / futures +0.2%</div>
+      <div class="chg down">10Y at its best levels since 2002, nearing the 5% threshold flagged as a risk to Bitcoin's rally; DXY has paused its climb (-0.1 to +0.25% split by source) after yesterday's 18-month high; S&amp;P/Nasdaq futures modestly higher ~7:45am ET</div>
+    </div>
+  </div>
+  <div class="note">Fed minutes from the Sep 15-16 FOMC land tomorrow (Wed) 2pm ET — both desks' near-term catalyst. $172M in leveraged crypto liquidated over the past 24h (longs $101M, shorts $71M) as traders de-risk into it. Network: hashrate ~970 EH/s, difficulty flat near 132.7T; CoinShares pegs hashprice's recovery at ~$40/PH/day, still leaving an estimated 15-20% of legacy miner fleets unprofitable — the distressed-debt opportunity set BOF underwrites hasn't closed. No fresh miner-specific restructuring headline overnight.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Regulation &amp; Policy</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.theblock.co/news/markets/2026-10-05-cftc-rulemaking-leveraged-retail-crypto-trading-regulation-ctx-cam-417701">CFTC proposes new federal framework for leveraged retail crypto trading, joining the SEC</a>
+    <div class="why">Why it matters to both desks: with the Clarity Act still stalled in the Senate, the SEC and CFTC are now visibly building an interim regime under existing authority rather than waiting on Congress — the CFTC's leveraged-trading framework arrived the same day the SEC cleared 3x leveraged BTC/ETH funds for Cboe (see FYI). For BOF's ecosystem book this is the clearest sign yet that regulatory progress is shifting from legislative to agency-level, which de-risks custody and exchange M&amp;A timelines even without a statute. The gap both agencies still haven't closed: who regulates spot crypto markets themselves.</div>
+    <div class="when">Broke: yesterday, ~12:09pm ET (CFTC); companion SEC/Cboe approval ~2:12pm ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro &amp; Debasement</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://cointelegraph.com/markets/bitcoin-q3-rally-treasury-yields-fed-rate-outlook?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound">Treasury yields at 5% threaten extending Bitcoin's best quarter since 2017</a>
+    <div class="why">Why it matters to both desks: the 10-year is pinned near its best levels since 2002 (~5.3%), and that's doing double duty this morning — bidding up the dollar enough to pause its own 18-month-high climb, while giving cash and fixed income a real yield that competes directly with zero-coupon BTC and gold. The quotable framing for TV: when the "debasement trade" thesis has to coexist with 5% nominal yields, the bull case shifts from "cash is trash" to "the deficit is forcing the Treasury to pay up regardless" — real rates, not just nominal ones, are the number to watch into tomorrow's FOMC minutes. A durable break above 5% without a matching growth story is the bearish-for-risk, bullish-for-gold-vs-bonds scenario; a retreat on dovish minutes is the opposite.</div>
+    <div class="when">Broke: yesterday, ~12:53pm ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://cointelegraph.com/news/strategy-848k-bitcoin-strc-buybacks-outpace-btc-buys?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound">Strategy opts for bigger spending on STRC buybacks over BTC purchases</a>
+    <div class="why">Why it matters to BOF: Strategy posted a $21B Q3 unrealized gain on its bitcoin stack (per its 8-K) but, notably, directed $176M toward repurchasing its STRC preferred versus just $29M into new BTC — a capital-allocation pivot from pure accumulation toward managing its own capital structure. For a fund underwriting treasury-company debt and preferred stacks, that's the signal to watch: when the largest corporate holder starts prioritizing its securities' trading levels over adding to the stack, it says something about where MSTR's mNAV and financing costs currently sit relative to spot BTC.</div>
+    <div class="when">Broke: yesterday, ~8:51am ET (Q3 results), STRC detail ~9:22am ET</div>
+  </div>
+
+</section>
+
+<section>
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">Two mining-equity stories — a major producer's tenure derisking and a junior driller's high-grade intercepts — plus a bank call on silver's multi-year supply/demand balance; no in-window news on Lion One, Lavras or SilverTiger.</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities · Producers</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.miningweekly.com/article/tanzanian-govt-renews-mining-licences-for-barricks-north-mara-gold-mine-2026-10-05">Tanzania renews Barrick's North Mara mining licences for 15 years</a>
+    <div class="why">Why it matters to EMA: tenure risk is one of the biggest discount factors applied to African gold producers, and a 15-year renewal (operating rights secured through 2041) removes it outright for one of Barrick's highest-grade assets. Barrick says it has contributed $5.3B to the Tanzanian economy since 2019 via its 84/16 Twiga Minerals structure with the government — exactly the kind of sovereign-relationship de-risking that should narrow the valuation gap between major producers and bullion that this book is positioned to capture.</div>
+    <div class="when">Broke: yesterday</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities · Junior Explorers</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://stockhouse.com/news/press-releases/2026/10/05/rua-gold-reports-further-high-grade-drill-results-and-mineral-continuity-at-its">RUA Gold reports further high-grade drill results at its Auld Creek gold-antimony project</a>
+    <div class="why">Why it matters to EMA: this is exactly the "drill story" ETF exposure skips — four rigs turning at Reefton, New Zealand, with intercepts up to 69.2 g/t gold within a 6.3m interval and continuity confirmed along strike and at depth. The antimony credit adds a second catalyst: China's antimony export-control pause runs only through Nov 27, and a critical-minerals angle on a gold project is a differentiator versus single-commodity juniors in the book.</div>
+    <div class="when">Broke: yesterday</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal Price Drivers</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.mining.com/silver-shortage-could-flip-to-surplus-in-2027-deutsche/">Silver shortage could flip to a surplus in 2027: Deutsche Bank</a>
+    <div class="why">Why it matters to EMA: Deutsche Bank's Daniel Ghali still sees spot silver averaging $70/oz by Q2 2027 — bullish near-term — but flags that the multi-year deficit which has powered silver's outperformance versus gold could invert into a surplus as high prices finally draw out supply and demand-destruction. For a book benchmarked partly on silver-linked miners, that's the first well-sourced call marking a potential cycle turn worth stress-testing against portfolio AISC and mine-life assumptions, even with the near-term price target still higher.</div>
+    <div class="when">Broke: yesterday</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://decrypt.co/380108/sec-clears-3x-leveraged-bitcoin-ethereum-funds">SEC clears 3x leveraged bitcoin and ethereum funds for trading</a>
+    <div class="why">Why it matters to both desks: new 3x products listing on Cboe expand the leveraged-ETP complex beyond the existing 2x funds, which mechanically adds rebalancing-driven volatility (buying on up days, selling on down days) to BTC and ETH spot markets — a structural flow BOF's derivatives desk should model into its own basis-trade sizing.</div>
+    <div class="when">Broke: yesterday, ~2:12pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.theblock.co/news/business/2026-10-05-strive-adds-2000-bitcoin-biggest-buy-since-june-closes-in-mara-417677">Strive adds 2,000 bitcoin in its biggest buy since June, closing in on MARA</a>
+    <div class="why">Why it matters to BOF: Strive's acceleration narrows the gap to MARA in the corporate-holder league table, adding a second credible challenger (alongside Strategy and Metaplanet) competing for the same ATM and convertible-debt investor base BOF tracks for treasury-company capital-structure analysis.</div>
+    <div class="when">Broke: yesterday, ~11:03am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro &amp; Debasement</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/10/05/china-banks-consolidation-economy.html">China shuts hundreds of banks as Beijing moves to shore up its financial system</a>
+    <div class="why">Why it matters to both desks: consolidating hundreds of small rural/regional lenders is a domestic-stability move, but it's also the kind of headline that feeds the "why own a hard asset" pitch — crypto press is already asking whether this drives Chinese capital toward bitcoin as a workaround. Worth distinguishing the two channels: onshore depositor stress (gold-supportive, historically) versus capital-control enforcement tightening alongside it (which cuts the other way for BTC access from mainland China).</div>
+    <div class="when">Broke: yesterday, ~12:41pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.cryptotimes.io/2026/10/06/bitcoin-price-today-btc-holds-85500-as-172m-liquidations-etf-outflows-hit-before-fed-minutes">Bitcoin holds $85,500 as $172M in liquidations and ETF outflows hit ahead of Fed minutes</a>
+    <div class="why">Why it matters to both desks: longs took the brunt of it ($101M vs $71M for shorts), consistent with a market that had been leaning long into the failed $87K breakout. Combined with Monday's -$89.8M ETF outflow, positioning has de-risked ahead of tomorrow's FOMC minutes rather than chasing the break higher — a healthier setup for a sustainable move than one driven by late longs.</div>
+    <div class="when">Broke: overnight / early this morning ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://decrypt.co/380067/bitcoin-price-golden-cross-fed-rate">Bitcoin just flashed a second, stronger golden cross</a>
+    <div class="why">Why it matters to both desks: a second 50/200-day moving-average crossover within the same cycle is a technical signal bulls will point to this week regardless of the fundamental catalyst (Fed minutes, ETF flows). Worth noting for the TV-appearance file as a chart technicians will be citing, even as both desks weight the yield and liquidity drivers above it more heavily.</div>
+    <div class="when">Broke: yesterday, ~12:10pm ET</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Line chart showing the US 10-year Treasury yield climbing toward 5.3%, its best level since 2002, while gold spot has held roughly flat over the same stretch rather than selling off as the textbook inverse real-rate relationship would predict">
+      <line x1="40" y1="210" x2="380" y2="210" stroke="currentColor" stroke-opacity=".6"/>
+      <text x="35" y="214" text-anchor="end" font-size="9" fill="currentColor" opacity=".7">Tue</text>
+
+      <polyline points="50,150 110,140 170,132 230,118 290,105 350,95" fill="none" stroke="#c8102e" stroke-width="3"/>
+      <text x="355" y="88" font-size="11" font-weight="700" fill="#c8102e">US 10Y</text>
+
+      <polyline points="50,108 110,112 170,106 230,110 290,104 350,100" fill="none" stroke="#b8860b" stroke-width="3"/>
+      <text x="355" y="114" font-size="11" font-weight="700" fill="#b8860b">Gold</text>
+
+      <text x="50" y="228" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Tue Sep29</text>
+      <text x="350" y="228" text-anchor="middle" font-size="9" fill="currentColor" opacity=".8">Tue Oct6</text>
+
+      <text x="200" y="20" text-anchor="middle" font-size="9" fill="currentColor" opacity=".6">US 10-year yield vs. gold spot, past week (stylized, directional)</text>
+    </svg>
+    <div class="chart-cap">The 10-year's grind toward its best levels since 2002 is the textbook headwind for a zero-coupon asset like gold — yet bullion has barely budged, holding within a few dollars of $4,150-4,170 all week. That's the same decoupling theme flagged in recent briefs for bitcoin-vs-dollar, now showing up in gold-vs-real-rates: if the relationship snaps back, a 5%-plus 10-year becomes a genuine drag on both the metals book and BTC; if it stays decoupled, it's evidence the debasement/fiscal-dominance narrative (sovereign credit and deficit concerns, not just Fed policy) is doing more work than the conventional rates-driven model would predict — precisely the regime this desk is positioned for.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Tuesday, October 6, 2026, ~8:15am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
