@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Wednesday, October 28, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  .datawarn{font-size:.78rem;color:#a67c00;background:#fff8e6;border:1px solid #f0d999;border-radius:8px;padding:8px 12px;margin:10px 0}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    .datawarn{background:#2a2410;border-color:#5a4a1a;color:#e0b84c}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Wednesday, October 28, 2026 · figures as of ~8am ET · FOMC rate decision due 2pm ET, Warsh press conference 2:30pm ET — today's window is pre-decision positioning only</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<div class="datawarn">Data note: today's automated 7:15am ET prefetch again had not fired by 8am (fourth straight morning), so a workflow_dispatch re-run was triggered manually at ~8:16am ET and completed with a properly windowed (Oct 27, 8am ET cutoff) headline set before this brief was built. Spot BTC/ETH, gold/silver, hashrate and Deribit basis are live from that fresh prefetch. US 10Y again timed out from FRED; DXY and equity-futures levels below are approximate, triangulated via web search rather than confirmed from a single live feed.</div>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">$80,948</div>
+      <div class="chg up">+1.41% 24h — back above $80K and testing $81K as an Asian chip-stock rally spills into crypto ahead of today's Fed decision</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">$2,346.04</div>
+      <div class="chg up">+1.50% 24h</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">51 (Neutral)</div>
+      <div class="chg up">Up from yesterday's 48 — crossed back to the bullish side of neutral with the overnight bounce</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">$4,054.0 / $54.05</div>
+      <div class="chg up">+0.91% / +1.10% vs. yesterday's same-time print — both recovering into the Fed decision after Tuesday's oil-driven inflation-fear dip, though Yahoo/FXStreet flag silver as "stagnant" into the 2pm ET announcement</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$83.19</div>
+      <div class="chg up">+2.68% Tuesday (official close, vs. Monday's $81.02) — EMA's benchmark's best session in weeks, outrunning gold's own ~flat Tuesday print by a wide margin (see Chart of the Day)</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">5.14% / 5.36%</div>
+      <div class="chg down">BTC-6NOV26 (8d) / BTC-13NOV26 (15d) — basis compresses modestly from yesterday's 5.98%/5.77% but stays in healthy contango, still constructive carry for BOF's futures-held exposure</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">+$176.0M (Tue)</div>
+      <div class="chg up">Second straight inflow day — IBIT +$151.5M, FBTC +$24.5M. October's running total improves to roughly -$26M net, essentially flat for the month after Monday's -$202M hole</div>
+    </div>
+    <div class="tile">
+      <div class="label">Equities / DXY / 10Y</div>
+      <div class="value">Nasdaq futures +0.6%</div>
+      <div class="chg neutral">S&amp;P futures little changed; DXY holding ~102.3-102.5 (steady-to-firm); US 10Y little changed ~4.99-5.01%, near a one-month range, as traders await the decision and weigh oil-driven inflation risk from Hormuz-tension-elevated crude</div>
+    </div>
+  </div>
+  <div class="note">Network: hashrate ~1,069 EH/s, difficulty unchanged at ~140.6T — no stress signal. No in-window news on Lion One, Lavras, or SilverTiger. No new Strategic Bitcoin Reserve or MSCI bitcoin-treasury developments this window; CLARITY Act's midterm-related timeline risk is in today's Must-Read/FYI set. CME FedWatch still prices a hold today as the overwhelming consensus — the live debate, per CoinDesk, is what Warsh signals about the path beyond this meeting.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows · ETF</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://cointelegraph.com/markets/bitcoin-etf-176-million-inflow-sentiment-rebounds?utm_source=rss_feed&amp;utm_medium=rss_tag_bitcoin&amp;utm_campaign=rss_partner_inbound">Bitcoin ETF Inflows Climb to $176M as BTC Rebounds Above $80K</a>
+    <div class="why">Why it matters to BOF: the second consecutive positive flow day (after Monday's $110.3M) pulls October's running total back to roughly -$26M, essentially erasing the month's deficit — a real stabilization signal into FOMC rather than Monday's one-off bounce, and worth watching for a third confirming day today.</div>
+    <div class="when">Broke: overnight, ~3:57am ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement · FOMC</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.coindesk.com/daybook-us/2026/10/28/dissent-and-more-3-things-to-watch-for-at-the-fed-meeting">Dissent and More: 3 Things to Watch for at the Fed Meeting</a>
+    <div class="why">Why it matters to both desks: with a hold priced as the overwhelming consensus, the transmission channel that actually moves BTC and gold today runs through dissent votes and forward language, not the headline decision — Hormuz-tension-driven oil prices are feeding inflation-risk chatter that could force a hawkish tilt even on a hold, which would firm the dollar and real rates against both desks' core debasement thesis.</div>
+    <div class="when">Broke: this morning, ~7:57am ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows · Sentiment</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://cointelegraph.com/markets/bitcoin-price-eyes-82k-as-morgan-stanley-strategist-says-most-of-correction-is-over?utm_source=rss_feed&amp;utm_medium=rss_tag_bitcoin&amp;utm_campaign=rss_partner_inbound">Bitcoin Price Eyes $82K as Morgan Stanley Strategist Says Most of Correction Is Over</a>
+    <div class="why">Why it matters to BOF: a sell-side desk calling the bottom in on-record terms, paired with the ETF inflow data above, is the kind of two-signal confirmation BOF watches for before adding into weakness — though a hawkish Fed surprise this afternoon would be the fastest way to invalidate the call.</div>
+    <div class="when">Broke: this morning, ~5:56am ET</div>
+  </div>
+
+</section>
+
+<section class="gold">
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">No Lion One, Lavras, or SilverTiger news cleared the window.</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities · Reserves</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMihAFBVV95cUxNTnc4YUpnN1BFNzRjNTMyMjZTbXVXZ040aERFQ3cwYWFSVmw3MnI0SkhjbmpSallIeDVCOTE5ODRpanFWa2JVQWpXX0IwUUo0cnhIYmNTNUVWUElzR1pabEJ6OVBWanZlcGc4TExJUndzZUdxajBUWVZMX043NzUwUTVlUUM?oc=5">Gold Miners Face a Harder Hunt for New Ounces</a>
+    <div class="why">Why it matters to EMA: majors struggling to replace reserves organically is the structural tailwind behind EMA's entire junior-driller thesis — it raises the long-run takeout value of names with credible discovery pipelines (Lion One, Lavras-type stories) as M&amp;A becomes the cheaper path to ounces versus exploration.</div>
+    <div class="when">Broke: this morning, ~4:30am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal Price Driver · Gold</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdGg1QlJXQ2xVaDUtckhTRUl4amNEQnV4dmR6N3RsOXE2cHBEYmZVRmhmLU5ITXBMSnVCY3ZWN3V3RWdlWFAyeEdCT2plaE5iS1lUTXJFSmNBd08taVAxcGlBWkxEWXNtNGMzU0RyaEJDUEY4bXYzXzk1ZXFSOEVZTlgtcVRUSl9JYlp3eWxQWkR2OUFESGltWHp2Zl9Jdm00azhOZzNRelFVaTDSAbABQVVfeXFMTzF4VWVST3Y1aFI1N2ljRlB5Z3cxUmFwSmR2LVRsQWhfSGViZW9acUFoNVkwSzlxWnU5RmhEcU11Z01MTy1QbC02ZW4wbnktTEJRdjYwWE9waDQtQkpTcjhRUHFmb0UyNWl2bk5kWURFN2tkQmRvSE03WHpfMC1Udk5UUWFBSVdtWEhfTHBlZlUtQ1F4eXpBQm5oRExZdUxVQ0VGVmhJSnVCN0czMGFPNEk?oc=5">Gold Price Falls to $4,030 as Rising Oil Prices Fuel US Inflation Fears</a>
+    <div class="why">Why it matters to both desks: this is the same oil-driven inflation story feeding today's Fed-dissent coverage above — a direct, named transmission channel from Hormuz-tension crude to inflation expectations to gold positioning, worth watching alongside GDX's divergent strength (see Chart of the Day) for whether producers keep outrunning the metal through the volatility.</div>
+    <div class="when">Broke: this morning, ~4:11am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal Price Driver · Silver</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMilAJBVV95cUxOcUF1dTVkd253bUM3ck5lSVFnRUlqRGdRV19ob2RPanJNY0liUEw5a1o1eHFad0VkNnZBRGNuVW42NGxLZlV4U29CbXlGVVY2R2lyWjc3eUdxUkF2S1lWZ1k5eEV4akxfYXlhSnotWVB5TkF0cWg3ZDBRR2gwU2xRWUZyOEZQZi01U25DSXUtc0hrVUFfN2pFdmNTNVFKSVAzZWEyNF9Vb0lDQWhjS3doUmY5ZmZpMXp1V2JIcXYyWDVnWGFDQkU5NGVIRm1EYWU5MVY3YXJCWEk1NXZNeXRfQWhLTWN0Z0RCc0JzaHdSWjJpRE4zaktEekhMSndsVWhJdkNlSXFrV1FTdW5JSnd2Wi1nR1g?oc=5">Silver Price Today: Silver Prices Stagnant Leading Up to the Fed's Rate Decision</a>
+    <div class="why">Why it matters to EMA: silver's inability to extend gold's recovery is consistent with the gold-silver ratio widening out to the mid-80s this week — a headwind for EMA's silver-leveraged junior book that argues for watching the ratio for a reversal signal rather than chasing gold's strength into silver names today.</div>
+    <div class="when">Broke: this morning, ~7:18am ET</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate · Counterparty Risk</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.theblock.co/news/business/2026-10-27-datavault-ai-stock-plummets-bitcoin-deal-431962">Datavault AI Stock Plummets 50% After Firm Says It Cannot Withdraw Bitcoin Tied to $150 Million Deal</a>
+    <div class="why">Why it matters to BOF: a public company unable to access bitcoin from a nine-figure deal is exactly the counterparty-structuring risk BOF's ecosystem diligence is built to screen for — worth tracking as a cautionary precedent even though it's not a BOF holding, since it will likely shape how allocators structure future bitcoin-denominated corporate deals.</div>
+    <div class="when">Broke: overnight, ~11:00pm ET yesterday</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Miners &amp; Infrastructure</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://cointelegraph.com/news/luxor-raises-16m-ai-bitcoin-miner-convergence?utm_source=rss_feed&amp;utm_medium=rss_tag_bitcoin&amp;utm_campaign=rss_partner_inbound">Luxor Raises $16M From CMT Digital Amid AI-Bitcoin Miner Convergence</a>
+    <div class="why">Why it matters to BOF: fresh capital flowing into mining-services infrastructure rather than hashrate itself is a read on where investors see durable margin in the HPC-AI pivot — relevant context for BOF's miner-debt underwriting as the sector's capital structure keeps shifting toward services and away from pure hashprice exposure.</div>
+    <div class="when">Broke: yesterday, ~9:01am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Regulation &amp; Policy · CLARITY Act</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://bitcoinmagazine.com/politics/next-weeks-midterm-elections-crypto">Next Week's Midterms Could Stall the CLARITY Act and Test Crypto's Political Clout: TD Cowen</a>
+    <div class="why">Why it matters to both desks: a midterm-driven delay to market-structure legislation is a direct timeline risk to the regulatory clarity both funds have priced into their multi-year theses — TD Cowen's framing of this as a test of the industry's record $176M in midterm spending (see below) makes it worth revisiting after next week's results.</div>
+    <div class="when">Broke: yesterday, ~1:48pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate · ETF Products</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://bitcoinmagazine.com/news/vaneck-builder-etf-with-bitcoin-exposure">VanEck Launches All-in-One Wealth Builder ETF With Bitcoin Exposure</a>
+    <div class="why">Why it matters to BOF: another large issuer wrapping bitcoin into a diversified allocator product (rather than a standalone spot fund) extends the distribution surface for passive bitcoin demand beyond the dedicated spot-ETF buyer base BOF already tracks closely.</div>
+    <div class="when">Broke: yesterday, ~3:18pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem · Custody Incident</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://decrypt.co/382009/coinbase-customer-data-hit-in-analytics-vendor-breach-funds-not-impacted">Coinbase Customer Data Hit in Analytics Vendor Breach, Funds "Not Impacted"</a>
+    <div class="why">Why it matters to BOF: a third-party analytics vendor, not Coinbase's own custody stack, was the vector — a useful reminder that vendor risk is now as relevant as custody architecture itself when BOF diligences exchange and custodian counterparties for its public-market bitcoin exposure.</div>
+    <div class="when">Broke: this morning, ~6:10am ET</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing GDX and gold daily percent change Friday through Tuesday, showing GDX compounding to plus 3.7 percent while gold spot gained only about half a percent over the same three sessions">
+      <line x1="40" y1="150" x2="380" y2="150" stroke="currentColor" stroke-opacity=".6"/>
+      <text x="200" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" opacity=".8">GDX vs. Gold Spot — Miners Outrunning the Metal</text>
+
+      <rect x="65" y="150" width="26" height="33" fill="#c8102e" opacity=".85"/>
+      <text x="78" y="138" text-anchor="middle" font-size="8" fill="currentColor" font-weight="700">-1.82%</text>
+      <rect x="95" y="146" width="26" height="4" fill="#b8860b" opacity=".85"/>
+      <text x="108" y="138" text-anchor="middle" font-size="8" fill="currentColor" font-weight="700">~flat</text>
+      <text x="93" y="196" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Fri Oct 23</text>
+
+      <rect x="165" y="132" width="26" height="18" fill="#0a7d2c" opacity=".85"/>
+      <text x="178" y="124" text-anchor="middle" font-size="8" fill="currentColor" font-weight="700">+1.02%</text>
+      <rect x="195" y="144" width="26" height="6" fill="#b8860b" opacity=".85"/>
+      <text x="208" y="136" text-anchor="middle" font-size="8" fill="currentColor" font-weight="700">+0.55%</text>
+      <text x="193" y="196" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Mon Oct 26</text>
+
+      <rect x="265" y="104" width="26" height="46" fill="#0a7d2c" opacity=".85"/>
+      <text x="278" y="96" text-anchor="middle" font-size="8" fill="currentColor" font-weight="700">+2.68%</text>
+      <rect x="295" y="148" width="26" height="2" fill="#b8860b" opacity=".85"/>
+      <text x="308" y="140" text-anchor="middle" font-size="8" fill="currentColor" font-weight="700">~flat</text>
+      <text x="293" y="196" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Tue Oct 27</text>
+
+      <text x="108" y="214" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">green/red = GDX</text>
+      <text x="300" y="214" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">gold = gold spot</text>
+    </svg>
+    <div class="chart-cap">Daily % change, GDX (EMA's benchmark) vs. gold spot, Friday through Tuesday. GDX compounded to roughly +3.7% over three sessions — from Friday's $80.20 close to Tuesday's $83.19 — while gold spot gained only about half a percent over the same stretch. That's the kind of equity-beta-to-metal divergence EMA's producer book is built to capture, and today's Gold &amp; Silver section's mining-equity-reserves story is the structural story behind it.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Wednesday, October 28, 2026, ~8am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
