@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Friday, October 30, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  .datawarn{font-size:.78rem;color:#a67c00;background:#fff8e6;border:1px solid #f0d999;border-radius:8px;padding:8px 12px;margin:10px 0}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    .datawarn{background:#2a2410;border-color:#5a4a1a;color:#e0b84c}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Friday, October 30, 2026 · figures as of ~8am ET · CME trades normally today</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<div class="datawarn">Data note: today's automated 7:15am ET prefetch again had not landed as of 8am ET — data/latest.json's newest commit is from ~2:28pm ET yesterday (Thursday), well before tonight's Binance incident broke. Spot BTC, ETH, gold, silver, GDX, equity futures, DXY, 10Y, Deribit basis and ETF flows below are cross-checked and updated via live web search against that stale base; several figures carry explicit confidence notes where a fresher confirmed print wasn't available this morning.</div>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$77,600</div>
+      <div class="chg down">-4.0% 24h — a ~$6.3B Binance security incident triggered a liquidation cascade overnight, with spot briefly touching ~$76,300-76,440 (-5.5%) before a partial bounce; $1.5B+ liquidated across BTC/ETH/SOL/XRP in 24h</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$2,280*</div>
+      <div class="chg down">~-2.4% 24h (approximate — a fully confirmed same-morning print wasn't available; ETH broke below $2,300 in sympathy with BTC's hack-driven slide, altcoins took the brunt of the liquidation cascade)</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">unavailable*</div>
+      <div class="chg neutral">*A fresh reading wasn't confirmable this morning; Wednesday's print was 51 (Neutral) — a materially lower, Fear-territory reading is likely given the overnight hack and liquidation cascade. Treat 51 as stale.</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$3,970 / ~$50.80</div>
+      <div class="chg down">-1.3% / -2.6% — both metals sliding alongside risk assets this morning rather than catching a safe-haven bid, as the dollar firms modestly and Thursday's hot GDP/inflation print keeps Fed-hike odds elevated</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$81.33</div>
+      <div class="chg down">-3.12% Thursday (official close, vs. Wednesday's $83.95) — snaps the three-day winning streak flagged in recent briefs; earnings-season misses across the miner complex are the proximate driver (see Gold &amp; Silver section)</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">0.18% / 2.87%*</div>
+      <div class="chg down">BTC-6NOV26 (7d) / BTC-13NOV26 (14d) — Thursday's print, already near-flat before today's crash; no fresher post-hack reading was confirmable, but basis this thin signals thinning (or negative) carry for BOF's futures-held exposure</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">+$17.2M (Thu, pre-hack)</div>
+      <div class="chg neutral">IBIT +$12.8M, FBTC +$10.5M, BITB +$8.8M, GBTC -$15.3M — already stalled/near-breakeven before the hack broke; today's hack-driven reaction (ETF.com: funds "hammered") isn't in Farside's official table yet</div>
+    </div>
+    <div class="tile">
+      <div class="label">Equities / DXY / 10Y</div>
+      <div class="value">Nasdaq futures -2.5%</div>
+      <div class="chg down">S&amp;P futures -1%, Dow futures roughly flat (Amazon -7%, Intel -27% premarket on Q3/guidance); DXY ~101.75 (-0.1 to -0.3%); US 10Y ~4.91-4.93%, down ~10bp from Wednesday's ~5.03-5.04% post-Fed print</div>
+    </div>
+  </div>
+  <div class="note">Network: hashrate ~1,079 EH/s, difficulty ~140.6T (Thursday's print, no fresh stress signal). No in-window news on Lion One, Lavras, or SilverTiger. No new Strategic Bitcoin Reserve purchase or MSCI bitcoin-treasury index decision — both still just watched, not resolved (see Hagerty item below for SBR-adjacent commentary).</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows · Exchange Security</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead">$6 Billion Binance Hack Sends Bitcoin, Ether Tumbling; Standard Chartered Sees More Losses Ahead</a>
+    <div class="why">Why it matters to both desks: Binance disclosed a ~$6.3B security incident Thursday evening — roughly 4x the size of Bybit's record 2025 hack — that TRM Labs has linked to North Korea's Lazarus/TraderTraitor unit (Binance itself has only called it a "potential security issue" and has pledged to cover losses, pausing deposits/withdrawals). The resulting $1.5B+ liquidation cascade is why BTC is down ~4-5.5% this morning. For BOF, this is a live custody/counterparty-risk case study that favors diligenced cold/MPC custody over CEX balances. For EMA, it's also the reason gold and silver aren't getting a safe-haven bid today: the shock is idiosyncratic to crypto exchange infrastructure, not a broad risk-off or dollar event, so metals are trading on their own (weak) macro drivers instead — see Chart of the Day.</div>
+    <div class="when">Broke: Thursday evening into overnight; liquidation cascade and price pressure continuing into this morning</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate · Capital Allocation</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.strategy.com/press/strategy-announces-third-quarter-2026-financial-results_10-29-2026">Strategy Announces Third Quarter Financial Results: Operating Income of $21 Billion, Diluted EPS of $44.75</a>
+    <div class="why">Why it matters to BOF: the headline is a blowout on paper — a $20.9B mark-to-market gain on its bitcoin book, 848,517 BTC held (+26% YTD), and MSTR stock outrunning BTC itself in the quarter (+76% vs. +43%). But buried in the release: Strategy has now sold ~$431.8M of bitcoin YTD 2026 to help fund preferred dividends and STRC buybacks — a small share of its $47B+ cost basis, but the same capital-allocation drift this brief has flagged for three straight months. It lands on the worst possible day to test the thesis that the largest corporate treasury buys dips: a 24-hour window dominated by exchange risk and liquidation cascades is exactly when BOF's bull case needs its anchor holder accumulating, not funding buybacks.</div>
+    <div class="when">Broke: yesterday, after market close (Thursday, Oct 29)</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement · GDP/Inflation</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html">Third-Quarter U.S. GDP Increases a Better-Than-Expected 3.4% as September Inflation Accelerates</a>
+    <div class="why">Why it matters to both desks: hot growth plus accelerating inflation is the "no landing" combination that keeps the Fed boxed in — it argues against near-term cuts and reinforces the higher-for-longer real-rate backdrop that pushed the 10-year above 5% this month. The quotable wrinkle: the 10-year has actually eased since Wednesday's hawkish Fed dissent (now ~4.91-4.93%, down from ~5.03-5.04%) even as this print argues for firmer yields — a real-rate/growth-data divergence worth flagging on air, since real rates are the direct transmission channel to both non-yielding bitcoin and gold.</div>
+    <div class="when">Broke: yesterday, ~2:06pm ET data release</div>
+  </div>
+
+</section>
+
+<section class="gold">
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">No Lion One, Lavras, or SilverTiger news cleared the window.</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiugFBVV95cUxQNGZweG9qN1BDLTdmczFscERvdlkxb1J5QjltRHJ1aFBVYUNOaVhyWFY4QmhhX2JQWThLSk0wVnpESEdJNXQ1OVBubFlZdWNPdTZIcTJYcllnY3dESGRiX2NvUEIzbFpVT1ppczBGRF9hMFQ2VXFoVWRPTTRVQlVfcE5SOENiTXQySXJwWlJLM3J1blBIMDNqekJ6MVpyZUQ1Y2M2QUVjLWcxcXZXdEJkajQyU2JBazFKOXc?oc=5">TSX Slips as Gold Miners Tumble on Earnings, US Inflation Data</a>
+    <div class="why">Why it matters to EMA: Toronto's miner-heavy board selling off on earnings-season disappointments stacked on the hot US inflation print is a direct read on EMA's producer book — cost/guidance misses compounding a macro headwind is exactly the pattern EMA's analysts should be screening across the full producer list, not just the names that reported, and it lines up with GDX's -3.12% session (see scoreboard).</div>
+    <div class="when">Broke: yesterday, ~11:34am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities · Royalty/Asset Managers</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMivwFBVV95cUxQaDBnMmY3c0twZ3pSckZMTjZSeXpYZGRSdlN1NGdKQmZxTndEUXJzLXlDWGhWUXJEV3BTOUpTbDdoM1JmYm5fcVJ4LTJ6Ym9VU1FzaDJXLVB1dnd5dUFOM3dVNHFUakNiMWhDd0NHTGRjRUs1eG1pYXVVRzNZSUhXODZKRTRDbmQxQmpnbVRxMnJGUE1fMFFwcHhGM0NFVHA1TWcyRHZvbUxJalBldWljdDA5eG55YjQ3dV9xTGotMA?oc=5">Sprott Earnings Test: Can Precious Metals Rebound Lift Results?</a>
+    <div class="why">Why it matters to EMA: Sprott's fee/trading income tied to AUM in physical and mining-equity products is a cleaner read on sector sentiment than the metal price alone. A soft print here would corroborate today's GDX weakness as more than a one-day move — worth tracking into the actual results given how levered Sprott's business is to a precious-metals rebound EMA is also underwriting.</div>
+    <div class="when">Broke: yesterday, ~11:06am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal Price Driver · Gold &amp; Silver</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWWJVZDVsYmd3NWxqMC1pcUg3cnhQbGtvWDNCQnplVm1sTlhfd3lNdVRyejB1dDFEcTJVZVJ5cGdRVHU3WE1YWW4yZS0wZjBpYUk1OVMwdWxtZi16YjlXb0FJYkJFb3hiUHAzcjE5RDZnZXc2cU5hRXRkQTMwNjR1aWFFcFpHT2paZU1uWGp2MGNZS1ExVXB5NENpdXhkbXYtdWNmZFpVdGlNTW1OU1kyOGFub0d1akRs?oc=5">Silver Price Forecast: Downtrend Continues as Fed Hike Risk Remains</a>
+    <div class="why">Why it matters to EMA: the downtrend flagged yesterday extended into this morning, with silver down ~2.6% and gold down ~1.3% even as bitcoin craters on the Binance hack — a correlation breakdown, not a flight to metals. For a mining-equity book, that means today's drawdown is a macro/rates-driven derating layered on top of crypto's idiosyncratic shock, not a metals-fundamentals story, and it's the silver-gold ratio headwind EMA's silver-leveraged junior names need to see reverse.</div>
+    <div class="when">Broke: yesterday afternoon, extending into this morning</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement · Policy</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://bitcoinmagazine.com/videos/senator-bill-hagerty-expanding-the-u-s-strategic-bitcoin-reserve-the-future-of-dollar-hegemony">Senator Bill Hagerty: Expanding the U.S. Strategic Bitcoin Reserve, &amp; the Future of Dollar Hegemony</a>
+    <div class="why">Why it matters to both desks: a sitting senator explicitly tying an expanded Strategic Bitcoin Reserve to preserving dollar hegemony is the kind of quotable, policy-adjacent framing that feeds both funds' debasement thesis and the standing SBR watch item — still rhetoric and momentum-building rather than a concrete reserve purchase or executive action, so the watch stays open.</div>
+    <div class="when">Broke: yesterday, ~8:46am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows · Derivatives</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://decrypt.co/382171/11-billion-bitcoin-options-expire-tomorrow-what-means">$11 Billion in Bitcoin Options Expire Tomorrow—Here's What It Means</a>
+    <div class="why">Why it matters to BOF: "tomorrow" is today, and the collision between a large options expiry and an exchange-hack-driven liquidation cascade raises the odds of exaggerated, positioning-driven volatility into the window — BOF's derivatives desk should size for a wider range today rather than read the move as a clean fundamental repricing.</div>
+    <div class="when">Broke: yesterday, flagging today's expiry</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows · ETF</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.etf.com/sections/features/crypto-etfs-hammered-15b-hack-market-sell">Crypto ETFs Hammered by $1.5B Hack, Market Sell-Off</a>
+    <div class="why">Why it matters to BOF: Thursday's actual flow print (pre-hack) was already essentially breakeven at +$17.2M net (IBIT +$12.8M, GBTC -$15.3M) — flows had stalled even before the hack. Today's hack-driven reaction described here isn't in Farside's official table yet; worth confirming against tomorrow's print to see whether the wrapper absorbs a custody shock that didn't touch ETF custodians directly, or whether it triggers real redemptions.</div>
+    <div class="when">Broke: Thursday flow data; hack-reaction commentary this morning</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate · Product</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://bitcoinmagazine.com/news/franklin-templeton-launches-2-bitcoin-etf">Franklin Templeton Officially Launches 2 Bitcoin DRIP ETFs That Turn Dividends Into Bitcoin</a>
+    <div class="why">Why it matters to BOF: a top-10 asset manager building a bitcoin-accumulation wrapper around ordinary dividend income is durable, advisor/retail-channel product innovation — issuer competition for ETF share that's distinct from, and arguably more structurally interesting than, any single day's flow number.</div>
+    <div class="when">Broke: yesterday, ~12:26pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Regulation &amp; Policy · Exchanges</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.coindesk.com/policy/2026/10/29/crypto-exchange-htx-exits-the-uk-after-settling-with-the-fca">Crypto Exchange HTX Exits the UK After Settling With the FCA</a>
+    <div class="why">Why it matters to both desks: another offshore exchange formally exiting a regulated major market after a settlement reinforces the trend of volume consolidating toward better-capitalized, better-regulated venues — useful context for today's Binance story, which is the opposite case of exchange risk materializing at the largest, least-regulated venue.</div>
+    <div class="when">Broke: yesterday, ~12:11pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows · On-Chain</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://decrypt.co/382161/4m-bitcoin-bought-above-85k-could-cap-recovery-glassnode">4M Bitcoin Bought Above $85K Could Cap Recovery: Glassnode</a>
+    <div class="why">Why it matters to BOF: an on-chain cost-basis overhang this large sitting well above today's ~$77,600 spot is exactly the technical ceiling to have in view now that price has fallen through it — it argues for a slower, grinding recovery path (if the hack shock proves transient) rather than a sharp V, since underwater supply typically sells into any bounce.</div>
+    <div class="when">Broke: yesterday, ~12:32pm ET</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing bitcoin's roughly 4 to 5.5 percent overnight decline to the dollar index's roughly flat to slightly lower move, illustrating that today's crash is an idiosyncratic exchange-hack shock rather than a broad dollar or macro liquidity event">
+      <line x1="40" y1="150" x2="380" y2="150" stroke="currentColor" stroke-opacity=".6"/>
+      <text x="200" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" opacity=".8">BTC vs. DXY — An Idiosyncratic Break</text>
+
+      <rect x="80" y="70" width="50" height="80" fill="#c8102e" opacity=".85"/>
+      <text x="105" y="62" text-anchor="middle" font-size="8" fill="currentColor" font-weight="700">-4.0% to -5.5%</text>
+      <text x="105" y="196" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">BTC, overnight</text>
+
+      <rect x="180" y="146" width="50" height="4" fill="#0a7d2c" opacity=".85"/>
+      <text x="205" y="138" text-anchor="middle" font-size="8" fill="currentColor" font-weight="700">-0.1% to -0.3%</text>
+      <text x="205" y="196" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">DXY, same window</text>
+
+      <rect x="280" y="100" width="50" height="50" fill="#b8860b" opacity=".85"/>
+      <text x="305" y="92" text-anchor="middle" font-size="8" fill="currentColor" font-weight="700">-1.3% / -2.6%</text>
+      <text x="305" y="196" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Gold / Silver</text>
+
+      <text x="105" y="214" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">red = BTC</text>
+      <text x="205" y="214" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">green = DXY</text>
+      <text x="305" y="214" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">gold = metals</text>
+    </svg>
+    <div class="chart-cap">Bitcoin is down roughly 4-5.5% overnight while the dollar index barely moved (-0.1% to -0.3%) over the same window — the opposite of what a dollar-liquidity or rate shock would produce, where a firmer dollar typically pairs with broad risk-asset weakness across the board. Instead, this is an idiosyncratic exchange-security shock (the Binance incident) hitting bitcoin and altcoins directly through forced liquidations, while gold and silver drift lower on their own separate macro drivers (firm-ish dollar, hot GDP/inflation print) rather than catching a flight-to-safety bid. For both desks, the read-through is the same: today's move says more about crypto market-structure risk than about the dollar regime or the debasement thesis itself — worth distinguishing on air and in LP letters.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Friday, October 30, 2026, ~8am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
