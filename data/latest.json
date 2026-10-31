@@ -1,89 +1,102 @@
 {
- "fetched_at_utc": "2026-10-30T17:59:50+00:00",
+ "fetched_at_utc": "2026-10-31T16:03:47+00:00",
  "errors": [
-  "gold_api: ConnectionError: HTTPSConnectionPool(host='api.gold-api.com', port=443): Max retries exceeded with url: /price/XAU (Caused by NameResolutionError(\"HTTPSConnection(host='api.gold-api.com', port=443): Failed to resolve 'api.gold-api.com' ([Errno -2] Name or service not known)\"))",
   "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)"
  ],
  "spot": {
-  "btc": 77061,
-  "btc_24h_pct": -4.63,
-  "eth": 2238.46,
-  "eth_24h_pct": -4.26,
+  "btc": 77506,
+  "btc_24h_pct": 0.01,
+  "eth": 2248.67,
+  "eth_24h_pct": 1.18,
   "source": "coingecko"
  },
  "fear_greed": {
   "value": 30,
   "classification": "Fear",
-  "yesterday": 51
+  "yesterday": 30
  },
  "network": {
-  "hashrate_ehs": 1046.5,
+  "hashrate_ehs": 1068.5,
   "difficulty": 148364561003867.4
  },
- "metals": null,
+ "metals": {
+  "gold": {
+   "usd": 3876.4,
+   "paxg_crosscheck": 3895.03
+  },
+  "silver": {
+   "usd": 49.25
+  }
+ },
  "futures_basis": [
   {
    "instrument": "BTC-6NOV26",
-   "days": 6,
-   "ann_basis_pct": 5.2
+   "days": 5,
+   "ann_basis_pct": 4.98
   },
   {
    "instrument": "BTC-13NOV26",
-   "days": 13,
-   "ann_basis_pct": 5.25
+   "days": 12,
+   "ann_basis_pct": 5.06
   }
  ],
  "us10y": null,
- "etf_flows_raw": "label: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 30 October 2026. Your IP: 172.69.59.39 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow Zcash ETF Flow BTC Derivative Charts Company Fund Books Research Blog About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"ea642ac46e\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a52c51b3bb50118f',t:'MTc5MzM4MzIyMg=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a52c51b3bb50118f',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
- "news_window_start_et": "2026-10-29T08:00-04:00",
+ "etf_flows_raw": "abel: 'Total', data: totalData, borderColor: '#39FF14', // Bright Neon Green backgroundColor: 'transparent', fill: false, stack: 'totalLine', // Unlinks from the area stacking borderWidth: 3, pointRadius: 0, pointHoverRadius: 0, tension: 0.1, order: 0 // Forces Chart.js to draw this line ON TOP of the filled areas } ] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { maxRotation: 0, minRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } }, y: { stacked: true, grid: { color: '#eaeffa' }, ticks: { callback: function(value) { // Format negative numbers with parentheses on the Y-axis if (value Source: Farside Investors Note: These charts are updated automatically in real time How can we assist you? Talk to us &#9993;&nbsp; [email&#160;protected] 25 St James's Street, London, SW1A 1HA &nbsp; FS Investors Limited (14044760) is an Appointed Representative of Brooklands Fund Management Limited which is authorised and regulated by the Financial Conduct Authority with the registered number 757575 and registered with the Securities and Exchange Commission with the registered number 286221. Today's date is 31 October 2026. Your IP: 104.22.115.32 &copy; 2025 Farside Investors. All rights reserved. Market Data Bitcoin ETF Flow Ethereum ETF Flow Solana ETF Flow Hyperliquid ETF Flow Zcash ETF Flow BTC Derivative Charts Company Fund Books Research Blog About Contact Privacy Policy Complaints .grow img{ transition: 0.5s ease; } .grow img:hover{ -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3); transition: 0.5s ease; } var _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}}; wp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } ); var um_scripts = {\"max_upload_size\":\"24117248\",\"nonce\":\"96d0f5de61\"}; /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener(\"hashchange\",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1); jQuery( window ).on( 'load', function() { jQuery('input[name=\"um_request\"]').val(''); }); window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a533e511ebbaa600',t:'MTc5MzQ2MjY1OA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a533e511ebbaa600',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
+ "news_window_start_et": "2026-10-30T08:00-04:00",
  "headlines": [
   {
    "source": "CoinDesk",
-   "title": "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart",
-   "link": "https://www.coindesk.com/tech/2026/10/30/binance-uncovers-wider-breach-in-usd6-3-billion-exploit-targets-sunday-withdrawal-restart",
-   "published": "2026-10-30T16:31+00:00"
+   "title": "Traders are already placing leveraged bets on Anthropic\u2019s IPO using crypto contracts",
+   "link": "https://www.coindesk.com/business/2026/10/31/traders-are-already-placing-leveraged-bets-on-anthropic-s-ipo-using-crypto-contracts",
+   "published": "2026-10-31T16:00+00:00"
   },
   {
    "source": "CoinDesk",
-   "title": "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack",
-   "link": "https://www.coindesk.com/markets/2026/10/30/wall-street-analysts-urge-investors-to-buy-crypto-stocks-on-weakness-after-usd6-3-billion-binance-hack",
-   "published": "2026-10-30T14:13+00:00"
+   "title": "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach",
+   "link": "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach",
+   "published": "2026-10-31T15:24+00:00"
   },
   {
    "source": "CoinDesk",
-   "title": "Binance arranges $6.34 billion to cover losses from record crypto hack",
-   "link": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
-   "published": "2026-10-30T12:13+00:00"
+   "title": "Institutions embrace crypto staking despite shrinking yields",
+   "link": "https://www.coindesk.com/business/2026/10/26/institutions-embrace-crypto-staking-despite-shrinking-yields",
+   "published": "2026-10-31T15:00+00:00"
   },
   {
    "source": "CoinDesk",
-   "title": "Here's how big bitcoin traders responded after the Binance hack hit",
-   "link": "https://www.coindesk.com/daybook-us/2026/10/30/here-s-how-big-bitcoin-traders-responded-after-the-binance-hack-hit",
-   "published": "2026-10-30T11:51+00:00"
+   "title": "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton",
+   "link": "https://www.coindesk.com/business/2026/10/31/uber-tests-how-tokenization-can-put-idle-cash-to-work-with-hsbc-franklin-templeton",
+   "published": "2026-10-31T14:40+00:00"
   },
   {
    "source": "CoinDesk",
-   "title": "Here\u2019s how an Ethereum upgrade helped drain part of Binance\u2019s $6 billion loss",
-   "link": "https://www.coindesk.com/tech/2026/10/30/here-s-how-one-ethereum-permission-let-an-attacker-drain-usd2-5-billion-from-binance",
-   "published": "2026-10-30T11:35+00:00"
+   "title": "As big bitcoin miners chase AI profits, individuals get another shot at the rewards",
+   "link": "https://www.coindesk.com/tech/2026/10/31/as-big-bitcoin-miners-chase-ai-profits-individuals-get-another-shot-at-the-rewards",
+   "published": "2026-10-31T14:00+00:00"
   },
   {
    "source": "CoinDesk",
-   "title": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
-   "link": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower",
-   "published": "2026-10-30T11:09+00:00"
+   "title": "18 years in, what has Bitcoin truly done?",
+   "link": "https://www.coindesk.com/opinion/2026/10/31/18-years-in-what-has-bitcoin-truly-done",
+   "published": "2026-10-31T13:00+00:00"
   },
   {
    "source": "CoinDesk",
-   "title": "Strategy CFO Andrew Kang resigns as company posts record operating profit",
-   "link": "https://www.coindesk.com/markets/2026/10/30/strategy-cfo-resigns-as-company-posts-record-quarterly-profit-mstr-stock-falls-6",
-   "published": "2026-10-30T09:41+00:00"
+   "title": "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears",
+   "link": "https://www.coindesk.com/markets/2026/10/31/a-nasdaq-listed-company-may-sell-usd450-million-bitcoin-citing-binance-hack-and-quantum-fears",
+   "published": "2026-10-31T12:49+00:00"
   },
   {
    "source": "CoinDesk",
-   "title": "Live updates: Bitcoin falls to $77,000 as Binance exploit combines with tech woes",
-   "link": "https://www.coindesk.com/markets/2026/10/30/live-news-binance-hack-rattles-crypto-as-intel-plunges-and-ai-spending-fears-hit-tech",
-   "published": "2026-10-30T08:36+00:00"
+   "title": "The $6.3 billion Binance hack paradox: Centralization made the hack possible, but also saved $3 billion",
+   "link": "https://www.coindesk.com/business/2026/10/31/the-usd6-3-billion-binance-hack-paradox-centralization-made-the-hack-possible-but-also-saved-usd3-billion",
+   "published": "2026-10-31T12:00+00:00"
+  },
+  {
+   "source": "Cointelegraph",
+   "title": "Bitcoin turns 18: Has the original rebel grown up?",
+   "link": "https://cointelegraph.com/magazine/bitcoin-turns-18-has-the-original-rebel-grown-up?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-31T14:27+00:00"
   },
   {
    "source": "Cointelegraph",
@@ -98,40 +111,28 @@
    "published": "2026-10-30T13:30+00:00"
   },
   {
-   "source": "Cointelegraph",
-   "title": "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack",
-   "link": "https://cointelegraph.com/markets/bitcoin-price-metrics-hint-at-rebound-as-16b-liquidations-follow-binance-hack?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-30T11:29+00:00"
+   "source": "TheBlock",
+   "title": "Hackers hijack a dozen DeFi websites, all registered with Name.com, and steal about $138,000",
+   "link": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251",
+   "published": "2026-10-31T15:26+00:00"
   },
   {
-   "source": "Cointelegraph",
-   "title": "Binance hacker\u2019s Bitcoin haul tops Coinbase\u2019s corporate treasury",
-   "link": "https://cointelegraph.com/news/binance-hacker-bitcoin-holdings-exceed-coinbase-btc-treasury?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-30T10:54+00:00"
+   "source": "TheBlock",
+   "title": "Chainalysis says hacker using \u2018offensive agentic techniques\u2019 accessed its customers\u2019 names and emails",
+   "link": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244",
+   "published": "2026-10-31T13:27+00:00"
   },
   {
-   "source": "Cointelegraph",
-   "title": "Trezor warns CryptoBilis buyers to move funds over suspected implant",
-   "link": "https://cointelegraph.com/news/trezor-cryptobilis-wallet-implant-funds-warning?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-30T09:26+00:00"
+   "source": "TheBlock",
+   "title": "Inside the largest crypto hack on record: How attackers breached Binance for $6.3 billion",
+   "link": "https://www.theblock.co/news/business/2026-10-30-binance-hack-largest-crypto-hack-north-korea-432225",
+   "published": "2026-10-30T21:20+00:00"
   },
   {
-   "source": "Cointelegraph",
-   "title": "Strategy eyes more Bitcoin buys as Saylor touts $30B credit capacity",
-   "link": "https://cointelegraph.com/news/strategy-30-billion-digital-credit-capacity-bitcoin-buys?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-30T05:53+00:00"
-  },
-  {
-   "source": "Cointelegraph",
-   "title": "Tampered Ledger reported in Singapore a month before news broke: Asia Express",
-   "link": "https://cointelegraph.com/magazine/tampered-ledger-reported-in-singapore-a-month-before-news-broke-asia-express?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-29T22:31+00:00"
-  },
-  {
-   "source": "Cointelegraph",
-   "title": "Bitcoin price jumps to $81.5K as US GDP data beats expectations",
-   "link": "https://cointelegraph.com/markets/bitcoin-reaction-to-pce-data?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
-   "published": "2026-10-29T15:39+00:00"
+   "source": "TheBlock",
+   "title": "President Trump says they\u2019re looking into Binance hack as calls grow for crypto rules",
+   "link": "https://www.theblock.co/news/regulation/2026-10-30-trump-looking-into-binance-hack-calls-grow-for-crypto-rules-432236",
+   "published": "2026-10-30T21:06+00:00"
   },
   {
    "source": "TheBlock",
@@ -152,82 +153,76 @@
    "published": "2026-10-30T13:14+00:00"
   },
   {
-   "source": "TheBlock",
-   "title": "Coinbase Q3 net income jumps 66% as prediction markets gain traction",
-   "link": "https://www.theblock.co/news/business/2026-10-30-coinbase-q3-net-income-jumps-432189",
-   "published": "2026-10-30T08:57+00:00"
-  },
-  {
-   "source": "TheBlock",
-   "title": "Trezor reports suspected hardware implant in Safe 5 sold by CryptoBilis",
-   "link": "https://www.theblock.co/news/ecosystems/2026-10-30-trezor-reports-suspected-hardware-implant-432196",
-   "published": "2026-10-30T08:55+00:00"
-  },
-  {
-   "source": "TheBlock",
-   "title": "Bitcoin slides below $77,000, BNB drops amid Binance hack",
-   "link": "https://www.theblock.co/news/markets/2026-10-29-bitcoin-slides-below-77000-binance-hack-432183",
-   "published": "2026-10-30T02:22+00:00"
-  },
-  {
-   "source": "TheBlock",
-   "title": "Binance investigating hack as suspicious outflows reach up to $5.8 billion",
-   "link": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
-   "published": "2026-10-29T21:49+00:00"
-  },
-  {
-   "source": "TheBlock",
-   "title": "Strategy reports $19.5 billion in Q3 net income as preferred shareholders approve daily dividends",
-   "link": "https://www.theblock.co/news/business/2026-10-29-strategy-q3-net-income-preferred-daily-dividends-432141",
-   "published": "2026-10-29T20:58+00:00"
+   "source": "Decrypt",
+   "title": "Binance Hack: Everything You Need to Know About the Biggest Crypto Heist in History",
+   "link": "https://decrypt.co/382306/binance-hack-everything-you-need-to-know",
+   "published": "2026-10-31T15:01+00:00"
   },
   {
    "source": "Decrypt",
-   "title": "Secret Service, FBI Join Binance Hack Probe as Circle Freezes $823 Million",
-   "link": "https://decrypt.co/382268/secret-service-fbi-binance-hack-probe",
-   "published": "2026-10-30T17:50+00:00"
+   "title": "Why AI Models Cheat: Reward Hacking, Explained",
+   "link": "https://decrypt.co/382274/why-ai-models-cheat-reward-hacking-explained",
+   "published": "2026-10-31T13:01+00:00"
   },
   {
    "source": "Decrypt",
-   "title": "Binance Sets Aside $6.34B to Cover Hack Losses, CEO Says 'Your Assets Are Safe'",
-   "link": "https://decrypt.co/382237/binance-sets-aside-6-34b-to-cover-hack-losses-ceo-says-your-assets-are-safe",
-   "published": "2026-10-30T16:34+00:00"
+   "title": "Binance Hack Shows Why Offshore Exchanges Need US Oversight, CFTC Chair Says",
+   "link": "https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair",
+   "published": "2026-10-30T21:16+00:00"
   },
   {
    "source": "Decrypt",
-   "title": "Elon Musk, CZ Trade Blows Over SpaceX Shares After $6.4B Binance Hack",
-   "link": "https://decrypt.co/382236/elon-musk-cz-trade-blows-spacex-shares-binance-hack",
-   "published": "2026-10-30T16:25+00:00"
+   "title": "Intel Stock Suffers Worst Crash in 50 Years as Weak Forecast Overshadows AI Chip Demand",
+   "link": "https://decrypt.co/382287/intel-stock-suffers-worst-crash-in-50-years-as-weak-forecast-overshadows-ai-chip-demand",
+   "published": "2026-10-30T20:53+00:00"
   },
   {
    "source": "Decrypt",
-   "title": "What is EIP-7702? The Ethereum Upgrade Behind the $6.4B Binance Hack",
-   "link": "https://decrypt.co/resources/what-is-eip-7702-the-ethereum-upgrade-behind-the-6-4b-binance-hack",
-   "published": "2026-10-30T14:17+00:00"
+   "title": "Worried About Crypto Hacks? Buy Bitcoin Proxies in Stock Market Instead, Say Wall Street Firms",
+   "link": "https://decrypt.co/382282/crypto-hacks-buy-bitcoin-proxies-stock-market-wall-street",
+   "published": "2026-10-30T20:06+00:00"
   },
   {
    "source": "Decrypt",
-   "title": "Israel Extradites Alleged Nomad Bridge Exploiter to US Over $2.8M Theft: Report",
-   "link": "https://decrypt.co/382230/israel-extradites-alleged-nomad-bridge-exploiter-to-us-over-2-8m-theft-report",
-   "published": "2026-10-30T13:00+00:00"
+   "title": "Reddit Stock Plunges 30% as Google's AI Search Hits Traffic and User Growth",
+   "link": "https://decrypt.co/382276/reddit-stock-plunges-30-googles-ai-search",
+   "published": "2026-10-30T19:31+00:00"
   },
   {
    "source": "Decrypt",
-   "title": "Morning Minute: Binance\u2019s $6.4B Hack Overshadows Hyperliquid\u2019s Biggest Day",
-   "link": "https://decrypt.co/382225/morning-minute-binances-6-4b-hack-overshadows-hyperliquids-biggest-day",
-   "published": "2026-10-30T12:31+00:00"
+   "title": "Binance Hack: Why Bitcoin Didn't Crash Like It Did in 2018",
+   "link": "https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash",
+   "published": "2026-10-30T18:45+00:00"
   },
   {
    "source": "Decrypt",
-   "title": "TRM and Chainalysis Tie $6.4B Binance Hack to North Korea's TraderTraitor",
-   "link": "https://decrypt.co/382224/trm-and-chainalysis-tie-6-4b-binance-hack-to-north-koreas-tradertraitor",
-   "published": "2026-10-30T12:22+00:00"
+   "title": "$8 Million Crypto Kidnapping Lands Texas Brothers 15-Year Prison Terms",
+   "link": "https://decrypt.co/382269/crypto-kidnapping-texas-brothers-15-year-prison",
+   "published": "2026-10-30T18:16+00:00"
   },
   {
-   "source": "Decrypt",
-   "title": "Trezor Warns CryptoBilis Buyers After Report of Hardware Implant in Safe 5",
-   "link": "https://decrypt.co/382216/trezor-warns-cryptobilis-buyers-after-report-of-hardware-implant-in-safe-5",
-   "published": "2026-10-30T10:07+00:00"
+   "source": "BitcoinMagazine",
+   "title": "MSTR Q3 2026 Earnings Call: Analyst Q&A",
+   "link": "https://bitcoinmagazine.com/videos/mstr-q3-2026-earnings-call-analyst-qa",
+   "published": "2026-10-31T01:08+00:00"
+  },
+  {
+   "source": "BitcoinMagazine",
+   "title": "Mike Flaum: MSTR Performance \u201cMassively\u201d to the Upside During Next BTC Bull Run",
+   "link": "https://bitcoinmagazine.com/videos/mike-flaum-mstr-performance-massively-to-the-upside-during-next-btc-bull-run",
+   "published": "2026-10-31T01:02+00:00"
+  },
+  {
+   "source": "BitcoinMagazine",
+   "title": "What to Know About the $6.3 Billion Binance Hack",
+   "link": "https://bitcoinmagazine.com/videos/what-to-know-about-the-6-3-billion-binance-hack",
+   "published": "2026-10-31T00:57+00:00"
+  },
+  {
+   "source": "BitcoinMagazine",
+   "title": "Coinbase (COIN) Misses Revenue Estimates as Users Fall, Armstrong Sets Up New Share Sales",
+   "link": "https://bitcoinmagazine.com/news/coinbase-falls-armstrong-sets-up-new-share",
+   "published": "2026-10-30T18:54+00:00"
   },
   {
    "source": "BitcoinMagazine",
@@ -254,250 +249,196 @@
    "published": "2026-10-30T13:26+00:00"
   },
   {
-   "source": "BitcoinMagazine",
-   "title": "Alex Thorn: 50-Week Signal Says Bitcoin\u2019s Bottom is In",
-   "link": "https://bitcoinmagazine.com/videos/alex-thorn-50-week-signal-says-bitcoins-bottom-is-in",
-   "published": "2026-10-30T13:22+00:00"
-  },
-  {
-   "source": "BitcoinMagazine",
-   "title": "Alexandre Laizet on The French Debt Crisis: \u201cEurope is in Need of Bitcoin\u201d",
-   "link": "https://bitcoinmagazine.com/videos/alexandre-laizet-on-the-french-debt-crisis-europe-is-in-need-of-bitcoin",
-   "published": "2026-10-30T13:17+00:00"
-  },
-  {
-   "source": "BitcoinMagazine",
-   "title": "Bitcoin Price Briefly Slides to $76,300 as Binance Confirms Hack Estimated at $6.3 Billion",
-   "link": "https://bitcoinmagazine.com/news/bitcoin-price-slides-near-76000-binance",
-   "published": "2026-10-30T04:05+00:00"
-  },
-  {
-   "source": "BitcoinMagazine",
-   "title": "Strategy (MSTR) Posts Record Operating Income as Bitcoin Rebounds in Q3 2026",
-   "link": "https://bitcoinmagazine.com/news/strategy-posts-record-operating-income",
-   "published": "2026-10-29T23:18+00:00"
+   "source": "CNBC",
+   "title": "Binance says 90% of $6.3 billion hack losses are now covered, plans to resume withdrawals Sunday",
+   "link": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
+   "published": "2026-10-31T16:03+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Fed officials are already saying they\u2019ll need to get back to hiking rates",
-   "link": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html",
-   "published": "2026-10-30T17:48+00:00"
+   "title": "Stocks started the week with promise but ended in despair. Our take on the big reversal",
+   "link": "https://www.cnbc.com/investingclub/2026/10/31/stocks-started-the-week-with-promise-but-ended-in-despair.html",
+   "published": "2026-10-31T15:37+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Class action lawsuit blames Trump officials for student loan forgiveness delays",
-   "link": "https://www.cnbc.com/2026/10/30/lawsuit-blames-trump-officials-for-student-loan-forgiveness-delays.html",
-   "published": "2026-10-30T17:40+00:00"
+   "title": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
+   "link": "https://www.cnbc.com/2026/10/31/binance-crypto-hack-safety.html",
+   "published": "2026-10-31T14:26+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Alaska Senate: Judge fast tracks new bids to dismiss DOJ lawsuit over 2nd Sullivan candidacy",
-   "link": "https://www.cnbc.com/2026/10/30/alaska-senate-election-doj-lawsuit-sullivan-peltola.html",
-   "published": "2026-10-30T17:31+00:00"
+   "title": "Automatic 401(k) rollovers reduce cash-outs, research finds \u2014 but few accounts reach new employer plans",
+   "link": "https://www.cnbc.com/2026/10/31/401k-cash-outs-automatic-rollovers.html",
+   "published": "2026-10-31T13:30+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz",
-   "link": "https://www.cnbc.com/2026/10/30/tanker-attack-strait-hormuz-iran-war-oil.html",
-   "published": "2026-10-30T17:21+00:00"
+   "title": "In the wake of Weil, a legal recruiter's advice for surviving a company wind-down",
+   "link": "https://www.cnbc.com/make-it/2026/10/31/weil-wind-down-career-advice.html",
+   "published": "2026-10-31T13:07+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Treasury Department announces new Series I bond rate of 5.51% for the next six months",
-   "link": "https://www.cnbc.com/2026/10/30/treasury-i-bond-rate-through-april-2027.html",
-   "published": "2026-10-30T17:15+00:00"
+   "title": "35-year-old took on $20K in debt to launch a business from her dining room\u2014now it brings in 8 figures a year",
+   "link": "https://www.cnbc.com/make-it/2026/10/31/set-active-lindsey-carter-entrepreneurship.html",
+   "published": "2026-10-31T13:05+00:00"
   },
   {
    "source": "CNBC",
-   "title": "'Bad time to troll': Binance cofounder Changpeng Zhao asks Elon Musk for 'respect' after post about bitcoin hack",
-   "link": "https://www.cnbc.com/2026/10/30/binance-hack-elon-musk-tesla-spacex.html",
-   "published": "2026-10-30T17:12+00:00"
+   "title": "Crypto industry pours more than $200 million into 2026 midterms to pressure Congress on favorable rules",
+   "link": "https://www.cnbc.com/2026/10/31/crypto-industry-spends-more-than-200-million-to-sway-the-midterms.html",
+   "published": "2026-10-31T13:04+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Halloween gets pricier as chocolate costs climb \u2014 Hershey may feel the pinch",
-   "link": "https://www.cnbc.com/2026/10/30/halloween-gets-pricier-as-chocolate-costs-rise-hershey-could-feel-it.html",
-   "published": "2026-10-30T16:55+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Chevron and Exxon hit all-time highs as refining profits soar in reaction to Iran and Ukraine wars",
-   "link": "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html",
-   "published": "2026-10-30T16:44+00:00"
-  },
-  {
-   "source": "CNBC-Econ",
-   "title": "Euro zone economy slows to 0.4% growth in Q3 as crisis-hit France contracts",
-   "link": "https://www.cnbc.com/2026/10/30/euro-zone-gdp-france.html",
-   "published": "2026-10-30T11:16+00:00"
-  },
-  {
-   "source": "CNBC-Econ",
-   "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
-   "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
-   "published": "2026-10-29T18:06+00:00"
-  },
-  {
-   "source": "CNBC-Econ",
-   "title": "Analysis: Kevin Warsh is keeping Wall Street guessing. It may be his most powerful tool",
-   "link": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html",
-   "published": "2026-10-29T17:32+00:00"
-  },
-  {
-   "source": "CNBC-Econ",
-   "title": "The politics of President Lagarde's European Central Bank early exit  \u2014 and who could replace her",
-   "link": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
-   "published": "2026-10-29T14:53+00:00"
-  },
-  {
-   "source": "CNBC-Econ",
-   "title": "European Central Bank keeps key interest rate on hold at 2.5%",
-   "link": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html",
-   "published": "2026-10-29T14:48+00:00"
+   "title": "How to start an art collection on any budget",
+   "link": "https://www.cnbc.com/2026/10/31/how-to-invest-in-art-collecting.html",
+   "published": "2026-10-31T12:58+00:00"
   },
   {
    "source": "MarketWatch",
-   "title": "American workers are finding their take-home pay isn\u2019t keeping up with inflation, with their wallets \u2018stretched thinner and thinner\u2019",
-   "link": "https://www.marketwatch.com/story/american-workers-are-finding-their-take-home-pay-isnt-keeping-up-with-inflation-with-their-wallets-stretching-thinner-and-thinner-6a1af690?mod=mw_rss_topstories",
-   "published": "2026-10-30T17:44+00:00"
+   "title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
+   "link": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
+   "published": "2026-10-31T16:02+00:00"
   },
   {
    "source": "MarketWatch",
-   "title": "You can expect the stock market to rally no matter who wins on Election Day",
-   "link": "https://www.marketwatch.com/story/you-can-expect-the-stock-market-to-rally-no-matter-who-wins-on-election-day-d4a3c282?mod=mw_rss_topstories",
-   "published": "2026-10-30T17:32+00:00"
+   "title": "We\u2019re in our 70s. Should we pay off our 2.5% mortgage \u2014 or put the money in a high-yield savings account?",
+   "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
+   "published": "2026-10-31T16:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Our church has a $1.5 million bequest earning 3.75% in a savings account. Are we throwing money away?",
+   "link": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
+   "published": "2026-10-31T15:30+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "What gave this city its \u2018best place to retire\u2019 crown? You can actually afford to live there.",
+   "link": "https://www.marketwatch.com/story/what-gave-this-city-its-best-place-to-retire-crown-you-can-actually-afford-to-live-there-a06f8f4d?mod=mw_rss_topstories",
+   "published": "2026-10-31T15:25+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "My father has Alzheimer\u2019s and his caregiver is using his debit card for DoorDash. Do I intervene?",
+   "link": "https://www.marketwatch.com/story/theres-a-lot-of-hurt-between-us-my-fathers-caregiver-is-using-his-debit-card-for-doordash-orders-what-can-i-do-714de7a5?mod=mw_rss_topstories",
+   "published": "2026-10-31T15:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "The S&P 500 isn\u2019t the big winner you may think it is",
+   "link": "https://www.marketwatch.com/story/you-cant-rely-on-the-s-p-500-as-much-as-you-may-think-a3ac0cb7?mod=mw_rss_topstories",
+   "published": "2026-10-31T14:54+00:00"
   },
   {
    "source": "MarketWatch",
    "title": "Social Security\u2019s fate \u2014 and your benefits \u2014 are in the hands of the candidates elected this year",
    "link": "https://www.marketwatch.com/story/the-midterms-are-crucial-to-the-future-of-social-security-no-matter-how-old-you-are-0f080a9c?mod=mw_rss_topstories",
-   "published": "2026-10-30T17:21+00:00"
+   "published": "2026-10-31T14:35+00:00"
   },
   {
    "source": "MarketWatch",
-   "title": "The big winners of the tech wreck are biopharma stocks",
-   "link": "https://www.marketwatch.com/story/the-big-winners-of-the-tech-wreck-are-biopharma-stocks-2ac4d175?mod=mw_rss_topstories",
-   "published": "2026-10-30T17:13+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "After Intel\u2019s historic stock drop, analysts say there\u2019s no reason to buy the dip",
-   "link": "https://www.marketwatch.com/story/after-intels-historic-stock-drop-analysts-say-theres-no-reason-to-buy-the-dip-068446af?mod=mw_rss_topstories",
-   "published": "2026-10-30T16:45+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Trump administration is illegally delaying student-debt forgiveness for tens of thousands of public servants, lawsuit alleges",
-   "link": "https://www.marketwatch.com/story/trump-administration-is-illegally-delaying-student-debt-forgiveness-for-tens-of-thousands-of-public-servants-lawsuit-alleges-e4d31e59?mod=mw_rss_topstories",
-   "published": "2026-10-30T16:20+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "My wife cried when I found out she had only $80,000 in her 401(k). I have $2.2 million. Am I wrong to be shocked?",
-   "link": "https://www.marketwatch.com/story/my-wife-has-only-80-000-saved-for-retirement-i-have-2-2-million-am-i-wrong-to-be-shocked-3e27b490?mod=mw_rss_topstories",
-   "published": "2026-10-30T16:00+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Private equity in your 401(k)? Heed Warren Buffett\u2019s warning.",
-   "link": "https://www.marketwatch.com/story/private-equity-in-your-401-k-heed-warren-buffetts-warning-6f318cd0?mod=mw_rss_topstories",
-   "published": "2026-10-30T15:53+00:00"
+   "title": "\u2018He was heartbroken\u2019: My husband\u2019s kids abandoned him when he was dying. Was he right to leave everything to me?",
+   "link": "https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories",
+   "published": "2026-10-31T14:26+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Why Bitcoin Is Down Today - The Globe and Mail",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVGJVQ3IzNHVNQkZMaXlueUdGa0JWU2VfSG41NXhOdlpGcDZ2MnpOOXdFVDhNU2lXOWdDdXAtQ0pKTEdMaVp0MHY0MEhuU1lUcmhaUFUtVjROVmgzOXNLMzBlT1ExOWhUZUV4RTloZWdaZnZCX2xRLUE4OEh2MG1EcGtReXR6VlpEQUFPZXZHNHMwZnBpNDVrZGxKN0tnVFhYMnhkVkdSS2ZnX3ZYMVEtZw?oc=5",
-   "published": "2026-10-30T17:57+00:00"
+   "title": "Bitcoin Price After a $643 Million ETF Outflow: Here Are the Reasons - CryptoTicker.io",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSlczVnNTQ3doR3VlOFVpZWJQWlNiRmhSemUxTTJuWlgxTjRIb2pIQzZrUTRta2JEendWMkxBYnAwUEdHRjFSaHRJRW1qS1dQTm45U3J3ZkpoUWtZbE1iOVZxVXlySVlzVE5Pd2lUZ2otMGlKaEpXRldKYjAycWdMd3ZB?oc=5",
+   "published": "2026-10-31T15:33+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Why Bitcoin Is Down Today - The Motley Fool",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMUFNacGVleTB3S2JSNVNCZ0pId0dicGVZQndyR3NKd052TmJkV05CNFJWVW5hZ2doNFJYejNXakpENk1mNFZJbWU3Qjk4NHVSa2xucHNWZ1NCaDlFX24tUUJ5b1FQRHpRY2M4OWJVeXNBYlMtblNN?oc=5",
-   "published": "2026-10-30T17:49+00:00"
+   "title": "Bitcoin Buyers May Look Back by March and Say \u2018I Could Have Bought Bitcoin at $80,000,\u2019 Galaxy Analyst Says - Benzinga",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPWFhIQlNjd2VkSC0ySzNtVmZMblozSDRpUklGcmhxV3hNRzRJQ1ZtcXFlUUltZE9hOFBFcThvdUpNYjdZeW4yTUQyQ24tbmFIM1YyMTZkbXdxT25GUmgwRGstWkZfNTdneHFFb1YyVnRuenpCVXhiOUFvTnFWUzE4ZGpjN0lfaVdaYklHQWVUY0ZsMTRvNENKU3I4TEJqcnFDc3pKRFZlT3dZdERrSUdYRHVYQXU4dkRtSVZ3dXJXZVY0WmNmTEZUd2dpMXA2YmZ1R1ZBc2w4eUxEWlJ0alRCc1VwUVpMRXk3eTdnYWN1MmNBZUlKQnQ4?oc=5",
+   "published": "2026-10-31T15:30+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Why bitcoin isn't panicking over the Binance hack - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMnFtMEd4dWdmVnp4YW5CS1Z3UE5hRXFncXVwbWMyUnFxdUNSb0hzTVJaRVVxWXF2eFUyd181MW42NTUxajY0QzlHT2RRNDN4MUMtS3JiWEtZTUhSaVg1UExTdXRuaEtMdHhzYmJla3pMYUdGTjBCWlhKbnhJaHhFdXAxTEpiME83bzNZYTBTZHBCdHBHZzhLWHJ1NA?oc=5",
-   "published": "2026-10-30T17:40+00:00"
+   "title": "Bitcoin Fatigue Is Real: James Lavish Says Early Holders Have Moved On As Young Investors Turn To Betting - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPcUFJTnEzek5VQ2ZjWVptYXpPckFETjFyV3YwclVOWGhkV0NCQTNlQVIxb0tSS19leklmRVdwT25LbWMyb2h3a0txRGFiNDBIRXFKTUFKRDdwRHVJQXlDRGRnbjltaEloUFJLTXBCVFVDTEJ0SV95OVpvdk5ZbncyTW1lVUFic21ISm9sV29Wdl9LWE0yTS1Sc0tMTWZJQkxvWUwyNE03VnlKSUU0VXFXM2JqaGdrRmFKYVVRSHh0MVY1M05ObWJIOE5QVV9sa2xLWUVCd3pnQ0c0ZG1TX2tfQzRMTTcyQ2FRSE84SENMaVFIR1BsdnU4UA?oc=5",
+   "published": "2026-10-31T15:20+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Why Bitcoin Is Down Today - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMVcyNmRaYTVGcDd4LTcyTFJtOUNVZGpRRC1paS1peEVCMmFvbUVNTjJPNlJJa05BdWdjS21oVGZTaFgxLTBJc3RkWXcwTW1ZdEhJeXRGZnhtMFRJZWJEMXVuVzJRLUI1YWlyUVRiZTVaUWdQQkEwb0tZaGhsblJSWS05dzU4azQxQk9uZzQ1UTE?oc=5",
-   "published": "2026-10-30T17:37+00:00"
+   "title": "Saylor Says Strategy Can Mint $30 Billion in Digital Credit to Buy More Bitcoin - BigGo Finance",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FT3BTSmFpalBzSkFwQ01ROERCTjVpS3BYWlZIaWNLX1lCRDcxWVZBUkQtWm9PdnFqNVBkb3ZBN1pyVjFoZmRGZ1puVU9ZczdrNEpqLXZlZE1vUDdNdjZXcGxNc0pBbjEyRUo0bW5tNl92ZHFsZ3c?oc=5",
+   "published": "2026-10-31T15:05+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Supreme Court rules in challenge to Iowa\u2019s new bitcoin law - Radio Iowa",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVTJCZ2ZlaDlpQ3VpeWVZZmZHdUlLQ09NaHlUWDRiVTBvVU5ySGo5a0Y1a0hIbm42aGNRM0t3WDNEbEJkV09aUHAtc3Njbk5ZT2cwZUlrbVdwR0FhNTlTSTcxcENNWFFkVHZ2TzdlX2Uwc01qQXhMUHYyRF9UVkc3TXotU055MFdMMlJScVE0OGx5b0NPMXdoVUNVVQ?oc=5",
-   "published": "2026-10-30T17:35+00:00"
+   "title": "Michael Saylor Compares Bitcoin\u2019s Financialization To Rockefeller\u2019s Oil And Edison\u2019s Electricity, Calls It \u2018A Good Thing\u2019 - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUmp1c2pvdTBtOU1BS29HS0F0UGxKVHFJTVZsVlRZVFdsVVZTcUswVS1jcXlwcGY4cnpxeVVOTkZwaHVURGZsUWRYWktOSWJpY0h4N1gtaHlKemxUVXJRMlpGQ0tNWjV2TGwzeWZYY1MzOGRkMXoyY2h2UnlrWm1VZ0FJR0FvTjdmWWxFOGdxYWJjb21QeWxaMWtqdUY5aEJJRVZqSnF2aC10WlQ1cHFfZ3lZUQ?oc=5",
+   "published": "2026-10-31T14:20+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Disappointing Tech Earnings Drag Down Stocks as Bitcoin Falls on Binance Hack - Bloomberg.com",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWkNvemFGeEJrcWFQb3ZmT2MxZnc3SnR1cDBUOFB5ZzY5TE52SXlQaWpmV1pIQ09PbU5UeG1xb19WQjREWWNLa3dZMUJ1N2FyN0JkMVdmZ3VYY0FXUnJHVl9PajBxUnRadnlIbXY0cTdCamNIek4tNTE3cHdacUNmb2hCRUNETWtnXy12dHByanVpVDJwUHVQa0pCaGZOVXNYcHF3elFHQVdUNThUTHN3U1NrZ244LWp1Q1kzdzNDRQ?oc=5",
-   "published": "2026-10-30T17:34+00:00"
+   "title": "Coinbase Is Racing to Quantum-Proof Bitcoin Before It Has To - Startup Fortune",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQllTZnRpaERsNGJPWGxCczRzN01oZTF4c2RPRFRIaHBrbUNWN2NqbDJLbzlfTmpzRnhZRUVobkU3WjAzMFZWb2thMEVpSmktbC0zanBTa05VQ0R2V3Z3WVk2a25ISzhiY3ZwWEJ1S0N2cTZwU2c4NmYxUFBfeGZYczJNcGY2MjVvVUhRODZjSlliQQ?oc=5",
+   "published": "2026-10-31T14:20+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Tether Made $4.5 Billion in 2026, Yet Its Bitcoin Pile Now Outweighs USDT's Safety Net - BeInCrypto",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMYWJPbnE2SHRzMDJFekN1RWV6TzNGRl9pOXQ4a3ZSNWtnbDdIMXdrQmZrYVBrdWVfNHIyRjR1a1Z1VmViN1lZQ2hIUDBQT1pZX0dxZ2t3OHFhdFQxZjQ3V3RNQWlWd1ZKTnlkRmtNa1JlYzhE?oc=5",
-   "published": "2026-10-30T17:33+00:00"
+   "title": "Gold and Bitcoin Are Now 2026\u2019s Worst Major Assets: What Went Wrong? - CryptoRank",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTlZMZ3c3RnExQ1VvbTMwdHlFOTRoalRDekhVRlRXNXp6NkhqMjlZRjRNa3QwSTZ2aWxhMWJzRHNqcnB1dVhJMjNDa2dlMUhlQm9TMkthd3NBQWVjYlZka0VSYVpjNlYxSTVmWWxxREtMSnROV1NkcmQ3QWZMWWRIWjl5ZTZXNzBLTm9KMjQ5Uzg5Q2gzaHVXMVRCcEdhcHBEaURfQXBR?oc=5",
+   "published": "2026-10-31T14:15+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Deutsche Bank's AI Dollar Warning Could Hit Bitcoin, Gold, and Stocks - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWHNvaWN4WGk3bi1DOVVZOGxNRmFSUkxkTlI2UkpZS3ZIbU1MTmFTTHo5QnRtNW9kRGo3a3hCcnRBejZZZTFLakJhN3hFRlVtYk9qUDdlUGRxQXlhSUJDZloyUGx4SEJWS1JCcmxVeC1zMG96Y0UtZnd4YnRwWEFKWDdHVXl2eU92aWJza3ozQmhTejVrM0VVNDVhV1BoUUEtc29r?oc=5",
-   "published": "2026-10-30T17:00+00:00"
+   "title": "Bitcoin Halloween Indicator: Trick or Treat for BTC Investors in November? - CCN.com",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNjFwM1NZb3NMeFZrWUM2T2NvejdBMVh5cmxOcDlwVDl6eDJCZTd0aDU2dWxvbDFqOERFeDNKTXl4U1BlTDNjeFZZRTBlVW1nNDBaYlJueGZsY3JwRHA0U0ZBc2lNM3B2dzBETlJrMVpHSEZMbWxUUm02dmJsUzVscy1oRGNpd0t1ejJ5SXNDNkQ1bjd3?oc=5",
+   "published": "2026-10-31T14:07+00:00"
   },
   {
    "source": "GoogleNews-Metals",
-   "title": "Andean Precious Metals Corp. (TSX:APM): Why Precious-Metal Production Is Back on the S&P/TSX Composite Index Investor Radar - kalkine.ca",
-   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZ1RZRTNhOXhIWlJzSGhMRDFqbmg4ZnNzRVo0SllKeUdEOHJabk9DZ08wVm5ESk8yWGo3RU92dDI0Q0FMR1hxbXYyWmRPaEhwNlA4X1VGQ1hVelJES01QOUY1NXVOa0QxcVpaTU8zZGhtNkZCS0c0ODA0bUhzYUlXeHBoS0cwRGtVd1JZeUQ5U2pldWYyaXVuNHZ5cjIwT2ZRMGFKVHJfMnlQdEw3ZnctWThxWXBZSFRDODhPMFhiM0pwUHZWYjZfZGppcGhWR1BVdUlwSDFOU0EwMGpzaWtnRg?oc=5",
-   "published": "2026-10-30T17:12+00:00"
+   "title": "Gold price plunges Rs 9,900 as silver drops Rs 360 per tola in a week - myRepublica",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOc0FFYUNQNm1lcV9adzFLYlJ0dVBTQlg5TmtGTEZ0ejJNY2FfdDVJQm1FSXBjN0s5bXF1SUY4R1IxZmVfcXpuUV9paHQzOFZneG11bEdYM0Q0azNCeXF0OXllYkZBbzI4RzFydUswYXY4TXhSdkJfM0ZVVjJ5R2RON3ZmQVRCaENKU0F5U1JramVhU1hwdG9wRXYtQkRxV0JxVEpkN3oxMEtXWkZRbElQRXJNZXFNbUcyWWR3cndwdzQ?oc=5",
+   "published": "2026-10-31T11:55+00:00"
   },
   {
    "source": "GoogleNews-Metals",
-   "title": "Silver Price Today: Silver Falls 8.96% on October 30, 2026 - USA Today",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUEhFRjZoal9HdEVLR2x0V2N4Y2tKSGQtellQLWY1YzI2M01hSS1PWHJkMzFlXy0wcWU5N00zbDNjZ3E5Sl8wWG5mbDJacDRsUVVSb3FjS2N1SmNMUjQyS25wak9lakVtcUsybzZTb2hFb1JCenYyUlJFbnl2ZEZlNTROeEREZHJTdGhQaF83YThzMnJCbFRKTjVDSml2SVBjenllc1RibDhENl9Y?oc=5",
-   "published": "2026-10-30T17:07+00:00"
+   "title": "Gold falls to one-year low as precious metals slump - \u0633\u0627\u0646\u0627",
+   "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ZanNaUTJDTUpsOWhiR19TSkFTbjYzSlFLRjE5Vl9yMnBMNUFLY1FxOWczYXRZcVBtNy1qdTNncXctb0M3Y09oSnVCdUc?oc=5",
+   "published": "2026-10-31T07:51+00:00"
   },
   {
    "source": "GoogleNews-Metals",
-   "title": "Goldman Sachs Revises China Jewelry Stocks Amid Gold Price Retreat - Investing.com",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNEswTUNhbjhuTTVLcm12M29FN3JTRk9HR0JLVkFtbU9mcUpybUVXRFcyY1RqQ1lhaHFzeGl5cm8wdGY4bGpxcFBzZExCX0dLa3FpOGRFM0hyRjhtWGxPUnNCUVNabGNFMm5yZ1Ayb0hBZzJtdER4U3JIblJLeFl3RFgxUEdYT2VCeXB2bVBTSDRyNG9jZGNHMEZ3Q0NwNkFQY2VlMnZsUnFMVjZTRzM0Z3NkNVlpYVZnVTNBMG94M3A?oc=5",
-   "published": "2026-10-30T16:56+00:00"
+   "title": "NYMEX: Precious Metals Prices Down - 30-10-26 - Armenpress",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PZnpERkgxbnNJUlhjcFMwSUpPaW9JT3M2a09jNU9aX3RrcXFEamp0UWZPRjlTOWJ5dmt6SXBrT0dicEdLY1JmdGdycVRfMU1NdnfSAVdBVV95cUxQR2pCcFF3OTJ1OXVOTGFmRVFNVVZXN0dRXzBCR0RtRDlobTRWM2M1MEFtQnE0b2wySmd1eUlGdkZ6SXdZLWhqcVRtMnBDM0JObklTMjczWjQ?oc=5",
+   "published": "2026-10-31T07:11+00:00"
   },
   {
    "source": "GoogleNews-Metals",
-   "title": "Gold Price Today: Gold Falls 3.76% on October 30, 2026 - USA Today",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRTltcHpuVjFIU3JCUEpqMERmdWZMRk0ycDBaM2N2S0tmVXNRaWctclJDM2wxWExnZFRHMlUtb3F2d0I2TFIxNWFnN2xWUkJCLUxkTHV6TW12cC1BTlJNaVo3RDg3M0o5NTRoQkR3X1owRm93WkNWTkJQeG9UYXNONE83MWNqcVhpWFRwOU16aVh5TTg5YlV6VjRtLXM0OC01MjBIY0dWblBSdw?oc=5",
-   "published": "2026-10-30T16:51+00:00"
+   "title": "Gold price drops by Tk 5,482 per bhari - New Age BD",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOVdVTHFnSU9YWWZpbW16SWg1Mld0UFhRVzBuOWVSamtfNEQ0Ti1QVDl2RTdjSE5VLW85ZmVJMUhHc1Nfc3RYTllNWjFDbHh4Mm9yeFpKUmZSaXZZSjdlN1BYLWNYSmZEYjlCNS1xNnB5Z1AwcTJRMjRiM0w3YlF3WjhucUpaZGJmMUh3TnYyLWNidHFFWk9MaWh3?oc=5",
+   "published": "2026-10-31T05:51+00:00"
   },
   {
    "source": "GoogleNews-Metals",
-   "title": "Gold price falls by Tk 1,633 a bhari - New Age BD",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRVp0bVBoNGIteWMxNHh1LWJveHN4ckhWTE9aY0tKY1FaZzVrTV9jaTZIUWZTY2JCLUtkSEVMYld5MUI1UWd6RTcwOXg4Tjg3LUtmQkhnYU55Rm00Z3VqYXNUaC1WNHVsQVdjSHB1ODA2SmJRMWZRenZkYUJ5bnpNY0lEMTJodnpoaXBWTV84ZG1BLTNfS0NR?oc=5",
-   "published": "2026-10-30T16:49+00:00"
+   "title": "Timmins Rock treat fans to victory over NOJHL-leading Gold Miners - Timmins Daily Press",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcUNWT0Y5X0p1bzM2Vllfb3JMaTkxZlZXa3ZoZFZfX2VDUjYxRmg2WDhGRVhfNlNWbEliX25DQjBqM2FTajh1akM0NTJFYkwxYjU5M3RMM3RsY2RhWkpTS3pwQlFzd1h3UkpQR0hYcW5LUUJlSHhvRmRqanBFenViTnI3RmV1LWVveVVNVnh5Yy1iQmFvQVRZRm4tTElnc2RWYnltTg?oc=5",
+   "published": "2026-10-31T05:46+00:00"
   },
   {
    "source": "GoogleNews-Metals",
-   "title": "Gold Price Forecast: Buy Below $4,000 Or Risk Missing The Next Rally? - FXEmpire",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUmlCWEg5V0pQQmk0UG05WmJDeEpfc2g4ellFNE1kR2xreGdUNUVuR1V3aktvLXZIZm1JbEV4bUdHUkR4YTJRdG1PdDJfZVI3NWg0UEVjczFaSExHM1U4M1c3OW5IT2pUUnZ5Rjd0ZEE0VnlHR09aczdiWHVrRENGNlFDOXVIdkRDWmNUdFVRUHlFWDlDeWJTaXE1S1UtRU14RmljMFNaSC01TF9CcUE3NE5YaHhLdzQ?oc=5",
-   "published": "2026-10-30T16:40+00:00"
+   "title": "Gold prices in Thailand plunge 1,550 baht as AI stock rout hits global precious metals - Nation Thailand",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05dkp4dFdFVG1NYXF0aTVsVmdHZFpXY3N4SXN2a2hfYkVkQklMRlNGNkhyblJobXZTZVhzMW90ZHJfRTFfTWpzMGd4VmdTR1VIc0VvTXo1a1FZRjlkcERnVVlOUkdWMW8?oc=5",
+   "published": "2026-10-31T03:00+00:00"
   },
   {
    "source": "GoogleNews-Metals",
-   "title": "Gold price slumps to one-year low, silver price breaks $50 as mining stocks tank - Mining.com",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSWJnbS1JeHBpOHJBSFRHSk5wZ2stdmFPblE5YTdvUmVsbUpna0JQdm5NNTdDVEVVLWp3ZUJVb0RxUGhKc2V1MU1xOG5vRnZMMHktZElrSGJwbnJ5U2tBZTlmenlkMGp6OTdaRTBsZkZCX0hmWHdLSGZ3TUZnOVNWdkFZU2pDSzdUMDVxODJ1Mkd1UEx5S1czS2xMWnRTUzRnM1RKaQ?oc=5",
-   "published": "2026-10-30T16:30+00:00"
+   "title": "Global Gold Price Falls Below $4,000 Mark, Spot Price Briefly Hits $3,880, a One-Year Low - BigGo Finance",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vSjAtME16Q21neUp0VUd2aXg1alhvZ19XT1JEV0diQnI2N0lJbEFTaEwwZGNtQnh1WThKYjVraE83akxmMmV3VWdwSUI2SkJ1REh1MmVkTVMyeEJIdFJKaVpESnFWcG4wdzRMOFlDV0p4R3MyZ1E?oc=5",
+   "published": "2026-10-31T02:25+00:00"
   },
   {
    "source": "GoogleNews-Metals",
-   "title": "Gold rate, silver price today: Why is gold price down today? When will gold recover from its worst trading - The Economic Times",
-   "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxORzl1bTZJbHBEcmNrZlhKQ0NTMFFyMGVXUEhFMlg3eUNTNlNhLWJWSFYtNExwN3RqR1ladUpnTXVRWjRXY1ZsR3EwRGZzN3RFaFV4VEFJbzNHaVRBZko1RnlUTTFGcnNSTXhhS0JURzluQTZOaWdKc0JlUjlIWGdZTGY5bktqb1FIc0FqdDRzWG8zV3IzLXJFeDNEdWlZZFM0ZmFVeUpJSmxBcnQ5amREZExyalBlTGxMaHBUUXY5NkpGbk95NFp2ZHd6RUJyd0hwQ0plWnBzaWhqenpjTFN0WHFkelpwcnZVU1NpdFFjM2hZOTFIcDVqeklTUVAyY0VITnc1ZEVNckZRM0hNNTNWMl9SUTRBelVZdXdiU2FSQ3g4aVdX0gGqAkFVX3lxTE9qUmlxOUE1cXEwY2xpN01ablhOTFZNXy1NX1gyTlNrQWY4NFpBcm12WWtOZzM1ZDFQdjFXVkpoRi14TTBRVy1ERjEwZ3dkOEZXQlVjcXZXWnZtRXBvazB4T04zMUpxSmRNT1ZtS240cGlIdW03d2tPNmVCeE5FazB1R1ppMm80S25WeG1NNHVmUlVqZDRuWHd0WERlOVJWSUstSW85aHJheVJDa0JBU2Ytek4tV1BobkhGbzRONHlHSDBBN05LOXFMc3ZhSmtUcUZXYTRUdGF3SGlyT3BvQ3VEeUtSQUpxdFhaaHJZZXA4bzAzVl9kT28tQWc1RXhtV29kcnJtOWNkMDJxb21qc21PNEsxR2lPTjMxQXhEVHVEX1FWNFVQdW84ckE?oc=5",
-   "published": "2026-10-30T16:08+00:00"
+   "title": "Why Is Gold Going Down? Gold Falls 27% From Its Record - CryptoTicker.io",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE95SmdKTzFiWjhtTFlFMzUyd3dSWXdua08wcGItOTVEOTVTM1NYUGRQdjF1WGhncFVYMHcweDVfVkd0aFJqMVRHSVJBakhsOUNOa25zTFJlekFmTkhuREU2M3ExRFdtSUxQOERUeG5rdHE4eE1i?oc=5",
+   "published": "2026-10-31T00:04+00:00"
   }
  ]
 }
