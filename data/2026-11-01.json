@@ -1,0 +1,336 @@
+{
+ "fetched_at_utc": "2026-11-01T17:05:55+00:00",
+ "errors": [
+  "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)"
+ ],
+ "spot": {
+  "btc": 78088,
+  "btc_24h_pct": 0.77,
+  "eth": 2267.54,
+  "eth_24h_pct": 0.9,
+  "source": "coingecko"
+ },
+ "fear_greed": {
+  "value": 34,
+  "classification": "Fear",
+  "yesterday": 30
+ },
+ "network": {
+  "hashrate_ehs": 1069.9,
+  "difficulty": 148364561003867.4
+ },
+ "metals": {
+  "gold": {
+   "usd": 3876.4,
+   "paxg_crosscheck": 3892.16
+  },
+  "silver": {
+   "usd": 49.25
+  }
+ },
+ "futures_basis": [
+  {
+   "instrument": "BTC-13NOV26",
+   "days": 11,
+   "ann_basis_pct": 3.18
+  },
+  {
+   "instrument": "BTC-20NOV26",
+   "days": 18,
+   "ann_basis_pct": 4.16
+  }
+ ],
+ "us10y": null,
+ "etf_flows_raw": "bles = {\"locale\":\"en_US\"}; //# sourceURL=um_common-js-extra var um_frontend_common_variables = []; //# sourceURL=um_frontend_common-js-extra var um_scripts = {\"max_upload_size\":\"2097152\",\"nonce\":\"a817418b5f\"}; //# sourceURL=um_scripts-js-extra {\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://farside.co.uk/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4\"}} /*! This file is auto-generated */ var e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e {o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf() {i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))}); //# sourceURL=https://farside.co.uk/wp-includes/js/wp-emoji-loader.min.js window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a53c7d757c51fced',t:'MTc5MzU1Mjc4Ng=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a53c7d757c51fced',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
+ "news_window_start_et": "2026-10-31T08:00-04:00",
+ "headlines": [
+  {
+   "source": "CoinDesk",
+   "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
+   "link": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
+   "published": "2026-11-01T17:00+00:00"
+  },
+  {
+   "source": "CoinDesk",
+   "title": "The key races to watch for the 2026 election",
+   "link": "https://www.coindesk.com/policy/2026/11/01/the-key-races-to-watch-for-the-2026-election",
+   "published": "2026-11-01T15:00+00:00"
+  },
+  {
+   "source": "CoinDesk",
+   "title": "Crypto card startups are racking up losses just to buy your loyalty with big rewards",
+   "link": "https://www.coindesk.com/business/2026/11/01/crypto-card-startups-are-racking-up-losses-just-to-buy-your-loyalty-with-big-rewards",
+   "published": "2026-11-01T15:00+00:00"
+  },
+  {
+   "source": "CoinDesk",
+   "title": "Crypto PACs made big Republican push in final weeks before November 3 election",
+   "link": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election",
+   "published": "2026-11-01T14:00+00:00"
+  },
+  {
+   "source": "CoinDesk",
+   "title": "Sherrod Brown's Ohio edge threatens a rough go for crypto next year",
+   "link": "https://www.coindesk.com/news-analysis/2026/11/01/sherrod-brown-s-ohio-edge-threatens-a-rough-go-for-crypto-next-year",
+   "published": "2026-11-01T13:00+00:00"
+  },
+  {
+   "source": "CoinDesk",
+   "title": "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack",
+   "link": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
+   "published": "2026-11-01T10:35+00:00"
+  },
+  {
+   "source": "CoinDesk",
+   "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+   "link": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+   "published": "2026-11-01T01:10+00:00"
+  },
+  {
+   "source": "CoinDesk",
+   "title": "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered",
+   "link": "https://www.coindesk.com/opinion/2026/10/31/bitcoin-s-white-paper-turns-18-and-small-businesses-are-still-paying-for-the-bailouts-it-answered",
+   "published": "2026-10-31T18:00+00:00"
+  },
+  {
+   "source": "Cointelegraph",
+   "title": "Bitcoin turns 18: Has the original rebel grown up?",
+   "link": "https://cointelegraph.com/magazine/bitcoin-turns-18-has-the-original-rebel-grown-up?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+   "published": "2026-10-31T14:27+00:00"
+  },
+  {
+   "source": "TheBlock",
+   "title": "Binance sees $3.64 billion in net outflows after reopening withdrawals following record hack",
+   "link": "https://www.theblock.co/news/business/2026-11-01-binance-sees-3-64-billion-in-net-outflows-after-reopening-withdrawals-following-record-hack-432259",
+   "published": "2026-11-01T16:32+00:00"
+  },
+  {
+   "source": "TheBlock",
+   "title": "Hackers hijack a dozen DeFi websites, all registered with Name.com, and steal about $138,000",
+   "link": "https://www.theblock.co/news/defi/2026-10-31-hackers-hijack-a-dozen-defi-websites-all-registered-with-name-com-and-steal-about-138000-432251",
+   "published": "2026-10-31T15:26+00:00"
+  },
+  {
+   "source": "TheBlock",
+   "title": "Chainalysis says hacker using \u2018offensive agentic techniques\u2019 accessed its customers\u2019 names and emails",
+   "link": "https://www.theblock.co/news/business/2026-10-31-chainalysis-says-hacker-using-offensive-agentic-techniques-accessed-its-customers-names-and-emails-432244",
+   "published": "2026-10-31T13:27+00:00"
+  },
+  {
+   "source": "Decrypt",
+   "title": "Bitcoin ETF Investors Head for the Exits After Record Binance Hack",
+   "link": "https://decrypt.co/382309/bitcoin-etf-investors-exits-record-binance-hack",
+   "published": "2026-11-01T16:01+00:00"
+  },
+  {
+   "source": "Decrypt",
+   "title": "How to Run an AI Model Locally\u2014And Why You Might Want To",
+   "link": "https://decrypt.co/382295/how-to-run-ai-model-locally-why-you-might-want",
+   "published": "2026-11-01T14:01+00:00"
+  },
+  {
+   "source": "Decrypt",
+   "title": "Binance Hack: Everything You Need to Know About the Biggest Crypto Heist in History",
+   "link": "https://decrypt.co/382306/binance-hack-everything-you-need-to-know",
+   "published": "2026-10-31T15:01+00:00"
+  },
+  {
+   "source": "Decrypt",
+   "title": "Why AI Models Cheat: Reward Hacking, Explained",
+   "link": "https://decrypt.co/382274/why-ai-models-cheat-reward-hacking-explained",
+   "published": "2026-10-31T13:01+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Alaska Sen. Sullivan says he'll accept election results, slams Peltola campaign\u2019s reported recruitment of 2nd Sullivan",
+   "link": "https://www.cnbc.com/2026/11/01/alaska-senate-election-dan-sullivan-peltola.html",
+   "published": "2026-11-01T17:03+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Everything changed for the oil, AI and bond trades over the past month",
+   "link": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
+   "published": "2026-11-01T15:58+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "These Senate races may help determine the fate of Social Security",
+   "link": "https://www.cnbc.com/2026/11/01/social-security-senate-races.html",
+   "published": "2026-11-01T15:20+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Social Security may have to cut retirement benefits in six years. Here's how much money is at stake for beneficiaries",
+   "link": "https://www.cnbc.com/2026/11/01/social-security-benefit-cuts-2032.html",
+   "published": "2026-11-01T15:18+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "I'm a psychologist who studies couples: People in the happiest relationships do 1 thing differently after time apart\u2014whether it's hours, days or weeks",
+   "link": "https://www.cnbc.com/make-it/2026/11/01/reconnect-partner-after-time-apart.html",
+   "published": "2026-11-01T14:36+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Why AI is boosting Meta's ad business while hurting Google search",
+   "link": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
+   "published": "2026-11-01T14:31+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
+   "link": "https://www.cnbc.com/2026/10/31/binance-crypto-hack-safety.html",
+   "published": "2026-11-01T14:29+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Companies promised AI gains \u2014 here's how the payoff showed up in earnings",
+   "link": "https://www.cnbc.com/2026/11/01/ai-investments-company-earnings.html",
+   "published": "2026-11-01T12:34+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "\u2018He was heartbroken\u2019: My husband\u2019s kids abandoned him when he was dying. Was he right to leave everything to me?",
+   "link": "https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories",
+   "published": "2026-11-01T17:05+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Grand Theft Callout: \u2018GTA 6\u2019 fans are missing work on the game\u2019s release day because they \u2018don\u2019t want to wait\u2019 anymore",
+   "link": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories",
+   "published": "2026-11-01T16:35+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Apple\u2019s new earnings era begins at a critical time for Big Tech",
+   "link": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
+   "published": "2026-11-01T15:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "This is the biggest threat to the AI-powered bull market",
+   "link": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
+   "published": "2026-11-01T14:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "America is doing better than you think. Your algorithm is just hiding it.",
+   "link": "https://www.marketwatch.com/story/america-is-doing-better-than-you-think-your-algorithm-is-just-hiding-it-7dbdecff?mod=mw_rss_topstories",
+   "published": "2026-11-01T13:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Who really wins under Trump\u2019s economy? Coastal liberal elites who hate him.",
+   "link": "https://www.marketwatch.com/story/who-really-wins-under-trumps-economy-coastal-liberal-elites-who-hate-him-d74c63cb?mod=mw_rss_topstories",
+   "published": "2026-11-01T13:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "My abusive ex-husband promised $20,000 for our kids\u2019 education. Now he refuses to pay. Is he legally obligated?",
+   "link": "https://www.marketwatch.com/story/my-abusive-ex-husband-promised-20-000-for-our-kids-education-now-he-refuses-to-pay-is-he-legally-obligated-325ef50f?mod=mw_rss_topstories",
+   "published": "2026-10-31T20:15+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "\u2018Showy jewelry and fancy cars hold no appeal\u2019: We have a 99% chance of outliving our life savings. Why not spend it all?",
+   "link": "https://www.marketwatch.com/story/fancy-cars-hold-no-appeal-my-wife-and-i-have-a-99-chance-of-outliving-our-savings-why-dont-we-spend-it-all-932a2166?mod=mw_rss_topstories",
+   "published": "2026-10-31T19:30+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "Binance Hacker Moves $96M in Stolen Solana to Bitcoin as Laundering Efforts Continue - Brave New Coin",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVUpmcVVRWnFoWWtydjV5SEIyd0RKbnlsZ0d0eW5lMFBQYTNRbmtWdmFyYTdVdlJkYVVvN1pBWl85bGlXMHNtLUQzbUxGaVZlTTZQU3lYSGtfc0ZwRlRrQXNhOVpoZWdMaTJhTFNfeW1fLUI0LV9rT1lfMlJUS2VCeTZqSDRiN2lQb1FhLTJJamI0Vk9YQzFzTGhBdDA3eWwwSl8xQ25iREd1dEJtWWIzdnZJVzRxY2Zk?oc=5",
+   "published": "2026-11-01T16:18+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin ETF Investors Head for the Exits After Record Binance Hack - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONThkRlVnR2tMNElaYmluT1g4TDM0dTBNZVV0UlJLXzV5Y1dfVlBVaXhORGVlM0h3SjZZVXdLMlFfaGJta1VFNFpQZXQ4RjZ2WWZTTDE4b2pMY0dWbEpicGlUSGpsZHdudUFVVlFKNC1aa2JFYzAwMm5yZkotb04wUUV6OWJCWWZ3RFkzeXdVWklZb0w4SzJPSUM5cXdYZw?oc=5",
+   "published": "2026-11-01T16:01+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin ETF Investors Head for the Exits After Record Binance Hack - Decrypt",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1hRDFtc0xfbXJNejNUQjdvM1VQYTlmWXhVVTZQV1F3N3cyMWcxYndhdUFRZnV6V29KUHhveWZzMmdqVDh3d1NhVExCNV9Sdm8wZzRmVlN1ZHpSNFVUVkpjSkxDU1lFSUtyZ2p4SGdUdWdZLUUxUURXMjFKNWpKdw?oc=5",
+   "published": "2026-11-01T16:01+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "Buy bitcoin at the Sparkasse: costs and process - CryptoTicker.io",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82RVN1bU5NMEdXMHJkYWNDV0x4bk1iSWg3alF2SVM5S1dTeTUtYTJYR3NVV3ZrUF9vUnoyUWFKbkRyZ054cVk4WmNrRUZBNTI3UGdVc0s1VHk1WTFTc0E?oc=5",
+   "published": "2026-11-01T15:27+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "AG Sunday Warns Pennsylvanians of Scams Involving Crypto/Bitcoin ATMs During National Cryptocurrency Month - PennWatch",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbER0cm9kZGZNeFRsZW5iSDM0Tm5CSUJjd21HeWdKTEpwWG9kMG41eldsZEFIaFYxTmFBX2lqVlowZkQwMlh2RkJIQzk3YlRWaTFTMkNhN0J4SXlpQVpqZXZhc0ZJeWx1eHplV0VPYUpBYkQtQzczUTZaaFZ4WlU3VkRmY0FuWi1uZWZkbTBIZXhORTJtakpwVEtYbTNMU25waUwtQWJXSnRYdFVDb0FkTHVzeTdzQmlMVVVhYlh4WEw2Ym14b29Udw?oc=5",
+   "published": "2026-11-01T15:27+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "Binance Reopens Bitcoin Withdrawals Three Days After Record Hack, With FBI Blaming North Korea - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVGw2UDQ4OENOTW5YOVY2d3A0aHBlcmd0VmM5NkEzbzdSSjJkaXd5R1E2dzNGcGdCZFYwNTVTbXU3RDNrNXQ2MktyQURHaFFZcUhVd05iRVdzNzdGLTBua05CY1pPMktscVJfczY0WWM2Yld6QTVHOWFsbGVPV0gwU2liLVZFaHB5NTBZdjA4aGpEZWYyTjRiLW5mQUFvRWlVUGpHSThEOG11Zw?oc=5",
+   "published": "2026-11-01T15:04+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin boom over? Bloomberg warns of underperformance versus U.S. Treasuries - \ub514\uc9c0\ud138\ud22c\ub370\uc774",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRkhSOXM3T01GSUFlWlRGSWVIUklRR3FXLUpaMVhZQkxodDdLTUpNODEzdEhPU203VmRPX0ZBRmlvMkZmUEFhdWR3SUtWb0I2c0Y3RUdYcFFCd21DSXYtMEJ3SEM4VEhLQTM5clUzM1hMV2JhUlVYTzNrUGEwb2dFVmw2d2VCZjhjS1E3ZGJKLVZwRlFmVlZfYU84aXdZZ0RIS2tBSnZJTkxBdkxxdVk5OVk1RQ?oc=5",
+   "published": "2026-11-01T15:01+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin holders realize $1.1B in losses \u2013 Yet THIS group isn\u2019t rushing out - AMBCrypto",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcUdJV0traHpRYTRRSjdOUWFrbERCR2dkeTdKUXNZT05MaDdfcUE4M2NQeVRkUDZnd0pKMnlCZ0gtSV9mcVQtLURGQzI2c2RxS2ZBa1V4ak5VREVPek41aU0yT3pRQkdQU0tMMWNkbXVRVEFmUEoyU1VmeWEwcFJLRFFZdkNRSGhLeldVSm8wUGxNbHZNQUo2YQ?oc=5",
+   "published": "2026-11-01T15:00+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Silver Price Forecast: Tech Sell-Off Raises Risk of a Drop to $45 - FXEmpire",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUkhJMFdNWC03ZHdxVXpsVU1hWTZFRFdaX05pR0M2ZXF2bC1Tci04YTVpNERlb0tvOWFINTRibTF4dF9hOUw0Ql91dlU3bmNtZGJVUzQwb1BQSi1HcUFkN00xdUJNck1abFZaVFZnZDZlRkdUTUY5V1hiZ2pqblVtZXUzQnFWT0pjZm1kX0tJdzd1Y0xjYkI1eHhEODRNX25EWVhyUWpCMi16RlRacWlNMmE2ZUc?oc=5",
+   "published": "2026-11-01T16:51+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Glitter Bug Gold Buyers Launches Precious Metals Verification and Transparency Initiative - The Manila Times",
+   "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQQTNnSUIzY0tkbjBnQnZ0MmJzRFlZNTV6STQwN1dPbVdmWFJqU0NOMHZxbERxQ3RBbkI1MHZJWENRUWZEMVBKWmdBZ0ppVmV1WW9aRDhSN2UyT0phYldZbTZsc2gwSnhwVENZbnhBLWg0bUFONElIcm40SDVjVlVnSk85ajlHNkRGaVJ5ZjJxdUpfRU10bllHdWFsZDdMZjc2Z0NWb29YdXVOMjlHQU1qUnZVaFdSQWFTZ09SZHE2WnhvZU1UUWtULVpnRGlpd2kyM3ZEVkZDOFltZmdiS3BkYUNSSlNsWmYydDZVZFRfX1NScVZldlHSAfsBQVVfeXFMTUkzcmVXbFdWdHJGaTRfYzd1cm1HRVo3czJoRFY2WnkzMzdUeFY5MVhDWTRMZjh1RWRCbzFPY1pZNE5PRHR1RTVnQmd1eHpkc3FleU9SX3Mzbm9UalMzYWRHcnh5amQ4V1lDNHZuMk14X2FhXzd5dHBaSG9GcVdWY0JYSWxTTmxFeGhVZUV0OWNpSWdlcjQ5U0pNZ1lHQ0lQSWpJN3kxQUR6Zkwycmp1eEN3MzZsTVdsb3NvSG41aGhOWEQyWkNrbXF4bG1DSE5Jc1VFTHRmN0dCdC1pNV9ob0F0bzVNellETThLMFZydDVVNy1IVGVtdGs5eGs?oc=5",
+   "published": "2026-11-01T15:18+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Gold price risks next week - Vietnam.vn",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHblhvS1JrdFAxamMyRk9Sb2ZOb2ZBd01ESFdQYzVFbEk4RzFHcnFEZDFENlNQbmsyajhEMDhfSDZESWhXaEUzQ0dtaDVJRXh3OXFQRTZsaUVGdkYzVWhr?oc=5",
+   "published": "2026-11-01T12:50+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Gold Price Holds at JD79.30 per Gram... - Jordan News",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN2E4ZjlhVXAtclJiZzgzTXZ5NVBWSjIxNjM5QV8yZU03WUZfeGZwNzJaUWV2dWdZTnJwdFBpSlJyZE1iMlJpeEZYM3RGS2t6ajBNS0s2NnhJdjZjRzVuOHgwYjdwVTkyM0pVdDFEX0d6VlljY3ZJMHZESk52UVlpdnM2QXEzcjUwYzNhdlNiTE1XUQ?oc=5",
+   "published": "2026-11-01T07:38+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Silver Price In Free Fall: Will 1 Kg Of White Metal Equal 10 Gm Of Gold Soon? - NDTV Profit",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUlwajVvNG5KNmU5aVQzSkVBQ01VQTc1Vm93eHlUMzhycDU1SHU2a0hCLTFCbjJLSDZoX2FPeTlEMDZucjctcXRuRVVJaC1FM3NlNi1pYUdUTW1pM1dzUGhsemNrajR2YmZ6V3pDRzBDOW9lY3pzcTlWTkNmRjZzWV9MWTJnRGp2b2NoX2hpdzRVQU1NSzNRT1VKN1JpOEx3dVRqWXNrcWFiYW16T1NhNlhYcDZoTTBtOWpN0gHDAUFVX3lxTFBCMG1XbDRCNjZKMmI1LXh3UlZHRXQ2a21OWnQ3ancteDZnckVNMGduYlNGQVhrbHBjSDVNNEJiN0EwdURsVi0zYkJQa05Zb0MtYkZhZVhJdmxoM2dKRjFBMkxGUHkzZHp6Unl2Vk1TczJnc09CeldJLXpSamNJU295VjdZM1YyTlJ4ZVB1amVaVjRZSzNLaGdBelJpYlJURGtzUnA4aXAtYzR0NmR4Ul9CSXY0dlZ5M3kwVWU0azYxZnlBVQ?oc=5",
+   "published": "2026-11-01T03:47+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "International Gold Price Falls Below $3,900 Mark; Chinese Jewelry Prices Retreat Nearly 550 Yuan per Gram This Year - BigGo Finance",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90WGhVWnFUZmhzRkVOTU1BS3pTUFJrZkhWbm1NcDFrUGZ3MUJNdG1yalRzQVdQUXo3LU4zV3lidVZhZkhBaE1jUGZTdFZPTEEyai1lcEIxd0hXa1k2UHlyaTFlZnlwRFNpRVpqVmhqSGc5ZVc1U2c?oc=5",
+   "published": "2026-11-01T00:35+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Gold Price Canada Today | Live Gold Price in CAD - Kitco",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBVMHM0YXN3UkRUdlVZXzdrUjJmSHh5eFZ6Q0pSOVhYV1pLU0VzSXNhWGRVREpJbm9uX3pvSkZsMDNVRmg4a3JPYXlTY2N3OEF5Wm00MA?oc=5",
+   "published": "2026-11-01T00:00+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Gold Price Drops Below Key Support as GLD ETF Outflows Jump as NFP Loom - Benzinga",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONmlJeHZyaXRzNmFFSW5iX0ZPMHBINFpuU1BtZGIyQlF6djRvUFlBT2F4eThQN3gxcUNSRjJlRjBab2xkV0dleU0zeExjOFFUdFVybC14ajJHYUJvNU94RnY4QkVPUTRldmt6blVOV3hzZGllUG5RUEdQNVIwNE14MGMteGtFaElIM0RQaG4wNjVEU2xuQUUtVVpma1l2OHVyOEE1LWM3cVJqTnhWNVE5czFBaDdwOUJnY0ZGa19IR0hDcmg2eVctdUNuMA?oc=5",
+   "published": "2026-10-31T19:15+00:00"
+  }
+ ]
+}
