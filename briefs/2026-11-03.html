@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Tuesday, November 3, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  .datawarn{font-size:.78rem;color:#a67c00;background:#fff8e6;border:1px solid #f0d999;border-radius:8px;padding:8px 12px;margin:10px 0}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    .datawarn{background:#2a2410;border-color:#5a4a1a;color:#e0b84c}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Tuesday, November 3, 2026 · figures as of ~8am ET · U.S. midterm Election Day — results won't land until tonight/tomorrow, so today's tape trades on positioning, not outcomes</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<div class="datawarn">Data note: today's automated prefetch had not landed by generation time (its last commit covers yesterday ~5:42pm ET), so spot levels, flows, and macro figures below were rebuilt via live web search this morning. Confirmed fresh for today (overnight through ~7am ET): BTC/ETH spot and CoinMarketCap's Fear &amp; Greed print, spot gold, Monday's GDX close, Monday's ETF flow and Binance outflow totals, and this morning's equity-futures snapshot. Not independently confirmable fresh this morning: DXY and the 10Y print (using yesterday's last confirmed levels, flagged below) and Deribit basis/network hashrate-difficulty (yesterday afternoon's prefetch print, latest available).</div>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$76,900</div>
+      <div class="chg down">Roughly flat since midnight UTC after an overnight dip to ~$76,300 — second straight session pressured by ETF outflows and Binance's post-hack exodus; well off last week's highs near $81,000</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$2,262-2,269</div>
+      <div class="chg up">+0.6% this morning — holding up better than BTC even as options desks report all six most-traded ETH contracts in the last 24h were puts (downside hedging, not conviction)</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">34 — Fear</div>
+      <div class="chg down">vs. 36 yesterday (CoinMarketCap gauge, confirmed ~6am ET) — second straight slip deeper into Fear as ETF/exchange outflows compound</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$3,920 / ~$49</div>
+      <div class="chg down">Gold -0.67% overnight, silver pulling back from Monday's $50.80 close — a reported (CENTCOM-unconfirmed) U.S. strike on Iran's Qeshm Island snapped Monday's diplomacy-driven bounce</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$79.15 (Mon)</div>
+      <div class="chg up">+2.67% Monday's close (vs. $77.09 Friday) — miners clawed back roughly half of Friday's 5.21% washout; no fresh print yet this morning</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)</div>
+      <div class="value">5.42% / 5.53%*</div>
+      <div class="chg up">BTC-13NOV26 (10d) / BTC-20NOV26 (17d), yesterday afternoon's print (latest available) — healthy contango, modest positive carry for BOF's futures-held exposure</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">-$399M (Mon)</div>
+      <div class="chg down">Second straight outflow day; IBIT alone shed -$405M, its largest single-fund outflow since June, partly offset by small inflows elsewhere in the complex</div>
+    </div>
+    <div class="tile">
+      <div class="label">Equities / DXY / 10Y</div>
+      <div class="value">Dow -0.8%</div>
+      <div class="chg down">Dow futures -0.8% (~420pts), S&amp;P futures -0.15% (~7,564), Nasdaq-100 futures +0.27% (~28,203) at ~6:49am ET on Apple's margin miss and oil's jump; DXY ~101.8* and 10Y ~4.91%* are yesterday's last confirmed prints, no fresher level found this morning</div>
+    </div>
+  </div>
+  <div class="note">Network: hashrate ~1,042 EH/s, difficulty ~148.4T (yesterday afternoon's print, no stress signal; today's own prefetch had not landed by generation time). No in-window news on Lion One, Lavras, or SilverTiger. No confirmed CLARITY Act floor action or new Strategic Bitcoin Reserve purchase overnight.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows · Exchange &amp; ETF Risk</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto">Bitcoin Steadies at $76,900 as ETFs Lose $399 Million and Binance Outflows Hit $4.7 Billion</a>
+    <div class="why">Why it matters to BOF: two separate trust gauges are both flashing red at once. Spot ETF outflows extended to a second straight day (IBIT's own -$405M slice is its worst since June), while net withdrawals from Binance since Sunday's reopening have grown from $3.64B to $4.72B — meaning the exodus is accelerating, not stabilizing, even five days after the hack. BTC's ability to hold $76,300 support through this combined de-risking is the level to watch; a break would argue the custody-trust shock is becoming a durable repricing rather than a one-week flinch.</div>
+    <div class="when">Broke: overnight/this morning, as of ~6am ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Regulation &amp; Policy · Election Day</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html">Midterm Elections Could Jolt Stocks if Democrats Sweep Congress</a>
+    <div class="why">Why it matters to both desks: today's vote is the single biggest near-term swing factor for the legislative tailwind BOF and EMA are both banking on — a revived CLARITY Act and friendlier market-structure rules. CNBC reports the market isn't fully pricing a Democratic sweep, with JPMorgan modeling roughly a half-point S&amp;P hit Wednesday if it happens; a Senate that tilts toward crypto-skeptical members (see yesterday's Sherrod Brown flag) would be a direct headwind to the regulatory-clarity thesis independent of this week's hack-driven volatility. Results won't be clear until tonight or tomorrow — today is positioning, not resolution.</div>
+    <div class="when">Broke: this morning, premarket coverage ahead of today's vote</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/11/03/apple-margin-oil-iran.html">Apple's Margin Miss and a Reported Iran Strike Send a Stagflation-ish Jolt Through Futures</a>
+    <div class="why">Why it matters to both desks: oil is reported up on an unconfirmed U.S. strike on Iran's Qeshm Island (Brent +0.5% to ~$105.25 in early Asian trade) at the same time CME FedWatch has priced a 73% probability of a December Fed rate <strong>hike</strong> — not a cut. That combination is the opposite of the easy-liquidity setup both funds' debasement thesis wants: higher real-rate odds plus an energy-driven inflation impulse is a headwind for bitcoin and, perversely, for gold too (it's why gold is giving back Monday's Iran-diplomacy bounce this morning rather than catching a safe-haven bid). Worth watching whether oil's move holds once CENTCOM confirms or denies the strike.</div>
+    <div class="when">Broke: overnight into this morning, premarket</div>
+  </div>
+
+</section>
+
+<section class="gold">
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">No in-window news on Lion One, Lavras, or SilverTiger. Three items cleared the window, prioritized for EMA's mining-equity book.</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities · EMA Benchmark</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="../articles/2026-11-03-gdx-rebound-monday.html">GDX Claws Back Over Half of Friday's Washout, +2.67% to $79.15 Monday</a>
+    <div class="why">Why it matters to EMA: the fund's own benchmark reclaimed more than half of Friday's 5.21% single-session drop, tracking gold and silver's Monday bounce roughly 1.4x — a healthy beta for the operating-leverage trade EMA runs the miners for, rather than another leverage-driven overshoot. The open question this morning is whether GDX holds that gain against overnight weakness in the metals themselves (gold -0.67%, silver fading from Monday's close) or gives it back at the open.</div>
+    <div class="when">Broke: Monday's close, reported into this morning</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities · Allocator Positioning</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.bnnbloomberg.ca/business/company-news/rick-rules-top-picks-franco-nevada-wheaton-precious-metals-agnico-eagle">Rick Rule's Top Picks: Franco-Nevada, Wheaton Precious Metals &amp; Agnico Eagle</a>
+    <div class="why">Why it matters to EMA: a prominent resource-sector allocator naming two royalty/streaming names alongside a top-three GDX producer is a read on where sophisticated money is rotating within the mining-equity complex right now — royalty structures offer EMA's book a lower-variance way to stay exposed to the sector's operating leverage without the direct cost-inflation risk hitting pure producers this earnings season.</div>
+    <div class="when">Broke: yesterday afternoon, ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal Price Driver · Macro Linkage</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.kitco.com/news/article/2026-11-02/gold-silver-rebound-iran-diplomacy-sends-oil-lower-easing-fed-tightening">Gold, Silver Give Back Monday's Iran-Diplomacy Bounce as Overnight Strike Report Reverses the Oil Trade</a>
+    <div class="why">Why it matters to EMA: Monday's rebound was explicitly built on oil easing and softer Fed-tightening expectations; the reported (unconfirmed) Qeshm Island strike undoes both legs overnight, pushing spot gold back down to ~$3,920 (-0.67%) and silver off Monday's $50.80 close toward $49. That's the real-rates transmission channel EMA's whole thesis depends on working in reverse — a reminder of how fast the setup can flip when Middle East headline risk is this unresolved, and worth re-checking once CENTCOM confirms or denies the strike.</div>
+    <div class="when">Broke: overnight into early this morning</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows · Exchange Risk</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://cointelegraph.com/news/binance-taps-half-safu-bitcoin-holdings-releases-reserve-proof">Binance Taps Half Its SAFU Bitcoin Holdings, Releases Reserve Proof</a>
+    <div class="why">Why it matters to BOF: drawing down half of its insurance fund to backstop the hack is a concrete, quantifiable cost of last week's breach rather than a reassurance-only PR move — useful context for the $4.72B withdrawal number above. Whether SAFU gets replenished quickly or stays drawn down is a read on how much balance-sheet cushion the exchange has left for a second shock.</div>
+    <div class="when">Broke: yesterday, 9:21am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem · Security &amp; Custody Risk</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://decrypt.co/news/brazils-largest-exchange-mercado-bitcoin-halts-withdrawals-after-40-million-hack">Brazil's Largest Exchange, Mercado Bitcoin, Halts Withdrawals After $40 Million Hack</a>
+    <div class="why">Why it matters to BOF: a second major exchange hack landing inside the same week as Binance's — even at a fraction of the size — reinforces the custody-risk repricing theme rather than treating Binance as an isolated incident. For a fund tracking exchange-level counterparty risk across the ecosystem, two unrelated large exchanges breached in one week is the kind of pattern that hardens the self-custody/cold-storage case with allocators.</div>
+    <div class="when">Broke: yesterday, 10:53am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate · Debasement Thesis</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.theblock.co/news/business/2026-11-02-we-found-room-for-even-more-orange-michael-saylors-strategy-scoops-up-another-811-bitcoin-for-655-million">Strategy Scoops Up Another 811 Bitcoin for $65.5 Million; Strive Adds 124</a>
+    <div class="why">Why it matters to BOF: continued buy-the-dip behavior from the two largest public bitcoin treasury companies, even as MSTR stock is down 15% in October and still trades below the value of its own holdings — a live test of whether the treasury-company model keeps adding BTC through a drawdown or eventually has to pause. Watch for any signal that financing costs (STRC buyback spend flagged yesterday) start crowding out the accumulation pace.</div>
+    <div class="when">Broke: yesterday, 9:09am ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem · AML &amp; Compliance</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://decrypt.co/news/north-korea-laundering-binance-hack-loot-one-new-wallet-every-25-seconds">North Korea Is Laundering Binance Hack Loot at One New Wallet Every 25 Seconds</a>
+    <div class="why">Why it matters to BOF: the laundering pace — converting stolen assets into BTC through a new wallet roughly every 25 seconds — keeps bitcoin's base layer in the AML conversation even though BOF's own thesis has nothing to do with the hack itself. It's a reminder of the downstream compliance scrutiny that any BOF-adjacent exchange or custody counterparty should expect in the weeks ahead as chain-analysis firms trace the funds.</div>
+    <div class="when">Broke: yesterday, 1:46pm ET</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing bitcoin options implied volatility and the election-specific volatility premium around the 2024 presidential election versus the 2026 midterms, showing both figures sharply lower this cycle">
+      <line x1="40" y1="170" x2="380" y2="170" stroke="currentColor" stroke-opacity=".6"/>
+      <text x="200" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" opacity=".8">BTC Options: Election Volatility Then vs. Now</text>
+
+      <rect x="60" y="48" width="70" height="122" fill="#c8102e" opacity=".75"/>
+      <text x="95" y="41" text-anchor="middle" font-size="9" fill="currentColor" font-weight="700">51.9%</text>
+      <text x="95" y="188" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">30-60d IV</text>
+      <text x="95" y="200" text-anchor="middle" font-size="7" fill="currentColor" opacity=".55">Nov. 2024 election</text>
+
+      <rect x="150" y="81" width="70" height="89" fill="#0b3d91" opacity=".6"/>
+      <text x="185" y="74" text-anchor="middle" font-size="9" fill="currentColor" font-weight="700">37.7%</text>
+      <text x="185" y="188" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">30-60d IV</text>
+      <text x="185" y="200" text-anchor="middle" font-size="7" fill="currentColor" opacity=".55">Nov. 2026 midterms</text>
+
+      <rect x="250" y="155" width="55" height="15" fill="#c8102e" opacity=".75"/>
+      <text x="277" y="148" text-anchor="middle" font-size="9" fill="currentColor" font-weight="700">10.8pt</text>
+      <text x="277" y="188" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">election premium</text>
+      <text x="277" y="200" text-anchor="middle" font-size="7" fill="currentColor" opacity=".55">2024</text>
+
+      <rect x="315" y="169" width="55" height="1" fill="#0b3d91" opacity=".6"/>
+      <text x="342" y="148" text-anchor="middle" font-size="9" fill="currentColor" font-weight="700">0.1pt</text>
+      <text x="342" y="188" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">election premium</text>
+      <text x="342" y="200" text-anchor="middle" font-size="7" fill="currentColor" opacity=".55">2026</text>
+
+      <text x="200" y="234" text-anchor="middle" font-size="8" fill="currentColor" opacity=".6">Source: Block Scholes snapshot, Oct. 26, 2026</text>
+    </svg>
+    <div class="chart-cap">Options desks are pricing almost no election-specific volatility premium into bitcoin this cycle — 0.1 vol points versus 10.8 points heading into the 2024 presidential election — even with a possible Senate flip on the table tonight. That's either a sign traders see limited near-term legislative risk either way, or a complacency gap that leaves BOF's book more exposed than priced if results surprise. Worth re-pricing once midterm results start landing tonight.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Tuesday, November 3, 2026, ~8am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
