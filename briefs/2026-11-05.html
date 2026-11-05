@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Thursday, November 5, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  .datawarn{font-size:.78rem;color:#a67c00;background:#fff8e6;border:1px solid #f0d999;border-radius:8px;padding:8px 12px;margin:10px 0}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    .datawarn{background:#2a2410;border-color:#5a4a1a;color:#e0b84c}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Thursday, November 5, 2026 · figures as of ~7am ET · day two after the Blue Wave: bitcoin has clawed back above $80,000 and gold miners just had their best single session in years, while Wall Street starts picking winners and losers among bitcoin miners caught between hashrate and the AI data-center trade</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<div class="datawarn">Data note: the automated prefetch (data/latest.json) had not refreshed by generation time — its last commit is from yesterday (Nov 4) afternoon. All scoreboard figures below were rebuilt via live web search this morning and cross-checked against that stale file where possible. Confirmed fresh for today: BTC/ETH spot (CoinDesk/CoinGecko, overnight), gold/silver spot (Kitco, ~4:32am ET), GDX's Wednesday close, and this morning's equity-futures snapshot. Flagged as yesterday afternoon's last-known print (today's reading unconfirmed): Fear &amp; Greed, Deribit basis, network hashrate/difficulty, exact DXY/10Y levels, and the exact Wednesday ETF-flow total.</div>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$80,400</div>
+      <div class="chg up">+3.3% 24h — now firmly clear of both the Binance-hack six-week low ($76,368, late Oct) and Tuesday night's midterm-jitters dip to ~$75,700</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$2,430</div>
+      <div class="chg up">+5.7% 24h, outpacing BTC on the risk-on bounce</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">34 — Fear*</div>
+      <div class="chg up">vs. 26 a day earlier — yesterday afternoon's print, latest available; likely stale given the overnight rebound above $80K</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">$4,128 / ~$52.20</div>
+      <div class="chg up">Gold +1.7% so far this morning on top of Wednesday's +3.47% Blue Wave spike; silver holding Wednesday's +5.0% move, gold/silver ratio ~77.8</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">+9.1% Wed</div>
+      <div class="chg up">$77.60&gt;$84.67 — GDX's single biggest one-day move in years, roughly 2.6x gold's own Wednesday gain, a textbook operating-leverage session for EMA's book</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)*</div>
+      <div class="value">0.72% / 2.83%</div>
+      <div class="chg neutral">BTC-13NOV26 (8d) / BTC-20NOV26 (15d), yesterday afternoon's print (latest available) — light contango, thin positive carry for BOF's futures-held exposure</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">Outflow (exact $ n/a)</div>
+      <div class="chg down">Wednesday's precise total is unavailable this morning; context is a multi-day outflow streak tied to the Binance hack — The Block flagged it as the largest in four months before yesterday's bitcoin bounce began reversing sentiment</div>
+    </div>
+    <div class="tile">
+      <div class="label">Equities / DXY / 10Y</div>
+      <div class="value">Dow +1,500pts Wed</div>
+      <div class="chg up">Wednesday: Dow +~1,500pts, S&amp;P and Nasdaq both +1%+ on the Blue Wave. This morning's futures are mixed: Dow +0.1-0.7%, S&amp;P flat/+0.1-0.2%, Nasdaq flat-to-negative as chip and AI-data-center names sell off on the Texas governor result; DXY and the 10Y both fell Wednesday, exact today's levels unavailable (FRED timeout)</div>
+    </div>
+  </div>
+  <div class="note">Network: hashrate ~1,019 EH/s, difficulty ~148.4T (yesterday afternoon's print, no stress signal; today's own prefetch had not landed by generation time). No in-window news on Lion One, Lavras, or SilverTiger. No confirmed new Strategic Bitcoin Reserve purchase or MSCI treasury-company decision overnight.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/11/05/bitcoin-holds-above-usd80-000-as-zcash-jumps-12-in-post-election-crypto-rebound">Bitcoin Holds Above $80,000 as Zcash Jumps 12% in Post-Election Crypto Rebound</a>
+    <div class="why">Why it matters to BOF: this is the follow-through on Wednesday's round trip, not a repeat of it — BTC has now held above $80K into a second session, clearing both the Binance-hack low and the midterm-night dip. The $6.3B Binance breach (North Korea-linked, per multiple reports) is looking less like a market-structure event and more like an exchange-specific one: Bitwise's Matt Hougan called the ~4% BTC reaction "largely in line with broader risk assets" — a maturity signal worth noting for BOF's risk budgeting into year-end.</div>
+    <div class="when">Broke: overnight into this morning, confirmed ~1:40am ET</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Miners &amp; Infrastructure</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/11/04/wall-street-cuts-bitcoin-miner-price-targets-after-democrats-texas-win-threatens-ai-data-center-boom">Wall Street Cuts Bitcoin Miner Price Targets After Democrats' Texas Win Threatens AI Data-Center Boom</a>
+    <div class="why">Why it matters to BOF: this is the direct read-through to the miner-equity and distressed-debt complex BOF trades. The AI-data-center pivot has been the thing propping up miner valuations (and debt-recovery prospects) well above what pure hashprice would justify — a political threat to that pivot's economics in Texas, the largest single hosting market, reprices the collateral BOF's distressed-debt positions are ultimately backed by. Watch which names (Riot, Core Scientific, CleanSpark, IREN) get cut most; that ranking is a live map of where BOF's debt exposure is safest versus most exposed.</div>
+    <div class="when">Broke: yesterday, Nov 4</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.kitco.com/news/article/2026-11-04/gold-climbs-above-4000-wall-street-rallies-dems-take-congress-kitco-pm">Gold Climbs Above $4,000, Wall Street Rallies as Democrats Take Congress — Kitco PM Report</a>
+    <div class="why">Why it matters to both desks: a clean, quotable transmission chain for James Lavish's next TV hit — a Democratic sweep repriced the fiscal-deficit outlook, the dollar and yields fell, and gold ran to $4,066 (+3.47%) with silver close behind (+5.0%). The equity-beta confirmation is even louder than the metal move itself: GDX itself gained 9.1% on the day, roughly 2.6x gold's own move — exactly the kind of fiscal-uncertainty, not just metal-price-grind, catalyst that EMA's producer/developer book is built to capture. Gold has added another ~1.7% this morning to $4,128, so the move isn't fading yet.</div>
+    <div class="when">Broke: yesterday afternoon, with follow-through confirmed ~4:32am ET this morning</div>
+  </div>
+
+</section>
+
+<section class="gold">
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">No in-window news on Lion One, Lavras, or SilverTiger. Three items cleared the window, prioritized for EMA's mining-equity book.</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities · GDX Beta</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.kitco.com/news/article/2026-11-04/gold-and-silver-surge-democratic-midterm-sweep-drives-dollar-yields-lower">Gold and Silver Surge as Democratic Midterm Sweep Drives Dollar, Yields Lower — Kitco AM Report</a>
+    <div class="why">Why it matters to EMA: GDX's 9.1% Wednesday gain (its biggest one-day move in years) against gold's 3.47% is the operating-leverage trade working exactly as designed — roughly 2.6x beta, well above the 2-3x producers typically deliver on a grinding rally, because this was a discrete fiscal-policy catalyst rather than a slow metal-price drift. For a book benchmarked against GDX, that's the difference between tracking the index and beating it on days like this.</div>
+    <div class="when">Broke: yesterday, confirmed through yesterday's close (~4pm ET)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities · Junior Drill Story</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.kitco.com/opinion/investment-trends/2026-11-04/fury-gold-mines-eyes-more-100000-ounces-year-eau-claire-tim">Fury Gold Mines Eyes More Than 100,000 Ounces a Year at Eau Claire</a>
+    <div class="why">Why it matters to EMA: this is exactly the kind of sub-institutional "drill story" the GDX/GDXJ index skips entirely — a junior developer targeting six-figure annual production at Eau Claire in Quebec, landing the same week gold cleared $4,000 and junior financing conditions are about as favorable as they get this cycle.</div>
+    <div class="when">Broke: yesterday, Nov 4</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal Price Drivers · Silver</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.kitco.com/news/article/2026-11-04/gold-prices-holding-4000-adp-says-us-economy-created-86k-jobs-october">Gold Holding $4,000 as ADP Says US Economy Created 86K Jobs in October</a>
+    <div class="why">Why it matters to EMA: a soft-but-not-weak ADP print (86K, below trend) keeps December Fed-cut odds alive without derailing the fiscal-deficit narrative driving gold — the combination that has historically let silver (and silver-miner operating leverage) outrun gold, which is exactly what happened Wednesday as the gold/silver ratio compressed to ~77.8 from the low-80s.</div>
+    <div class="when">Broke: yesterday, Nov 4</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows · Exchange Risk</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.theblock.co/news/markets/2026-11-04-bitcoin-price-midterm-elections-binance-hack-recovery-433030">Bitcoin Rebounds Past $80,000 as Markets Shrug Off Midterms and Binance Hack</a>
+    <div class="why">Why it matters to BOF: confirms the $6.3B Binance breach (hot-wallet compromise, Oct 29) is being treated as exchange-specific rather than protocol-level risk — Binance says it has already replaced roughly 95% of stolen assets from its own balance sheet and reopened withdrawals on most networks, which is the detail that let spot bitcoin ETF outflows start reversing.</div>
+    <div class="when">Broke: yesterday, Nov 4</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Regulation &amp; Policy</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://theblock.co/news/regulation/2026-11-04-digital-chamber-sherrod-brown-win-434371">The Digital Chamber Calls Sherrod Brown's Win 'Most Consequential Unfavorable Result' for Crypto</a>
+    <div class="why">Why it matters to both desks: a longtime crypto skeptic flipping Ohio's Senate seat, on top of the broader Blue Wave, is the clearest read yet that CLARITY Act-style market-structure legislation is dead for this Congress — not derailed, dead. The Digital Chamber's own framing ("doesn't necessarily mean comprehensive crypto legislation is permanently dead") is itself a tell that near-term expectations need to be reset lower.</div>
+    <div class="when">Broke: yesterday, Nov 4</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate · Stablecoins</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://theblock.co/news/business/2026-11-04-circle-reports-865-million-in-q3-revenue-and-reserve-income-discloses-5-workforce-reduction-432671">Circle Reports $865 Million in Q3 Revenue and Reserve Income, Discloses 5% Workforce Reduction</a>
+    <div class="why">Why it matters to both desks: stablecoin reserve income is a direct bet on the rate environment both funds track closely — a 5% headcount cut alongside still-growing revenue suggests Circle is bracing for reserve-yield compression as the Fed's cutting cycle continues, a read-through for how much further the "cash-like yield" subsidy under stablecoin economics can run.</div>
+    <div class="when">Broke: yesterday, Nov 4</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate · Treasury Companies</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.theblock.co/news/business/2026-11-05-american-bitcoin-swings-to-profit-434413">Eric Trump's American Bitcoin Swings to $126 Million Profit in Q3 on Digital-Asset Gains</a>
+    <div class="why">Why it matters to BOF: another bitcoin-treasury/mining hybrid turning a mark-to-market profit (versus a $57.2M loss the prior quarter) on 8,427 BTC of holdings is a small but real data point for the treasury-company ecosystem BOF trades around — profitability driven by bitcoin's own price action, not operations, is worth distinguishing from durable earnings power when sizing exposure to the sub-sector.</div>
+    <div class="when">Broke: this morning, Nov 5</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro &amp; AI Infrastructure</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html">AI Data Center Stocks and Musk's SpaceX Decline as Texas Governor Result Raises Risk of a Slowdown</a>
+    <div class="why">Why it matters to BOF: the same Texas political result driving the miner price-target cuts above is hitting AI infrastructure names broadly — a reminder that bitcoin miners' AI-pivot valuations are now correlated with a political risk factor that has nothing to do with hashrate, difficulty, or bitcoin's own price, and everything to do with state-level power-grid politics.</div>
+    <div class="when">Broke: yesterday, Nov 4</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing Wednesday's percentage gain in spot gold versus the GDX gold miners ETF, showing gold up 3.47 percent and GDX up 9.1 percent, an implied beta of about 2.6 times">
+      <line x1="40" y1="170" x2="380" y2="170" stroke="currentColor" stroke-opacity=".6"/>
+      <text x="200" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" opacity=".8">GDX vs. Gold: Operating Leverage on Blue Wave Day</text>
+
+      <rect x="70" y="150" width="80" height="20" fill="#b8860b" opacity=".7"/>
+      <text x="110" y="143" text-anchor="middle" font-size="10" fill="currentColor" font-weight="700">+3.47%</text>
+      <text x="110" y="188" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Spot Gold</text>
+      <text x="110" y="200" text-anchor="middle" font-size="7" fill="currentColor" opacity=".55">Wednesday, Nov 4</text>
+
+      <rect x="190" y="52" width="80" height="118" fill="#0b3d91" opacity=".6"/>
+      <text x="230" y="45" text-anchor="middle" font-size="10" fill="currentColor" font-weight="700">+9.1%</text>
+      <text x="230" y="188" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">GDX</text>
+      <text x="230" y="200" text-anchor="middle" font-size="7" fill="currentColor" opacity=".55">Wednesday, Nov 4</text>
+
+      <rect x="300" y="146" width="70" height="24" fill="#0a7d2c" opacity=".75"/>
+      <text x="335" y="139" text-anchor="middle" font-size="10" fill="currentColor" font-weight="700">~2.6x</text>
+      <text x="335" y="188" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">implied beta</text>
+      <text x="335" y="200" text-anchor="middle" font-size="7" fill="currentColor" opacity=".55">GDX / gold, same session</text>
+
+      <text x="200" y="234" text-anchor="middle" font-size="8" fill="currentColor" opacity=".6">Source: Kitco (spot gold) and Yahoo Finance/StockAnalysis (GDX), Wednesday Nov 4 close</text>
+    </svg>
+    <div class="chart-cap">GDX's 9.1% Wednesday gain against gold's 3.47% move is well above producers' typical 2-3x beta to the metal — a sign the market is pricing the Blue Wave as a discrete repricing of fiscal and political risk, not just another leg of the metal's grind higher. For EMA's book, days like this are the entire case for holding miners instead of (or alongside) bullion: the same debasement thesis, delivered with leverage.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Thursday, November 5, 2026, ~7am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
