@@ -1,13 +1,13 @@
 {
- "fetched_at_utc": "2026-11-08T17:01:06+00:00",
+ "fetched_at_utc": "2026-11-08T17:55:27+00:00",
  "errors": [
   "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)"
  ],
  "spot": {
-  "btc": 75697,
-  "btc_24h_pct": -0.01,
-  "eth": 2227.52,
-  "eth_24h_pct": -0.23,
+  "btc": 75691,
+  "btc_24h_pct": -0.14,
+  "eth": 2228.59,
+  "eth_24h_pct": -0.24,
   "source": "coingecko"
  },
  "fear_greed": {
@@ -16,13 +16,13 @@
   "yesterday": 25
  },
  "network": {
-  "hashrate_ehs": 983.7,
+  "hashrate_ehs": 982.0,
   "difficulty": 148364561003867.4
  },
  "metals": {
   "gold": {
    "usd": 4072.1,
-   "paxg_crosscheck": 4048.26
+   "paxg_crosscheck": 4049.11
   },
   "silver": {
    "usd": 52.07
@@ -32,16 +32,16 @@
   {
    "instrument": "BTC-20NOV26",
    "days": 11,
-   "ann_basis_pct": 5.26
+   "ann_basis_pct": 5.66
   },
   {
    "instrument": "BTC-27NOV26",
    "days": 18,
-   "ann_basis_pct": 5.75
+   "ann_basis_pct": 5.93
   }
  ],
  "us10y": null,
- "etf_flows_raw": "bles = {\"locale\":\"en_US\"}; //# sourceURL=um_common-js-extra var um_frontend_common_variables = []; //# sourceURL=um_frontend_common-js-extra var um_scripts = {\"max_upload_size\":\"2097152\",\"nonce\":\"2db657cd18\"}; //# sourceURL=um_scripts-js-extra {\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://farside.co.uk/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4\"}} /*! This file is auto-generated */ var e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e {o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf() {i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))}); //# sourceURL=https://farside.co.uk/wp-includes/js/wp-emoji-loader.min.js window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a57624076e930008',t:'MTc5NDE1NzI5Nw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a57624076e930008',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
+ "etf_flows_raw": "bles = {\"locale\":\"en_US\"}; //# sourceURL=um_common-js-extra var um_frontend_common_variables = []; //# sourceURL=um_frontend_common-js-extra var um_scripts = {\"max_upload_size\":\"2097152\",\"nonce\":\"2db657cd18\"}; //# sourceURL=um_scripts-js-extra {\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://farside.co.uk/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4\"}} /*! This file is auto-generated */ var e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e {o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf() {i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))}); //# sourceURL=https://farside.co.uk/wp-includes/js/wp-emoji-loader.min.js window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a57673aadc6420b4',t:'MTc5NDE2MDU1OQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a57673aadc6420b4',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
  "news_window_start_et": "2026-11-07T08:00-05:00",
  "headlines": [
   {
@@ -172,14 +172,20 @@
   },
   {
    "source": "MarketWatch",
-   "title": "\u2018It feels like he\u2019s quietly building a separate life\u2019: My husband inherited $500,000, but he refuses to spend it on our home",
-   "link": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
-   "published": "2026-11-08T16:00+00:00"
+   "title": "Two months after my father\u2019s funeral, my stepmother asked me to repay his $40,000 wedding gift. Should I do what she says?",
+   "link": "https://www.marketwatch.com/story/shes-a-type-a-personality-my-stepmother-wants-me-to-repay-my-late-fathers-40-000-wedding-gift-should-i-oblige-51fc64f7?mod=mw_rss_topstories",
+   "published": "2026-11-08T17:30+00:00"
   },
   {
    "source": "MarketWatch",
    "title": "Funeral homes are finding new life hosting weddings and golf outings, as the traditional burial business dies out",
    "link": "https://www.marketwatch.com/story/funeral-homes-are-finding-new-life-hosting-weddings-and-golf-outings-as-the-traditional-burial-business-dies-out-15831d13?mod=mw_rss_topstories",
+   "published": "2026-11-08T17:23+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "\u2018It feels like he\u2019s quietly building a separate life\u2019: My husband inherited $500,000, but he refuses to spend it on our home",
+   "link": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
    "published": "2026-11-08T16:00+00:00"
   },
   {
@@ -213,10 +219,16 @@
    "published": "2026-11-08T14:00+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "This market signal called the tech selloff. Now it\u2019s sending another warning.",
-   "link": "https://www.marketwatch.com/story/this-market-signal-called-the-tech-selloff-now-its-sending-another-warning-f7f8eb9b?mod=mw_rss_topstories",
-   "published": "2026-11-08T12:00+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "BTC Price Analysis: Key Support Levels to Watch as Bitcoin Enters a Crucial Week - CryptoPotato",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNVdnd0dxd1ZKZ3VjemZtanliYklSaWZoV1UtRFdYa0hNckxqb3lwUi1GLV9FNGNidTd4NXJva05BZGl1WnkySTZPRGE2YVBqS0V1YnhGUml2MklTTHc3clpOdEJkRWFYM0tyNTVHTGFhNFNQdngzbEJvQ1ZSeXNPZFJQWjVkSW5pU0xyWFphVVowamtaR1kxV3NwVmJmZE9WVkxWUzJ6ZGE?oc=5",
+   "published": "2026-11-08T17:12+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin Price Prediction: Why BTC Could Rally This Week as $70K Risk Persists - CoinGape",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdzhweVZkUzRUTFNKTFhYdXFpMGctVXE5Vk5wb2s5R1VveGxRWTc5VzBpZjdTb05iY0VjcTNjZFBSZllQOGU0aGstdk5MLWZDMHhvZlUwNHVsN0pqa2luRFdLTU1TMzlkcGxoMkY3LXJZMlAxZjFxME04cDVaS25OTkJnN0s2cERuNGMzcHdJM0dvX1NvLU03S2FHek1VQTBGUURsWTcyYUk?oc=5",
+   "published": "2026-11-08T17:09+00:00"
   },
   {
    "source": "GoogleNews-BTC",
@@ -253,18 +265,6 @@
    "title": "Crypto Overview: $76K Bitcoin Meets Remittix Earn's Live Pools From Morpho, Fluid and Maple Finance - TechBullion",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOREdjYmpLaC1iNUZubFBoeGI0SHg3bkQyNG5VRmc0ZVVfYkw1V3ZlMXJRM1ZBcWd5ZVp1SlR2NXFLN1N5YlBzQklQemtzOUxMVERuWlhsbDV4dlY0TDdsSWxoeS04OW54VWpEckZIM0JUR0RJdE92YzI2dHhQS1RYUFVCYmhCenlUbk1vRkNEcDk1aWRRZ2N5aThWZDNKbWNpVlc4eEZHMFpCWEVFT1M3QUZHVVNRcl9jVnpsSQ?oc=5",
    "published": "2026-11-08T15:25+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "JPMorgan Stock Slides on Epstein Probe Fears: Bitcoin Has No CEO to Drag Into the Scandal - CryptoPotato",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQUhoaE83enhnTXRzai1rZVFVTVkxOUwwZzlTYlViS0NQVlFGekJqdFJIVzl1OXlneHlsSlh1amNVeUpZZlNkeVp5ZnZCbnZKdzA4T0doV0tiTXRMeE5JcVJqOFRsdTctZVhSeXktZ1FlS0ZSTDlKY1JyQWhTN3IycE93SHRFNDdibUxnMjc5T0VnM3FQTzhpd3lMbmRTRFgwV21CR0dLbnRkVHp2QzlpOTJ4T2Y?oc=5",
-   "published": "2026-11-08T15:19+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "WILL BITCOIN PUMP OR DUMP THIS WEEK? for BINANCE:BTCUSDT by forexcitypro_leemeenal - TradingView",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcXFDd2VUakZBTnUwV0NRTTZQZy1GazYwd2ZGaDhDQjBQMHpiWXNhR0tlYjcwMVV0bzdHMTJyTDJ0VVdBcTFwQ1RSdHUtNlpQamVfdVFIQW95VlBfOWhmT3NzdVk3Q0JQcDY4N0FBTFdITDY4cVVZQ0V1WWlmc2FpY3paTlJ4Q0EtaXlkRkRMRVI?oc=5",
-   "published": "2026-11-08T14:48+00:00"
   },
   {
    "source": "GoogleNews-Metals",
