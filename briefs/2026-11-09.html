@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Monday, November 9, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  .datawarn{font-size:.78rem;color:#a67c00;background:#fff8e6;border:1px solid #f0d999;border-radius:8px;padding:8px 12px;margin:10px 0}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    .datawarn{background:#2a2410;border-color:#5a4a1a;color:#e0b84c}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Monday, November 9, 2026 · figures as of ~7:15am ET · CME/COMEX reopen today — bitcoin round-tripped over the weekend, flash-dropping to a sub-$74K low (worst since August) on a six-figure-to-billion-dollar liquidation wave before snapping back above $75,000 into Monday's open</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<div class="datawarn">Data note: the automated prefetch (data/latest.json) ran Sunday ~12:55pm ET, so its headline pool only reaches partway into today's required Nov 8 8am ET&ndash;now window and entirely misses Sunday evening's bitcoin selloff. Its ETF-flow field was corrupted (unusable boilerplate JS), and the 10-year yield fetch timed out. Both were cross-checked/filled via live web search, which itself returned heavily mis-dated results for several figures (equity futures, DXY, today's 10Y, live BTC/ETH ticks) that could not be independently pinned to today's date &mdash; those are marked "unavailable" below rather than guessed, per the standing data-quality rule. The weekend bitcoin selloff itself is corroborated across multiple independently-dated Nov 8&ndash;9 sources, though exact liquidation totals vary by methodology ($600M&ndash;$1.3B over 24h depending on source/window). No in-window news on Lion One, Lavras, or SilverTiger, and no mining-equity headline cleared the strict freshness bar despite extensive search &mdash; a genuine weekend dead zone for issuer news, not an effort gap.</div>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$74,500&ndash;75,000</div>
+      <div class="chg down">Round-tripped over the weekend: ~$75,800 Fri close &rarr; flash-dropped to ~$73,500&ndash;74,000 Sunday evening (lowest since late August) &rarr; recovered above $75,000 entering Monday. Live tick unverifiable via search &mdash; treat as a range, not a print</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$2,229</div>
+      <div class="chg down">-0.24% per Sunday's prefetch (last confirmed, ~1pm ET) &mdash; ETH also took liquidations in Sunday night's broader selloff (reportedly larger in dollar terms than BTC's), but a fresher print isn't confirmable</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">~28 (Fear)</div>
+      <div class="chg down">Sunday's last confirmed reading (up from 25 Saturday) &mdash; predates the overnight flash crash, which likely pushed it back down toward Extreme Fear; no fresher print confirmed</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$4,072 / ~$52.07</div>
+      <div class="chg up">Sunday's last confirmed levels, up modestly from Friday's COMEX settle (~$4,050, -0.94% Fri on the hot jobs report). Gold/silver ratio ~78. COMEX reopens today</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">+2.2% Fri</div>
+      <div class="chg up">$87.60 close, a fourth straight up day &mdash; no NYSE Arca session over the weekend; today's open is the first test of whether miner equities hold that strength against a shakier bitcoin tape</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)*</div>
+      <div class="value">+5.66% / +5.93%</div>
+      <div class="chg neutral">BTC-20NOV26 (11d) / BTC-27NOV26 (18d), Sunday ~1pm ET print &mdash; predates the overnight selloff; contango may have compressed since but a fresher print isn't confirmed</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">-$412M Fri</div>
+      <div class="chg down">IBIT -$403M, FBTC the only inflow (+$42.8M) &mdash; Friday's print, last trading day (no weekend flows); 2026 YTD flows remain net-negative. Monday's session data won't post until Tuesday</div>
+    </div>
+    <div class="tile">
+      <div class="label">Equities / DXY / 10Y</div>
+      <div class="value">S&amp;P +0.31% (last close)</div>
+      <div class="chg neutral">Friday's last confirmed close: S&amp;P 7,376.86 (+0.31%), Nasdaq 24,579.42 (+1.09%), Dow 51,285.73 (-0.46%); DXY 102.28; 10Y 4.86%. Today's premarket futures/DXY/10Y levels unavailable &mdash; not independently verifiable via search this morning</div>
+    </div>
+  </div>
+  <div class="note">Network: hashrate ~982 EH/s, difficulty ~148.4T (last confirmed Sunday prefetch; no fresher print). No in-window news on Lion One, Lavras, or SilverTiger. No fresh Strategic Bitcoin Reserve or MSCI bitcoin-treasury-company decision (MSCI's list still due Nov 11, effective Nov 30). CLARITY Act remains stalled post its Senate defeat &mdash; no in-window movement.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows · Weekend Flash Crash</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.cryptotimes.io/2026/11/09/bitcoin-price-today-btc-falls-to-74k-as-1-04b-crypto-liquidations-hit-longs-etfs-bleed-1-28b/">Bitcoin Falls to $74K as Over $1B in Crypto Liquidations Hit Longs, ETFs Bleed $1.28B</a>
+    <div class="why">Why it matters to BOF: bitcoin printed a sub-$74K low Sunday evening &mdash; its weakest level since late August &mdash; on a leveraged-long flush that liquidation trackers put anywhere from ~$600M to over $1B in 24 hours depending on exchange coverage and window (sources disagree on the exact total, but agree longs took roughly 90%+ of the damage). That's a fresh deleveraging event stacked directly on top of last week's $1.28B ETF outflow overhang, not a new standalone narrative. The snapback above $75,000 by Monday's cash open argues dip-buyers showed up quickly rather than a deeper capitulation forming, but BOF's futures-held exposure should assume another volatile session is live, not settled.</div>
+    <div class="when">Broke: Sunday evening into early Monday (Nov 8&ndash;9); CoinGlass-sourced liquidation data as of roughly 1am ET Monday</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate · Treasury-Company Funding</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMidkFVX3lxTE9zbFNSY3k1emk3Tkd5bVF3VzVPWmxlU190ZkdlaHl5Mm5PUjNIY0p4YjliVFg1b2gyVUZqUkt5MmxWSU1WNnE5YVpvLUJrZHNoMU1CcWVkUGVGemtLcHRSZTJOczQ4VFNvVnJ3cVVHYmV6anV1THc?oc=5">Saylor Hints at Fresh Bitcoin Buy as Strategy's STRC Preferred Returns to Par</a>
+    <div class="why">Why it matters to BOF: Strategy's STRC preferred stock recently climbed back to its $100 par value after a 165-day stretch below it, which reopens the company's primary at-par issuance channel for funding further bitcoin purchases. Saylor's "connecting the dots" hint circulating Sunday reads as a signal fresh accumulation is imminent now that the funding mechanism works again &mdash; treat it as hint-stage, not a confirmed buy, until the next 8-K lands, but repeated treasury-company demand remains one of the more durable bitcoin-demand sources left standing after last week's ETF outflows.</div>
+    <div class="when">Broke: Sunday morning, ~10:25am ET, via aggregator pickups of Saylor's social commentary</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Ecosystem &amp; Infrastructure · Custody Tail-Risk</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://decrypt.co/382761/bitcoin-developer-quantum-landmines-losing-bet">This Bitcoin Developer's Idea Would Make Quantum Attacks a Losing Bet</a>
+    <div class="why">Why it matters to BOF: quantum-computing risk to bitcoin's cryptography is a real, if distant, tail-risk discount that institutional allocators and custodians price into long-horizon bitcoin exposure. A credible mitigation design (making an attack economically unprofitable rather than just technically harder) is incremental progress that chips away at that discount over time &mdash; worth a line to the desk for custody-risk conversations with allocators, even though nothing here is actionable today.</div>
+    <div class="when">Broke: Sunday morning, ~9:01am ET</div>
+  </div>
+
+</section>
+
+<section class="gold">
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">No headline cleared the strict freshness window today &mdash; a genuine weekend dead zone for mining-equity news (issuers don't release on weekends), not an effort gap. Candidates checked and rejected as stale: Goldman Sachs' 2027 gold-target revision (broke Thursday Nov 5, re-syndicated Sunday but not a new development), B2Gold's AISC guidance cut (Nov 4&ndash;5), and the WGC's Q3 central-bank-buying data (Nov 3). No in-window news on Lion One, Lavras, or SilverTiger. For scoreboard context only: GDX closed Friday at $87.60 (+2.2%), a fourth straight up day; gold/silver spot held roughly steady into the weekend per Sunday's last confirmed levels above.</div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Narrative Watch · Competing Store-of-Value Framing</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.theblock.co/news/ecosystems/2026-11-08-vitalik-buterin-says-eth-should-be-valued-as-a-store-of-value-not-a-fee-burning-token-436022">Vitalik Buterin Says ETH Should Be Valued as a Store of Value, Not a Fee-Burning Token</a>
+    <div class="why">Why it matters to BOF: Ethereum's co-founder explicitly repositioning ETH's investment case around a bitcoin-style "store of value" framing, rather than fee-burning cash-flow value, is a direct bid for narrative share in the one lane bitcoin has mostly owned. Not a threat to BOF's thesis on its own, but worth tracking whether this framing gains traction with allocators who currently default to bitcoin as "the" sound-money asset.</div>
+    <div class="when">Broke: Sunday, ~10:52am ET</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 290" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart showing bitcoin's weekend round trip: Friday's close near 75800 dollars, a Sunday evening low near 73700 dollars (the weekest level since late August), and a recovery to roughly 74800 dollars entering Monday">
+      <line x1="40" y1="170" x2="380" y2="170" stroke="currentColor" stroke-opacity=".6"/>
+      <text x="200" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" opacity=".8">Bitcoin's Weekend Round Trip: Flash Drop, Then Snapback</text>
+      <text x="200" y="30" text-anchor="middle" font-size="8" fill="currentColor" opacity=".6">Approximate BTC/USD, Friday close &rarr; Sunday night low &rarr; Monday morning</text>
+
+      <rect x="60" y="48" width="70" height="122" fill="#0a7d2c" opacity=".55"/>
+      <text x="95" y="42" text-anchor="middle" font-size="9" fill="currentColor" font-weight="700">~$75,800</text>
+      <text x="95" y="185" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Fri close</text>
+
+      <rect x="165" y="78" width="70" height="92" fill="#c8102e" opacity=".75"/>
+      <text x="200" y="72" text-anchor="middle" font-size="9" fill="currentColor" font-weight="700">~$73,700</text>
+      <text x="200" y="185" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Sun night low</text>
+
+      <rect x="270" y="60" width="70" height="110" fill="#0a7d2c" opacity=".75"/>
+      <text x="305" y="54" text-anchor="middle" font-size="9" fill="currentColor" font-weight="700">~$74,800</text>
+      <text x="305" y="185" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Mon morning</text>
+
+      <text x="200" y="208" text-anchor="middle" font-size="8" fill="currentColor" opacity=".55">Figures approximate &mdash; sourced from multiple Nov 8&ndash;9 reports; exact lows vary ~$73.5K&ndash;74K by source</text>
+    </svg>
+    <div class="chart-cap">Bitcoin gave up roughly $2,100 (about 2.8%) from Friday's close to Sunday night's low &mdash; its weakest print since late August &mdash; on a leveraged-long liquidation wave, before clawing back more than half that move by Monday morning. For BOF, the shape of the move (fast down, fast partial recovery) looks more like a positioning flush than a fundamental repricing, but it's the second consecutive weekend this year bitcoin has sold off into thin liquidity rather than tracking equities' own moves &mdash; a pattern worth flagging if it becomes a third.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Monday, November 9, 2026, ~7:20am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
