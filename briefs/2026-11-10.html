@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Tuesday, November 10, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  .datawarn{font-size:.78rem;color:#a67c00;background:#fff8e6;border:1px solid #f0d999;border-radius:8px;padding:8px 12px;margin:10px 0}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    .datawarn{background:#2a2410;border-color:#5a4a1a;color:#e0b84c}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Tuesday, November 10, 2026 · figures as of ~7:25am ET · October CPI lands at 8:30am ET — the session's main event. Bitcoin is <strong>not</strong> following Monday's big equity rally (S&amp;P 500 +2.35%, Nasdaq +2.74%, both best days in months), a correlation break worth flagging against 2026's usual BTC-Nasdaq linkage</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<div class="datawarn">Data note: the automated prefetch (data/latest.json) last landed Monday ~5:20pm ET and today's ~7:15am ET refresh had not posted by publish time, so BTC/ETH/F&amp;G/network/Deribit-basis figures below are last night's confirmed prints, cross-checked against independently-dated Tuesday-morning web sources where possible. BTC cross-check: two Tuesday ~1-2am ET snapshots (Bitcoin.com $74,637 @07:19 UTC, CoinGecko ~$74,766 @06:00 UTC) both sit just under Monday's $74,938 print — consistent with "flat to slightly down," not a fresh move. Gold cross-checks tightly: Trading Economics' confirmed Monday close ($4,141.37, +1.74%) matches the prefetch's $4,141.40 almost exactly, and Tuesday AM sources (Kitco, JM Bullion, Investing.com) show a modest ~0.3-0.6% pullback from there. Silver's fresher print isn't independently confirmable this morning; last night's $53.56 is used. GDX's Monday close isn't confirmable via search (quote-aggregator results disagree, $84-$92 depending on source/date); the scoreboard uses an intraday-sourced range instead and flags it as such. The prefetch's ETF-flow field is again unusable boilerplate JS (known recurring issue) and its 10-year-yield fetch returned null — both filled via web search. No in-window news on Lion One, Lavras, or SilverTiger despite a dedicated search.</div>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$74,600&ndash;74,900</div>
+      <div class="chg neutral">Roughly flat overnight (Monday prefetch $74,938, +0.56% 24h; Tuesday ~1&ndash;2am ET snapshots $74,637&ndash;74,766) &mdash; notably didn't participate in Monday's equity surge. 24h range ~$73,709&ndash;75,477</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$2,125</div>
+      <div class="chg down">-0.22% per Monday's prefetch (~5:20pm ET) &mdash; no fresher confirmed print this morning</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">29 (Fear)</div>
+      <div class="chg neutral">Up 1pt from Monday's 28 &mdash; still Fear, consistent with bitcoin's muted reaction to the equity rally; today's fresh read not yet confirmed</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$4,115&ndash;4,130 / ~$53.56</div>
+      <div class="chg neutral">Gold pulling back modestly this morning after Monday's strong +1.74% close to $4,141.37; silver's last confirmed level is Monday's $53.56, fresher print unavailable</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">~+3% Mon (approx.)</div>
+      <div class="chg up">Intraday-sourced vs. Friday's $87.60 close (no confirmable official close); gold miners led a broad TSX rally Monday, outrunning gold's own +1.74% &mdash; the operating-leverage pattern EMA's book is built for</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)*</div>
+      <div class="value">+6.05% / +6.60%</div>
+      <div class="chg neutral">BTC-20NOV26 (10d) / BTC-27NOV26 (17d), Monday ~5:20pm ET print &mdash; mild contango, modest carry cost on futures-held exposure, no stress signal</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">-$201M Mon</div>
+      <div class="chg down">Third straight outflow day (streak began Nov 5); IBIT -$213M, Morgan Stanley's MSBT the lone inflow (+$22.06M). ~$269M in 24h liquidations reported</div>
+    </div>
+    <div class="tile">
+      <div class="label">Equities / DXY / 10Y</div>
+      <div class="value">S&amp;P +2.35% Mon</div>
+      <div class="chg neutral">Monday's close: S&amp;P 7,549.94 (best day since April 8), Nasdaq +2.74% to 25,253.14. Tuesday AM futures mixed (Dow +0.5%, S&amp;P +0.2%, Nasdaq-100 -0.35% on Nvidia/Jensen Huang headlines). DXY ~101.7 (-0.59%); 10Y ~4.88-4.9%, with Fed-hike (not cut) odds in focus ahead of CPI</div>
+    </div>
+  </div>
+  <div class="note">Network: hashrate ~961.8 EH/s, difficulty ~148.4T (Monday prefetch, essentially flat). No in-window news on Lion One, Lavras, or SilverTiger. No fresh Strategic Bitcoin Reserve, CLARITY Act floor action, or MSCI bitcoin-treasury decision &mdash; all remain standing watch items, no movement today.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows · Correlation Break</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/daybook-us/2026/11/10/bitcoin-breaks-with-stocks-declines-as-etf-outflows-mount-mara-sells-holdings">Bitcoin Breaks With Stocks as ETF Outflows Mount, MARA Sells Some BTC</a>
+    <div class="why">Why it matters to BOF: Monday was the kind of session bitcoin usually tracks given 2026's mostly-positive BTC-Nasdaq correlation &mdash; the S&amp;P's best day since April, the Nasdaq up 2.74% &mdash; but bitcoin didn't follow, drifting flat-to-down instead while spot ETFs logged a third straight outflow day (-$201M, IBIT -$213M) and a major miner (MARA, below) sold bitcoin into the move. That's a live correlation-regime flag: if the decoupling holds through today's CPI print, it argues bitcoin-specific selling pressure (ETF redemptions, miner supply) is currently outweighing the macro/risk-asset beta that's driven most of 2026's price action, which changes how BOF should size futures-held exposure around today's data.</div>
+    <div class="when">Broke: Tuesday morning (Nov 10), CoinDesk's US Daybook</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Miners &amp; Infrastructure · Balance-Sheet Health</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.theblock.co/news/business/2026-11-09-mara-q3-earnings-net-profit-bitcoin-sale-ai-pivot-436950">MARA Posts $634 Million Q3 Net Profit on Bitcoin Gains, Sells 13,597 BTC to Pay Off Loans</a>
+    <div class="why">Why it matters to BOF: MARA used bitcoin-treasury gains to retire debt on its own terms rather than being forced into a fire sale &mdash; a healthy deleveraging, not a distress signal, and a reminder that the largest miners are cleaning up balance sheets while BTC marks are strong. That's the opposite of the stressed-miner, buy-the-debt setup BOF screens for; the open question is whether smaller, higher-cost operators get the same opportunity before the next hashprice air pocket forces their hand instead.</div>
+    <div class="when">Broke: Monday ~5:07pm ET (Nov 9)</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate · Treasury-Company Demand</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://cointelegraph.com/news/strategy-buy-1036-bitcoin-holdings-850364-btc">Strategy Buys 1,036 Bitcoin as BTC Holdings Climb to 850,364</a>
+    <div class="why">Why it matters to BOF/EMA: treasury-company accumulation continued right through a third straight ETF-outflow day, showing the corporate-balance-sheet bid for bitcoin hasn't gone away even as the passive/ETF channel turns net-negative. Useful corrective for how much weight the desk puts on the daily ETF-flow headline alone as a demand gauge &mdash; the fuller picture includes this channel too.</div>
+    <div class="when">Broke: Monday ~8:29am ET (Nov 9)</div>
+  </div>
+
+</section>
+
+<section class="gold">
+  <h2 class="gold">Gold &amp; Silver</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities · Tape</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWFItUGNPRWRjVlpYelh3eGN5eTBVX0lUeWRkTmxfZW5QYXJkdkRFM012MFJqczdGdnB5dVdNdjZrMzVXMEI0MjN1OC11YzdlNXhDQmszRUU4b0RtRHhRelZkdFNvZjBBeVhHMV9hN2JPTHRoc3pZQm9iell1U1ZwUGpDVGhncmhxNkNXYi1HUzFmdDQ0NEd4aTRJQkdmOG14cXM4TUNlLV9yUFdKWGV5MnV3RlliZkNVczRqcmpGaGs0bzhCdXBNQkxsVjFybzZqOG9EVG91b2hSLVlNS2lZUg?oc=5">TSX Climbs About 1.6% Above 36,300 as Gold Miners and Banks Power a Broad Rally</a>
+    <div class="why">Why it matters to EMA: Canadian gold miners &mdash; the core of EMA's book &mdash; led a broad TSX rally Monday, outperforming the headline index. That's the operating-leverage thesis (miners up more than the metal) EMA sells against bullion ETFs playing out in real time, not just a thesis on paper.</div>
+    <div class="when">Broke: Monday ~5:10pm ET (Nov 9)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities · Relative Strength</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQlRod2kzNWlOYWFtR204T0RHRlFPNjBwRFBNeWh2enlCRHVYY2dCTE9sZVlaSHAwNXhPOU1RWDdKMlFZVVowSGRwQlQ1N2NiZXRKNE1IcDJudm5GWnE0Y002WDE3VjUxQjNYUzBsZExiTVJOMi13ZVA4d3h1NlV5eGF6a0Q5RnVSZFU1SjN2YnFvNXhFdmU2eTMwbFUzaGRBN1l3RENoZHVUQQ?oc=5">The Precious Metals Sector's Impressive Relative Breakout &mdash; And What It Portends</a>
+    <div class="why">Why it matters to EMA: a relative-strength breakout in precious-metals equities versus the broader market is exactly the technical confirmation EMA's producer/developer/junior book needs to validate that the metals bid is broadening into equities, not staying confined to bullion.</div>
+    <div class="when">Broke: Monday ~1:09pm ET (Nov 9)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities · Name-Specific</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiygFBVV95cUxNSmtRY2tLRGxfQVI2ZFNJNHVUZ08xQ04zWEJYOUs0ZHM0Q2NyNGZMdmsxMUk0QXgyXzZNUXcxT3RCLW9DRjZRZzlJam1idm01NUp1Yk53Ni1seXZ4T1hVVVl5cVA3Wkd1YVUxR2FCcEh2bjdFakdGQlBja1lYV3FXM1E2aGJPRGtaMllLZXIyNmZtSXM5MVhuYkM1YjVfYkZvNFhuM1JndURJVnJkUUcya1I1c2FhTTNQcHlSTXlpVUgyZGc2MHVZWFdR0gHPAUFVX3lxTE5EbEhpN3UzVlBWWVkwX29TUEMwcF9hTU9YWWoweU1QYkxDQW9tM3dDLVRUWmNpSU5IVjhhMm0wUllmdDhHSDYwazJPYlpHeERqSVBuSW5FNWFUX2tBb3pRVmh5UnJTYWlqR0VIRVI3WWYxVERCdFEyUjdXQ1Z0UjJ3bkhDdHM3OVdLTGdEN09ocHRKLXl3TTAxY2FSNTIwWFFtanFhbG9tdi1oSGV6YzY5dXRyYkN1YjY1MS03M1FhdHpmdTJKLTdkZjl3V2dObw?oc=5">The Bet Behind Wheaton Precious Metals' Rally</a>
+    <div class="why">Why it matters to EMA: Wheaton is a top-tier streaming/royalty name in the mining-equity space and skews more bullion-correlated than EMA's driller-heavy book, but a dedicated piece on what's driving its rally (record Q3 results layered on the metals bid) is useful read-through color for the sector's current earnings/sentiment backdrop.</div>
+    <div class="when">Broke: Monday ~2:37pm ET (Nov 9)</div>
+  </div>
+
+  <div class="section-sub">No in-window news on Lion One, Lavras, or SilverTiger despite a dedicated search &mdash; standard junior-driller newsflow gap, not an effort gap.</div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate · Allocator Conviction</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://bitcoinmagazine.com/news/amundi-boosts-strategy-mstr-stake-44">Amundi Boosts Strategy (MSTR) Stake 44% to $291 Million as Shares Slide</a>
+    <div class="why">Why it matters to BOF: a major European asset manager adding meaningfully to its MSTR position while the stock slides is a contrarian allocator signal worth pairing with the Strategy BTC purchase above &mdash; some traditional-finance buyers appear to be averaging into treasury-company weakness rather than exiting it.</div>
+    <div class="when">Broke: Monday ~3:39pm ET (Nov 9)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows · Custody Demand</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://bitcoinmagazine.com/news/blackrock-bitcoin-whales-self-custody-ibit">BlackRock: Security Fears Are Driving Bitcoin Whales Into IBIT</a>
+    <div class="why">Why it matters to BOF: large holders reportedly rotating from self-custody toward IBIT on security concerns (fallout from the $6.3B Binance hack is still being laundered through memecoins, also in today's pool) is a structural tailwind for the regulated-custody ETF channel that runs independent of today's negative headline flow number &mdash; a demand driver worth tracking on its own timeline.</div>
+    <div class="when">Broke: Monday ~11:30am ET (Nov 9)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Regulation &amp; Policy · Senate Banking</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.theblock.co/news/regulation/2026-11-09-senate-banking-elizabeth-warren-scrutiny-prediction-markets-trump-crypto-ventures-436898">Elizabeth Warren Vows Scrutiny of Prediction Markets, Trump Family Crypto Ventures as Senate Banking Chair</a>
+    <div class="why">Why it matters to BOF: Warren's ascension to Senate Banking chair puts a crypto skeptic in a position to slow-walk CLARITY Act negotiations and widen scrutiny of White House-adjacent crypto ventures &mdash; a regulatory headwind worth factoring into CLARITY Act timeline assumptions, even with no floor-vote movement today.</div>
+    <div class="when">Broke: Monday ~3:04pm ET (Nov 9)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Regulation &amp; Policy · Stablecoins</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://bitcoinmagazine.com/news/td-cowen-stablecoin-yield-ban-10-odds">TD Cowen Gives Stablecoin Yield Ban 10% Odds as Banks Plan Push in Democrat-Led Congress</a>
+    <div class="why">Why it matters: low odds on a stablecoin-yield ban is incrementally supportive of the yield-bearing products that intersect with bitcoin-ecosystem liquidity; a low-probability-event framing today, but worth a line for the regulatory tracker.</div>
+    <div class="when">Broke: Monday ~12:06pm ET (Nov 9)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Narrative Watch · Sentiment</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://bitcoinmagazine.com/videos/krakens-dave-ripley-that-was-the-bear-market-and-bitcoin-is-on-our-way-out-of-it">Kraken's Dave Ripley: "That Was the Bear Market" and Bitcoin Is "On Our Way Out of It"</a>
+    <div class="why">Why it matters to BOF: a top exchange CEO calling the recent drawdown "the bear market" in the past tense is a notable sentiment marker precisely because it landed hours before Monday's equity rally failed to lift bitcoin and a third straight ETF-outflow day printed &mdash; a useful contrarian data point on how exchange-side sentiment can diverge from near-term price/flow action.</div>
+    <div class="when">Broke: Monday ~9:37am ET (Nov 9)</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 290" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart comparing Monday's percentage gain in gold spot, about 1.74 percent, versus the VanEck Gold Miners ETF GDX, approximately 3 percent, illustrating mining-equity operating leverage to the metal">
+      <line x1="40" y1="170" x2="380" y2="170" stroke="currentColor" stroke-opacity=".6"/>
+      <text x="200" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" opacity=".8">Mining Equities Outrun the Metal</text>
+      <text x="200" y="30" text-anchor="middle" font-size="8" fill="currentColor" opacity=".6">Monday's session: gold spot vs. GDX (VanEck Gold Miners ETF)</text>
+
+      <rect x="90" y="122" width="80" height="48" fill="#b8860b" opacity=".65"/>
+      <text x="130" y="116" text-anchor="middle" font-size="9" fill="currentColor" font-weight="700">+1.74%</text>
+      <text x="130" y="185" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Gold spot</text>
+
+      <rect x="230" y="86" width="80" height="84" fill="#0a7d2c" opacity=".75"/>
+      <text x="270" y="80" text-anchor="middle" font-size="9" fill="currentColor" font-weight="700">~+3%</text>
+      <text x="270" y="185" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">GDX (approx.)</text>
+
+      <text x="200" y="208" text-anchor="middle" font-size="8" fill="currentColor" opacity=".55">Gold's gain is Monday's confirmed close (Trading Economics); GDX's is intraday-sourced, no official close independently confirmed via search</text>
+    </svg>
+    <div class="chart-cap">Gold miners outran the metal itself Monday &mdash; roughly 3% for GDX against gold spot's already-strong 1.74% &mdash; the operating-leverage pattern that's the core argument for owning EMA's producer/developer/junior book instead of (or alongside) bullion ETFs. It's also consistent with the day's broader tape: the TSX gold-miner-led rally and a "precious metals relative breakout" piece both landed within the same session (see Gold &amp; Silver section above). The open question for EMA is durability &mdash; whether equities keep outrunning the metal through today's CPI print, or give back the differential if gold's own rally stalls.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Tuesday, November 10, 2026, ~7:25am ET · morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates · <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
