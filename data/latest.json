@@ -1,13 +1,13 @@
 {
- "fetched_at_utc": "2026-11-10T18:39:21+00:00",
+ "fetched_at_utc": "2026-11-10T19:43:03+00:00",
  "errors": [
   "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)"
  ],
  "spot": {
-  "btc": 73548,
-  "btc_24h_pct": -1.35,
-  "eth": 2043.38,
-  "eth_24h_pct": -3.75,
+  "btc": 73289,
+  "btc_24h_pct": -2.34,
+  "eth": 2037.43,
+  "eth_24h_pct": -4.62,
   "source": "coingecko"
  },
  "fear_greed": {
@@ -16,32 +16,32 @@
   "yesterday": 29
  },
  "network": {
-  "hashrate_ehs": 961.5,
+  "hashrate_ehs": 963.2,
   "difficulty": 148364561003867.4
  },
  "metals": {
   "gold": {
-   "usd": 4030.5,
-   "paxg_crosscheck": 4020.39
+   "usd": 4029.0,
+   "paxg_crosscheck": 4018.19
   },
   "silver": {
-   "usd": 51.49
+   "usd": 51.51
   }
  },
  "futures_basis": [
   {
    "instrument": "BTC-20NOV26",
    "days": 9,
-   "ann_basis_pct": 5.73
+   "ann_basis_pct": 6.55
   },
   {
    "instrument": "BTC-27NOV26",
    "days": 16,
-   "ann_basis_pct": 6.28
+   "ann_basis_pct": 6.96
   }
  ],
  "us10y": null,
- "etf_flows_raw": "bles = {\"locale\":\"en_US\"}; //# sourceURL=um_common-js-extra var um_frontend_common_variables = []; //# sourceURL=um_frontend_common-js-extra var um_scripts = {\"max_upload_size\":\"2097152\",\"nonce\":\"de0a04b5d3\"}; //# sourceURL=um_scripts-js-extra {\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://farside.co.uk/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4\"}} /*! This file is auto-generated */ var e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e {o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf() {i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))}); //# sourceURL=https://farside.co.uk/wp-includes/js/wp-emoji-loader.min.js window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a5872ed53a8c8c00',t:'MTc5NDMzNTk5OA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5872ed53a8c8c00',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
+ "etf_flows_raw": "bles = {\"locale\":\"en_US\"}; //# sourceURL=um_common-js-extra var um_frontend_common_variables = []; //# sourceURL=um_frontend_common-js-extra var um_scripts = {\"max_upload_size\":\"2097152\",\"nonce\":\"de0a04b5d3\"}; //# sourceURL=um_scripts-js-extra {\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://farside.co.uk/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4\"}} /*! This file is auto-generated */ var e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e {o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf() {i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))}); //# sourceURL=https://farside.co.uk/wp-includes/js/wp-emoji-loader.min.js window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a5878c05bdb78f23',t:'MTc5NDMzOTgxNQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5878c05bdb78f23',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
  "news_window_start_et": "2026-11-09T08:00-05:00",
  "headlines": [
   {
@@ -142,6 +142,12 @@
   },
   {
    "source": "TheBlock",
+   "title": "Bitcoin slides below $74,000 after hotter-than-expected CPI as analysts warn of drop to $70k",
+   "link": "https://www.theblock.co/news/markets/2026-11-10-bitcoin-price-cpi-inflation-73000-support-437301",
+   "published": "2026-11-10T19:38+00:00"
+  },
+  {
+   "source": "TheBlock",
    "title": "Grayscale pledges $1 million alongside Zcash ad blitz as token and ETF fall 12%",
    "link": "https://www.theblock.co/news/markets/2026-11-10-grayscale-pledges-1-million-alongside-zcash-ad-blitz-as-token-and-etf-fall-12-437277",
    "published": "2026-11-10T17:52+00:00"
@@ -183,10 +189,10 @@
    "published": "2026-11-10T14:26+00:00"
   },
   {
-   "source": "TheBlock",
-   "title": "Visa adds Monad to stablecoin settlement network options",
-   "link": "https://www.theblock.co/news/ecosystems/2026-11-10-visa-monad-stablecoin-settlement-network-437201",
-   "published": "2026-11-10T14:00+00:00"
+   "source": "Decrypt",
+   "title": "Grayscale Bets $1 Million on Zcash as Privacy Coin Tumbles",
+   "link": "https://decrypt.co/382962/grayscale-bets-1-million-on-zcash-as-privacy-coin-tumbles",
+   "published": "2026-11-10T19:16+00:00"
   },
   {
    "source": "Decrypt",
@@ -231,10 +237,10 @@
    "published": "2026-11-10T13:24+00:00"
   },
   {
-   "source": "Decrypt",
-   "title": "Binance Warns of Apple iOS Flaw That Could Expose iPhone Users' Private Keys",
-   "link": "https://decrypt.co/382928/binance-warns-of-apple-ios-flaw-that-could-expose-iphone-users-private-keys",
-   "published": "2026-11-10T12:45+00:00"
+   "source": "BitcoinMagazine",
+   "title": "Poland\u2019s Parliament Votes 240-202 to Let Officials Freeze Crypto Before Court Review",
+   "link": "https://bitcoinmagazine.com/news/poland-votes-240-202-freeze-crypto",
+   "published": "2026-11-10T19:20+00:00"
   },
   {
    "source": "BitcoinMagazine",
@@ -279,22 +285,22 @@
    "published": "2026-11-10T14:43+00:00"
   },
   {
-   "source": "BitcoinMagazine",
-   "title": "Bitcoin Price Trades Down Near $73,500 After Hot CPI Print Lifts Fed Hike Bets",
-   "link": "https://bitcoinmagazine.com/markets/bitcoin-price-trades-near-73900-cpi",
-   "published": "2026-11-10T14:27+00:00"
+   "source": "CNBC",
+   "title": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
+   "link": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html",
+   "published": "2026-11-10T19:42+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe",
+   "link": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
+   "published": "2026-11-10T19:26+00:00"
   },
   {
    "source": "CNBC",
    "title": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
    "link": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
-   "published": "2026-11-10T18:36+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
-   "link": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html",
-   "published": "2026-11-10T18:23+00:00"
+   "published": "2026-11-10T18:48+00:00"
   },
   {
    "source": "CNBC",
@@ -327,12 +333,6 @@
    "published": "2026-11-10T16:36+00:00"
   },
   {
-   "source": "CNBC",
-   "title": "Anthropic's trillion-dollar IPO is coming, but retail investors could have owned AI stock much earlier",
-   "link": "https://www.cnbc.com/2026/11/10/anthropic-ipo-shares-invest.html",
-   "published": "2026-11-10T16:30+00:00"
-  },
-  {
    "source": "CNBC-Econ",
    "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
    "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
@@ -358,6 +358,42 @@
   },
   {
    "source": "MarketWatch",
+   "title": "Should a widow leave her late partner\u2019s home to her stepkids \u2014 or cut off contact with them?",
+   "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
+   "published": "2026-11-10T19:30+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Corporate America is making a trillion-dollar mistake about retirement",
+   "link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
+   "published": "2026-11-10T19:29+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "AMD\u2019s stock fades as investors weigh whether Nvidia\u2019s turmoil will mean lasting wins",
+   "link": "https://www.marketwatch.com/story/amds-stock-fades-as-investors-weigh-whether-nvidias-turmoil-will-mean-lasting-wins-1ecfbc5e?mod=mw_rss_topstories",
+   "published": "2026-11-10T19:17+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "\u2018It feels like he\u2019s quietly building a separate life\u2019: My husband inherited $500,000, but he refuses to spend it on our home",
+   "link": "https://www.marketwatch.com/story/it-feels-like-hes-quietly-building-a-separate-life-my-husband-inherited-500-000-but-he-refuses-to-spend-it-on-our-home-06535cff?mod=mw_rss_topstories",
+   "published": "2026-11-10T19:00+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "\u2018The thought of living to 100 terrifies me\u2019: Is Social Security a giant Ponzi scheme?",
+   "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+   "published": "2026-11-10T18:45+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Americans are more concerned about retirement than ever. Politicians should pay attention.",
+   "link": "https://www.marketwatch.com/story/retirement-is-now-part-of-the-affordability-crisis-politicians-should-pay-attention-2923b2d7?mod=mw_rss_topstories",
+   "published": "2026-11-10T18:41+00:00"
+  },
+  {
+   "source": "MarketWatch",
    "title": "The FDA now says Ozempic, Zepbound and other GLP-1 drugs have a possible risk of vision loss",
    "link": "https://www.marketwatch.com/story/ozempic-zepbound-and-other-glp-1-drugs-have-a-possible-risk-of-vision-loss-b3738f36?mod=mw_rss_topstories",
    "published": "2026-11-10T18:21+00:00"
@@ -369,94 +405,52 @@
    "published": "2026-11-10T18:16+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "\u2018We had the worst fight\u2019: I want my husband to retire at 65, but I don\u2019t want to lose his $280,000 salary. Is that unreasonable?",
-   "link": "https://www.marketwatch.com/story/we-had-the-worst-fight-weve-ever-had-i-want-my-husband-to-retire-at-65-but-i-dont-want-to-lose-his-280-000-salary-48511469?mod=mw_rss_topstories",
-   "published": "2026-11-10T17:45+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Stocks fall as the 10-year Treasury yield reclaims 5%",
-   "link": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
-   "published": "2026-11-10T17:34+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Anthropic officially sets the stage for an IPO valuing the company north of $1 trillion",
-   "link": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories",
-   "published": "2026-11-10T17:33+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "\u2018Boneless couches\u2019 are the new futons",
-   "link": "https://www.marketwatch.com/story/why-renters-are-obsessed-with-these-300-boneless-couches-65a2e4fe?mod=mw_rss_topstories",
-   "published": "2026-11-10T16:01+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Should a widow leave her late partner\u2019s home to her stepkids \u2014 or cut off contact with them?",
-   "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
-   "published": "2026-11-10T16:01+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "\u2018I\u2019m sick of flying\u2019: I paid for priority boarding, but the overhead bins were full. Was I duped?",
-   "link": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
-   "published": "2026-11-10T15:45+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin Treasury Firm Strive\u2019s Preferred Shares Yield Up to 15.9%. What Is the Catch? - 24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObTVTYnBNN09VX1NKN3F2S3NxNzB5YzIwQ3RMY1Bkd0N2N0dIdkFCQ1JhUW0zVUlKZWgtU0VqWTBfVC04NjE3ZmdCa0I1d3NJT0pJdlM4VDBzUmVnVkRPbTBNRGJfZEtvUWxxSzdKcmZaVTlucmRqWXdSMUF5WHg5M3lmVm83SktqODJneW0zZkhBSXFDSFB0c3J6UWdlRmNfN0k1aldhWV9oQktDcmlmdkhkYlNBb0dvWDh6X0hLQUx6UXVhVWhNcnVJY09hdXFkdHdZdWNGOA?oc=5",
+   "published": "2026-11-10T19:39+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Crypto News Today: Is Bitcoin Price Heading To $69,000? - Coinpedia",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQR0poUm9JajJaRXV3WkZQaWRmMU9oeVlzVmpBSTdKSm52bVpDTFl1c1l0SEJVaDJ6Y0xuaWhhUWtsMUpsQ3ZfSm9HeUg5TUtNS0lSUWhtd01TU0R1VUFkcVJKNVdOMkdsQnFodWttQW9tYXVUQURZUlRsSGpZUXpzYm9yeC1XUE5VUkZZ0gGLAUFVX3lxTFBHSmhSb0lqMlpFdXdaRlBpZGYxT2h5WXNWakFJN0pKbnZtWkNMWXVzWXRIQlVoMnpjTG5paGFRa2wxSmxDdl9Kb0d5SDlNS01LSVJRaG13TVNTRHVVQWRxUko1V04yR2xCcWh1a21Bb21hdVRBRFlSVGxIallRenNib3J4LVdQTlVSRlk?oc=5",
-   "published": "2026-11-10T18:28+00:00"
+   "title": "Why is Bitcoin down today? Check the double blow: inflation, liquidations - Seeking Alpha",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZ0QySkpvZ2tleUdqeklYZ2ZnbFp4RXdxRmYxUUdleFlIZmxlUVAtaVliaWhrclRPMzg0YWs4YWh6RHJMLWlpNU9DN0NhQ2RzU19EVklLdGJmZGtGOGR5OUMzdmdkOGdkRmZDOGFZb01pVEwzay1OY3oxREhMQ0xrbm5WNTJOWmE4QzBvS0RMQklNY0hFYnhodE1YQ0VWUnk3VWdqejJ1YVZFM0VE?oc=5",
+   "published": "2026-11-10T19:29+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Trump Media Pledged 11,385 Bitcoin. Could a $1 Billion Note Demand Force It to Sell? - 24/7 Wall St.",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUFRYcEdWUXh5YURBZ0hIcTZrMVYxUlZmTEo1UUxwTGZjWkdab3V5eTJLSHNfYy1TM0xlQ1FqdXBpUE95bnJhYUlpWjc2VVotLXhtTFZVcFp2WU9UR0pZeUJIRlZic2NjRzRodUltTTFfS2FYVXFlVHkxUVF2ajVINTFQd0lHNHVxUzZ0SmNlMXlMSE9sRGlJTmlqX1dqYzJNUEZ3ZEZxS05oUDB2TklIYzJZODg0MHZJeF95TXp5b2lucm1CMkFrWm1xNk5UMlgydHNYUk9B?oc=5",
-   "published": "2026-11-10T18:24+00:00"
+   "title": "Miami-Dade County Now Accepts Bitcoin for Property Taxes - Cryptonews.net",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBYMjRjNGl3RUktb18yQk5GRkZnNjgyVzBSSUtmTld3WWRURjRBX1JOQ3BQR3ZVNGlXOTdUdm8zSjczTUhRdzQ3VmQ0RTVVeXhFcVJtVmw5aXE?oc=5",
+   "published": "2026-11-10T19:20+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin Dev Shares Quantum Computing Defense Proposal, Solo BTC Miners Beat Odds, Digital Asset ETFs See Net Outflows - Crowdfund Insider",
-   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPU0x6LWZXSkZ1SE1tY3BNNGVNMHVCWm9KWk5rQUQ5b3RHcTZvdzZ3dk9tR3RtRHJWSGxNVDFFU1BZMDBXSm5MRzM1NXhKWnNqcVMxX2VENDl1MWxEQ0owX2VaRTZSQnNCNnZLd1VqM3piWVFjYWVhaDVnOXFWX0hUaVVmRWhUZEdmZ29KNHB4dDN0R1RxNm5GbEVHRHBxQXg5cXh6ZEV3eHd6c0tNMFFJSVBHWXUwZnVHMHl6anlHQ3diNjRwSzFTTC0zQ2hrbHhwWWRlOVMtczlfMndCODlhSUlWOFpjSkdYRldnRUQ3T2hadG0ta2RN?oc=5",
-   "published": "2026-11-10T18:06+00:00"
+   "title": "Poland's Parliament Votes 240-202 To Let Officials Freeze Crypto Before Court Review - Bitcoin Magazine",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LbzhaVTVMSnFBTXl1RlFIc0FwdUlMSDFTcnJtMC1kRHNqX0Q4NWVQaFlJTmxTQ1AwSUhzbmMyNFhNQkRFUUZEd1ZQeDBwbXdHdHVObDM0a0FLVEZRU1haZE5xMFpLTVVKTDhJY0g3RUI1cS1FY1E?oc=5",
+   "published": "2026-11-10T19:20+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin ETF Outflows Quickly Rising As Investor Fear Peaks - Santiment",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcHZvNE8yTllBNUNBQl9GNlhnSHU1dlNDZWJCTlhTZjl0UEppLVhRMDdBNG13S3ZEaXhuRGJwVUY0RmEzQnhCY19jY3RZXzAzdjlkODVDWHRQNlE3UFc3b3RtSGl6SE9VTXMyTjhCT1E4NGUxa2pUcGdVRTNmRjhOWnYzT3k1THpNeVFZWkljWGN5RUUyRUdjUkR4X2VidGUyWWJ5OGl2NA?oc=5",
-   "published": "2026-11-10T17:54+00:00"
+   "title": "Bitcoin Miners Now Earn a Third of Their Revenue From AI. Will They Keep Selling Their Bitcoin? - 24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPb1Z0VTA0YWpvcTItUHZFc0Y1eUVCdFhfX1RCeEJGTVk4My1yNkVmaFFMdFJ5blhlcFVjcml3MjhBeEVpZzdTbk9BclVFVGZoMUlGUldIZUhHaVFEVWJKZV9QT0swMFFLQ0tLMEpyUWxQQjRWaHRUSHJmT09icWYtTWRBVTBadm83ODJUbWd1SDhDSGNBNl9OS1RxZFZzVDBraENHcW5tZkFaOVdpdl9HbDVleXF2WXZQeUpuZ3R4b3hOYWs4Tnowal96V0FYWEhQTjRuTHBCWjdZdDBYTHRxb1hoWlRGYjA?oc=5",
+   "published": "2026-11-10T19:14+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Coinbase Falls 4%, Robinhood Slides 3% as Hot Inflation Data Drags Bitcoin Lower; Webull Declines 2% - 24/7 Wall St.",
-   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMEJIVzZDajJZSDNmb3BHVnFJS1VUbTdoOVRqb1IzLW52ckcySTZzampHVl95UzdiV0tTbWYzYXR0VEhQQW9NVnZrMFhsTWZFb2pMU3UxamFOSUFCa28xemJfa1UzMnZoODFXc1pjWjF1dFJCTFAxUnRZcVF3NmtrQ2tMWk9yREZuQ1V6R1NqSGo2eWwxblZKVG5iSFB4b2t3YnhQaThJeWlocWZMSElMSWYxcXhFODRiMVFrbzZMN2JtUlZmUUJTN1plNlZlRTdCT1VQZWF3?oc=5",
-   "published": "2026-11-10T17:51+00:00"
+   "title": "Bitcoin Slips Under $75K as Peter Schiff Says Sell Before a Short Window Closes - Cryptonews.net",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1EN3RlQlBLUlhqekpzV2phckZEUUdUVTNJMEQ0ZkJmc1ZmRFlneWhsX3JRTHc4d291U210c0NrMGdjV0Flbk1BT2dma1BtSzNEbXUyMHpOcEE?oc=5",
+   "published": "2026-11-10T19:11+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin Drops Below $73,000: A \u2018Break From Precedent,\u2019 Peter Schiff Warns - Benzinga",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWGd1ZGVXRzM1Nmk1bEstZ1BlZDJMcDRjbld5WUJJTE5sVVhCZGZzajdmVTlQLU9qd2tQQWpXcl9FVEdVRGFXWXV2dTVWT1pmUER1SVpuT0d4SGR6Q1Y0QmMzV0hCU1dUdDh5bDJSQnYtVzhjU1Y0X3VaUmZfS0xIRU9QVzBKWWlKYTExaDcxYjZFY2FaY1RUVG5FUlNCc2tsN05NZlhoaW12RjlrTkhLM2w2ZHdpdlpOSEJJLVdJRXR3dVNjUnQ2TQ?oc=5",
-   "published": "2026-11-10T17:50+00:00"
+   "title": "Kazakhstan Central Bank Invests $190M in Crypto Funds and Bitcoin ETFs - Cryptonews.net",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBSOWRXUExlSlBvT2l1cjNuaktBWDV4d3k5SVF6Q1REekpubnpRc2lmMklOTXBjMV9YZy1ZNklkalRwcFFaQm1XMWJLVXE5ckVpOUYxcWZtWjk?oc=5",
+   "published": "2026-11-10T19:01+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin\u2019s projected difficulty cut would still leave older S19 rigs short at 5-cent power - CryptoSlate",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYTJwT0Z1OVRJV011UlFjVzNIWDQza055bWZIYlpuanFnSlJGeVdYMDRiSndTaEdWZDdXRjZCWWg3Q1JHeDJsSklHbnFKd3p2NWN6ZzhmeXcyUmZhTlBfNDkwaWFWVV9IZHM0U3pMeWpCMFZldjBYRUR5NDYwLWZ1RldITXlteHhlcElNb1lQTGVkMkc0Q2xlM1VKcUpsSFo5bV84QUZhVmNHaWFfTWZ2TFdpTQ?oc=5",
-   "published": "2026-11-10T17:49+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin Traders Have Borrowed Into a Falling Market 5 Times Since October. How Did the First 4 End? - 24/7 Wall St.",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNSGtvQTlrMWsta0R1dERzWHp0cW13V1BWR1RFeHBEZTdfWlJSN25qVXpOSWRWMWJwWWdyR2h4bmREQVpMSTVORWZfRllBZEJORGpLaTA0NllmNjBWa2pZSkVSTVpRbVZXT1AxU3ZEaHY4LXYxWVpLdUlsX09kQnRmemNMaG95bkt2dkp0ME5VNGdOREVxM1A2UEpfYTBzenpSLWVNZXljYWxFd1JfZ2pFMm5icGUyTmhwdXFWcUQwNGdsaHVscVhnYzl5Q3gzdlczNGFVMFVwYy1wWDl2MG1BQ2k5eHA3c056dkFvTA?oc=5",
-   "published": "2026-11-10T17:47+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Gold price falls nearly 3% as CPI tops forecasts, lifting dollar and yields - Mining.com",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUmdhX09mSFVuOFZhNVh0NTJNRFNNZ0Mta0o1TE5kOVNkbGMwdERGNXZHV2t2b0VQdDJxSFNEb1FRQTYtRXNiQWpxOWlpS0tfcnpPQno3Tm5ZREl4eFk4OFEzQm0zT3VOeExrZXlsSS1TcEEzRFdOUkhXVUFtTFZsUXk1Q0NnbGVOYTFJUkFMMl9BS3oyWUQ2amR5NnVkLUl1Mjc4?oc=5",
-   "published": "2026-11-10T18:28+00:00"
+   "title": "US Bitcoin ETFs Lose $201M as BlackRock Withdrawals Extend the Slump - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVXlLdWl4UGgxRTktbUM0TzB3Tzlpc3h3aXZiaVgyYkNtYkpjanE5MlFtQnBfN2ZHYXplRHVtUGRtQmNvTlEtT0FuMkw4UEhncGlFR2dFOC0tLUxoWFotSFNoRzV3U0lfVWZpbk5qajEydC1Hc2ZvdEUwUzA5b0tOWlQ1Z3p4Vm1vSVNpRHFsa0hVWHRSbkd3TDJ3cVg4bHo3WXdHNTd5YXd2bnZfSGVUM1pMS08weWR5Y25IQXF4WUVHNEU?oc=5",
+   "published": "2026-11-10T19:00+00:00"
   },
   {
    "source": "GoogleNews-Metals",
@@ -499,6 +493,12 @@
    "title": "Gold Price Today: Spot Gold Slides 2.6% to $4,026 as Treasury Yields and the Dollar Climb - JournalArta",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ25EMXhFTWdOemVZc0VQenhYRXd0NHFEem1nNUo0cDBOVll2RUJacFZ2N2lEYVFLdWI2OUdreDNXb3BNcms4ZVdsaUdoV3VweUw4SlFmZWdkYUFqYUpDZElrZDFRdXNuLTRtaVVTNjNEdTI3bzFYZnY4Q2FBb3d5X0VJQXA4MG5nSGxubjhfV0FiTmw2NEpoWHNWZ3FiM24wblljb0pXNFJfdVp0S1h4WGlISmdzWEt0MTVlbElGclhOQQ?oc=5",
    "published": "2026-11-10T16:40+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "India Gold price today: FXStreet data show Gold moving lower - www.tmgm.com",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQa2Nxb1R5VWZBV1ZaVnU5NFBUb1VOdWhmYzdFRy1sSVlBbkN1cTBKc29BODYyR3FJcVZTNTRFa0l6dlZLWnp0SEYxY3FVQl9fSGltYllKWXZUaXNKc0ZyZ05PTm5rQkd5T0V3N2JpNDhmLUp3WURwT2NGVHhHUzdubXAtTERLTUVyX1lJb1JCQkJjS25jNWhQTjBRQ3BGaXJ5VnhsSkF4VWZzZDdTM1A3NDNSMm84bEZjcE5tbXJsZUcteTJIVDJsRg?oc=5",
+   "published": "2026-11-10T16:24+00:00"
   }
  ]
 }
