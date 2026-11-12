@@ -1,13 +1,13 @@
 {
- "fetched_at_utc": "2026-11-12T18:52:49+00:00",
+ "fetched_at_utc": "2026-11-12T19:53:29+00:00",
  "errors": [
   "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)"
  ],
  "spot": {
-  "btc": 71542,
-  "btc_24h_pct": -3.87,
-  "eth": 2008.84,
-  "eth_24h_pct": -3.53,
+  "btc": 71541,
+  "btc_24h_pct": -3.8,
+  "eth": 2011.44,
+  "eth_24h_pct": -3.12,
   "source": "coingecko"
  },
  "fear_greed": {
@@ -16,32 +16,32 @@
   "yesterday": 29
  },
  "network": {
-  "hashrate_ehs": 934.2,
+  "hashrate_ehs": 934.8,
   "difficulty": 148364561003867.4
  },
  "metals": {
   "gold": {
-   "usd": 3879.9,
-   "paxg_crosscheck": 3875.49
+   "usd": 3884.3,
+   "paxg_crosscheck": 3878.38
   },
   "silver": {
-   "usd": 50.21
+   "usd": 50.24
   }
  },
  "futures_basis": [
   {
    "instrument": "BTC-20NOV26",
    "days": 7,
-   "ann_basis_pct": 10.44
+   "ann_basis_pct": 13.52
   },
   {
    "instrument": "BTC-27NOV26",
    "days": 14,
-   "ann_basis_pct": 8.9
+   "ann_basis_pct": 10.4
   }
  ],
  "us10y": null,
- "etf_flows_raw": "bles = {\"locale\":\"en_US\"}; //# sourceURL=um_common-js-extra var um_frontend_common_variables = []; //# sourceURL=um_frontend_common-js-extra var um_scripts = {\"max_upload_size\":\"2097152\",\"nonce\":\"277e1da15d\"}; //# sourceURL=um_scripts-js-extra {\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://farside.co.uk/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4\"}} /*! This file is auto-generated */ var e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e {o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf() {i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))}); //# sourceURL=https://farside.co.uk/wp-includes/js/wp-emoji-loader.min.js window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a597bd31ed28217c',t:'MTc5NDUwOTYwMQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a597bd31ed28217c',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
+ "etf_flows_raw": "bles = {\"locale\":\"en_US\"}; //# sourceURL=um_common-js-extra var um_frontend_common_variables = []; //# sourceURL=um_frontend_common-js-extra var um_scripts = {\"max_upload_size\":\"2097152\",\"nonce\":\"277e1da15d\"}; //# sourceURL=um_scripts-js-extra {\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://farside.co.uk/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4\"}} /*! This file is auto-generated */ var e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e {o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf() {i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))}); //# sourceURL=https://farside.co.uk/wp-includes/js/wp-emoji-loader.min.js window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a59816332cfea0a3',t:'MTc5NDUxMzI0Nw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a59816332cfea0a3',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
  "news_window_start_et": "2026-11-11T08:00-05:00",
  "headlines": [
   {
@@ -172,6 +172,12 @@
   },
   {
    "source": "Decrypt",
+   "title": "Who Is Colette Kress, Jensen Huang\u2019s Successor as Nvidia CEO?",
+   "link": "https://decrypt.co/383189/who-colette-kress-jensen-huang-successor-nvidia-ceo",
+   "published": "2026-11-12T18:55+00:00"
+  },
+  {
+   "source": "Decrypt",
    "title": "Nvidia, AMD, Broadcom: The AI Stock Winners and Losers After Jensen Huang\u2019s Ousting",
    "link": "https://decrypt.co/383146/nvidia-amd-broadcom-ai-stock-winners-loses-jensen-huang",
    "published": "2026-11-12T18:06+00:00"
@@ -213,10 +219,10 @@
    "published": "2026-11-12T14:44+00:00"
   },
   {
-   "source": "Decrypt",
-   "title": "SoFi Brings Its Bank-Issued Stablecoin to Polygon\u2019s Payments Stack",
-   "link": "https://decrypt.co/383096/sofi-brings-bank-issued-stablecoin-polygon-payments-stack",
-   "published": "2026-11-12T14:01+00:00"
+   "source": "BitcoinMagazine",
+   "title": "Binance Says It Has Fully Covered the $6.34 Billion Hack With Company Funds",
+   "link": "https://bitcoinmagazine.com/news/binance-covers-6-34-billion-hack",
+   "published": "2026-11-12T19:12+00:00"
   },
   {
    "source": "BitcoinMagazine",
@@ -261,58 +267,52 @@
    "published": "2026-11-12T14:24+00:00"
   },
   {
-   "source": "BitcoinMagazine",
-   "title": "Bitcoin Price Falls Below $72,000 as Nvidia CEO Jensen Huang Steps Down and Strategy (MSTR) Slides",
-   "link": "https://bitcoinmagazine.com/markets/bitcoin-price-falls-below-72000",
-   "published": "2026-11-12T14:21+00:00"
-  },
-  {
    "source": "CNBC",
-   "title": "Unions helped Democrats win big in 2026. Now they want action",
-   "link": "https://www.cnbc.com/2026/11/12/democrats-unions-midterms-2026.html",
-   "published": "2026-11-12T18:46+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
-   "link": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
-   "published": "2026-11-12T18:44+00:00"
+   "title": "Donald Trump Jr. exits advisory role at Kalshi prediction market",
+   "link": "https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html",
+   "published": "2026-11-12T19:53+00:00"
   },
   {
    "source": "CNBC",
    "title": "\u2018A dark day for Nvidia\u2019: Here\u2019s what analysts have been saying about Jensen Huang\u2019s departure",
    "link": "https://www.cnbc.com/2026/11/12/jensen-huang-nvidia-affair-ceo.html",
-   "published": "2026-11-12T18:41+00:00"
+   "published": "2026-11-12T19:47+00:00"
   },
   {
    "source": "CNBC",
    "title": "Here's what Nvidia interim CEO Colette Kress and board chair Harvey Jones wrote to Nvidia employees",
    "link": "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html",
-   "published": "2026-11-12T18:33+00:00"
+   "published": "2026-11-12T19:42+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Nvidia stock pares morning losses after CEO Jensen Huang announces resignation",
+   "link": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+   "published": "2026-11-12T19:42+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Jensen Huang's Nvidia exit casts shadow over Wall Street\u2019s $500 billion AI financing bet",
+   "link": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+   "published": "2026-11-12T19:33+00:00"
   },
   {
    "source": "CNBC",
    "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
    "link": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
-   "published": "2026-11-12T18:26+00:00"
+   "published": "2026-11-12T19:05+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Nebius falls 16% as company expects increased 2026 capex spend, issues weak outlook",
-   "link": "https://www.cnbc.com/2026/11/12/nebius-q3-earnings-report-2026.html",
-   "published": "2026-11-12T17:53+00:00"
+   "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
+   "link": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
+   "published": "2026-11-12T19:04+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Bain Capital\u2019s head of real estate uses this strategy to counter the economy\u2019s \u2018cocktail of disruption'",
-   "link": "https://www.cnbc.com/2026/11/12/bain-capitals-head-of-real-estate-on-the-cocktail-of-disruption.html",
-   "published": "2026-11-12T17:50+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Scout Motors has 212,000 vehicle reservations as $2 billion South Carolina plant nears completion",
-   "link": "https://www.cnbc.com/2026/11/12/scout-motors-reservations-south-carolina-plant.html",
-   "published": "2026-11-12T17:49+00:00"
+   "title": "Jensen and Lori Huang's Nvidia fortune is jointly controlled. How that makes things complicated now that he's resigned",
+   "link": "https://www.cnbc.com/2026/11/12/inside-jensen-and-lori-huangs-jointly-controlled-nvidia-fortune.html",
+   "published": "2026-11-12T19:00+00:00"
   },
   {
    "source": "CNBC-Econ",
@@ -325,6 +325,36 @@
    "title": "UK economy expands 0.7% in third quarter as AI provides 'extra engine of growth'",
    "link": "https://www.cnbc.com/2026/11/12/uk-gdp-third-quarter-2026.html",
    "published": "2026-11-12T08:02+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "The S&P 500 is shrugging off Nvidia\u2019s selloff. Here\u2019s what\u2019s keeping the rest of the market afloat.",
+   "link": "https://www.marketwatch.com/story/the-s-p-500-is-shrugging-off-nvidias-selloff-heres-whats-keeping-the-rest-of-the-market-afloat-7cdf2f05?mod=mw_rss_topstories",
+   "published": "2026-11-12T19:52+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Trump administration is hiring debt collectors to go after defaulted student-loan borrowers for first time in 6 years",
+   "link": "https://www.marketwatch.com/story/trump-administration-is-hiring-debt-collectors-for-first-time-in-6-years-to-go-after-defaulted-student-loan-borrowers-8bae13ad?mod=mw_rss_topstories",
+   "published": "2026-11-12T19:46+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "The bond market now has an even bigger fear than AI fallout",
+   "link": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories",
+   "published": "2026-11-12T19:29+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Nvidia\u2019s stock selloff may be just beginning, even after shedding 30% from its peak",
+   "link": "https://www.marketwatch.com/story/nvidias-stock-is-on-sale-after-jensen-huangs-exit-but-is-the-selloff-just-beginning-84121513?mod=mw_rss_topstories",
+   "published": "2026-11-12T19:15+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "The prostate-cancer screening rules just changed. Here\u2019s when men should get tested.",
+   "link": "https://www.marketwatch.com/story/the-prostate-cancer-screening-rules-just-changed-heres-when-men-should-get-tested-894418bb?mod=mw_rss_topstories",
+   "published": "2026-11-12T19:12+00:00"
   },
   {
    "source": "MarketWatch",
@@ -345,34 +375,34 @@
    "published": "2026-11-12T18:19+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
-   "link": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
-   "published": "2026-11-12T18:15+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin and Ethereum sink to 3-month lows, but a bigger crypto selloff may be ahead - CryptoSlate",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeTgtRnVpSm5oN0o2RzlQdVVPOUhsQUl5d192dmw2MXpVMzhCY0ZPZVBWelF6MkZUNzFXaEZPdk1YSGhPRVJsNndGTXgwakZJLVVWbXJMNjR6Ty1oY1MtMDNQZklWN3NaczBuTm9GVWlSdWh5Vl9CWngzTnhqeDZMM2FwS1hkc0YwZFc3OF9sUXl3ZWd4cGYwbkV4UDJCM1FrRk4zMlpXc1o3dE0?oc=5",
+   "published": "2026-11-12T19:20+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "Nvidia\u2019s stock is on sale after Jensen Huang\u2019s exit. But is the selloff just beginning?",
-   "link": "https://www.marketwatch.com/story/nvidias-stock-is-on-sale-after-jensen-huangs-exit-but-is-the-selloff-just-beginning-84121513?mod=mw_rss_topstories",
-   "published": "2026-11-12T18:09+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Buy bitcoin stocks: Strategy, Coinbase, miners - CryptoTicker.io",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11V0FRZjRZTHBjMl85Y1JySnAxY2RTcXBYOWlIa0NtVTdQVHk4eXVmd3YxdUVoY1BvR1JRVG5Lemw5QVJTVFpCTmNjQms3MEFxWU8xRmtGeHF2MWZBaXV0MzFJZGdtQ09zT0Vqaw?oc=5",
+   "published": "2026-11-12T19:19+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "The bond market now has an even bigger fear than AI fallout",
-   "link": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories",
-   "published": "2026-11-12T18:08+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Binance Says It Has Fully Covered The $6.34 Billion Hack With Company Funds - Bitcoin Magazine",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53U3ltNDQ4REZpc2JFa3lON0FJd2hlZm1uOFFycC0tV1VBQ0hmNDBaQ2xpSXREUjZCU2tMcy1MTkpTNG5sZE5BN3NMSzd2TzFvR0VCa3FaMzBQM3ZvYkdOeEt1RHZLbzFETm9XZlZ1SmhaUDg?oc=5",
+   "published": "2026-11-12T19:14+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "The trillion-dollar mistake corporate America is making about retirement",
-   "link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
-   "published": "2026-11-12T17:59+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin and Ethereum Face Billion-Dollar Options Expiration Tomorrow\u2014Here\u2019s What You Need to Know - Cryptonews.net",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3Yy1fbEo2azNrZ0dSaXlPLU9hcUVfbG5iZzhLRUlTLTFXa2RGYlJZODhMMDFhcWJaLWU5Rm5oVlRzSEM2SlBRZFIwbTRWZG1MTlQ5RXV5OGdINWs?oc=5",
+   "published": "2026-11-12T18:54+00:00"
   },
   {
-   "source": "MarketWatch",
-   "title": "The scandal at Nvidia is exactly what\u2019s wrong with the S&P 500",
-   "link": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories",
-   "published": "2026-11-12T17:42+00:00"
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin Has Fallen Below What Recent Buyers Paid 14 Times Since 2016. How Often Did BTC Recover Within 2 Weeks? - 24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNY2JySUhYVzVrZVF5MGg3Z2dPRWZaOGVrVVBOdURGTDZHUjBuOW8xRmE0Vzd4SEVtTERmcmlad2E3dU0tcW9TVy1jdkpvY2hBOE5SaEswbE5paDIwOXZpOS05RkNNYmx0X2RXZ3lJd3htUlBIX3JaTGF6dW9taVFYX18tWDJsZG9Hd3ZfZDhScGxmbVY4VUdIVkpSRzZ6TWVkUWlGMnBBNWxDQWVxbXJtSEEza0RzVFA4RFR5TlB6ak5zc1g1SU5DanpXMFIyQkUwOEc4MXREYmR5bGpXRkdnYWZtVm9UWDM1SWZ0bWpOMU1XOHIwSV8xMko1Tkg?oc=5",
+   "published": "2026-11-12T18:52+00:00"
   },
   {
    "source": "GoogleNews-BTC",
@@ -382,45 +412,15 @@
   },
   {
    "source": "GoogleNews-BTC",
+   "title": "Litecoin Fell Below $50 and Sits 88% Under Its All-Time High, Twice as Far as Bitcoin. Will LTC Ever Go Back Up? - 24/7 Wall St.",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPNHF5eDQxaXZUSllhd1dQLTg5NDhZOFoxNWNRLXd0RUlGbHdPUG05cktSX2JQa2NxY09nRkV1bDV3Tko3LXo3TGZfamExMU9RbXg2eEltZ0lOVktZN2FpbXhVNXNSTDJhaXNUdEdLZXZIVDZLeWlNb0tVRnRySzNMMGgxQ0JaNXdGZmRHNFhqdDBpaEpDZHZnTGNqc1dsR3V1UUdwNl9NNTByWkFKRV9Wa2dSVHJfZUVpQ0twMko4eVdQQWtUQmJyVHBvNUl4TDFHSmxiMkxjT1MydlV5LWJObVNfUDZxbXZ6QkIwRzlIVmRoUXphOUE4bHR3?oc=5",
+   "published": "2026-11-12T18:39+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
    "title": "Bitcoin Slumps to $72,000: Blame the 'Known Unknowns,' Says Schwab Analyst - Benzinga",
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQS1JabkdOVkxsRFhKX3UxSGUtZGVobW9ZWHBpREN0cVZYVzVGSDBPS2czd1dyMkc1SDZZUEQ0YXZXTzU1Tk1vZWt4bHhnd2VCUms5OXNZa1EwWVRtS2FLd0VvSFdaMGtOU05qMHFxYkhsZThGc2xIajV4ZElLLWVVaThRbzNZamUwVmhtbzVIcmVqQ0pxV3hXLVpkbUJGSUp2d0Y3Vkh3M1Z6NWRsTGtqV3JRQThOTVNWdjN5NVVXNk52V0VQUFJOeW93?oc=5",
    "published": "2026-11-12T18:22+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Stablecoin Supply Is Shrinking at the Fastest Pace Since June 2022. What Happened to Bitcoin the Last Time? - 24/7 Wall St.",
-   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPSUx6TXJMYnYxSEdBd2p3bUpwWWdBSTcwRFgwM3FkUlVFQi0zSEpMUmxjcnF2U3RINTBGWVNuNFpGS0h1UU4xN0tBUUxaZTFkWnZHRFJpTk4xTERMdG5qVnIxTlNxN0ZOQ3VadzN6eWxVbElicWQtSDZmanhsQlNvZXEwOXE1a3VUN0hfVENSbmFPdEx6a0ZTVHMwTDRoUG4tejFEQmc3bU55ZHp3TVJiQVdTOWlvRGcwVUVjQjhKTU1yNl83bUxsbHhjVElfY1ZRRUxFd1AzeUtRMWluanZ0aG9WX1pnSkxaU1JEVjA3M0FQdnlja1Bn?oc=5",
-   "published": "2026-11-12T18:18+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "U.S. Dollar Swings Are Playing a Bigger Role in Bitcoin Price Moves - North Forty News",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb2l3TVZzc2EtaVc1V0RYS3VETC1RN2lZZzJyZTNldWRVaXRtMkhFaDhkV2hPXzFWd0ZXVzRsRTJ4aU5hZXFlZUZlZ1pvd3dpc1VQV3lObDJqNzVHeVFCMFRxOW1CN0x1aXVXbWVsR2YzZWN4VnhBUG05V0FoeWFya1hnMXd0S2otekY1ME1wcHJQTmJ2SlNoYWZUdk9jRTl6NHBZTDBmSGhwdlhWVTNR?oc=5",
-   "published": "2026-11-12T17:48+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin Price Slides Below $72K As Jensen Huang Exits Nvidia: Is $68,000 Next? - Coinpedia",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZG9GUS1lQW80X0dLaE9vRS1CSEswVG5seGNvdkNCS290b2RqbmRmQkZsVjNBMk5HcmpmOU91cjVsYnFsc2pHTFlCa1g1elMwZWlkOXB3bzRGLWwyXzBNWDB0TEVEb0Y1ZjZxb0plWFZoaTZRQ1k4Y0dhWkZMUkg0eW1fRHN5RmxSZDN6X2ttWnJjM2d2YXZuaFI4OE1IY2JMdHdJ0gGoAUFVX3lxTE5MTloyMzdPdHFCR3gxNm05RVhPRVBnRGhMdHc4bXAxbTdYbk9FVlUzYmZneVZ2NE5uME9xU0doRmtGWVF6clNRazFJZ2ZOdHNYY19rbl81V0RJTS1RVjNHdW1qTWNjLVVrU2RTZlhhcDJjYzFrRWZfWUE1ZVZQRE1GeHBBazZaeU41OC1ERkI2N3pkeWV0SXJGdTdzbmcxLUJZMkJLY2VMVw?oc=5",
-   "published": "2026-11-12T17:44+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin price below $72,000: why BTC is falling today - CryptoTicker.io",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUGtnVVVtY1FGb0tCcENyM3owU0RuU0sycFQ4NkhVMUh3ZVVPSVVReVg0VGdrR2NIOHRySHZjLTlFYU9mTWVJQXJEbm82R2xLRE90RjIzS2RzU2YxVlpLM2V3ckpKQ3AtdlVFTnVyMGNSR1lEdWZxajB0N3BHQ3FYUTlGcG0?oc=5",
-   "published": "2026-11-12T17:42+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin falls to 12-week low as Jensen Huang's exit from Nvidia rattles markets - The Block",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY042bi0yc3k2R3JVSVJCbTNZQkF3dkwwQkM2OFlqcnpiRl9uYlAxSHY2TmNueXVjLVpjejVlNjZoSUlULXR6V2ZWd25wbDBUVGVHVE5LUzFMUmdfaC1DQjVCdERNanRscVZhdlZHZEo0NXNSRHVQQnhnSmVIUjFZaVRXWi1FekYzOUJ2ZjhTZm9TaF95MFRVdXpNaDZkM2N4?oc=5",
-   "published": "2026-11-12T17:40+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Why bitcoin suffers alongside everything else on bad trading days - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa1JCbGZMRV9oUnJFLXlJMjkxcEZLQkFiUGhWclRqT1BWQmFIWXo3NjIyNDY2eW9fN1ZOazJMN0pMOHNZTW5FOUZFQjdJZW1yalQ2WG1uQzVCQTN6ZkNnTHFkNW9leFp0bmVYNWFrV3F1OFNZZWltbnJjRDNNZ2w3T0Fyd3lPR1RJQ1hQdlJKNkw1b0FVN3FBT0xnbDk4N0E1T2J1YU15dDZqdXl0ejBfX1pn?oc=5",
-   "published": "2026-11-12T17:36+00:00"
   },
   {
    "source": "GoogleNews-Metals",
