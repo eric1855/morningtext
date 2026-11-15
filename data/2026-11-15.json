@@ -1,14 +1,14 @@
 {
- "fetched_at_utc": "2026-11-15T17:41:27+00:00",
+ "fetched_at_utc": "2026-11-15T18:50:47+00:00",
  "errors": [
-  "metals: gold 3887.6 vs PAXG 3828.005 diverge >0.75% - web-verify before publishing",
+  "metals: gold 3887.6 vs PAXG 3840.17 diverge >0.75% - web-verify before publishing",
   "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)"
  ],
  "spot": {
-  "btc": 64508,
-  "btc_24h_pct": -2.23,
-  "eth": 1805.58,
-  "eth_24h_pct": -2.32,
+  "btc": 64613,
+  "btc_24h_pct": -1.42,
+  "eth": 1813.62,
+  "eth_24h_pct": -0.85,
   "source": "coingecko"
  },
  "fear_greed": {
@@ -17,13 +17,13 @@
   "yesterday": 13
  },
  "network": {
-  "hashrate_ehs": 926.3,
+  "hashrate_ehs": 925.2,
   "difficulty": 134823837323272.7
  },
  "metals": {
   "gold": {
    "usd": 3887.6,
-   "paxg_crosscheck": 3828.01
+   "paxg_crosscheck": 3840.17
   },
   "silver": {
    "usd": 48.65
@@ -33,16 +33,16 @@
   {
    "instrument": "BTC-27NOV26",
    "days": 11,
-   "ann_basis_pct": 5.76
+   "ann_basis_pct": 3.94
   },
   {
    "instrument": "BTC-4DEC26",
    "days": 18,
-   "ann_basis_pct": 5.77
+   "ann_basis_pct": 4.61
   }
  ],
  "us10y": null,
- "etf_flows_raw": "bles = {\"locale\":\"en_US\"}; //# sourceURL=um_common-js-extra var um_frontend_common_variables = []; //# sourceURL=um_frontend_common-js-extra var um_scripts = {\"max_upload_size\":\"2097152\",\"nonce\":\"952766c20f\"}; //# sourceURL=um_scripts-js-extra {\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://farside.co.uk/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4\"}} /*! This file is auto-generated */ var e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e {o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf() {i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))}); //# sourceURL=https://farside.co.uk/wp-includes/js/wp-emoji-loader.min.js window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a5b00cc7cb249b4f',t:'MTc5NDc2NDUxOQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5b00cc7cb249b4f',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
+ "etf_flows_raw": "bles = {\"locale\":\"en_US\"}; //# sourceURL=um_common-js-extra var um_frontend_common_variables = []; //# sourceURL=um_frontend_common-js-extra var um_scripts = {\"max_upload_size\":\"2097152\",\"nonce\":\"952766c20f\"}; //# sourceURL=um_scripts-js-extra {\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://farside.co.uk/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4\"}} /*! This file is auto-generated */ var e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e {o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf() {i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))}); //# sourceURL=https://farside.co.uk/wp-includes/js/wp-emoji-loader.min.js window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a5b072566cd14757',t:'MTc5NDc2ODY3OQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5b072566cd14757',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
  "news_window_start_et": "2026-11-14T08:00-05:00",
  "headlines": [
   {
@@ -155,15 +155,27 @@
   },
   {
    "source": "CNBC",
-   "title": "Trump breaks silence about FAA nationwide ground stop, blames Biden administration",
-   "link": "https://www.cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html",
-   "published": "2026-11-15T16:56+00:00"
+   "title": "'We slept here': Flight delays linger but schedule is back on track for Monday",
+   "link": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
+   "published": "2026-11-15T18:22+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "DOT Sec. Duffy ties router in southern Arkansas to issues that led to nationwide ground stop",
+   "link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+   "published": "2026-11-15T18:15+00:00"
   },
   {
    "source": "CNBC",
    "title": "Bessent calls for \u2018dramatic shakeup\u2019 at Nvidia, urges outside CEO",
    "link": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
-   "published": "2026-11-15T16:49+00:00"
+   "published": "2026-11-15T18:10+00:00"
+  },
+  {
+   "source": "CNBC",
+   "title": "Trump breaks silence about FAA nationwide ground stop, blames Biden administration",
+   "link": "https://www.cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html",
+   "published": "2026-11-15T16:56+00:00"
   },
   {
    "source": "CNBC",
@@ -179,12 +191,6 @@
   },
   {
    "source": "CNBC",
-   "title": "'We slept here.' Flight delays linger as airlines scramble to recover from ground stop",
-   "link": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html",
-   "published": "2026-11-15T14:24+00:00"
-  },
-  {
-   "source": "CNBC",
    "title": "I'm a psychologist who studies couples\u20145 signs you've fallen into a common rut: 'It builds through small habits that each look harmless'",
    "link": "https://www.cnbc.com/make-it/2026/11/15/couples-coexisting-without-connecting.html",
    "published": "2026-11-15T13:48+00:00"
@@ -194,12 +200,6 @@
    "title": "Rivian, Lucid, Scout CEOs aren\u2019t counting on Democrats to restore EV federal support after midterm wins",
    "link": "https://www.cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html",
    "published": "2026-11-15T13:00+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "Top Wall Street analysts are bullish on these 3 stocks for the long term",
-   "link": "https://www.cnbc.com/2026/11/15/top-wall-street-analysts-are-bullish-on-these-3-stocks-for-the-long-term.html",
-   "published": "2026-11-15T12:49+00:00"
   },
   {
    "source": "MarketWatch",
@@ -251,51 +251,57 @@
   },
   {
    "source": "GoogleNews-BTC",
+   "title": "Heatbit takes preorders for a Bitcoin-mining water heater add-on but warns earnings may be zero - The Cool Down",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUE9SU0NNZGxPcUJaX181Qkp4SWR0ZVNicVhnY3dMamxaMXJ6YmVaUWdYSHdTclh0RE52dTJ2VWdrT0RGckxoT0E3MlBpOU5xNGJOUDJiRE9TVGR1Q2NMbGhrNG1QMGJ2TnNsQk45a1hfVVZqZkhwWFNGTW5oT2xham0yWFpGcE50c2NiM0ZB?oc=5",
+   "published": "2026-11-15T18:44+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin Price Prediction This Week: Will BTC Crash to $60K or Rally to $70K? - CoinGape",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMDFxSzhvdUV0WWdRYVRpTDdOUEs3bGZWeGRnQVAxOHlmVHYweWhGbE13SXRMTm9JR2E5ekhfRkdXd2g5UEp2YWJTQkdvVUpNVWVNd0hsTjYxeWJsUUJXREVPU1dOcVpTQU00eFplcGZWRHBHU1VaRmpZd2FlYlNkUWdXdkZrZ2EwWmloVmxQaDBNUUR4UTFyejJmNnFzdWZER29DUw?oc=5",
+   "published": "2026-11-15T18:30+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "South Florida Dirt: You can now pay your property taxes with Bitcoin - The Real Deal",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYk5XX0oxTHlBNFRXc3NkZ0cwMXdTNnlxdV9YYlVydUJrV0FOT3Z1X0tNWWtweTY3Z2hycDYyQUlTaVh1SVMyMjJHUWNwZURycmFaVjJqTlA2bk5lS1E0ZXNCWjdBcmlrT1FEemMtd2FfeURVMnJwNHBhYWlsZHNzM1VBbGkxWFNWMDhqV1Frc0NUdURHWkRYMnRJQ2NsV0pZQzQ4?oc=5",
+   "published": "2026-11-15T18:06+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "Nic Carter says most Bitcoin treasury firms offer little beyond ETF exposure - Crypto Briefing",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qVDBVUXphYUI2MllNSHNtY2kxSDlyUzBvT1VfTnRyYmlfWGlzYl9XV04wS2VBNHVkUjFLNVotZ2owa3ZMYXYwcVRCSkdDNDlfV2E4M2NVeGdYZXQtMXFyQk5laE1ZRmdqVm5LcVpvdmtqSHFnU2ViRVdEQ3k2clE?oc=5",
+   "published": "2026-11-15T18:06+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "Bitcoin ETFs Lose $2.35 Billion in Two Weeks as Outflow Streak Extends - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUWNSbi1yeVgxQThnWHZfeDlMNERaOEhCQm9mTWp4SWl5LWhLbFlrZ3o4TTRNNTBWb1hMMkM1Nk1UOF80UFpHc0RPZm85eFdsY0RNWjRlNzVmWC1vYm9IREtTRFRONzlvQkJxM2pnMGJSdkYwWVhkNFJlcnEweXRzSnAtcFl3N3BEb0xHdW80dl9IVkd6WHdMVkNQMTlNWlppTjFMVTUxdExsOElMR0Q1LVpGeDcxLU9Bamg3d1R6RGVOZ0k3Unc?oc=5",
+   "published": "2026-11-15T18:00+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "AERO Falls 27% in a Week, Lagging Bitcoin and Ether - The Defiant",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTld1dzBJcG5vVUlja2NQd1Y1eDMwX09ZWlZiWVFRMnMwbkp5dWR4c2JRWjRBZHVmRVhaUFpoVHRaLTlXTE84OGoyblY1MkRqaXZHbG91MV8wN0NmQTJKTGFYSGtmNmVjbllvemwzWUplU1NqWnVxM29WWjRud1k1dmhBU2x6YUV5Z2dHRQ?oc=5",
+   "published": "2026-11-15T17:58+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
+   "title": "Michael Saylor\u2019s Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell? - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSXBIME9PRGtMQi16RUV2Vk5hRVl4YzZVTmpkWTNKR2JRcV9laXM0cl9fN0k4UWNQTXBqLUxVOTlTODlRN0tQMnAxUFR4YVhjWWp3WE0zM250b05QRHJlZVJUbk12X1RPTUtfQWduTFBCZnRJWm10UXowSGFhNkMwNHBCZ0RYYXoxejg4RzY0bHhGeERqUWdHMHpQcUhOR1E?oc=5",
+   "published": "2026-11-15T17:28+00:00"
+  },
+  {
+   "source": "GoogleNews-BTC",
    "title": "Michael Saylor's Strategy Just Lost Its MSCI Index Spot as Bitcoin Plunges. Is MSTR Stock a Sell? - 24/7 Wall St.",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeG5YODNPT0hRNW5INmM3MXVUc3B6SU5Uakg0V3RXVG9HTnUwZWFjaVY0MkpxWllhMFo1dVFiMWl6SVl2TURHcm9tX1l6SVNpYmJ4cENxcHpTLU5wRndwN21Ha3pZNXJfTWpBa2t5VUtLeTFZV0Vrc3NUTkJoYTVnMjRfMEdKOHM0ZXBINVRhWGVwaWNxQlBxSGlNd1dmaFV0S3VSc2R2SGhuZ1EycnRJVGVKTmFsRWJTRUlGWEt4T0ZfUnFjQ2tYa0dKTmxqbXZmSnJBeg?oc=5",
    "published": "2026-11-15T17:28+00:00"
   },
   {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin\u2019s Rebound Is Failing: 3 Reasons BTC Could Face More Pressure - CryptoPotato",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQM2FqbUtnN0hkT2haVXVROFRlY2F1YmJuLUNTUnJZdjlET3dTQTYwdTNwdFNSbzFtcDhvcG1lci13NkVxcEYySVRZN3pDRXBLUHFMaTNULUVuQ2kxblRUdHhuUmlPb0FhazhKaTg3a1VaazRaWVpTUkNnaUxrVFd0SzVPbm81MHhWVzNkeE82SUpqZjdOVkFJ?oc=5",
-   "published": "2026-11-15T17:06+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin vs. Stocks: Is Crypto Really the Best Investment. The Results May Surprise You - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOenV5VVdxS2p1VWNqYW1vVmRrTHZneHBjMHY1emdONWFJSjUyMkk2OVl5cUZpR2xwNEVBQjVsRGhWamV1cjA3MllSX2NVMTZQdjFZS0d3cWp6SDRLdnJBX2pvaE85NHhKeV9uVHdLd2Vsa3BmeUtQeS1UTG1ERl9Qd0hJa0p4VnZwdXU0QnQwc0ppX0t6Y3AtMUZ0ZFM?oc=5",
-   "published": "2026-11-15T17:05+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "'Best Reason to Exist': Dogecoin Creator Defends Bitcoin\u2019s Role as 401(k) Alternative - Cryptonews.net",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9yc3VTdDZLbWtrZTZQNGMyNmNtZnRNb0NmcVNUemQ0WG12T2oyaWpJM3h5Y2MySTk4eE9QNk1OcFJnT0g1VUJyNTVINVZ2TDVpZXRQZlFsSG8?oc=5",
-   "published": "2026-11-15T17:04+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin Price Bounces Off $62K as ETFs Keep Bleeding - Cryptonews.net",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0ydzdXQWVwS2RDOU9aT2NIUVpRUzFBV3BTV0ZBUXRxSmdGYU01Um5fQTFwVDJTZWRJdGtPenl6TmNMR3lRSGlOUmxoZF9NdjdKc1ZVbDVTcF8?oc=5",
-   "published": "2026-11-15T17:01+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin Slides Toward $63,000 as Weekend Selling Tests Market Confidence - TradingView",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX1RRNXU2clpmdzY0TVJMMGFQNVFWMmpkemE2RE85OW9BcU4wZzAxaFFWSFBqa1NqVTBxXzVURVgyWnFfV2x3YTQ2WXpuYWV6ckN0NGk2V3c5QThxZVdZY1MyUWswcVYwSlo2MnUzcXJoOTB4T3Z1bUNCZ1I1Sno5dWJSRkdpZ2tJS01Hc1ZOQU1hOXhsb3Jmc2cwLWlqM1FZbkhyOE51UGdubFdwQVZsSUVWNVNObHR2WEt5VGw2QnRuMjVUMGlrYw?oc=5",
-   "published": "2026-11-15T17:00+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "Bitcoin Slides Toward $62,000 as Sellers Test Long-Term Holders - Briefs Finance",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObXRGYll0MnNuaThXWFB1TkJVSDNzbkJKLTg4dUFnN2ZjSjVuSkZsNzhZVFREcVRZWUsxVzdNazF4YkVObzI1eF9uUW9FQnJYOXdjNkJfYVZuc2sxSkxRSUJyOThGRk1kVUE0SUVpZURIRXpnTF9pRWhiODNxeVY3V1ZBWWQ0UXpxR3Y1UDhZSEZBUQ?oc=5",
-   "published": "2026-11-15T16:54+00:00"
-  },
-  {
-   "source": "GoogleNews-BTC",
-   "title": "The TechBeat: How Bitcoin's Lightning Network Works Under the Hood (11/15/2026) - HackerNoon",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01cFA1Nlk0QkhUS08yb2F0aEJMLXdPdWJNS0o5enplbl9rOWt5bTNVbnA2MGdYd1VLRXFQSEc0TF9sX0NFMTFScmhwR3ZlRlAzdnJ3ag?oc=5",
-   "published": "2026-11-15T16:54+00:00"
+   "source": "GoogleNews-Metals",
+   "title": "Silver Price Forecast: Silver Slides Below $50 as Treasury Yields Jump - FXEmpire",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVFltaFh4T2FEbVUydE1kOGtIWWZGMVF5NUxNRHlvSkQ3Q2hTWmRqZkRldk9nVWUzc3ZZZ1lYaTRGOUlaaGF0clVoYmhOSjdnTTNnWG9uNmdtTHQ0dHE2Z0JOOWhteDl1Y1U0RHZTS2JXUXFPNFFmVWI0WlpmQ3hKSFNjTGNQaWRDRVJaMVlDd1pHbGxObWQteWtoM1NpTnhMMGcySFdEcTlHV1FsN2xma1c3Z0FuTGNZQURJ?oc=5",
+   "published": "2026-11-15T17:55+00:00"
   },
   {
    "source": "GoogleNews-Metals",
@@ -338,12 +344,6 @@
    "title": "Weekly review of Azerbaijan\u2019s precious metals market - Trend News Agency",
    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5iT1pUeE9RNFdOSTBCLTFqS2ZFUWI2UjAzSUxOMXBrM3pEZ3pSTzEzX2pJMHlYUXF3dUk2S0Ezem81bm9md0dkc2tqVE1DamRZR1FvTzhEbw?oc=5",
    "published": "2026-11-15T09:00+00:00"
-  },
-  {
-   "source": "GoogleNews-Metals",
-   "title": "Gold, silver prices today, 15 November: Check retail rates of 24K, 22K, 18K gold, 999 silver in Delhi, Mumbai, Bangalore - Livemint",
-   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNNkZ2aHNGMURpQUpIXzNzVFFkbHFSOXFXNVJvaTNneUc1Vnl2Z0JRMXlhY1E1LUpBMGhSQ3NReFpLV3g0OC1uX1AxNnFWZ00zaWU2bUlmS1JCNGFiTDIzZ09ieXVDUk11eldWbkcwbDNpTm5WVzR2Y3JmaWFRdHN2MXJjMmhjeG9tWHRJQ2JIbEl1dDlsVmVobWJ0TTRXMS1BTWxid2RhRTFOMFN1M0FKR01UcEJ5U2piT3NzOHNLQ1ZZR2NzSFJlSlg5ei1kd3JZQXlBUE1kNGcyelh1eWZiWkxSaExKTEFwUWdZMndoZ2VNYlNHY0xDRV9vTVM3WHhH0gGGAkFVX3lxTE16Q25hZjdlaVRhMXdaWmxhZVgta0lsRTVRdHdqVU5GMG52MlFxbVNuUjN3LXhGMDlhTlNLTjZ0blBpX3EwZ0QyLXphSE9ud21KRFloSllWYkd1R2pIRkluQmdXYVNpMjBWczVuQjd4alVSV196RTFSam9iNFVRQkVHc05zQ0hOYkRrQVN2RG1fY19ic19rV1ZsOUNfM05oOTB3UndGcUYyekNycFVlVl9vbTJtWjdaNVFKTjQtZkFDdjh1bi1SOERfRkFOQ0VqNThVanRWNVMwWU55RlNKNWhpWkh2V3JLVDJmQ1RSWlhFVFdicjBiQlhFaUYzLWxucnNibFI5ZlE?oc=5",
-   "published": "2026-11-15T03:34+00:00"
   }
  ]
 }
