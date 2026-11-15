@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Sunday, November 15, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  .datawarn{font-size:.78rem;color:#a67c00;background:#fff8e6;border:1px solid #f0d999;border-radius:8px;padding:8px 12px;margin:10px 0}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    .datawarn{background:#2a2410;border-color:#5a4a1a;color:#e0b84c}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Sunday, November 15, 2026 &middot; figures as of ~7:30am ET &middot; CME, FX and bond markets remain closed for the weekend, so equities/DXY/10Y below are still Friday's close &mdash; but bitcoin, which trades 24/7, crashed to a four-month low near $62,000 overnight before bouncing back above $65,000. That's a 14% weekly drop one analyst is calling bitcoin's fourth capitulation wave, with Fear &amp; Greed deepening to 10 (Extreme Fear) from 13 Friday. Gold and silver are little changed from Friday's close, holding the line after a rough week, while an AI-driven risk-off wave (Nvidia's leadership crisis, Anthropic's IPO landing into a shaky tape) keeps pulling bitcoin lower in lockstep with Nasdaq.</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<div class="datawarn">Data note: the scheduled 7:15am ET prefetch job did not fire on GitHub Actions' cron and had to be manually re-triggered at ~7:28am ET, landing just under the wire. Metals spot showed PAXG trading at a &gt;1.5% discount to gold spot in the prefetch; web sources (USAGOLD's Friday report, Kitco) corroborate the $3,887-3,891 gold print as the real level, so the discrepancy looks like PAXG/DEX slippage, not bad data. No in-window mining-equity-specific news (producer/developer earnings, junior financings or drill results) or news on Lion One, Lavras, or SilverTiger cleared the freshness window despite a dedicated search — the Gold &amp; Silver section below runs two verified price-action items rather than the standing three.</div>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">$65,423</div>
+      <div class="chg down">-2.52% 24h; fell to a 4-month low ~$62,000 overnight before bouncing; -14% on the week (CoinDesk/Cointelegraph)</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">$1,830.64</div>
+      <div class="chg down">-3.94% 24h, underperforming BTC's bounce</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">10 (Extreme Fear)</div>
+      <div class="chg down">Down from 13 Friday &mdash; deepening for a third straight reading</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$3,888 / ~$48.65</div>
+      <div class="chg neutral">Little changed vs Friday's close; holding the line after a rough week (USAGOLD, Kitco)</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$81.64 (Fri close)</div>
+      <div class="chg down">-0.24% d/d Friday; no fresh weekend print (markets closed)</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)*</div>
+      <div class="value">+5.46% / +5.44%</div>
+      <div class="chg neutral">Nov 27 / Dec 4 contracts: still contango, but carry stays near multi-week lows &mdash; the futures-held-exposure roll yield remains thin as spot grinds through fresh lows</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">-$185.4M (Fri)</div>
+      <div class="chg down">Second straight week of $1B+ outflows (The Block); 2-week cumulative ~-$2.35B; IBIT -$143.5M Friday</div>
+    </div>
+    <div class="tile">
+      <div class="label">Equities / DXY / 10Y</div>
+      <div class="value">S&amp;P -0.4%, DXY 103.41</div>
+      <div class="chg down">Fri close (unchanged over weekend): S&amp;P -0.4%, Nasdaq Comp -0.9%; DXY 103.41 (best week since early Oct); 10Y ~5.153%</div>
+    </div>
+  </div>
+  <div class="note">Network: hashrate 933.3 EH/s, up from 907.8 EH/s Thursday even as difficulty holds flat at 134.82T pending the next retarget &mdash; miners are throwing more hashpower at a falling-price, flat-difficulty environment, which compresses margins further and feeds BOF's distressed-debt pipeline. No fresh Strategic Bitcoin Reserve, CLARITY Act floor action, or new MSCI bitcoin-treasury update since this week's confirmed items. No in-window news on Lion One, Lavras, or SilverTiger.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows &middot; Four-Month Low</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound">Bitcoin Falls to Four-Month Low Near $62K as Crypto Selloff Deepens</a>
+    <div class="why">Why it matters to BOF: this is the freshest print of the weekend's capitulation leg, and it's the lowest level bitcoin has traded since July. Spot has since clawed back to the mid-$65,000s, but a weekend low that breaks through a prior Friday low on thin liquidity &mdash; rather than recovering into the close &mdash; is exactly the kind of forced, non-orderly move that widens bid-ask spreads on miner paper and treasury-company convertibles. Worth watching whether Monday's cash-equity open extends or reverses the bounce.</div>
+    <div class="when">Broke: overnight, ~5:23am ET Sunday, Cointelegraph</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows &middot; Capitulation Signal</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst">Bitcoin Crashes to 3-Month Low Below $63,000 as Analyst Flags Fourth Capitulation Wave</a>
+    <div class="why">Why it matters to BOF: an analyst explicitly labeling this the fourth capitulation wave of the cycle is a timing signal, not just a price observation &mdash; prior waves have been where BOF-style distressed buyers found the best entry points in miner debt and treasury-company paper. The same piece notes bitcoin drifting back into what one analyst calls a "deep value zone," which cuts both ways: deep value for patient capital, but also confirmation that forced selling, not an orderly correction, drove the move.</div>
+    <div class="when">Broke: Saturday ~11:33am ET (Nov 14), CoinDesk</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate &middot; ETF Flows</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337">Bitcoin ETFs Lose $1 Billion for the Second Week in a Row as Crypto Funds, Except One, Continue Bleeding</a>
+    <div class="why">Why it matters to BOF: two consecutive $1B+ outflow weeks is a different animal than a single bad week &mdash; it's the structural, grinding ETF bid-side vacuum this desk has been tracking, now confirmed across a second full week rather than a single data point. Cumulative outflows over the stretch are running near $2.35B. For a fund mandated to buy distress, a persistent drip (rather than one violent capitulation day) is the harder setup to time, but the degree is now large enough that it's doing real technical damage to spot independent of any single headline.</div>
+    <div class="when">Broke: Saturday ~12:50pm ET (Nov 14), The Block</div>
+  </div>
+
+</section>
+
+<section class="gold">
+  <h2 class="gold">Gold &amp; Silver</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Price Action &middot; Weekend Close</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTlk5SXlYN2VNeGlRQ0U1UVhReHhKNWFnSWpVNFZoeUktMHh0SlpnWUxReWNpS094ZEd0VkNHLUt1QlhHc0cwLWJsWjM2NjRYZVZGdllLeHZXVEIwZEFMVlc0RHg0UjM0dm1rZHZYUWtvODBWWTJKQUZoaFY5Yy1VOXNFaDJ5akhCaEtNb01XR19Ud1czalV2OFR6ZVQyTDNwRzJZYms0dHZxMjktb2hESWV3ajdIeWd3a1VZ?oc=5">Gold Price at Close of Session: Trading Floor Red, Gold Under Great Pressure</a>
+    <div class="why">Why it matters to EMA: spot is holding essentially flat around $3,888 since Friday, but the "under great pressure" framing lines up with what's been pinning the metal all week &mdash; a dollar on its best weekly run since early October and a 10-year near 5.15%. For margin assumptions on the producer/developer book, flat-but-pressured is the worse case versus a clean bounce: it argues the next move needs either a dollar reversal or a dovish Fed surprise, neither of which is in view yet.</div>
+    <div class="when">Broke: this morning, ~5:52am ET Sunday, Laodong (Vietnam business desk, wire-sourced)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Silver &middot; Weekly Loss</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMirgFBVV95cUxPLUVhR0kyNm9iS0RXMTdDM0NpTmZwYWhlX2lMVE1iTlpFZkx1eGlFM01UUi1CVmYxRjRVVTF6eXZFV0cyeHZHNG5PZGJzcTJ5bHZtQ1RJclU2VVVONHloenJBclRoZHJHVHJZUFhqOW0tNTlaczl6NWJYanRyTmIta1ZHbWxRRnp5SmFPVGJXbUZFeTg2SHNSeEJJZjAxQ0Z0M280U1AtNlE1RTd0QWc?oc=5">Silver Price Fluctuations: Losses Extend Into the Weekend After a Rough Week</a>
+    <div class="why">Why it matters to EMA: silver is sitting near $48.65, down modestly on the week alongside gold. For a book positioned in silver-miner equities (SilverTiger on the watchlist) rather than SLV itself, a dollar-driven pullback that leaves the structural supply-deficit story intact is a drawdown to look through rather than a reason to de-risk &mdash; but it does mean junior "drill story" financings priced this week will come at tighter terms than a month ago.</div>
+    <div class="when">Broke: Saturday night, ~10:12pm ET (Nov 14), Laodong (Vietnam business desk, wire-sourced)</div>
+  </div>
+
+  <div class="section-sub">No in-window news on Lion One, Lavras, or SilverTiger, and no mining-equity-specific item (producer/developer earnings, junior financing, M&amp;A or permitting) cleared the freshness window despite a dedicated search of TSXV/newswire feeds &mdash; a standard weekend newsflow gap for junior miners, not an effort gap. Running two verified items today rather than the standing three.</div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows &middot; Broader Capital Flight</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto">XRP Crashes to Its Lowest Since November 2024 as Money Leaves Crypto</a>
+    <div class="why">Why it matters to BOF: when the largest altcoins are falling harder than bitcoin, it signals the selloff is a broad capital-flight event out of crypto as an asset class, not a bitcoin-specific or ETF-specific phenomenon &mdash; which argues against reading this weekend's move as an isolated, cheap-entry dislocation and for treating it as part of a wider risk-off wave that happens to be hitting bitcoin too.</div>
+    <div class="when">Broke: Saturday ~9:50pm ET (Nov 14), CoinDesk</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Miners &amp; Infrastructure &middot; Stranded Power</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.coindesk.com/policy/2026/11/13/britain-could-turn-wasted-scottish-wind-power-into-bitcoin-to-cut-its-usd1-3-billion-grid-bill">Britain Could Turn Wasted Scottish Wind Power Into Bitcoin to Cut Its $1.3 Billion Grid Bill</a>
+    <div class="why">Why it matters to BOF: a sovereign grid operator floating bitcoin mining as a curtailment-absorption tool is the mirror image of the AI-vs-mining power competition squeezing miners elsewhere &mdash; it's a potential new category of stranded-energy demand for hashpower that could matter for the economics of specific UK-exposed miners if it moves beyond a proposal.</div>
+    <div class="when">Broke: Friday ~8:00am ET (Nov 13/14 window edge), CoinDesk</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement &middot; AI-Nasdaq Correlation</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html">Nvidia's Leadership Crisis Rattles the AI Trade. Here's How We're Adjusting Our Portfolio</a>
+    <div class="why">Why it matters to both funds: this is the live mechanism behind bitcoin's correlation with Nasdaq this cycle &mdash; Jensen Huang's scandal-driven exit is rattling the AI trade the same weekend bitcoin logs its worst week since the summer, and CNBC's follow-on Sunday piece on Anthropic's IPO landing into "the embattled AI trade" shows the stress is still live into this morning. If AI-sector volatility keeps driving risk sentiment broadly, expect bitcoin's tech-correlated behavior (rather than its gold-like safe-haven behavior) to keep dominating near-term price action.</div>
+    <div class="when">Broke: Saturday ~1:48pm ET (Nov 14), CNBC; follow-on Sunday ~7:00am ET (Nov 15), CNBC</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem Deal Flow &middot; DeFi Hack</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.theblock.co/news/defi/2026-11-14-kava-lend-loses-roughly-3-8-million-to-hack-sending-kava-token-down-nearly-40-440350">Kava Lend Loses Roughly $3.8 Million to Hack, Sending KAVA Token Down Nearly 40%</a>
+    <div class="why">Why it matters to both funds: a nine-figure-percentage token drawdown off a sub-$4M exploit is a reminder of how thin liquidity and leverage have become across DeFi during this drawdown &mdash; the kind of fragility that tends to surface more exploits, not fewer, while risk appetite is this depressed.</div>
+    <div class="when">Broke: Saturday ~6:07pm ET (Nov 14), The Block</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Regulation &amp; Policy &middot; CFTC Friction</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.theblock.co/news/regulation/2026-11-14-louisiana-ag-calls-cftc-chair-an-obsequious-standard-bearer-for-prediction-markets-following-agency-lawsuit-440342">Louisiana AG Calls CFTC Chair an 'Obsequious Standard Bearer' for Prediction Markets Following Agency Lawsuit</a>
+    <div class="why">Why it matters to both funds: a state AG picking a public fight with the CFTC chair over prediction-market oversight is a preview of the kind of federal-state and political friction that could complicate CFTC's expanded role as primary crypto regulator under the CLARITY Act framework once (if) it clears the Senate &mdash; credibility fights at the agency slated to take the lead are worth tracking even when the underlying dispute isn't about crypto directly.</div>
+    <div class="when">Broke: Saturday ~2:06pm ET (Nov 14), The Block</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement &middot; Rates</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMi6wFBVV95cUxPMVEwM2Z5NVdsNUsyaUl1VG9CekhNaXF3dzBvT1UwSXUtcjhlbWdUNG1paHVaRzJPZ1o0NjZlZzJZVmMxZmVxSFdaaTRYc1g5a3JXZUs1djNkZlNyVjR0aThoaWRSTHZOUElweFRIdTM2d0trRjVXR1l1YTk1UnhRSkVkenZ6bUgwLW5ldjd6RlcyMXQ1Q0J4Vm81d0UwamZ3bWpjRUdfZGpfNy1GV3BKT3poMFpjMXRUZ1RNaERIdEx3S05faGhUdThEUVRWT1hIWjg5QTNXalNmZ2owcjBoTVcyTFZMRlhLVHZV?oc=5">Bond Yields Climb, Schiff Warns of Housing and Bitcoin Crashes: This Weekend in Economics</a>
+    <div class="why">Why it matters to both funds: rising bond yields are the common transmission channel pressuring bitcoin and capping gold at once &mdash; higher real rates raise the opportunity cost of holding both non-yielding gold and non-yielding bitcoin. Peter Schiff's framing (a gold bull, bitcoin skeptic) is worth noting for contrast: he reads this week's action as validating gold over bitcoin, which is the live debate both funds' investors are having in real time.</div>
+    <div class="when">Broke: Sunday morning, ~6:00am ET (Nov 15), TradingView/Google News</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart showing the Bitcoin Fear and Greed Index falling over three readings this week: 20 on Thursday, 13 on Friday, and 10 on Sunday, illustrating sentiment deepening into extreme fear as bitcoin fell toward a four-month low">
+      <line x1="40" y1="190" x2="380" y2="190" stroke="currentColor" stroke-opacity=".6"/>
+      <text x="200" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" opacity=".8">Fear &amp; Greed Keeps Sliding</text>
+      <text x="200" y="30" text-anchor="middle" font-size="8" fill="currentColor" opacity=".6">Bitcoin Fear &amp; Greed Index, three readings this week</text>
+
+      <rect x="70" y="86" width="70" height="104" fill="#e0b84c" opacity=".6"/>
+      <text x="105" y="80" text-anchor="middle" font-size="11" fill="currentColor" font-weight="700">20</text>
+      <text x="105" y="205" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Thursday</text>
+
+      <rect x="185" y="122" width="70" height="68" fill="#c8102e" opacity=".55"/>
+      <text x="220" y="116" text-anchor="middle" font-size="11" fill="currentColor" font-weight="700">13</text>
+      <text x="220" y="205" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Friday</text>
+
+      <rect x="300" y="138" width="70" height="52" fill="#c8102e" opacity=".75"/>
+      <text x="335" y="132" text-anchor="middle" font-size="11" fill="currentColor" font-weight="700">10</text>
+      <text x="335" y="205" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Sunday</text>
+
+      <text x="200" y="228" text-anchor="middle" font-size="8" fill="currentColor" opacity=".55">Alternative.me Crypto Fear &amp; Greed Index, as reported in morningtext prefetch data</text>
+    </svg>
+    <div class="chart-cap">The read for both funds: sentiment has now deepened for three straight readings, from greed-adjacent 20 on Thursday to 10 (Extreme Fear) this morning &mdash; a level that has historically marked capitulation zones rather than mid-cycle corrections. For BOF, a sentiment reading this depressed alongside a confirmed "fourth capitulation wave" and a second straight $1B+ ETF-outflow week is the closest this desk has seen to the forced-selling conditions that produce genuine distress opportunities in miner debt and treasury-company paper. For EMA, the fact that gold and silver have held roughly flat through bitcoin's violent weekend move is itself a data point: the debasement trade's two legs are, for now, decoupled, with gold acting more like a safe haven and bitcoin trading like a leveraged tech proxy.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Sunday, November 15, 2026, ~7:45am ET &middot; morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates &middot; <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
