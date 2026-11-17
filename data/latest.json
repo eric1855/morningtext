@@ -1,97 +1,108 @@
 {
- "fetched_at_utc": "2026-11-16T22:01:06+00:00",
+ "fetched_at_utc": "2026-11-17T12:19:29+00:00",
  "errors": [
-  "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)",
-  "feed:GoogleNews-Metals: HTTPError: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%22gold+price%22+OR+%22silver+price%22+OR+%22precious+metals%22+OR+%22gold+miners%22&hl=en-US&gl=US&ceid=US:en"
+  "fred_dgs10: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=30)"
  ],
  "spot": {
-  "btc": 65253,
-  "btc_24h_pct": 0.41,
-  "eth": 1828.6,
-  "eth_24h_pct": 0.56,
+  "btc": 64818,
+  "btc_24h_pct": 1.38,
+  "eth": 1813.8,
+  "eth_24h_pct": 1.23,
   "source": "coingecko"
  },
  "fear_greed": {
-  "value": 10,
+  "value": 12,
   "classification": "Extreme Fear",
   "yesterday": 10
  },
  "network": {
-  "hashrate_ehs": 972.6,
+  "hashrate_ehs": 972.1,
   "difficulty": 134823837323272.7
  },
  "metals": {
   "gold": {
-   "usd": 3859.05,
-   "paxg_crosscheck": 3843.59
+   "usd": 3867.37,
+   "paxg_crosscheck": 3852.44
   },
   "silver": {
-   "usd": 46.88
+   "usd": 47.62
   }
  },
  "futures_basis": [
   {
    "instrument": "BTC-27NOV26",
-   "days": 10,
-   "ann_basis_pct": 8.51
+   "days": 9,
+   "ann_basis_pct": 6.21
   },
   {
    "instrument": "BTC-4DEC26",
-   "days": 17,
-   "ann_basis_pct": 7.12
+   "days": 16,
+   "ann_basis_pct": 5.72
   }
  ],
  "us10y": null,
- "etf_flows_raw": "bles = {\"locale\":\"en_US\"}; //# sourceURL=um_common-js-extra var um_frontend_common_variables = []; //# sourceURL=um_frontend_common-js-extra var um_scripts = {\"max_upload_size\":\"2097152\",\"nonce\":\"f1148ec427\"}; //# sourceURL=um_scripts-js-extra {\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://farside.co.uk/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4\"}} /*! This file is auto-generated */ var e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e {o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf() {i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))}); //# sourceURL=https://farside.co.uk/wp-includes/js/wp-emoji-loader.min.js window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a5b9c6817a8a063e',t:'MTc5NDg2NjQ5OA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5b9c6817a8a063e',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
- "news_window_start_et": "2026-11-15T08:00-05:00",
+ "etf_flows_raw": "bles = {\"locale\":\"en_US\"}; //# sourceURL=um_common-js-extra var um_frontend_common_variables = []; //# sourceURL=um_frontend_common-js-extra var um_scripts = {\"max_upload_size\":\"2097152\",\"nonce\":\"9a4f40b967\"}; //# sourceURL=um_scripts-js-extra {\"baseUrl\":\"https://s.w.org/images/core/emoji/17.0.2/72x72/\",\"ext\":\".png\",\"svgUrl\":\"https://s.w.org/images/core/emoji/17.0.2/svg/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https://farside.co.uk/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4\"}} /*! This file is auto-generated */ var e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e {o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf() {i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))}); //# sourceURL=https://farside.co.uk/wp-includes/js/wp-emoji-loader.min.js window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9L3JQ1VM0Y'); window.onscroll = function() {scrollFunction()}; function scrollFunction() { if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) { document.getElementById(\"logosize\").style.width = \"100px\"; document.getElementById(\"logosize\").style.height = \"48px\"; document.getElementById(\"headercss\").style.opacity = \"0.8\"; } else { document.getElementById(\"logosize\").style.width = \"240px\"; document.getElementById(\"logosize\").style.height = \"115px\"; document.getElementById(\"headercss\").style.opacity = \"1\"; } } (function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a5beafe6cedc41f8',t:'MTc5NDkxODAwMQ=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5beafe6cedc41f8',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})(); ",
+ "news_window_start_et": "2026-11-16T08:00-05:00",
  "headlines": [
   {
    "source": "CoinDesk",
-   "title": "Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid",
-   "link": "https://www.coindesk.com/markets/2026/11/16/former-robinhood-engineer-pleads-guilty-to-insider-trading-scheme-on-hyperliquid",
-   "published": "2026-11-16T21:51+00:00"
+   "title": "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows",
+   "link": "https://www.coindesk.com/daybook-us/2026/11/17/crypto-s-casino-chips-are-disappearing-adding-to-pain-from-spot-etf-outflows",
+   "published": "2026-11-17T12:16+00:00"
   },
   {
    "source": "CoinDesk",
-   "title": "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off",
-   "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-risks-falling-below-usd60-000-as-nvidia-earnings-threaten-to-deepen-crypto-sell-off",
-   "published": "2026-11-16T20:35+00:00"
+   "title": "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump",
+   "link": "https://www.coindesk.com/business/2026/11/17/ex-openai-researcher-fund-dumps-bitcoin-miners-cuts-iren-94-after-portfolio-slump",
+   "published": "2026-11-17T12:00+00:00"
   },
   {
    "source": "CoinDesk",
-   "title": "U.S. Senate Democrats tell CFTC to back off its demand prediction markets defy bans",
-   "link": "https://www.coindesk.com/policy/2026/11/16/u-s-senate-democrats-tell-cftc-to-back-off-its-demand-prediction-markets-defy-bans",
-   "published": "2026-11-16T18:54+00:00"
+   "title": "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends",
+   "link": "https://www.coindesk.com/markets/2026/11/17/bitcoin-remains-penned-in-near-usd64-000-even-as-etf-outflow-streak-ends",
+   "published": "2026-11-17T11:36+00:00"
   },
   {
    "source": "CoinDesk",
-   "title": "Lighter suspends all withdrawals after $10.4 million crypto exploit",
-   "link": "https://www.coindesk.com/tech/2026/11/16/lighter-suspends-all-withdrawals-after-usd10-4-million-crypto-exploit",
-   "published": "2026-11-16T16:41+00:00"
+   "title": "Solana Foundation takes majority stake in crypto data provider CoinGecko",
+   "link": "https://www.coindesk.com/business/2026/11/17/solana-foundation-takes-majority-stake-in-crypto-data-provider-coingecko",
+   "published": "2026-11-17T11:29+00:00"
   },
   {
    "source": "CoinDesk",
-   "title": "Brazil's central bank faces backlash over stablecoin money laundering remarks",
-   "link": "https://www.coindesk.com/business/2026/11/16/brazil-s-central-bank-faces-backlash-over-stablecoin-money-laundering-remarks",
-   "published": "2026-11-16T15:54+00:00"
+   "title": "New DeFi-yield generation targets \u2018scam-like\u2019 bank accounts that keep all the interest",
+   "link": "https://www.coindesk.com/business/2026/11/16/new-defi-yield-generation-targets-scam-like-bank-accounts-that-keep-all-the-interest",
+   "published": "2026-11-17T11:25+00:00"
   },
   {
    "source": "CoinDesk",
-   "title": "German parliament proposes crypto seizures without criminal charges",
-   "link": "https://www.coindesk.com/policy/2026/11/16/german-parliament-proposes-crypto-seizures-without-criminal-charges",
-   "published": "2026-11-16T15:44+00:00"
+   "title": "Fed Governor Michael Barr warns AI agents could trigger bank runs in minutes",
+   "link": "https://www.coindesk.com/business/2026/11/17/fed-governor-michael-barr-warns-ai-agents-could-trigger-bank-runs-in-minutes",
+   "published": "2026-11-17T10:48+00:00"
   },
   {
    "source": "CoinDesk",
-   "title": "Solana drops \u2018beta\u2019 label after more than six years",
-   "link": "https://www.coindesk.com/tech/2026/11/16/solana-drops-beta-label-after-more-than-six-years",
-   "published": "2026-11-16T13:03+00:00"
+   "title": "Live updates: Bitcoin holds near $64,000 as tech slides ahead of Nvidia earnings",
+   "link": "https://www.coindesk.com/business/2026/11/17/live-updates-bitcoin-holds-near-usd64-000-as-tech-slides-ahead-of-nvidia-earnings",
+   "published": "2026-11-17T10:33+00:00"
   },
   {
    "source": "CoinDesk",
-   "title": "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes",
-   "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-slide-reopens-an-old-feud-between-crypto-s-most-powerful-founders",
-   "published": "2026-11-16T12:55+00:00"
+   "title": "Hackers plant crypto-stealing code on 178 major websites, including HSBC and Ledger",
+   "link": "https://www.coindesk.com/tech/2026/11/17/hackers-planted-crypto-stealing-code-on-178-organizations-sites-including-hsbc-bbc-and-ledger",
+   "published": "2026-11-17T10:22+00:00"
+  },
+  {
+   "source": "Cointelegraph",
+   "title": "BlackRock\u2019s Bitcoin ETF snaps $2.35B outflow streak amid extreme fear",
+   "link": "https://cointelegraph.com/markets/blackrock-ibit-outflow-streak-end-extreme-fear?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-17T11:18+00:00"
+  },
+  {
+   "source": "Cointelegraph",
+   "title": "Bitcoin realized loss metric beats June high as open interest eyes 2-year low",
+   "link": "https://cointelegraph.com/markets/bitcoin-realized-loss-metric-beats-june-high-open-interest-eyes-2-year-low?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
+   "published": "2026-11-17T11:14+00:00"
   },
   {
    "source": "Cointelegraph",
@@ -106,28 +117,46 @@
    "published": "2026-11-16T13:29+00:00"
   },
   {
-   "source": "Cointelegraph",
-   "title": "BTC price tags 18-week low into Nvidia earnings: Three things to know in Bitcoin this week",
-   "link": "https://cointelegraph.com/markets/btc-price-18-week-low-nvidia-three-things-know-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-16T10:39+00:00"
+   "source": "TheBlock",
+   "title": "Lighter reopens withdrawals after trader\u2019s API key leak, returns about $5 million in USDC",
+   "link": "https://www.theblock.co/news/defi/2026-11-17-lighter-reopens-withdrawals-after-traders-api-key-leak-returns-about-5-million-in-usdc-442113",
+   "published": "2026-11-17T12:00+00:00"
   },
   {
-   "source": "Cointelegraph",
-   "title": "Harvard, Dartmouth keep Bitcoin ETF stakes steady as fund gains 42% in Q3",
-   "link": "https://cointelegraph.com/news/harvard-dartmouth-bitcoin-etf-ibit-up-q3?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-16T08:27+00:00"
+   "source": "TheBlock",
+   "title": "Former Robinhood engineer pleads guilty to wire fraud over trades ahead of crypto listing announcements",
+   "link": "https://www.theblock.co/news/regulation/2026-11-17-former-robinhood-engineer-pleads-guilty-to-wire-fraud-over-trades-ahead-of-crypto-listing-announcements-442106",
+   "published": "2026-11-17T10:49+00:00"
   },
   {
-   "source": "Cointelegraph",
-   "title": "Luxor CEO warns of AI \u2018dark forest\u2019 following Bitcoin miner hijack",
-   "link": "https://cointelegraph.com/news/luxor-ceo-warns-of-ai-dark-forest-after-bitcoin-miner-hijack?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-16T02:33+00:00"
+   "source": "TheBlock",
+   "title": "Tether Capital invests $15 million in Nomad, eyes wider access to USDT and XAUT in Brazil",
+   "link": "https://www.theblock.co/news/business/2026-11-17-tether-nomad-brazil-investment-442097",
+   "published": "2026-11-17T10:20+00:00"
   },
   {
-   "source": "Cointelegraph",
-   "title": "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest",
-   "link": "https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest?utm_source=rss_feed&utm_medium=rss_tag_bitcoin&utm_campaign=rss_partner_inbound",
-   "published": "2026-11-15T22:50+00:00"
+   "source": "TheBlock",
+   "title": "Grayscale says crypto pullback offers \u2018compelling entry points\u2019 as bitcoin falls to $64,000",
+   "link": "https://www.theblock.co/news/markets/2026-11-17-grayscale-compelling-entry-points-bitcoin-442083",
+   "published": "2026-11-17T07:39+00:00"
+  },
+  {
+   "source": "TheBlock",
+   "title": "Cathie Wood\u2019s Ark Invest loads up on crypto stocks while selling $85 million in Nvidia",
+   "link": "https://www.theblock.co/news/business/2026-11-17-ark-invest-buys-crypto-stocks-sells-nvidia-442080",
+   "published": "2026-11-17T06:35+00:00"
+  },
+  {
+   "source": "TheBlock",
+   "title": "CZ denies Binance sold crypto, Bitwise sees Solana at $1,100 by 2031, and more",
+   "link": "https://www.theblock.co/newsletters/the-daily/2026-11-17-cz-binance-bitwise-solana-more-crypto-news-441584",
+   "published": "2026-11-17T05:45+00:00"
+  },
+  {
+   "source": "TheBlock",
+   "title": "CFTC backs blockchain-based derivatives infrastructure as Backpack, tZERO win approvals",
+   "link": "https://www.theblock.co/news/regulation/2026-11-16-cftc-blockchain-derivatives-exchange-approval-backpack-tzero-441591",
+   "published": "2026-11-16T23:27+00:00"
   },
   {
    "source": "TheBlock",
@@ -136,46 +165,40 @@
    "published": "2026-11-16T21:44+00:00"
   },
   {
-   "source": "TheBlock",
-   "title": "Democratic senators warn SEC\u2019s tokenized stock exemption has illicit finance gaps",
-   "link": "https://www.theblock.co/news/regulation/2026-11-16-democratic-senators-warn-secs-tokenized-stock-exemption-illicit-finance-gaps-441432",
-   "published": "2026-11-16T20:44+00:00"
+   "source": "Decrypt",
+   "title": "Optimizely Hack Hijacked Ledger, BBC and 176 Other Sites to Swap Crypto Wallet Addresses",
+   "link": "https://decrypt.co/383414/optimizely-hack-hijacked-ledger-bbc-and-176-other-sites-to-swap-crypto-wallet-addresses",
+   "published": "2026-11-17T11:05+00:00"
   },
   {
-   "source": "TheBlock",
-   "title": "Peraire-Bueno brothers acquitted of wire fraud in $25 million Ethereum MEV case",
-   "link": "https://www.theblock.co/news/regulation/2026-11-16-peraire-bueno-brothers-acquitted-ethereum-mev-wire-fraud-441425",
-   "published": "2026-11-16T20:30+00:00"
+   "source": "Decrypt",
+   "title": "Nvidia Board Not Considering Jensen Huang's Return: Report",
+   "link": "https://decrypt.co/383411/nvidia-board-not-considering-jensen-huangs-return-report",
+   "published": "2026-11-17T09:54+00:00"
   },
   {
-   "source": "TheBlock",
-   "title": "Bitwise sees Solana reaching $1,100 by 2031 in bull case as onchain trading grows",
-   "link": "https://www.theblock.co/news/markets/2026-11-16-bitwise-solana-price-prediction-1100-2031-441407",
-   "published": "2026-11-16T20:27+00:00"
+   "source": "Decrypt",
+   "title": "Judge Acquits MIT Brothers in $25M Ethereum MEV Case, Ending Prosecution",
+   "link": "https://decrypt.co/383408/judge-acquits-mit-brothers-in-25m-ethereum-mev-case-ending-prosecution",
+   "published": "2026-11-17T09:27+00:00"
   },
   {
-   "source": "TheBlock",
-   "title": "Solflare CEO says AI security reviews are essential, touts \u2018bunker mode\u2019 and MoneyGram deal",
-   "link": "https://www.theblock.co/news/defi/2026-11-16-solflare-ceo-ai-security-reviews-bunker-mode-moneygram-441396",
-   "published": "2026-11-16T18:59+00:00"
+   "source": "Decrypt",
+   "title": "Solana Foundation Backs CoinGecko as Crypto Data Giant Eyes Trading",
+   "link": "https://decrypt.co/383401/solana-foundation-backs-coingecko-eyes-trading",
+   "published": "2026-11-17T09:01+00:00"
   },
   {
-   "source": "TheBlock",
-   "title": "Winklevoss-backed Cypherpunk buys Zcash dip as mining debut delivers $2.6 million operating profit",
-   "link": "https://www.theblock.co/news/business/2026-11-16-winklevoss-cypherpunk-buys-zcash-dip-mining-debut-delivers-2-6-million-operating-profit-441392",
-   "published": "2026-11-16T18:43+00:00"
+   "source": "Decrypt",
+   "title": "Alibaba's Qwen 4 Max Leads China's AI Agent Race\u2014But You Can't Download It",
+   "link": "https://decrypt.co/383395/alibaba-qwen-4-max-leads-china-ai-agent-race-cant-download-it",
+   "published": "2026-11-16T22:46+00:00"
   },
   {
-   "source": "TheBlock",
-   "title": "Standard Chartered says Japan\u2019s bond tokenization plans could help drive RWA market to $2 trillion",
-   "link": "https://www.theblock.co/news/web3/2026-11-16-japan-tokenized-government-bonds-standard-chartered-rwa-2-trillion-441384",
-   "published": "2026-11-16T17:54+00:00"
-  },
-  {
-   "source": "TheBlock",
-   "title": "Privacy on Solana is \u2018non-negotiable\u2019 for institutional adoption, Mert Mumtaz says",
-   "link": "https://www.theblock.co/news/ecosystems/2026-11-16-privacy-solana-non-negotiable-institutional-adoption-mert-mumtaz-says-441363",
-   "published": "2026-11-16T17:22+00:00"
+   "source": "Decrypt",
+   "title": "Bitcoin Wallet Maker Trezor Says Customer Data Was Exposed Again",
+   "link": "https://decrypt.co/383397/bitcoin-wallet-trezor-third-party-breach-customer-data",
+   "published": "2026-11-16T22:18+00:00"
   },
   {
    "source": "Decrypt",
@@ -190,40 +213,10 @@
    "published": "2026-11-16T21:16+00:00"
   },
   {
-   "source": "Decrypt",
-   "title": "Tom Lee Blames Nvidia and Anthropic IPO for Ethereum Plunge as Bitmine Buys the Dip",
-   "link": "https://decrypt.co/383364/tom-lee-blames-nvidia-anthropic-ipo-ethereum-plunge-bitmine-buys",
-   "published": "2026-11-16T20:36+00:00"
-  },
-  {
-   "source": "Decrypt",
-   "title": "Clarity Act Defeat \u2018Failure of American Leadership\u2019: Trump\u2019s Former Crypto Chief",
-   "link": "https://decrypt.co/383356/clarity-act-defeat-failure-of-american-leadership-trumps-former-crypto-chief",
-   "published": "2026-11-16T19:36+00:00"
-  },
-  {
-   "source": "Decrypt",
-   "title": "Trump Backs Jensen Huang\u2019s Return to Nvidia as Sam Altman Says 'Heroes Have Flaws'",
-   "link": "https://decrypt.co/383351/trump-elon-musk-sam-altman-jensen-huang-nvidia",
-   "published": "2026-11-16T19:05+00:00"
-  },
-  {
-   "source": "Decrypt",
-   "title": "Fed Is Modeling AI 'Super Intelligence' Scenarios, Including Job Losses and a Stock Market Slump",
-   "link": "https://decrypt.co/383354/fed-modeling-ai-super-intelligence-scenarios-job-losses-stock-market",
-   "published": "2026-11-16T18:36+00:00"
-  },
-  {
-   "source": "Decrypt",
-   "title": "Nvidia Stock Has a 20% Rebound in Sight\u2014If Bulls Can Clear a Hurdle",
-   "link": "https://decrypt.co/383334/nvidia-stock-rebound-in-sight-if-bulls-can-clear-hurdle",
-   "published": "2026-11-16T18:06+00:00"
-  },
-  {
-   "source": "Decrypt",
-   "title": "Saylor\u2019s Strategy Keeps Buying Bitcoin, Adding 'A Little Orange' Through the Dip",
-   "link": "https://decrypt.co/383347/saylor-strategy-buying-bitcoin-adding-little-orange-dip",
-   "published": "2026-11-16T17:20+00:00"
+   "source": "BitcoinMagazine",
+   "title": "Why Bitcoin\u2019s June Low May Not Be the Bottom \u2014 $58K the Key Test",
+   "link": "https://bitcoinmagazine.com/videos/why-bitcoins-june-low-may-not-be-the-bottom-58k-the-key-test",
+   "published": "2026-11-16T21:43+00:00"
   },
   {
    "source": "BitcoinMagazine",
@@ -236,6 +229,12 @@
    "title": "Senate Agriculture Committee to Hear Trump\u2019s CFTC Nominees Tuesday",
    "link": "https://bitcoinmagazine.com/news/cftc-nominees-senate-hearing-tuesday",
    "published": "2026-11-16T20:44+00:00"
+  },
+  {
+   "source": "BitcoinMagazine",
+   "title": "Rob Hamilton: The AI \u201cBlack Hole\u201d is Pulling Liquidity Away from Bitcoin",
+   "link": "https://bitcoinmagazine.com/videos/rob-hamilton-the-ai-black-hole-is-pulling-liquidity-away-from-bitcoin",
+   "published": "2026-11-16T20:35+00:00"
   },
   {
    "source": "BitcoinMagazine",
@@ -262,166 +261,202 @@
    "published": "2026-11-16T17:15+00:00"
   },
   {
-   "source": "BitcoinMagazine",
-   "title": "Harvard Holds 3.04 Million Bitcoin ETF Shares Steady",
-   "link": "https://bitcoinmagazine.com/news/harvard-holds-ibit-stake-steady-304-mil",
-   "published": "2026-11-16T16:00+00:00"
-  },
-  {
-   "source": "BitcoinMagazine",
-   "title": "Supreme Court Ends Custodia Bank\u2019s Fight for a Fed Master Account, Leaving the Fed Free to Deny Crypto Banks Access",
-   "link": "https://bitcoinmagazine.com/news/supreme-court-ends-custodia-fed-master",
-   "published": "2026-11-16T15:24+00:00"
+   "source": "CNBC",
+   "title": "Disney beats fourth-quarter estimates, targets $3 billion in savings through cost-cutting efforts",
+   "link": "https://www.cnbc.com/2026/11/17/disney-dis-earnings-q-2026.html",
+   "published": "2026-11-17T12:14+00:00"
   },
   {
    "source": "CNBC",
-   "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
-   "link": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
-   "published": "2026-11-16T21:55+00:00"
+   "title": "Trump has arrived in Asia. Here\u2019s what he said about Iran and Deutsche Bank",
+   "link": "https://www.cnbc.com/2026/11/17/trump-iran-asia-trip-china.html",
+   "published": "2026-11-17T12:07+00:00"
   },
   {
    "source": "CNBC",
-   "title": "California sues OpenAI over Hugging Face, other AI model loss of control",
-   "link": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
-   "published": "2026-11-16T21:55+00:00"
+   "title": "Nike hosts first investor day in 9 years as it tries to rightsize its business",
+   "link": "https://www.cnbc.com/2026/11/17/nike-investor-day-elliott-hill.html",
+   "published": "2026-11-17T12:00+00:00"
   },
   {
    "source": "CNBC",
-   "title": "OpenAI inks agreements with four independent evaluators to boost company's safety work",
-   "link": "https://www.cnbc.com/2026/11/16/openai-independent-ai-safety-evaluators.html",
-   "published": "2026-11-16T21:54+00:00"
+   "title": "Nvidia has lost $2 trillion in value. Here's what options traders expect from earnings",
+   "link": "https://www.cnbc.com/2026/11/17/nvidia-has-lost-2-trillion-in-value-heres-what-options-traders-expect-from-earnings.html",
+   "published": "2026-11-17T11:42+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Nvidia fallout: Commerce targets loophole for China's data center use",
-   "link": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
-   "published": "2026-11-16T21:51+00:00"
+   "title": "Home Depot names Richard McPhail as new CEO, beats earnings expectations",
+   "link": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html",
+   "published": "2026-11-17T11:33+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Bitcoin slides to $62,000 following liquidation cascade, then rebounds slightly",
-   "link": "https://www.cnbc.com/2026/11/16/bitcoin-slides-to-62000-following-liquidation-cascade-then-rebounds-slightly.html",
-   "published": "2026-11-16T21:26+00:00"
+   "title": "Ukraine damages Putin\u2019s prized Crimea bridge as Zelenskyy lauds \u2018unprecedented operation\u2019",
+   "link": "https://www.cnbc.com/2026/11/17/kerch-bridge-ukraine-russia-putin-kyiv.html",
+   "published": "2026-11-17T11:27+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Kalshi plans to launch stock trading soon",
-   "link": "https://www.cnbc.com/2026/11/16/kalshi-plans-to-launch-stock-trading-soon.html",
-   "published": "2026-11-16T21:23+00:00"
+   "title": "Iran escalates threats as third U.S. carrier arrives in Middle East, tanker struck in Hormuz",
+   "link": "https://www.cnbc.com/2026/11/17/iran-war-trump-hormuz-oil-.html",
+   "published": "2026-11-17T11:22+00:00"
   },
   {
    "source": "CNBC",
-   "title": "Robert Pattinson cast as next James Bond",
-   "link": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html",
-   "published": "2026-11-16T21:03+00:00"
-  },
-  {
-   "source": "CNBC",
-   "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
-   "link": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
-   "published": "2026-11-16T20:51+00:00"
+   "title": "South Korea will suspend all aircraft operation for 35 minutes and markets will open late. Here\u2019s why",
+   "link": "https://www.cnbc.com/2026/11/17/south-korea-suspend-aircraft-exam-markets.html",
+   "published": "2026-11-17T10:49+00:00"
   },
   {
    "source": "CNBC-Econ",
-   "title": "Japan's economy unexpectedly contracts in third-quarter as elevated energy costs bite",
-   "link": "https://www.cnbc.com/2026/11/16/japan-q3-gdp-energy-oil-prices.html",
-   "published": "2026-11-16T02:56+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Nvidia\u2019s stock extends decline following harsh words from the U.S. government",
-   "link": "https://www.marketwatch.com/story/nvidias-stock-extends-declines-following-harsh-words-from-the-u-s-government-d721188e?mod=mw_rss_topstories",
-   "published": "2026-11-16T21:53+00:00"
-  },
-  {
-   "source": "MarketWatch",
-   "title": "Chase says \u2018software bug\u2019 could be causing disruptions at major U.S. banks",
-   "link": "https://www.marketwatch.com/story/customers-of-chase-bank-of-america-and-other-u-s-banks-report-service-outages-18fe23b8?mod=mw_rss_topstories",
-   "published": "2026-11-16T21:49+00:00"
+   "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+   "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+   "published": "2026-11-17T00:42+00:00"
   },
   {
    "source": "MarketWatch",
    "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
    "link": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
-   "published": "2026-11-16T21:45+00:00"
+   "published": "2026-11-17T12:15+00:00"
   },
   {
    "source": "MarketWatch",
-   "title": "Now\u2019s the perfect time for networking. Here\u2019s how to send a cringe-free email.",
-   "link": "https://www.marketwatch.com/story/nows-the-perfect-time-for-networking-heres-how-to-send-a-cringe-free-email-73ad34ea?mod=mw_rss_topstories",
-   "published": "2026-11-16T21:40+00:00"
+   "title": "\u2018It is heartbreaking, exhausting and downright dirty\u2019: My brother took over our ailing mother\u2019s life and finances. What can I do?",
+   "link": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
+   "published": "2026-11-17T11:15+00:00"
   },
   {
    "source": "MarketWatch",
-   "title": "Rare-earth stocks sink deeper into the red. Here\u2019s the latest catalyst.",
-   "link": "https://www.marketwatch.com/story/rare-earth-stocks-sinks-deeper-into-the-red-heres-the-latest-catalyst-3033c8d0?mod=mw_rss_topstories",
-   "published": "2026-11-16T21:18+00:00"
+   "title": "Pick the two sectors where earnings growth will accelerate \u2014 as long as the 10-year stays below this key level, say strategists",
+   "link": "https://www.marketwatch.com/story/pick-the-two-sectors-where-earnings-growth-will-accelerate-as-long-as-the-10-year-stays-below-this-key-level-say-strategists-e7c13914?mod=mw_rss_topstories",
+   "published": "2026-11-17T10:47+00:00"
   },
   {
    "source": "MarketWatch",
-   "title": "Micron, AMD and other AI stocks fall as the chip sector\u2019s selloff intensifies",
-   "link": "https://www.marketwatch.com/story/micron-amd-and-other-ai-stocks-fall-as-the-chip-sectors-selloff-intensifies-48e38bdf?mod=mw_rss_topstories",
-   "published": "2026-11-16T21:17+00:00"
+   "title": "Tepper, Loeb among fund managers piling into Nvidia and other megacap tech on the eve of October drawdown",
+   "link": "https://www.marketwatch.com/story/tepper-loeb-among-fund-managers-piling-into-nvidia-and-other-megacap-tech-on-the-eve-of-october-drawdown-de45f572?mod=mw_rss_topstories",
+   "published": "2026-11-17T10:28+00:00"
   },
   {
    "source": "MarketWatch",
-   "title": "Nvidia investors will be clamoring for these answers during a historic earnings call",
-   "link": "https://www.marketwatch.com/story/nvidia-investors-will-be-clamoring-for-answers-to-these-questions-during-the-companys-hotly-anticipated-earnings-call-a49ec19d?mod=mw_rss_topstories",
-   "published": "2026-11-16T21:05+00:00"
+   "title": "\u2018Nvidia spooked me\u2019: Should I sell my stocks or ride out the market turmoil?",
+   "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+   "published": "2026-11-17T10:15+00:00"
   },
   {
    "source": "MarketWatch",
-   "title": "\u2018I felt so seen\u2019: Why families across America are laughing \u2014 and crying \u2014 over SNL\u2019s \u2018Sister\u2019 sketch",
-   "link": "https://www.marketwatch.com/story/so-sad-and-so-true-has-your-family-talked-about-snls-sister-sketch-yet-19bf9d67?mod=mw_rss_topstories",
-   "published": "2026-11-16T20:46+00:00"
+   "title": "\u2018Breaking Bad\u2019 star Dean Norris is selling 11-acre California estate for $3.2 million amid divorce",
+   "link": "https://www.marketwatch.com/story/breaking-bad-star-dean-norris-is-selling-11-acre-california-estate-for-3-2-million-amid-divorce-03963997?mod=mw_rss_topstories",
+   "published": "2026-11-17T10:01+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Supermodel Bella Hadid snaps up a charming Colorado compound for $5.5 million",
+   "link": "https://www.marketwatch.com/story/supermodel-bella-hadid-snaps-up-a-charming-colorado-compound-for-5-5-million-b907958c?mod=mw_rss_topstories",
+   "published": "2026-11-17T09:57+00:00"
+  },
+  {
+   "source": "MarketWatch",
+   "title": "Here\u2019s how much of Deutsche Bank\u2019s market cap has been wiped away after reports on 15 million leaked documents",
+   "link": "https://www.marketwatch.com/story/heres-how-much-of-deutsche-banks-market-cap-has-been-wiped-away-after-reports-on-15-million-leaked-documents-fe3db078?mod=mw_rss_topstories",
+   "published": "2026-11-17T09:35+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000 - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaVVmaUIyVmhROS05R0RtcHl6Ny13OGU4OWtCS2QzNmo4dklxZkwydm1aMF9ieVkzYmdzc3ZCT2lMc0JpY21NN2RGalFvcFp1Q25tVGtTRFIxSmJTb1NyZ2VzTDIySXpCQWtuR0ktZmVudUxzT05TamFmeC0tVXJfQzU5YkVzMEtxTlhIdUlvR3lxNXJfb2FBdlJYZDY1dmVpTjhOSWJn?oc=5",
-   "published": "2026-11-16T21:46+00:00"
+   "title": "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump - CoinDesk",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVGhUZ3ExQmhHempKa196cDVJR3h4VHA3R0RqczdTejkxMGlNTGRQbzJKbkNSWkpnaUFQdmlBZTlkTzJNZngyRHZOSnpHQ1NmMkdGNkxrYnlPZTB6bm9ySVlPT2xQYTkzOVJMWktrbzNpajRYand1WW9saXNOc2VMNmtlY0tObkR5OGpwRzQ2UEZfbnJydXBmdXZhNXdWOFJpamJJRlNzcEJOY3U4MWdTTklIbHBpS3U4VGM2Q21jWFRqZ25Q?oc=5",
+   "published": "2026-11-17T12:00+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin's $2 Billion Liquidation Weekend Leaves Traders Watching $60,000 - Decrypt",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMGdUVjZzQ1BaMHNLTlU3blRRYUtSNnlUQjJETmJwWTlVQlBxcjdTNVMzYXRUQW9xLVlQczI0RXotbDd4QWotd1ZNWkZVQnBPS2liODRCZVBVeWhaZ01Cd25VVHRzVHpGX2RsbTNiMzRDVHo3Z0gyMG8yaDhJWnNEOXNkMGEyNl8yNkxDNGlwdw?oc=5",
-   "published": "2026-11-16T21:46+00:00"
+   "title": "Saylor and Strategy buy \u2018a little orange\u2019 as Bitcoin slides to $64,800 \u2014 Details - AMBCrypto",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYzBzQXhUU1dGRmlJNWh6Z2UyVlNEQWlLTWRHVC1sZ25PUVd0UG5FX0JydUN6YmRWbjVaRFowYjhPVmhTbGdISDdEd2wzaXdnV1dNdVNGLUtPd0lSdnRtS0NWVUpaTll6OE9iOGNNVnRqdUpiTEhwSlROQzhlbEZlc0pCMXRnZmxpSWgzV1ktdnBUcHFmcUZDMkdrTTNUdw?oc=5",
+   "published": "2026-11-17T12:00+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Twenty One Capital buys 154 Bitcoin amid BTC price slump - TradingView",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVG5YeEtIVTBCU3V1ZnEwTnZyNll0MzgzRWtpWEo1TFJyWVNocEhjVEJRUDE2OW83QVRxME9fUzdreGFFMWhmaWFZUlVtWHZob2NYa016Vm9rSF84SFVILVhEbk1YcjNFWlQ0MnBIMk5LbVFaRjQydXA3Q1lEOUhESkgzcEgtdXlRdG92TUl6LUlDTHVOUTdTRnJfc1NDeUthYl9pdlhNeHdlV1o1cVA1QXNtX085NHNVa2Y0?oc=5",
-   "published": "2026-11-16T21:27+00:00"
+   "title": "Bitcoin Lightning developers patch bug that could make completed payments disappear - Cryptonews.net",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51NzREVkxBRmJuZ01oVjV6cXJiT0JFQUtsbHVadHVMVWZuQlA3cFBuRHdEM2ZXSThXbS1wZFEwOHFzMWROTjRJNXVPQ2tlUmh4dVlzQzVXdWxoQQ?oc=5",
+   "published": "2026-11-17T11:40+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Bitcoin Price Holds Near $65,000 as Nvidia Turmoil Drags Nasdaq Down 2.5% - Bitcoin Magazine",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1CU1pVMFZxVC1QR3VTRm5McUhwcVNNajhYRWtOYmNPclB0WFBYMGtXYzlxTXFGc19Kd1VYNnNuSUxUUXlybmd3QU1pRWtubHIyS1lJZFNxLVMyckJfb2ZNdnlpd2JDQnJqTkhCTkxMdXlhZGdXQXdtaU92UVRDZw?oc=5",
-   "published": "2026-11-16T21:20+00:00"
+   "title": "Bitcoin Heading for $40K? Deribit Traders Sound the Alarm With $60K Put Bets - Cryptonews.net",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5sdWpvZmhEQjVBVzUtQ3JyVFBSTGRzY0tkZ0pZeXFGRUJYU3F4NFc0YmJwWFBnWUlCWUk1MjN3VE1sTzdLbG5FcHpFUENlLU5rdzNIa1VIY2o?oc=5",
+   "published": "2026-11-17T11:39+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Hackers Redirected Bitcoin Miner Rewards via AI Attack, Luxor CEO Says - Decrypt",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOenpvMTVKUWFiNC1lY2s4OGtVTVdLbzdOLV9kSHJtTkRnVllMbno0QmFIYlZ4NFltQmVVN1lhNVplWGZreFN2N0F1dWF0Sm1qeW1sYlU1Sm5VdFotb1V0cVdfMERraVpVQkFwLTNBR1VjVjBvSVFuWHFvX3ZidG45VUYwVUJUeUNST2c?oc=5",
-   "published": "2026-11-16T21:16+00:00"
+   "title": "Bitcoin Fear Hits Extreme Levels as Analyst Sees Contrarian Signal - Cryptonews.net",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE42VGNQazl4RjNLZW01UkFnZUlYTVFQYUtoT25TQWQ4dWNfTEJlRXRacXRLMHdKWERuU1N2Z2FuZy1hclhjRER1LUFIV0trSllpal9HQk5jVFk?oc=5",
+   "published": "2026-11-17T11:39+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Should You Buy the Bitcoin Dip Now or Dollar-Cost Average Into 2027? - Yahoo Finance",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd08yMVFmaGV5aXdCWlZSdmM4TE54QnZRZ0phb1hHTEVZOXhRbUV3V3Bna0k0UGRIVEc5NnJjb29zWVBjallGQ3lPbVdvREpoMEx6aVRXRnhBVkNLM25SNmMzOEl5MWZfNC15UmllQWFmVEFFQ1licVN5dXZDMElqZzNYVFlrSF9NTmw4eWhtQ2l6d2hoNUE?oc=5",
-   "published": "2026-11-16T21:06+00:00"
+   "title": "Bitcoin Price Forecast: Wintermute Warns of $50K Crash as BTC Open Interest Hits Two-Year Low - CoinGape",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbTRsUG5aM1JtUWJVUVlIdXBONnVfWDZZYThsenR6aEFFLUNZZlNCVTJTX0ExWnk4ZU96RDFtc1RrYmJOaFp4X0ZIa0FSOFUycG8wR0FJY1RTV3ZMdUZOVHpadjhFNERfcF9MRV9XYmE3Ui0ydXRRdk0xY0pjQzY1ZEFORHdIS2hNRS1aRGlEVmdMWGZCcTN4NFcyRUxFQWtQQ19MMXpSaWptSGgyZFFNcGdxcENhNGU1OXVLNy1B?oc=5",
+   "published": "2026-11-17T11:39+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Should You Buy the Bitcoin Dip Now or Dollar-Cost Average Into 2027? - 24/7 Wall St.",
-   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQmF5a3g2aVpKcGZuemc0Tm5zVjFnSlBlYTNuSURfUW9WQmVpWjF1T3QzS1o4aGlDa1Z5R0VLU1RkNUVkR2gxa3pUVGZWVVJWQlpxV0dVXzhDc2ZRcjB0V0d5TTd1X0dxMmkxRWJ3NWJqX3Z5cVBHZVlDSGNJX1NwUG1HLWZ6VDd3MURFdWxFSkpudnJVaHRGV0hmbEFXWW10NU1vZUpaczdCMUZFVDRYMDFVME9XRzlseFNVLTg5eUQ4aTdf?oc=5",
-   "published": "2026-11-16T21:06+00:00"
+   "title": "Bitcoin stalls below $65,000 after weekend selloff as Nvidia earnings loom - CoinDesk",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOTFYcjE2V0NKN1hheHU5YmpJZ2lRcXhQeGU5RGduVVVDc0dsNjFDck5PX0dyWmIwRExlak5GZlhtcWJvS0J6WjhjRVdLMkhtNUpXMXdVd0ZoUDBmU1JfX1ZTSldyZlJVZnBPTWtCMFRhV3hSUFJfYTgwOUEyNV9QZTFTa18xV3l2aE1uQkZGUGxjdnlZY1ozd3RUS0pDblZFMWlYbno2blBFY2ZDSTBHOHZJZlhvYzA?oc=5",
+   "published": "2026-11-17T11:36+00:00"
   },
   {
    "source": "GoogleNews-BTC",
-   "title": "Crypto Stuck Near Multimonth Lows After Sluggish Weekend - WSJ",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNemJKTlE0N1hQT0Z3amttWTkyZmJNMi1rQlZKSkVGeUpvWFlEUl9QY0pZVGVvWjQ2dWZOemtNdjVULUpsNjNWdlBCZHBMUndmZ0pfazNhT2hRZDBqUmkxbEc0VDk2ZVNxYzBLTUhsSEdWMG1GbEZ3a1plN2dDRkx2UnNFdXJhZ1g0blU4YkV5T29FUG80QkE0a3pjc2ZSM29adWc?oc=5",
-   "published": "2026-11-16T21:05+00:00"
+   "title": "Crypto Sell-Off: Is Bitcoin a Buy After Plunging Below $70,000 Last Friday? - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQ0cxNEVaeGJSaTNQMXl0NXZMNEEzbDZpME1JclljZVhQQnpYYUFGTC15QUVrYUVJcU1IMVo0VWtycjR1cTV0Tkplb1NDaDBzRThValVvZktDNHgtd0g4V0sxWk03RkVreEZLcXJEbVd6eU9DM1A3dUthYjloV290d0dUMVExSUZZNGIxQTFnWDBNQWM2TXV3?oc=5",
+   "published": "2026-11-17T11:25+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Gold price today, Tuesday, November 17, 2026: Gold opens at lowest price since September 29, 2025 - Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPRzRfYWNDVS12TDhBNlhFS2EtWDBGSnlhS1RmaGw5bVRYRXlLOHVkR2JiUnRWS05YOVBKcnBkdWoxSEowb1dPQzZqZmdJLXpicjVGZU10VDFlRk5sbTUyb0lCSDEtNWd4SndPb2IyaTRuUUlVSXdSSXR5OVQyUzdmekNtUk5sUU1TWkNMN1BqdE9oZjBKU1lHS0FYWTYwcF9wMzBraEpqVy0yZnF3LU5KZEU3Mk42SXhCVFdDQXFBcjRNV01tZ2dMcXhUc0RNRF9zb2wxTGJRb0I3SHZlT1ZaSTZ4bmpnSDhFNVZEVnluNzVsZEhaMUVER2JYbnQ?oc=5",
+   "published": "2026-11-17T12:14+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Silver Price Forecast: Slide Continues as Dollar Strengthens - FXEmpire",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa3pfQWcwWjRHZDFGbUxudTU2a1FWcEZoMzFXZ2VqMzZrWDAydXhGSVY4dWFweUdjcTZLTHlmUTBHUXN3TTNrdG1fN1FKUHhCcGl6WmtSYWdBcF9rb3cxNWtPWkpDYTdoVUxiQjZtbEJJYXBfdGJ4YmxybVpYVVpHRkVVZ01EMTJxaUwwWWhuWERITVBxejRHZ0hyUUl4dzBZV0RSZ2ZoaV95MmxLdVFF?oc=5",
+   "published": "2026-11-17T11:31+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Goldman Sachs has cut its gold price target twice. What is lacking for gold prices to return to the high level? - eu.36kr.com",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpWXR3S1Z1Tmw3a01EVGVJYmVhWld4YUdZMVJrVzlGM00xS2FIMkxiY1M3SkN2bC1vSTZBeFZobVVLZTB2RUtUVHdSa0oyR2FoM1Zn?oc=5",
+   "published": "2026-11-17T10:21+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Gold Moves Higher After 14-Month Low as Precious Metals Gain Ahead of Fed Minutes - Yahoo Finance UK",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPa3daeHBIODlWRGRaQ3I0azgwaURxaGpIVmowVU0yaGJLR2Jya0REVi1EUEU4OU8yRmtpNExUMzNlYkJOT3dscjRIUmZ2enAyQXhDekwzemZId0RmZkdBVlBYMVYxMDRGMW81WXlOR1V4dWNFX3NmSlhIR215emc2ZQ?oc=5",
+   "published": "2026-11-17T10:17+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Triple Flag Precious Metals (NYSE:TFPM): A GARP Look at the Royalty Model - ChartMill",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWEZLWHFGdmFFcndtQXlPQjZKcXB6b3ZpSTFLLXNQRV9ucVZ3ejMyNFcwSC1TQ0hWZld0YVBrdVRnZHhhdGlGQWZRUndiTUhoQS1FeTloYnNKLVFTN3MxbDgta2hpdlZpQmYzY1JFa3NyQnBYNWYweWM2VXRhMUdtelBBYUVsZ3dPRTVoVUdPc2tfX0VUZ2VzN1VmVVpqZUwyU1RieWtQR3VRMlhpMy1OVGZtd1Y1VTVqendIUGpR?oc=5",
+   "published": "2026-11-17T09:50+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "PRECIOUS METALS | Gold Slide and Fund Crisis Weigh on Turkish Household Demand - TradingView",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOU3FkMHNfZHlXM25zNHlwa2NoTmJ0b1RLQ0NKUy03dFhXbHJ6aXNtaEh6QnI0U3VDWXRoR0Z5SXVSOF9tcUhzUllhUVlXdXFtYVJBZTVoRm56S3ZRSXlKbVFoZG5SSWlKSWhvcS01elVHOWJ4RDAyNHl5YW9IZXgxcnYyMXE1THpGQ2ZGSmtqMkdONHZuY1ZLWWlhRzFHam9iSXU5RjZyWVZPaEdnM3N2RDdFNGJacWhkb2wzd3k3dDNwRXUzckM2RDZ5NjFzWkhhZVVlaV93?oc=5",
+   "published": "2026-11-17T09:40+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Turkish Households Buckle Under Gold-Price Slide, Funds Crisis - Bloomberg.com",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVi10UE0yMEdRNGxLamVGY2Iycl9OSXF5WWJTbVFlbm9RbDNKMExPaFRlUGdVdE10RllDaGRaekx3WHZxcF9rV1Q1OFRFSVljNlA1SlliVDBURTk3ZHFyWS0tdzNIVTQxekMwY2kwdEU5ZVNvQmlxcVNSMi1sQjFyek5wcm9SMERad25zQ3FOQlJWTzdCUWRfdWxpTXFienA3dkx0ekhRRzNPYXdMQVFFMDVn?oc=5",
+   "published": "2026-11-17T09:25+00:00"
+  },
+  {
+   "source": "GoogleNews-Metals",
+   "title": "Will silver price break above $48.9 resistance amid tentative bullish signals? - Traders Union",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVktkbm9HMkZpeldVcHF1NWY1X3FBdDJuVWxsYnM4Sm10MXBITUdKd1RuVlhWc3ZIaGtuWnhORnI5bHhjdU5IbVFTYVkyeXlZQTdwVDJfZXhya2dXcV9Zc3NXZ3hZanpHdTN1cl9fMmFJeUlPTFVBVUFlYlcybGNqSmNZbU8xamUxQUp6b2tHaw?oc=5",
+   "published": "2026-11-17T09:13+00:00"
   }
  ]
 }
