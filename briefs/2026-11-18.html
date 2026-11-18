@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Wednesday, November 18, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  .datawarn{font-size:.78rem;color:#a67c00;background:#fff8e6;border:1px solid #f0d999;border-radius:8px;padding:8px 12px;margin:10px 0}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    .datawarn{background:#2a2410;border-color:#5a4a1a;color:#e0b84c}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Wednesday, November 18, 2026 &middot; figures as of ~7:45am ET &middot; bitcoin trades near $63,850 (-1.75% 24h, roughly -12% over 7 days) in Extreme Fear (12) as Nvidia's fiscal Q3 beat-and-raise after Tuesday's close &mdash; revenue more than doubling to $115.8 billion, data center sales up 110% to $107.6 billion, Q4 guidance of $130 billion, shares up roughly 2% in after-hours trading &mdash; becomes the first real test of whether bitcoin's AI-correlated risk-off regime breaks today. Gold ($3,849) and silver ($47.12) remain stuck in a persistent bear-market slide (gold at its lowest since September 2025) as St. Louis Fed's Musalem says four more rate hikes may be needed, a hawkish signal that pressures both assets via the dollar and real rates. Stanley Druckenmiller is reportedly exiting copper, steel and chip stocks to buy gold miners &mdash; a direct validation of EMA's book &mdash; even as mining equities keep underperforming the metal itself in the broader sell-off.</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<div class="datawarn">Data note: the scheduled ~7:15am ET prefetch did not land for today (confirmed via a 30-minute poll of the repo through ~7:30am ET); market levels below use the most recent prefetch snapshot (Nov 17, 3:54pm ET) for BTC/ETH/gold/silver/hashrate/Deribit basis, cross-checked against WebSearch where it returned consistent figures (CoinGecko ~$64,900, CoinMarketCap ~$64,100, both broadly in line). WebSearch's index proved unreliable for several live, same-morning data points &mdash; conflicting or clearly mis-dated results for US equity futures, DXY, the 10-year (FRED also timed out in the prefetch), GDX's most recent close, and the single-day Nov 17 ETF flow print &mdash; so those are flagged "unavailable" below rather than guessed. No in-window news cleared on Lion One, Lavras, or SilverTiger despite a dedicated search.</div>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">$63,848</div>
+      <div class="chg down">-1.75% 24h; ~-12% over 7 days (CoinGecko); still pinned near multi-month lows into Nvidia's print</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">$1,792.88</div>
+      <div class="chg down">-1.51% 24h</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">12 (Extreme Fear)</div>
+      <div class="chg neutral">Up slightly from Monday's 10, but still near cycle lows</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">$3,849.27 / $47.12</div>
+      <div class="chg down">Gold roughly flat-to-down vs Monday's ~$3,859 print, still lowest since Sept 2025; silver extending its multi-session slide. Gold/silver ratio ~81.7, near Monday's "past 82" print</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$81.64 (last confirmed)</div>
+      <div class="chg neutral">-0.24% d/d, Friday Nov 13 close; no more recent print could be confirmed despite a dedicated search &mdash; flagged unavailable, not guessed</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)*</div>
+      <div class="value">+5.37% / +5.21%</div>
+      <div class="chg neutral">Nov 27 / Dec 4 contracts (9d/16d): continued compression from yesterday's +6.21%/+5.72% &mdash; contango holds (no backwardation stress for futures-held exposure), but the shrinking basis keeps signaling fading leveraged-long demand</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">-$2.57B (Nov MTD)</div>
+      <div class="chg down">US spot bitcoin ETFs' worst monthly drawdown since the January 2024 launch, through Nov 17; IBIT alone -$1.6B of that total. Single-day Nov 17 print not yet posted/confirmed</div>
+    </div>
+    <div class="tile">
+      <div class="label">Equities / DXY / 10Y</div>
+      <div class="value">Unavailable</div>
+      <div class="chg neutral">Live premarket futures, DXY and 10Y prints unavailable this morning (FRED timeout; WebSearch index returned no reliable same-day quotes). Qualitative read: Nvidia's after-hours ~+2% pop on the beat-and-raise is the key overnight input for today's open across AI-correlated risk assets, bitcoin included</div>
+    </div>
+  </div>
+  <div class="note">Network: hashrate 972.8 EH/s, essentially steady; difficulty unchanged at ~134.82T. No in-window Strategic Bitcoin Reserve, MSCI bitcoin-treasury, or CLARITY Act update beyond standing items already covered in prior briefs. No in-window news on Lion One, Lavras, or SilverTiger.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement &middot; Nvidia Beat-and-Raise</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html">Nvidia Beats on Revenue and Guidance in First Report Since Huang's Exit</a>
+    <div class="why">Why it matters to both funds: this is the single biggest overnight catalyst for the AI-correlated risk-off regime bitcoin has been trading inside. Revenue more than doubled year-over-year to $115.8B, data-center sales jumped 110% to $107.6B (beating the Street's ~$102B estimate), adjusted EPS of $2.68 topped the $2.47 consensus, and Q4 guidance of $130B came in above expectations &mdash; shares rose roughly 2% after-hours. Two caveats both desks should flag to LPs: the $130B guide spans an extra fiscal week, so the real sequential growth rate is closer to ~4%; and interim CEO Colette Kress confirmed Nvidia will stop shipping licensed Hopper chips to China after booking just $2.4B there this quarter. A clean beat should, in theory, relieve pressure on the Nasdaq-liquidity complex bitcoin has been shadowing &mdash; the open this morning is the real-time test of whether that correlation holds or finally breaks.</div>
+    <div class="when">Broke: Tuesday after the 4pm ET close (release + 5pm ET earnings call); after-hours move and details continued firming into the evening, CNBC/Investing.com</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement &middot; Fed Hike Signal</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html">St. Louis Fed's Musalem Says Four More Rate Hikes May Be Needed</a>
+    <div class="why">Why it matters to both funds: a sitting Fed president publicly floating four additional hikes is the kind of hawkish repricing that moves both legs of this desk's book directly &mdash; higher real rates and a firmer dollar are a mechanical headwind for gold (which is already sitting at 14-month lows) and tend to compress the liquidity backdrop bitcoin needs to re-rate higher. This is exactly the quotable, transmission-explicit macro data point James Lavish can cite on TV: the debasement trade doesn't require the Fed to ease, just for the market to eventually recognize rate hikes this aggressive are themselves a response to fiscal/debt dynamics the Fed can't fully control.</div>
+    <div class="when">Broke: yesterday morning, ~8:40am ET, CNBC</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows &middot; Capitulation Signal</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://decrypt.co/383466/bitcoin-investors-capitulating-historical-bottom-signal">Bitcoin Investors Are Capitulating—That's Historically Been a Bottom Signal</a>
+    <div class="why">Why it matters to BOF: on-chain and derivatives data continue pointing to a textbook capitulation signature &mdash; realized losses at cycle highs, open interest collapsing &mdash; and historically this combination has marked cycle lows rather than mid-cycle corrections. That's the setup BOF's distressed-paper and opportunistic-entry pipeline is built to underwrite, though "historically" is doing a lot of work in a regime where bitcoin is trading more like a leveraged Nasdaq/AI proxy than an independent asset; worth weighing against whether today's Nvidia-driven risk tone extends or reverses the slide.</div>
+    <div class="when">Broke: yesterday afternoon, ~3:36pm ET, Decrypt</div>
+  </div>
+
+</section>
+
+<section class="gold">
+  <h2 class="gold">Gold &amp; Silver</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities &middot; Macro Rotation</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQMDd6czlPV3VzOGhrbi1FdHdNTnowT3VGeTRpRkd6UTQ4d0JRNGtmLUotTDBCcnRGcVlpczd4b0RWdkl1cEtpbEh3blFKSHJkcHBCd3phNnFJM0NjT0lYeWFkOU1NT0t1VmlyZDBIMXdLWG9XRW9aTm5hQVBfSmk1TzJIcVVlS240dlRhaVdVVkV1cFdqWHc?oc=5">Druckenmiller Exits Copper, Steel and Chip Stocks to Buy Gold Miners</a>
+    <div class="why">Why it matters to EMA: a macro investor of Druckenmiller's stature publicly rotating out of cyclicals and into gold-mining equities is about as direct a validation of EMA's "monetary debasement insurance" thesis as the tape offers &mdash; especially paired with his same-day comment that he's short copper and expects economic weakness into 2027 (CoinDesk). That's a fund manager positioning for the exact macro deceleration-plus-debasement combination that favors producers over the cyclical-materials trade, which is worth citing directly to LPs this week.</div>
+    <div class="when">Broke: yesterday, ~12:35pm ET, Mining.com (via Google News); corroborated by CoinDesk's Druckenmiller copper/2027 piece, ~12:42pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities &middot; Underperformance</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxOc09IczZuS2JMNEVSUEFSdWlmUVEzNkN1dG4wSWZoQ2NhNHI5ZFVLRjQxT1AxVDhNZjJnR0JJdkxFR0FVNzh2TjNOeWw4akhKUFRpMHc2YVc4Q0lBTDRxaUFIMDRSSGtKX09UN2N5X3hGY2lEQ0tQemxiOWZIMXpTQ3BlYWdSUFdzSl9Pdy14RnVUMTVEejZ6dnBJZW1GRzIwRGNSaThVcmJRSVZzRS1mcUc5cm5sckY3SlVyV3BHc3Y?oc=5">Why Silver and Gold Miners Are Taking Bigger Losses Than Stocks in the Sell-Off</a>
+    <div class="why">Why it matters to EMA: this is the uncomfortable flip side of the Druckenmiller item &mdash; EMA's actual book (producers, developers, junior drill stories) is getting hit harder than the metal itself or broad equities in the current sell-off, the classic high-beta-to-gold behavior that makes mining equities a leveraged (and currently painful) way to express the debasement thesis. Useful context for any LP asking why the fund isn't simply tracking spot gold's smaller decline.</div>
+    <div class="when">Broke: yesterday, ~2:13pm ET, Investing.com (via Google News)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Producer Fundamentals &middot; Cash Flow</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMigwFBVV95cUxPTTkzSW1TZ0d1cU5vRTdZNTFRU3h2VDhOQ25EemplSWQxUldPUHBzSi1XYkEtX0dEcWsyR2otQlFDbmV6SGZFX0pGeWFCTnViOTNHdk5qbERQM3VUNlV6elFUODdIUnJkcVJkYnNIdVlpUW1PVzBFV3hGV0p4SXl0VXpMYw?oc=5">Agnico Eagle Stock: The Cash Flow Behind the Gold-Price Headlines</a>
+    <div class="why">Why it matters to EMA: a close look at one of the sector's largest producers' free-cash-flow generation is a useful counterweight to the mining-equity drawdown above &mdash; strong operating cash flow at prevailing gold prices is exactly the fundamental underpinning EMA cites when arguing the producer book can outlast a metal-price air pocket, distinct from the capital-starved junior drill stories further down the risk curve.</div>
+    <div class="when">Broke: yesterday, ~11:45am ET, Yahoo Finance Canada (via Google News)</div>
+  </div>
+
+  <div class="section-sub">No in-window news on Lion One, Lavras, or SilverTiger despite a dedicated search.</div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate &middot; 13F Allocators</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://bitcoinmagazine.com/news/wells-fargo-ibit-stake-doubles-strategy-cut">Wells Fargo More Than Doubles Its Bitcoin ETF Stake to $2.35 Billion</a>
+    <div class="why">Why it matters to BOF: fresh 13F disclosures show Wells Fargo doubling its IBIT position to $2.35B, with Goldman Sachs separately disclosed as more than doubling its own bitcoin ETF holdings to $1.28B (Bitcoin Magazine). Large banks adding into the drawdown, even as the ETF complex bleeds on net this month, is a useful counter-data point on the institutional-allocator pipeline both desks rely on.</div>
+    <div class="when">Broke: yesterday, ~11:00am ET, Bitcoin Magazine (Goldman item ~10:19am ET, same outlet)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Institutional &amp; Corporate &middot; Treasury Company</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://bitcoinmagazine.com/news/twenty-one-capital-xxi-buys-154-bitcoin">Twenty One Capital (XXI) Buys 154 Bitcoin, Its First Purchase of 2026</a>
+    <div class="why">Why it matters to BOF: a bitcoin-treasury company resuming purchases after sitting out all of 2026 is a small but concrete data point on how the treasury-company cohort (a core BOF ecosystem exposure) is behaving into this drawdown &mdash; buying selectively rather than either aggressively accumulating or forced-selling.</div>
+    <div class="when">Broke: yesterday, ~10:11am ET, Bitcoin Magazine</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement &middot; Risk Sentiment</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/11/17/wall-streets-fear-gauge-is-surging-again-and-this-time-its-not-just-about-ai-jitters.html">Wall Street's Fear Gauge Is Surging Again, and This Time It's Not Just About AI Jitters</a>
+    <div class="why">Why it matters to both funds: a broadening VIX spike beyond pure AI-valuation anxiety suggests the risk-off tone bitcoin has been trading inside is widening into a more general liquidity/sentiment shock rather than a single-sector story &mdash; a distinction that matters for whether a clean Nvidia beat is enough on its own to reverse the mood this morning.</div>
+    <div class="when">Broke: yesterday afternoon, ~3:28pm ET, CNBC</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows &middot; ETF Outflows</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://cryptoslate.com/record-2-57-billion-flees-bitcoin-etfs-as-blackrocks-ibit-sheds-1-6-billion/">Record $2.57B Flees Bitcoin ETFs as BlackRock's IBIT Sheds $1.6B</a>
+    <div class="why">Why it matters to BOF: November is now the worst month for US spot bitcoin ETF flows since the funds launched in January 2024, with IBIT responsible for nearly two-thirds of the total redemptions. The monthly scale of the bleed is the more important signal than any single day's print right now, and it's the direct backdrop against which Monday's brief one-day inflow should be read &mdash; a blip inside a historically bad month, not yet a trend reversal.</div>
+    <div class="when">Broke: yesterday (month-to-date tally through Nov 17), CryptoSlate</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem &amp; Deal Flow &middot; Institutional Infrastructure</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.theblock.co/news/business/2026-11-17-anchorage-digital-kalshi-prime-hodl-margining-bitcoin-collateral-442568">Anchorage, Kalshi Prime Let Institutions Use Custodied Bitcoin as Margin</a>
+    <div class="why">Why it matters to BOF: another piece of institutional plumbing (custodied bitcoin usable directly as margin collateral at a regulated venue) reduces the friction for allocators to hold bitcoin productively rather than as a static balance-sheet line item &mdash; the kind of infrastructure build-out that supports the ecosystem-deal side of BOF's mandate even in a drawdown month.</div>
+    <div class="when">Broke: yesterday morning, ~10:53am ET, The Block</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Regulation &amp; Policy &middot; Fed and Tokenization</span><span class="sentiment">🟡</span></div>
+    <a class="title" href="https://www.coindesk.com/policy/2026/11/17/u-s-fed-governor-waller-pitches-keeping-central-bank-at-the-center-of-tokenization">Fed Governor Waller Pitches Keeping Central Bank at the Center of Tokenization</a>
+    <div class="why">Why it matters to both funds: a sitting Fed governor actively shaping how tokenization develops (rather than ceding the ground to private stablecoin issuers or bitcoin-native rails) is a regulatory-direction signal worth tracking for both the market-structure questions BOF's ecosystem deals depend on and the broader sound-money narrative EMA argues against official-sector control of money.</div>
+    <div class="when">Broke: yesterday, ~12:00pm ET, CoinDesk</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Line chart showing the gold/silver ratio rising from about 77.5 on November 12 to about 82.0 on November 16 and easing slightly to about 81.7 on November 17, illustrating silver underperforming gold through the metals sell-off">
+      <line x1="40" y1="200" x2="380" y2="200" stroke="currentColor" stroke-opacity=".6"/>
+      <text x="200" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" opacity=".8">Gold/Silver Ratio Widens</text>
+      <text x="200" y="30" text-anchor="middle" font-size="8" fill="currentColor" opacity=".6">Gold spot ÷ silver spot, three sessions</text>
+
+      <circle cx="90" cy="178" r="4" fill="#b8860b"/>
+      <text x="90" y="222" text-anchor="middle" font-size="11" fill="currentColor" font-weight="700">77.5</text>
+      <text x="90" y="60" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Nov 12</text>
+
+      <circle cx="235" cy="75" r="4" fill="#c8102e"/>
+      <text x="235" y="65" text-anchor="middle" font-size="11" fill="currentColor" font-weight="700">82.0</text>
+      <text x="235" y="222" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Nov 16</text>
+
+      <circle cx="330" cy="82" r="4" fill="#c8102e"/>
+      <text x="330" y="100" text-anchor="middle" font-size="11" fill="currentColor" font-weight="700">81.7</text>
+      <text x="330" y="222" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Nov 17</text>
+
+      <line x1="90" y1="178" x2="235" y2="75" stroke="#b8860b" stroke-width="2" opacity=".7"/>
+      <line x1="235" y1="75" x2="330" y2="82" stroke="#c8102e" stroke-width="2" opacity=".7"/>
+
+      <text x="200" y="248" text-anchor="middle" font-size="8" fill="currentColor" opacity=".55">Source: USAGOLD daily reports + prefetch spot data, Nov 12-17, 2026</text>
+    </svg>
+    <div class="chart-cap">The read for EMA: the gold/silver ratio jumped from ~77.5 to above 82 in under a week as silver sold off harder than gold, then stabilized around 81.7 &mdash; still well above its longer-run norm. A ratio this wide historically marks the kind of dislocation that eventually reverses in silver's favor, but the near-term pain (per the mining-equity underperformance item above) is real and falls disproportionately on silver-torqued names like SilverTiger on the watchlist.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Wednesday, November 18, 2026, ~7:50am ET &middot; morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates &middot; <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
