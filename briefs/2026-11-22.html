@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Sunday, November 22, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  .datawarn{font-size:.78rem;color:#a67c00;background:#fff8e6;border:1px solid #f0d999;border-radius:8px;padding:8px 12px;margin:10px 0}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    .datawarn{background:#2a2410;border-color:#5a4a1a;color:#e0b84c}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Sunday, November 22, 2026 &middot; figures as of ~7:15am ET &middot; CME equity futures, FX cash and the 10-year are closed until Sunday evening, but bitcoin and metals kept trading. Bitcoin crashed to roughly $55,130 overnight Saturday &mdash; its lowest level since September 2024 &mdash; on an estimated $2.0-2.7 billion in 24-hour liquidations, then rallied back above $60,000 by Saturday's close and is consolidating in the high-$58,000s to low-$60,000s this morning. That extends Friday's equity rout, when the S&amp;P 500 (-3.70%) and Dow both closed in correction and the Nasdaq Composite (-5.28%) posted its worst week since 2020 on a 14% Nvidia plunge tied to a reported SEC accounting inquiry. Gold and silver fell alongside equities and bitcoin through the same window rather than offsetting the selloff, and GDX closed Friday down 5.00% to $68.40. The Crypto Fear &amp; Greed Index fell to roughly 10-11, among its lowest readings since late 2022.</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<div class="datawarn">Data note: the scheduled ~7:15am ET prefetch had not landed as of this brief's cutoff (confirmed via repeated polling through ~7:11am ET); the most recent automated snapshot remains Nov 21, 2:14pm ET (19:14 UTC). Its headline pool is reused only where timestamps fall inside today's Nov 21 8:00am ET&ndash;now window; everything from Friday evening forward &mdash; the weekend bitcoin crash/rebound, Friday's equity close, GDX's confirmed close, and ETF-flow figures &mdash; comes from targeted WebSearch, cross-checked across multiple outlets where prints diverged. ETH's +5.25% 24h print and the Deribit basis readings below are carried over from that same Nov 21 2:14pm ET snapshot (asterisked) since no independently confirmed fresher read was found. No in-window news on Lion One, Lavras, or SilverTiger despite dedicated searches, and no strictly in-window mining-equity-specific (earnings/drill/M&amp;A) headline was found for the Gold &amp; Silver section despite extensive searching &mdash; its three items are metal-price/outlook pieces instead, flagged accordingly.</div>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$60,300*</div>
+      <div class="chg down">Crashed to ~$55,130 overnight Saturday (lowest since Sept. 2024) on ~$2.0-2.7B in liquidations, then rallied back above $60,000; *prints range $58,900-$60,630 across sources this morning, +4.8% 24h per CoinGecko's most recent snapshot but still down ~6-7% on the week</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">$1,683*</div>
+      <div class="chg neutral">*Last confirmed Fri 2:14pm ET (+5.25% 24h at that snapshot); derivatives quotes since put ETH near $1,790-1,830. ETH spot ETFs broke an 8-day outflow streak with +$55.71M net inflow Saturday &mdash; a small bright spot against bitcoin's otherwise negative flow picture</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">~10-11 (Extreme Fear)</div>
+      <div class="chg down">CoinMarketCap's index fell to 11 Saturday, its lowest since late 2022; Alternative.me-style trackers showed 10. Down from 12 Friday and effectively unchanged from Thursday's extreme-fear reading</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$3,539 / $41.1</div>
+      <div class="chg down">Gold ~-2.4% Friday to ~$3,538-3,545, testing its lowest since Sept. 2025; silver ~-3.8% Friday to ~$41.1-41.3. Gold/silver ratio ~86. Weekend OTC prints are thin; COMEX reopens Sunday evening</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$68.40</div>
+      <div class="chg down">Closed Friday Nov. 20 down 5.00% from $72.00 Thursday's close (confirmed via Yahoo/Finviz) &mdash; a fourth straight down session; Newmont, Royal Gold and AngloGold Ashanti's US shares all fell Friday as miners again underperformed bullion</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)*</div>
+      <div class="value">-1.6% / +0.9%</div>
+      <div class="chg neutral">*Carried over from Fri 2:14pm ET snapshot: BTC-27NOV26 (5d) at -1.63% (slight backwardation), BTC-4DEC26 (12d) at +0.94% (thin contango) &mdash; a near-term bearish skew consistent with forced de-risking; negligible-to-negative near-dated carry for futures-held exposure</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">~-$124M to -$903M (Nov 20)</div>
+      <div class="chg down">Sources disagree sharply on Friday's total: Farside/DefiLlama show a provisional ~-$124.5M (IBIT pending); cryptobriefing cites IBIT alone at -$355M that day with a reported -$903M market-wide total. Treat the exact figure as unconfirmed; direction (net outflow, extending the week's ~-$1.25B Nov 16-20 and November's ~-$3.6-3.8B MTD, a record pace) is consistent across sources</div>
+    </div>
+    <div class="tile">
+      <div class="label">Equities / DXY / 10Y</div>
+      <div class="value">S&amp;P in correction</div>
+      <div class="chg down">Friday close: S&amp;P 500 -3.70% to 6,910.39 (correction, &gt;10% below the Oct. 6 record); Nasdaq Composite -5.28% to 22,617.73, erasing its 2026 gain, worst week since 2020; Dow -1.93% to 48,147.33. Nvidia -14% on a reported SEC accounting inquiry. Markets closed for the weekend; DXY ~103.5 and 10Y ~5.11-5.14% last confirmed Tue Nov 17 (FRED read timed out again in today's backfill)</div>
+    </div>
+  </div>
+  <div class="note">Network: hashrate ~1,056 EH/s (-0.8% w/w per Hashrate Index), difficulty 134.82T after the Nov. 14 -9.1% adjustment, with the next adjustment (~Nov. 26) expected +14.8%. Hashprice ~$30.45/PH/s/day, down from a $35.73 30-day average &mdash; with spot roughly a third below JPMorgan's ~$86,000 estimated production-cost estimate, miner stress (and BOF's distressed-debt sourcing pool) keeps widening. No in-window Strategic Bitcoin Reserve or CLARITY Act movement found; MSCI's confirmed Nov. 11 decision to remove Strategy and Metaplanet from its indexes (effective close of Nov. 30) remains a standing watch item with no new in-window development. No in-window news on Lion One, Lavras, or SilverTiger despite dedicated searches.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows &middot; Weekend Crash-and-Rebound</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open">Bitcoin Bounces 9% From Two-Year Low to Retake $60,000 as Traders Eye Monday's Stock Open</a>
+    <div class="why">Why it matters to both funds: bitcoin tagged a fresh two-year-plus low (~$55,130, worst since September 2024) on an estimated $2.0-2.7B of forced liquidations before clawing back above $60,000 within hours &mdash; a genuine deleveraging-and-reload cycle happening with no equity or ETF market open to absorb or confirm it. For BOF's hybrid book, the real question is whether Monday's reopen (cash ETF flows, equity correlation) validates this bounce or reintroduces the selling that drove the low.</div>
+    <div class="when">Broke: Saturday ~12:50pm ET, CoinDesk (crash itself overnight into Saturday per Decrypt and aggregator reporting)</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement &middot; Correlation Breakdown Continues</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html">Anthropic's Record IPO Collides With Tech's Worst Week on Wall Street Since 2020</a>
+    <div class="why">Why it matters to both funds: the AI-driven equity correction (S&amp;P -3.70% Friday, Nasdaq's worst week since 2020) is the dominant force pulling bitcoin, gold and silver down together this week instead of letting either play its diversifier role &mdash; precisely the regime-risk Lavish and Lepard need live, quotable evidence for. Watch whether Monday's reopen shows correlations starting to break back apart or tightening further as the AI unwind continues.</div>
+    <div class="when">Broke: Saturday ~11:40am ET, CNBC</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate &middot; Treasury Company Buys the Dip</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://cryptobriefing.com/twenty-one-capital-buys-bitcoin-dip-november-2026/">Twenty One Capital Buys the Bitcoin Dip After Weekend Selloff</a>
+    <div class="why">Why it matters to BOF: Twenty One (XXI) added roughly 154 BTC (~$10M, paid in cash) as bitcoin fell to ~$62,000, pushing its treasury toward ~43,700 BTC &mdash; a notable contrast to the Strategy mNAV-inversion story this desk flagged Saturday. It's the first sign a bitcoin-treasury company is using this drawdown to add rather than retrench, worth tracking against whether Strategy, Metaplanet or others follow before Monday's open.</div>
+    <div class="when">Broke: weekend selloff, reported Saturday/Sunday, CryptoBriefing (via Farside-sourced flow data)</div>
+  </div>
+
+</section>
+
+<section class="gold">
+  <h2 class="gold">Gold &amp; Silver</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal Price Drivers &middot; Technical Breakdown</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.forex.com">Gold Price Forecast: XAU/USD Breaks Multi-Year Uptrend in Worst Week Since March</a>
+    <div class="why">Why it matters to EMA: a multi-year uptrend break is a technical signal that matters beyond the daily print &mdash; it's the kind of chart damage that can shift momentum-driven allocator flows out of gold-adjacent mining equities independent of the fundamental debasement case, and it's happening in the same week bitcoin also broke two-year support. Worth distinguishing for Lepard's book: technical capitulation versus a change in the structural thesis.</div>
+    <div class="when">Broke: Saturday ~10:14am ET, FOREX.com (via Google News)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal Price Drivers &middot; Is the Bull Case Still Intact?</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://nai500.com/blog/2026/11/weekly-market-recap-november-21-is-golds-long-term-bull-case-still-intact-near-3500/">Weekly Market Recap: Is Gold's Long-Term Bull Case Still Intact Near $3,500?</a>
+    <div class="why">Why it matters to EMA: this is the exact question the fund's "Monetary Debasement Insurance" thesis needs answered in real time &mdash; the piece ties gold's slide to December Fed-hike odds and a 10-year holding above 5%, framing the move as a real-rates/liquidity event rather than a debasement-thesis failure. That's the distinction Lepard needs to keep making to investors watching GDX down double digits this month.</div>
+    <div class="when">Broke: Saturday, Nov. 21, NAI500</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities &middot; Producers Underperform Bullion Again</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://finance.biggo.com/news/0a95bda5-ddae-4a35-9076-903365b731e7">Gold Miners Slump Toward Yearly Lows as Bullion Breaks Below $3,600</a>
+    <div class="why">Why it matters to EMA: GDX's confirmed -5.00% Friday close (to $68.40, a fourth straight down session, ~41% off its 52-week high) with Newmont, Royal Gold and AngloGold Ashanti's US shares all down the same day confirms the producer/developer complex EMA's book is built on is again falling faster than the metal itself &mdash; the pattern this desk has flagged for several sessions running, now compounding into a genuinely rough month for the equity leg of the thesis.</div>
+    <div class="when">Broke: Friday close reporting, picked up in Saturday coverage, BigGo Finance (via Google News)</div>
+  </div>
+
+  <div class="section-sub">No in-window news on Lion One, Lavras, or SilverTiger despite dedicated searches. No strictly in-window (post-Nov. 21 8am ET) mining-equity earnings, drill-result, or M&amp;A headline was found despite extensive searching; the three items above are metal-price and outlook pieces instead, with Friday's confirmed GDX/producer tape included as the clearest verified equity-specific signal available.</div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows &middot; ETF Withdrawals Accelerate</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://finance.biggo.com/">Bitcoin Slips Under Key Moving Averages as ETF Withdrawals and Long Liquidations Accelerate</a>
+    <div class="why">Why it matters to both funds: this is the mechanical story behind the weekend's air-pocket move &mdash; ETF-driven selling plus long liquidations accelerating into a market with no cash-equity session open to absorb it. Confirms the crash wasn't an isolated derivatives event but tied to the same outflow trend that's made November the second- or third-worst month on record for spot bitcoin ETFs.</div>
+    <div class="when">Broke: Saturday ~12:55pm ET, BigGo Finance (via Google News)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem &amp; Custody &middot; Exchange Freeze on Bridge Exploit</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.theblock.co/news/defi/2026-11-21-cyber-investigating-suspected-1-million-bridge-exploit-as-upbit-bithumb-freeze-transfers-444810">Cyber Investigating Suspected $1 Million Bridge Exploit as Upbit, Bithumb Freeze Transfers</a>
+    <div class="why">Why it matters to BOF: the dollar amount is small, but two of Korea's largest exchanges freezing transfers in response is a reminder that custody and bridge risk can still disrupt liquidity venues BOF's ecosystem deal flow touches, even in a week when the bigger story is macro-driven deleveraging rather than infrastructure failure.</div>
+    <div class="when">Broke: Saturday ~1:51pm ET, The Block</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows &middot; ETH Flows Turn</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://crypto.news/ethereum-etfs-break-8-day-outflow-eth-price-down/">Ethereum ETFs Break 8-Day Outflow Streak as $55.71M Flows In</a>
+    <div class="why">Why it matters to both funds: a small positive flow day for ETH products during an otherwise extreme-fear week for bitcoin is a useful signal that not all risk appetite has left digital assets &mdash; worth watching whether it's a one-day blip or the start of selective dip-buying that could extend to bitcoin ETFs once Monday's cash session reopens.</div>
+    <div class="when">Broke: Saturday, Nov. 21, crypto.news (Farside-sourced)</div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Line chart showing bitcoin's intraday path from Friday afternoon through Saturday night into Sunday morning. Bitcoin starts around 60000 Friday afternoon, falls sharply to about 55100 early Saturday (the two-year low), then rallies back above 60000 by Saturday evening, and is shown consolidating around 59000 to 60300 Sunday morning. The V-shaped move illustrates a rapid crash and rebound within a single 24 to 36 hour window.">
+      <line x1="40" y1="210" x2="380" y2="210" stroke="currentColor" stroke-opacity=".6"/>
+      <text x="200" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" opacity=".8">Bitcoin's V-Shaped Weekend</text>
+      <text x="200" y="30" text-anchor="middle" font-size="8" fill="currentColor" opacity=".6">Approximate BTC/USD path, Friday 4pm ET &ndash; Sunday 7am ET (spot, indicative)</text>
+
+      <polyline points="50,90 120,95 170,185 230,100 310,108 360,112" fill="none" stroke="#e08f00" stroke-width="2.5"/>
+
+      <circle cx="50" cy="90" r="3" fill="#e08f00"/>
+      <circle cx="120" cy="95" r="3" fill="#e08f00"/>
+      <circle cx="170" cy="185" r="3" fill="#e08f00"/>
+      <circle cx="230" cy="100" r="3" fill="#e08f00"/>
+      <circle cx="310" cy="108" r="3" fill="#e08f00"/>
+      <circle cx="360" cy="112" r="3" fill="#e08f00"/>
+
+      <text x="50" y="226" text-anchor="middle" font-size="8" fill="currentColor" opacity=".55">Fri 4pm</text>
+      <text x="170" y="240" text-anchor="middle" font-size="8" fill="currentColor" opacity=".55">Sat ~$55,130 (low)</text>
+      <text x="310" y="226" text-anchor="middle" font-size="8" fill="currentColor" opacity=".55">Sun 7am</text>
+
+      <text x="170" y="198" text-anchor="middle" font-size="8" fill="#e08f00" font-weight="700">-$2.0-2.7B liq.</text>
+
+      <text x="200" y="248" text-anchor="middle" font-size="8" fill="currentColor" opacity=".55">Sources: CoinDesk, Decrypt, CoinGecko, CoinGlass. Path approximate; exact levels vary by venue.</text>
+    </svg>
+    <div class="chart-cap">The read for both desks: this was a classic air-pocket weekend move &mdash; a forced-liquidation flush to a fresh two-year-plus low with no cash-equity or ETF market open to cushion it, followed by an equally fast reload back above $60,000. The shape matters more than the exact bottom print: it shows how thin weekend liquidity can now swing bitcoin by double digits in hours, a dynamic BOF's futures-basis and miner-debt positioning both need to price for heading into Monday's reopen.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Sunday, November 22, 2026, ~7:15am ET &middot; morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates &middot; <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
