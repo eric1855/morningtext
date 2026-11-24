@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Tuesday, November 24, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  .datawarn{font-size:.78rem;color:#a67c00;background:#fff8e6;border:1px solid #f0d999;border-radius:8px;padding:8px 12px;margin:10px 0}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    .datawarn{background:#2a2410;border-color:#5a4a1a;color:#e0b84c}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Tuesday, November 24, 2026 &middot; pre-market, figures as of ~8:00am ET &middot; Thanksgiving-shortened week (US cash markets shut Thursday, PCE Wednesday). Monday's Nvidia-driven melt-up has given back much of its gain overnight, and bitcoin never really joined it. BTC spiked to ~$64,500 on Monday, then slid back under $60,000 this morning. US spot ETFs lost another $570M, the fifth straight day of outflows. Nasdaq-100 futures are down ~2%. Gold miners had a strong day: GDX rose 6.4% on Monday against a ~2.3% gain in bullion. Gold (-0.3%) and silver (~-1-3%) are slipping again because the Fed still looks set to hike in December and the dollar is at its highest since March 2025.</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<div class="datawarn">Data note: for the fourth day running, the prefetch did not land at ~7:15am ET. The latest snapshot is from Mon Nov 23, 6:52pm ET (23:52 UTC), and its stored window starts Nov 22 8:00am. Today's pool was re-filtered by hand to the correct cutoff of Nov 23, 8:00am ET. ETH, Fear &amp; Greed, hashrate and Deribit basis come from that Monday-evening snapshot (marked *). Live API refresh from this session is blocked, so BTC, metals, flows and macro come from WebSearch with timestamps. The FRED 10Y read timed out again, and the ETF-flow table did not parse. There was no in-window news on Lion One, Lavras or SilverTiger.</div>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$59,700-60,400</div>
+      <div class="chg down">-~2-3% 24h (Coinbase -2.3%; Bitcoin.com $60,439 at 11:25pm ET). Down ~7.5% from Monday's ~$64,500 intraday peak (Forbes). Still ~8% above Saturday's ~$55,100 low</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$1,708*</div>
+      <div class="chg down">*-0.7% 24h as of Mon 6:52pm ET (CoinGecko via prefetch). No fresher print confirmed</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed*</div>
+      <div class="value">11 (Extreme Fear)</div>
+      <div class="chg neutral">*Unchanged from 11 the day before. Monday's 17% rally off the lows did not move sentiment at all</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$3,623 / ~$41.85-42.70</div>
+      <div class="chg down">Gold -0.3% pre-market (Reuters) after Monday's +2.3% close at ~$3,609-3,650. Silver -1.0% to -2.9% (FXStreet $41.85 at 4:30am ET). Gold/silver ratio 86.45, up from 84.32 (FXStreet)</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$72.80</div>
+      <div class="chg up">+6.43% Monday, breaking a four-day losing streak, about 2.8x bullion's gain (StockAnalysis). GDXJ closed at $86.91. Pre-market: Newmont and Barrick -1.3%, Agnico -0.9%</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)*</div>
+      <div class="value">+1.1% / +2.3%</div>
+      <div class="chg neutral">*Mon 6:52pm ET: BTC-4DEC26 (10d) +1.12%, BTC-11DEC26 (17d) +2.27%. Down from ~3% on Sunday, so the curve is nearly flat. Leveraged longs are not paying up even after a 17% bounce. Holding bitcoin through futures costs almost nothing, and there is no carry to harvest</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">-$569.7M (Mon Nov 23)</div>
+      <div class="chg down">IBIT -$509.3M (~89%), GBTC Mini -$61.1M, BITB -$12.6M. FBTC +$13.3M was the only inflow (Farside via CryptoTicker). 5th straight outflow day, -$2.37B over that run. November -$4.71B, a record month</div>
+    </div>
+    <div class="tile">
+      <div class="label">Futures / DXY / 10Y</div>
+      <div class="value">NQ -~2% &middot; DXY ~104.2-104.5 &middot; 10Y ~4.93%</div>
+      <div class="chg down">~7:35am ET: S&amp;P futures -1%, Nasdaq-100 -2%, Dow -0.5% (Yahoo Finance live), with Nvidia -4-5% pre-market. DXY at its highest since Mar 2025 (CoinDesk/FXStreet, Mon). 10Y -3bp to 4.93% (Trading Economics)</div>
+    </div>
+  </div>
+  <div class="note">Network*: hashrate ~1,056 EH/s, up from ~1,029 Sunday, and difficulty 134.82T. The next adjustment, around Nov 27, is projected at +8.5-9.4% (MineOrNot/mempool). Hashprice is near a record low of ~$25-28/PH/day, and one estimate has it falling to ~$23 after the adjustment if spot holds. Hashrate is still rising into record-low revenue, which means the squeeze on high-cost operators gets worse this week. Watch items: MSCI's deletion of Strategy and Metaplanet takes effect at the Nov 30 close. Lion One's estimated earnings date is Nov 26 (Yahoo). There was no in-window CLARITY Act or Strategic Bitcoin Reserve movement.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows &middot; ETFs</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.forbes.com/sites/siladityaray/2026/11/24/bitcoin-slips-below-60000-again-after-short-lived-nvidia-fueled-rally/">Bitcoin slips back below $60,000, erasing its Nvidia-rally gains, as spot ETFs bleed $570M for a fifth straight day</a>
+    <div class="why">Why it matters to BOF: Monday was the S&amp;P's best day since April 2025 and the Nasdaq rose 6.5%, yet bitcoin ended roughly flat and is now leading the giveback. It is trading as a high-beta risk asset on down days without the upside. The selling is coming through the institutional wrapper. IBIT accounted for $509M of the outflow, even as IBIT shares rose 4.85% on the day, so holders used the bounce to exit. Quotable: November's $4.71B of outflows is the worst month on record for the products. Until daily flows turn positive, $55k remains the level to defend, and rallies are chances to raise liquidity rather than signals to chase.</div>
+    <div class="when">Broke: overnight into Tuesday (Forbes, early Tue; Farside flow data posted Mon evening ET)</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate &middot; Treasury Companies</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.bloomberg.com/news/articles/2026-11-23/strategy-mstr-enterprise-value-falls-below-its-851-305-btc-holding">Strategy's enterprise value falls below its 851,305 BTC as it spends 7x more buying back preferred stock than buying bitcoin</a>
+    <div class="why">Why it matters to BOF: the same 8-K that showed 457 BTC (~$29.6M) also showed $211.8M of STRC preferred repurchased at ~$97 against its $100 stated amount. $147M of that was funded by selling MSTR common below NAV. Strategy also raised its buyback authorization from $3B to $4B. The biggest marginal corporate buyer has switched from accumulating bitcoin to defending its credit stack, and Strive (43,404 BTC) bought nothing last week either (Bitcoin Magazine). For treasury-company equity and preferreds, the read is that issuers will defend preferreds before they defend the mNAV. With MSCI selling due Nov 30, sub-par preferreds could be where the distressed opportunity shows up.</div>
+    <div class="when">Broke: Mon 8:30am ET (8-K, via Cointelegraph/crypto.news); Bloomberg mNAV story ~4:50pm ET Mon; Strive update ~4:09pm ET Mon</div>
+  </div>
+
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &amp; Debasement &middot; Fed / Dollar</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://en.sedaily.com/world/2026/11/24/ny-feds-williams-says-prices-too-high-open-to-back-to-back">NY Fed's Williams says the Fed must keep acting and won't rule out back-to-back hikes; the dollar hits its highest since March 2025</a>
+    <div class="why">Why it matters to both funds: Williams ruled out a half-point move but left a December and January sequence open. A December quarter-point hike is priced at ~93-100% for the Dec 8-9 meeting (CME FedWatch via Investing.com). The policy rate is 3.75-4.00%. The pass-through to both assets runs through the dollar: DXY rose ~0.6% Monday to ~104.5, and gold and silver are giving back Monday's gains this morning. Bitcoin has traded alongside the dollar rather than against it, so this is not a debasement bid. Quotable: the Cleveland Fed nowcast has October core PCE at +0.27% m/m, about 3.2% y/y, and a 0.35% print would likely revive talk of a 50bp hike (FinFlash). Wednesday's number sets the direction for real rates, and through them for both books, into the holiday.</div>
+    <div class="when">Broke: Mon Nov 23, intraday remarks (Seoul Economic Daily/Jakarta Post write-ups dated Tue); DXY high Mon session (CoinDesk live blog)</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">Ranked for a mining-equity book. No in-window news on Lion One, Lavras or SilverTiger.</div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities &middot; Junior Financing / M&amp;A</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.stocktitan.net/news/SITKF/sitka-gold-announces-strategic-investment-of-72-7-million-from-anglo-axcphdfegg1g.html">Sitka Gold jumps ~28-32% after AngloGold Ashanti agrees to buy a 15% stake for at least C$72.8M</a>
+    <div class="why">Why it matters to EMA: a senior producer wrote a C$73-102M cheque for a Yukon explorer at C$0.95 a share, the same week gold fell ~9%. The RC Gold project holds 1.3Moz indicated and 3.8Moz inferred. The deal implies a valuation of roughly C$500M, about C$100 per resource ounce. AngloGold also gets board, top-up and preferential (ROFR-style) rights. This is the drill-story thesis EMA runs: majors with depleting reserves buy ounces in safe jurisdictions on weakness, and ETFs do not own the names that re-rate. It sets a mark for comparable Canadian developers, and closing is expected in December.</div>
+    <div class="when">Broke: Mon Nov 23 (company release via Newsfile; shares +27.9% by early afternoon ET, MINING.COM/Investing.com)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Mining Equities &middot; GDX Tape</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://rallies.ai/news/gold-miners-fall-as-bullion-slips-ahead-of-us-inflation-data-54ff0c4b4dbf80f2">Gold miners slip pre-market as bullion eases to $3,623 ahead of PCE, after GDX's 6.4% rebound</a>
+    <div class="why">Why it matters to EMA: Monday showed the leverage works in both directions. GDX rose 6.43% to $72.80 on a ~2.3% gold move, about 2.8x, after falling harder than bullion all last week. Newmont and Barrick are now -1.3% pre-market, and Agnico -0.9% (Reuters). GDX's 52-week range of $68.01-117.18 puts it ~38% below its high, while gold is only ~10% below its early-November level above $4,000 (Rio Times, Nov 4). Miners are pricing in a much deeper metal decline than bullion has delivered. That gap is the opportunity if Wednesday's PCE is benign, and the risk if it revives 50bp talk. Monday's GDX options mix of 61% calls (Longbridge) shows dip-buyers are already active.</div>
+    <div class="when">Broke: pre-market Tuesday (Reuters via Rallies); GDX close Mon 4:00pm ET</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Metal Price Drivers &middot; Silver</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.fxstreet.com/news/silver-price-today-silver-falls-according-to-fxstreet-data-202611240930">Silver slides ~3% to $41.85 and the gold/silver ratio jumps to 86.45 from 84.32</a>
+    <div class="why">Why it matters to EMA: silver is again the weak link. It is -41% year-to-date on FXStreet's series and gave back most of Monday's +1.9% within hours, while gold fell only 0.3%. A ratio back above 86 means the market is pricing silver as an industrial asset tied to the AI and capex cycle (Nvidia -5% pre-market), not as monetary metal. Silver-heavy juniors such as SilverTiger carry the most torque but are the last to recover while the ratio widens. A ratio break back below ~84 is the signal to add silver beta.</div>
+    <div class="when">Broke: ~4:30am ET Tue (FXStreet data)</div>
+  </div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Miners &amp; Infrastructure &middot; Miner Stress</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://bitcoinmagazine.com/news/bitdeer-sells-281-bitcoin-holds-none">Bitdeer sells all 281 BTC it mined last week and now holds none</a>
+    <div class="why">Why it matters to BOF: a large self-miner that has also moved into HPC now has zero bitcoin treasury and sells all production weekly into a market with record-low hashprice (~$25-28/PH/day). With another +8.5-9.4% difficulty step due around Nov 27, this is what the margin squeeze looks like on the balance sheet. Expect more miners to sell treasuries, raise converts or draw on lenders, which feeds BOF's distressed-debt pipeline. It also adds steady miner supply to the spot market.</div>
+    <div class="when">Broke: Mon ~1:30pm ET (Bitcoin Magazine)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Ecosystem Deal Flow &middot; BTC-Backed Credit</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/11/23/eric-trump-backed-american-bitcoin-secures-usd150-million-loan-against-its-">Eric Trump-backed miner American Bitcoin secures a $150M loan against its bitcoin</a>
+    <div class="why">Why it matters to BOF: this is the other way out for a squeezed miner, borrowing against the stack instead of selling it the way Bitdeer did. It shows lenders will still write bitcoin-collateralized miner credit at $60k. The terms (LTV, margin-call triggers) are the comparable to watch for BOF's own lending and debt book. A further ~15% drawdown would put collateral pressure on exactly this kind of facility.</div>
+    <div class="when">Broke: Mon ~10:00am ET (CoinDesk)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Regulation &amp; Policy &middot; Custody / Stablecoins</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398">DOJ seeks $1.17B in USDC tied to the Binance hack; Circle could issue replacement tokens as North Korea mixes $247M through bitcoin mixers</a>
+    <div class="why">Why it matters to both desks: Circle's ability to freeze and reissue USDC is now being used at billion-dollar scale. That works in the government's favor and is a counterparty risk for anyone settling in stablecoins. Meanwhile, $247M of hack proceeds moving through bitcoin mixers (Decrypt) means more tainted UTXOs. OTC and treasury counterparties should expect stricter chain-analytics screening on inbound coins.</div>
+    <div class="when">Broke: Mon ~3:00pm ET (The Block); mixer flows ~3:36pm ET (Decrypt)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows &middot; Issuer Competition</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/11/23/cathie-wood-s-ark-invest-pulls-the-plug-on-two-planned-crypto-etfs">ARK Invest pulls two planned crypto ETFs</a>
+    <div class="why">Why it matters to BOF: issuers are pulling products in a record-outflow month, the opposite of the 2024-25 launch rush. Less shelf space means fewer new allocator channels into the asset class near term. It also means less competition for active, fund-structure bitcoin exposure like BOF's when the cycle turns.</div>
+    <div class="when">Broke: Mon ~11:39am ET (CoinDesk)</div>
+  </div>
+
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &amp; Flows &middot; Positioning</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.theblock.co/news/markets/2026-11-23-grayscale-bitcoin-altcoins-oversold-ai-risks-crypto-outlook-445418">Grayscale says bitcoin and major altcoins look "oversold" but AI risk clouds the near-term outlook</a>
+    <div class="why">Why it matters to BOF: it is a useful third-party quote for LP letters, since Fear &amp; Greed has been stuck at 11 and the Deribit curve is nearly flat. Grayscale's own caveat is the important part: bitcoin is now trading off the AI equity cycle (Nvidia -5% pre-market today), so "oversold" alone will not mark a bottom until bitcoin's correlation to Nasdaq breaks.</div>
+    <div class="when">Broke: Mon ~5:18pm ET (The Block)</div>
+  </div>
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart of Monday November 23 percentage moves. Nasdaq Composite plus 6.5 percent, GDX plus 6.4 percent, S&amp;P 500 plus 4.7 percent, gold plus 2.3 percent, silver plus 1.9 percent, bitcoin roughly flat at minus 0.1 percent over 24 hours.">
+      <text x="200" y="16" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor" opacity=".85">Monday's rally: miners delivered, bitcoin didn't</text>
+      <text x="200" y="30" text-anchor="middle" font-size="8" fill="currentColor" opacity=".6">% change, Mon Nov 23 session (BTC: 24h to 6:52pm ET)</text>
+      <!-- baseline y=220; 25px per 1% -->
+      <line x1="30" y1="220" x2="390" y2="220" stroke="currentColor" stroke-opacity=".5"/>
+      <text x="26" y="223" text-anchor="end" font-size="7" fill="currentColor" opacity=".6">0%</text>
+      <line x1="30" y1="170" x2="390" y2="170" stroke="currentColor" stroke-opacity=".12"/>
+      <text x="26" y="173" text-anchor="end" font-size="7" fill="currentColor" opacity=".6">2%</text>
+      <line x1="30" y1="120" x2="390" y2="120" stroke="currentColor" stroke-opacity=".12"/>
+      <text x="26" y="123" text-anchor="end" font-size="7" fill="currentColor" opacity=".6">4%</text>
+      <line x1="30" y1="70" x2="390" y2="70" stroke="currentColor" stroke-opacity=".12"/>
+      <text x="26" y="73" text-anchor="end" font-size="7" fill="currentColor" opacity=".6">6%</text>
+      <rect x="42" y="57.5" width="44" height="162.5" fill="#0b3d91" opacity=".8"/>
+      <text x="64" y="53" text-anchor="middle" font-size="8" font-weight="700" fill="currentColor">+6.5%</text>
+      <text x="64" y="234" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Nasdaq</text>
+      <rect x="100" y="59.25" width="44" height="160.75" fill="#b8860b" opacity=".9"/>
+      <text x="122" y="55" text-anchor="middle" font-size="8" font-weight="700" fill="#b8860b">+6.4%</text>
+      <text x="122" y="234" text-anchor="middle" font-size="8" font-weight="700" fill="currentColor" opacity=".8">GDX</text>
+      <rect x="158" y="102.5" width="44" height="117.5" fill="#0b3d91" opacity=".6"/>
+      <text x="180" y="98" text-anchor="middle" font-size="8" font-weight="700" fill="currentColor">+4.7%</text>
+      <text x="180" y="234" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">S&amp;P 500</text>
+      <rect x="216" y="161.75" width="44" height="58.25" fill="#d4af37" opacity=".85"/>
+      <text x="238" y="157" text-anchor="middle" font-size="8" font-weight="700" fill="currentColor">+2.3%</text>
+      <text x="238" y="234" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Gold</text>
+      <rect x="274" y="171.75" width="44" height="48.25" fill="#9aa0a6" opacity=".9"/>
+      <text x="296" y="167" text-anchor="middle" font-size="8" font-weight="700" fill="currentColor">+1.9%</text>
+      <text x="296" y="234" text-anchor="middle" font-size="8" fill="currentColor" opacity=".7">Silver</text>
+      <rect x="332" y="220" width="44" height="2" fill="#c8102e"/>
+      <text x="354" y="212" text-anchor="middle" font-size="8" font-weight="700" fill="#c8102e">-0.1%</text>
+      <text x="354" y="234" text-anchor="middle" font-size="8" font-weight="700" fill="currentColor" opacity=".8">BTC</text>
+      <text x="200" y="256" text-anchor="middle" font-size="6.5" fill="currentColor" opacity=".5">Sources: MarketWatch/Yahoo (indices), StockAnalysis (GDX), Rio Times (gold close $3,609), USA Today (silver), CoinGecko via prefetch (BTC).</text>
+    </svg>
+    <div class="chart-cap">The read for both desks: on the best US equity day since April 2025, gold miners kept pace with the Nasdaq, rising ~2.8x bullion's gain. Bitcoin, the asset that usually carries the most beta, finished flat and is now leading the giveback below $60k. For EMA, miner operating leverage is working on the upside again. For BOF, bitcoin is taking the downside of the risk trade without the upside, alongside $570M of daily ETF outflows. The Nasdaq relationship has to break before a bottom is credible.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Tuesday, November 24, 2026, ~8:25am ET &middot; morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates &middot; <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+
+</body>
+</html>
