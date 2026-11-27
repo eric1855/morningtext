@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOF + EMA Morning Brief — Friday, November 27, 2026</title>
+<style>
+  :root{color-scheme:light dark}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:0 16px 40px;line-height:1.5;color:#111;background:#fff}
+  header{padding:18px 0 12px;border-bottom:2px solid #111}
+  header h1{font-size:1.35rem;margin:0 0 2px}
+  header .date{color:#555;font-size:.9rem}
+  header .funds{font-size:.8rem;color:#888;margin-top:4px}
+  .scoreboard{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .tile{border:1px solid #ddd;border-radius:8px;padding:10px 12px;background:#fafafa}
+  .tile .label{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:#666;margin-bottom:2px}
+  .tile .value{font-size:1.05rem;font-weight:700}
+  .tile .chg{font-size:.85rem;font-weight:600}
+  .up{color:#0a7d2c}
+  .down{color:#c8102e}
+  .neutral{color:#a67c00}
+  .note{font-size:.78rem;color:#888;margin:4px 0 0}
+  section{margin:26px 0}
+  h2{font-size:1.05rem;border-left:4px solid #111;padding-left:8px;margin-bottom:12px}
+  h2.gold{border-left-color:#b8860b}
+  .section-sub{font-size:.8rem;color:#888;margin:-8px 0 14px 12px}
+  .headline{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #eee}
+  .headline:last-child{border-bottom:none}
+  .headline .top{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+  .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.03em;color:#888;font-weight:600}
+  .sentiment{font-size:.95rem}
+  .headline a.title{font-weight:700;color:#0b3d91;text-decoration:none;font-size:1rem}
+  .headline a.title:visited{color:#0b3d91}
+  .must a.title{font-size:1.06rem}
+  .why{font-size:.9rem;color:#444;margin-top:4px}
+  .when{font-size:.75rem;color:#999;margin-top:3px;font-style:italic}
+  .chart-box{border:1px solid #ddd;border-radius:8px;padding:16px;background:#fafafa}
+  .chart-box svg{width:100%;height:auto;display:block}
+  .chart-cap{font-size:.82rem;color:#444;margin-top:10px}
+  .datawarn{font-size:.78rem;color:#a67c00;background:#fff8e6;border:1px solid #f0d999;border-radius:8px;padding:8px 12px;margin:10px 0}
+  footer{margin-top:30px;padding-top:14px;border-top:1px solid #ddd;font-size:.78rem;color:#888;text-align:center}
+  @media (prefers-color-scheme: dark){
+    body{background:#0f1115;color:#e8e8e8}
+    header{border-bottom-color:#e8e8e8}
+    header .date{color:#9aa0a6}
+    header .funds{color:#777}
+    .tile{background:#181b20;border-color:#2a2e35}
+    .tile .label{color:#9aa0a6}
+    .up{color:#3ddc73}
+    .down{color:#ff6b6b}
+    .neutral{color:#e0b84c}
+    .note{color:#777}
+    h2{border-left-color:#e8e8e8}
+    h2.gold{border-left-color:#d4af37}
+    .section-sub{color:#777}
+    .headline{border-bottom-color:#2a2e35}
+    .tag{color:#9aa0a6}
+    .headline a.title{color:#7aa7ff}
+    .headline a.title:visited{color:#7aa7ff}
+    .why{color:#c2c6cc}
+    .when{color:#777}
+    .chart-box{background:#181b20;border-color:#2a2e35}
+    .chart-cap{color:#c2c6cc}
+    .datawarn{background:#2a2410;border-color:#5a4a1a;color:#e0b84c}
+    footer{border-top-color:#2a2e35;color:#777}
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Morning Brief</h1>
+  <div class="date">Friday, November 27, 2026 (Black Friday) &middot; pre-market, figures as of ~6:50-8:00am ET &middot; US stocks run a half-day (close 1pm ET) and bonds close at 2pm ET. Metals moved hard overnight: silver +6-7% to ~$44 and gold +2-3% to ~$3,650, rebounding off 15-month lows as the dollar stalled below 104. Equity futures are sharply higher (NQ +~2%). BTC holds ~$61.6k after a $6.8B Deribit expiry settled at 3am ET, well below the $70k max pain. Difficulty rose 7.61% overnight, pushing hashprice back to record-low territory.</div>
+  <div class="funds">Bitcoin Opportunity Fund (BOF) &amp; Equity Management Associates (EMA) — sound-money desk</div>
+</header>
+
+<div class="datawarn">Data note: for the seventh day running, the prefetch did not land at ~7:15am ET. The latest snapshot is from Thu Nov 26, 4:30pm ET (21:30 UTC), and its stored window start (Nov 25 8:00am) is stale. The pool was re-filtered by hand to today's cutoff of Thu Nov 26, 8:00am ET (13:00 UTC); anything earlier was dropped, including the Zodia Custody breach (7:38am ET) and the Auros wind-down (6:27am ET). Hashrate and Deribit basis come from that Thursday-afternoon snapshot (marked *). Spot, metals, futures and macro come from WebSearch with timestamps. The FRED 10Y read timed out and the ETF-flow table did not parse; there was no US ETF session Thursday anyway. There was no in-window news on Lion One, Lavras or SilverTiger.</div>
+
+<section class="scoreboard-section">
+  <div class="scoreboard">
+    <div class="tile">
+      <div class="label">BTC/USD</div>
+      <div class="value">~$61,600</div>
+      <div class="chg up">~+1.3% vs Thu 4:30pm ET ($60,835, CoinGecko via prefetch), and ~+7.5% off Wednesday's ~$57.3k low (Coinspeaker). Quotes run $61,480-61,780 this morning (KuCoin, FinFly/CoinGecko, Coinspeaker). Global crypto market cap +2.6% 24h (CoinGecko)</div>
+    </div>
+    <div class="tile">
+      <div class="label">ETH/USD</div>
+      <div class="value">~$1,690</div>
+      <div class="chg up">KuCoin daily report, Nov 27. +0.8% 24h as of Thu 4:30pm ET ($1,704, prefetch). ETH is lagging BTC on the bounce</div>
+    </div>
+    <div class="tile">
+      <div class="label">Fear &amp; Greed</div>
+      <div class="value">12 (Extreme Fear)</div>
+      <div class="chg neutral">KuCoin, Fri. Thursday's prefetch read 11 (alternative.me). Flat at the floor: the price bounce has not repaired sentiment</div>
+    </div>
+    <div class="tile">
+      <div class="label">Gold / Silver Spot</div>
+      <div class="value">~$3,640-3,670 / ~$43.9-44.4</div>
+      <div class="chg up">Gold +2.1% to $3,640.84 (Reuters), with prints up to $3,673.56 (+3.0%, TechFlow), off its lowest level since Aug 2025. Silver $43.87 (+5.9%) on Kitco at 6:54am ET, and $44.44 (+6.9%) on FXStreet. Gold/silver ratio ~83, down from ~86.5 Thursday</div>
+    </div>
+    <div class="tile">
+      <div class="label">GDX (EMA benchmark)</div>
+      <div class="value">$73.89 (Wed close)</div>
+      <div class="chg up">+3.5% Wed, the last session; no Thursday session. Pre-market quote unavailable. With gold +2-3% and silver +6-7% overnight, expect a gap higher at the open; on a half-day the move is thin and can reverse. GDXJ/SIL unavailable</div>
+    </div>
+    <div class="tile">
+      <div class="label">Deribit Basis (ann.)*</div>
+      <div class="value">+7.1% / +5.2%</div>
+      <div class="chg up">*Thu 4:30pm ET: BTC-4DEC26 (7d) +7.09%, BTC-11DEC26 (14d) +5.15%. That is back in contango after Wednesday's -0.7% front-end backwardation. Futures-held exposure now carries a cost again (~5-7%/yr), and the short-squeeze bid has rebuilt some long demand</div>
+    </div>
+    <div class="tile">
+      <div class="label">Spot ETF Net Flow</div>
+      <div class="value">No print (Thu holiday)</div>
+      <div class="chg down">Last print: Wed Nov 25 -$453.0M (IBIT -$329.7M), a 7th straight outflow day. November ~-$5.39B, a record month. Today's half-day print lands this evening. 24h liquidations ~$142M, ~83% shorts; funding ~+0.004%/8h, ~4% ann. (CoinGlass)</div>
+    </div>
+    <div class="tile">
+      <div class="label">Futures / DXY / 10Y</div>
+      <div class="value">ES +~1.6% &middot; NQ +~2.1% &middot; DXY &lt;104 &middot; 10Y ~4.86-4.90%</div>
+      <div class="chg up">ES 7,307.75 and NQ 26,655.75 pre-market (JBizNews/Yahoo), Dow +~1.3%. DXY stalls below 104.00, off Monday's 104.59 19-month high (FXStreet, ~7:47am ET). 10Y as of the Wed close; cash Treasuries were shut Thursday. WTI ~$85.2 (+1.8%). A December Fed hike is almost fully priced</div>
+    </div>
+  </div>
+  <div class="note">Network: difficulty rose 7.61% to 145.09T at block 977,760 overnight (ChainCatcher/GazeWire), below the ~9% that mempool had projected. Hashrate* ~1,026 EH/s, down from ~1,045 Wednesday. Hashprice was $29.36/PH/day on Nov 23 and is now ~7% lower, about $27, at constant price. Watch items: the MSCI deletion of Strategy takes effect at the Nov 30 close. There was no new in-window movement on the CLARITY Act or the Strategic Bitcoin Reserve bill, which went to the House floor Wednesday.</div>
+</section>
+
+<section>
+  <h2>Must-Read</h2>
+  <div class="headline must">
+    <div class="top"><span class="tag">Bitcoin Miners &middot; Distressed debt</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.chaincatcher.com/en/article/2308530">Difficulty jumps 7.61% to 145.09T overnight, undoing the prior -9.13% cut. Hashprice falls ~7% from ~$29.36/PH/day toward ~$27, a record low, as analysts flag BTC trading ~$26k below its estimated production cost</a>
+    <div class="why">Why it matters to BOF's miner-debt book: revenue per unit of hash just fell ~7% at a flat price, and fees are under 1% of block rewards (TokenPost), so there is no fee cushion. Glassnode puts hashrate down ~8% year on year, the first annual decline since the 2021 China ban (CryptoSlate). That means machines are already switching off, and the adjustment still rose because the prior epoch's cut was oversized. Expect covenant pressure and more forced BTC sales at sub-scale, non-HPC operators over the next two epochs. Riot sold 20,264 BTC in nine months against 4,697 mined (crypto.news). That is where distressed-debt entry points form. Miners with HPC contracts (Core Scientific, Cipher) are a different credit.</div>
+    <div class="when">Broke: overnight Fri Nov 27 (adjustment at block 977,760); Coinpedia's capitulation note Thu ~3:30pm ET</div>
+  </div>
+  <div class="headline must">
+    <div class="top"><span class="tag">Institutional &amp; Corporate &middot; Treasury companies</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.theblock.co/news/markets/2026-11-26-jpmorgan-bitcoin-capitulation-strategy-low-nav-multiple-447007">JPMorgan says Strategy's record-low mNAV of 0.88x on Nov 25, below the late-June low, marks bitcoin "capitulation." The multiple has since recovered to ~0.94x</a>
+    <div class="why">Why it matters to BOF: below 1.0x, Strategy cannot issue equity accretively to buy BTC, which turns off the largest marginal buyer of 2024-25. JPM reads the discount as sentiment washout rather than a structural break. Saylor is now leaning on preferreds instead: he floated $10-30B of "digital credit" issuance and said he could shrink STRC to $5B, or even sell BTC to defend it below $100 (news.bitcoin.com). The MSCI deletion at the Nov 30 close is a known forced-selling date for MSTR. For treasury-company positions, the trade is the mNAV spread to its peers, not BTC beta. A sale of BTC by Strategy would be the tail risk for the whole cohort.</div>
+    <div class="when">Broke: Thu ~11:18am ET (The Block); Saylor comments Thu Nov 26</div>
+  </div>
+  <div class="headline must">
+    <div class="top"><span class="tag">Macro Liquidity &middot; Dollar regime</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html">Risk rallies into the Black Friday half-day: Nasdaq futures +~2%, S&amp;P +~1.6%. The dollar's rally stalls below 104 even with a December Fed hike almost fully priced</a>
+    <div class="why">Why it matters to both funds: the transmission is the dollar, not the rate path. A December hike is priced, yet DXY has failed to hold Monday's 104.59 19-month high. That gap is what freed metals overnight: gold +2-3% and silver +6-7%, the largest move (FXStreet). BTC's 2026 regime still holds, and it is moving with the Nasdaq, not against the dollar. Quotable: the S&amp;P and Nasdaq are on course for their worst November since 2008 even after this week's rally (Yahoo). On a 1pm close with thin holiday liquidity, treat today's gap as positioning, not a regime flip. Confirmation comes from next week's jobs data and the Dec 9 FOMC.</div>
+    <div class="when">Broke: overnight futures session into pre-market (Yahoo live blog); FXStreet DXY ~7:47am ET</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="gold">Gold &amp; Silver</h2>
+  <div class="section-sub">Mining equities first &middot; for EMA's book</div>
+  <div class="headline">
+    <div class="top"><span class="tag">Mining M&amp;A &middot; Mid-tier consolidation</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.juniorminingnetwork.com/junior-miner-news/press-releases/712-tsx/ogc/215528-oceanagold-announces-ausgold-shareholder-approval.html">Ausgold shareholders approve OceanaGold's all-share takeover at 0.03365 OGC shares per Ausgold share</a>
+    <div class="why">Why it matters to EMA: a producer is paying in its own stock for a developer at 15-month metal lows. That shows mid-tiers still see buying ounces in the ground as cheaper than building them, and it puts a floor under developer valuations, which is the part of the book ETFs underweight. All-share terms also mean Ausgold holders keep exposure to gold's rebound. Watch for court approval and for whether other mid-tiers use the gold drawdown to pursue developers, Lavras-type stories included.</div>
+    <div class="when">Broke: Fri Nov 27 (Australian time), i.e. Thursday evening ET</div>
+  </div>
+  <div class="headline">
+    <div class="top"><span class="tag">Metal Price &middot; Silver beta</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.fxstreet.com/news/silver-price-forecast-xag-usd-surges-to-near-4375-as-us-dollar-remains-in-corrective-phase-202611270322">Silver surges ~6-7% to ~$44 and gold rebounds 2-3% to ~$3,650, after Wednesday's sub-$40 and sub-$3,500 breaks, on short covering and a stalling dollar</a>
+    <div class="why">Why it matters to EMA: the gold/silver ratio has compressed from ~88.4 Wednesday morning to ~83 in two sessions. That is the setup where silver equities (SIL, SilverTiger's El Tigre) outrun GDX, and GDX itself carries ~2-3x operating leverage to the metal. MCX silver +4% in India confirms the bid is global, not just a US-hours squeeze. Caution: analysts tie the move to short covering from oversold readings, not new demand (TradingKey/Coinpaper). On a 1pm half-day close, miner gains can fade if the dollar firms. Wednesday's $73.89 GDX close is the reference point.</div>
+    <div class="when">Broke: overnight Asia/London session; FXStreet ~10:22pm ET Thu, Kitco $43.87 at 6:54am ET</div>
+  </div>
+  <div class="headline">
+    <div class="top"><span class="tag">Metal Drivers &middot; Real rates</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNWk5iY21FejJMUDVfS2h4ekdoUnQ1RndSalFWS2pkZzJZY1AwSXRnY1otVEdsMUdRVWZJV0NKSUxEM3Boc2VlQXNMMWkweGxJSWVGaFJHcC1qWTk0WTdIbXR0Z3VNQ2N2R054YXZMa1I2eVk4RjU5T09FelF5ZC1KdGJRYnV5bFdvMjJoRzBpMjNoUDkzMDJiTmdvejdOMF85Vy1JZU16eEI1M3VzVlBNa0RyMjk?oc=5">Gold edged lower Thursday as hot US inflation data (headline PCE 3.8%) fuels bets on Fed rate hikes. Gold stalled near $3,570 before the overnight break higher</a>
+    <div class="why">Why it matters to EMA: the overnight rally runs against the rate path, not with it. The Fed is pricing a hike into a 3.8% PCE print, which pushes real yields up, the classic headwind for producer multiples. If the Dec 9 hike comes with hawkish guidance, the rebound off $3,426 is at risk. The thesis case is the opposite: a hiking cycle into a large deficit tests debt-service math, which is the debasement setup. Size miner exposure for a volatile two weeks into the FOMC.</div>
+    <div class="when">Broke: Thu ~12:02pm ET (Bloomberg); FXStreet "stalls near $3,570" ~1:01pm ET</div>
+  </div>
+</section>
+
+<section>
+  <h2>FYI</h2>
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &middot; Derivatives</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://crypto.news/bitcoin-price-rebounds-68b-options-expiry-november-27/">A ~$6.8B Deribit BTC options expiry settled at 3am ET with spot ~$60.7k, far below the ~$70k max pain. The put/call ratio of 0.79-0.89 compares with 0.55 in October</a>
+    <div class="why">Why it matters to BOF: put demand has roughly doubled since October, so the market is paying for downside protection even through a squeeze. With the month-end pin gone, gamma is lighter into the weekend, and Arthur Hayes has flagged weekend dump risk (news.bitcoin.com). Stablecoin supply fell $10.7B in 18 days, the most since Terra (21Shares), so less dry powder sits on exchanges. That is a reason to rebalance into strength rather than chase it.</div>
+    <div class="when">Broke: settlement Fri 08:00 UTC (3:00am ET)</div>
+  </div>
+  <div class="headline">
+    <div class="top"><span class="tag">Macro &middot; Data integrity</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html">Trump demands a probe into a "record setting error" after a massive upward revision to Q3 GDP</a>
+    <div class="why">Why it matters to both funds: stronger growth strengthens the case for a December hike and higher real yields, a near-term headwind for gold and BTC. Political pressure on the statistical agencies cuts the other way: it erodes trust in US data and institutions, which is the long-run debasement-insurance argument for both books. A good TV point for Lavish: the market is pricing hikes on data the White House itself disputes.</div>
+    <div class="when">Broke: Thu ~4:13pm ET (CNBC)</div>
+  </div>
+  <div class="headline">
+    <div class="top"><span class="tag">Bitcoin Market &middot; On-chain</span><span class="sentiment">🟢</span></div>
+    <a class="title" href="https://www.coindesk.com/markets/2026/11/26/bitcoin-s-dormant-supply-rises-a-behavior-seen-during-previous-bear-market-bottoming-phases">Bitcoin's dormant supply is rising, a pattern seen in earlier bear-market bottoming phases</a>
+    <div class="why">Why it matters to BOF: long-term holders are not distributing into the drawdown, so the selling is coming from ETF and leveraged holders, not from conviction holders. Together with JPM's mNAV capitulation read, it supports the case for building positions in stages around $55-60k rather than waiting for a V-shaped recovery.</div>
+    <div class="when">Broke: Thu ~11:50am ET (CoinDesk)</div>
+  </div>
+  <div class="headline">
+    <div class="top"><span class="tag">Regulation &middot; Europe</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge">Spain gives its anti-laundering unit (Sepblac) power to freeze crypto accounts without a court order</a>
+    <div class="why">Why it matters to BOF: freezes with no judge involved raise jurisdiction risk for EU-domiciled exchange and custody counterparties, and add a point to the self-custody argument in the fund's LP materials. It is also a precedent other EU AML units may copy under the MiCA/AMLA build-out. Worth a check of any portfolio company with Spanish operations.</div>
+    <div class="when">Broke: Thu ~9:05am ET (CoinDesk); Decrypt ~11:43am ET</div>
+  </div>
+  <div class="headline">
+    <div class="top"><span class="tag">Infrastructure &middot; Custody / ops security</span><span class="sentiment">🔴</span></div>
+    <a class="title" href="https://www.coindesk.com/tech/2026/11/26/a-tiny-payment-can-expose-the-ip-address-behind-a-bitcoin-wallet-developer-finds">A developer finds that a tiny "dust" payment can expose the IP address of the node behind a Bitcoin Core wallet, and ties addresses to nodes in a lab test</a>
+    <div class="why">Why it matters to BOF ops: any treasury or portfolio company running its own Bitcoin Core node can have its holdings tied to its network location, a targeting risk for physical and wrench attacks. Ask custody providers and self-custodying portfolio companies about Tor or VPN node routing and whether they have patched. No funds are at risk, only privacy.</div>
+    <div class="when">Broke: Thu ~12:30pm ET (CoinDesk)</div>
+  </div>
+</section>
+
+<section>
+  <h2>Chart of the Day</h2>
+  <div class="chart-box">
+    <svg viewBox="0 0 400 215" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Line chart of the gold to silver ratio over four observations: 88.4 on Wednesday Nov 25 morning, 86.6 Wednesday evening, 86.5 Thursday afternoon, and about 83 Friday Nov 27 morning.">
+      <text x="200" y="16" text-anchor="middle" font-size="11" font-weight="700" fill="currentColor" opacity=".85">Gold/silver ratio compresses: ~88 &#8594; ~83 in 48 hours</text>
+      <text x="200" y="29" text-anchor="middle" font-size="8" fill="currentColor" opacity=".6">Spot gold &#247; spot silver &middot; lower = silver outperforming (bullish silver equities)</text>
+      <line x1="50" y1="170" x2="380" y2="170" stroke="currentColor" stroke-opacity=".35"/>
+      <text x="44" y="53" text-anchor="end" font-size="7" fill="currentColor" opacity=".6">89</text>
+      <text x="44" y="170" text-anchor="end" font-size="7" fill="currentColor" opacity=".6">82</text>
+      <line x1="50" y1="50" x2="380" y2="50" stroke="currentColor" stroke-opacity=".12"/>
+      <!-- y = 170 - (v-82)*120/7 -->
+      <polyline fill="none" stroke="#b8860b" stroke-width="2.5" points="80,60.3 180,91.1 280,92.9 360,152.9"/>
+      <circle cx="80" cy="60.3" r="4" fill="#b8860b"/><text x="80" y="50" text-anchor="middle" font-size="8.5" font-weight="700" fill="currentColor">88.4</text>
+      <circle cx="180" cy="91.1" r="4" fill="#b8860b"/><text x="180" y="81" text-anchor="middle" font-size="8.5" font-weight="700" fill="currentColor">86.6</text>
+      <circle cx="280" cy="92.9" r="4" fill="#b8860b"/><text x="280" y="83" text-anchor="middle" font-size="8.5" font-weight="700" fill="currentColor">86.5</text>
+      <circle cx="360" cy="152.9" r="4" fill="#b8860b"/><text x="360" y="143" text-anchor="middle" font-size="8.5" font-weight="700" fill="currentColor">~83</text>
+      <text x="80" y="183" text-anchor="middle" font-size="7.5" fill="currentColor" opacity=".7">Wed AM</text>
+      <text x="180" y="183" text-anchor="middle" font-size="7.5" fill="currentColor" opacity=".7">Wed PM</text>
+      <text x="280" y="183" text-anchor="middle" font-size="7.5" fill="currentColor" opacity=".7">Thu PM</text>
+      <text x="360" y="183" text-anchor="middle" font-size="7.5" fill="currentColor" opacity=".7">Fri AM</text>
+      <text x="200" y="205" text-anchor="middle" font-size="6.5" fill="currentColor" opacity=".55">Wed AM $3,511/$39.72 (Fortune); Wed PM $3,574.7/$41.29 (Kitco); Thu PM $3,566.2/$41.24 (prefetch); Fri AM ~$3,650/~$44 (Reuters, Kitco, FXStreet)</text>
+    </svg>
+    <div class="chart-cap">The read for EMA: a five-point drop in the ratio in two days is the high-beta part of the metals complex leading. Historically that has been good for silver developers and juniors, the "drill stories" ETFs skip, more than for senior producers. The caveat is that it came from short covering at oversold levels into a Fed that is hiking. If the ratio holds below ~85 through the Dec 9 FOMC, rotate further toward silver beta. A move back above 87 would mark this as a squeeze to fade. For BOF: BTC rose only ~1-2% over the same window. Metals are pricing the dollar stall faster than bitcoin, consistent with BTC trading as a Nasdaq-beta risk asset in 2026.</div>
+  </div>
+</section>
+
+<footer>
+  Generated Friday, November 27, 2026, ~8:25am ET &middot; morningtext for Bitcoin Opportunity Fund &amp; Equity Management Associates &middot; <a href="../index.html" style="color:inherit">Archive</a>
+</footer>
+</body>
+</html>
